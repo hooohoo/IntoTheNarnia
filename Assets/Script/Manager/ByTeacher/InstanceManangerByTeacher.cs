@@ -4,19 +4,19 @@ using UnityEngine;
 
 // 인스턴스만 생성해주는 클래스
 // 생성해서 갖고 있는다.
-public class InstanceMananger : SingleTon<InstanceMananger>
+public class InstanceManangerByTeacher : SingleTon<InstanceManangerByTeacher>
 {
     public List<Character<MONSTER>> mobList;   // 몬스터 저장
     public Player2 player;
     public void Initialize()
     {
         mobList = new List<Character<MONSTER>>();
-        ResourceManager.instance.LoadCharacter();
+        ResourceManagerByTeacher.instance.LoadCharacter();
     }
 
     public void CreatePlayer(string name, Transform parent)
     {
-        GameObject rcObj = ResourceManager.instance.GetRcCharacter(name);
+        GameObject rcObj = ResourceManagerByTeacher.instance.GetRcCharacter(name);
         GameObject createObj = GameObject.Instantiate<GameObject>(rcObj);
         player = createObj.AddComponent<Player2>();
         player.gameObject.layer = LayerMask.NameToLayer("Player");
@@ -48,7 +48,7 @@ public class InstanceMananger : SingleTon<InstanceMananger>
         // 임시) 테이블이 아닌 10마리의 몬스터의 인스턴스를 생성
         for(int i = 0; i < 10; i++)
         {
-            GameObject rcObj = ResourceManager.instance.GetRcCharacter("Monster");
+            GameObject rcObj = ResourceManagerByTeacher.instance.GetRcCharacter("Monster");
             GameObject createObj = GameObject.Instantiate<GameObject>(rcObj);
             Character<MONSTER> mob = createObj.AddComponent<Monster>();
             MONSTER tmp = new MONSTER();

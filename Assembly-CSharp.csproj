@@ -56,27 +56,30 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\Manager\MainManager.cs" />
+    <Compile Include="Assets\Script\Manager\ByTeacher\MainManager.cs" />
     <Compile Include="Assets\Script\PlayerWithStick.cs" />
     <Compile Include="Assets\Script\Joystick.cs" />
-    <Compile Include="Assets\Script\Manager\GameHelper.cs" />
+    <Compile Include="Assets\Script\Manager\ByTeacher\GameHelper.cs" />
     <Compile Include="Assets\Script\Data\Stat\Stat.cs" />
-    <Compile Include="Assets\Script\Manager\InstanceMananger.cs" />
+    <Compile Include="Assets\Script\Manager\ByTeacher\InstanceManangerByTeacher.cs" />
     <Compile Include="Assets\Script\CustomCamera.cs" />
-    <Compile Include="Assets\Script\Manager\Player2.cs" />
-    <Compile Include="Assets\Script\Manager\Character.cs" />
+    <Compile Include="Assets\Script\Manager\ByTeacher\Player2.cs" />
+    <Compile Include="Assets\Script\Manager\ByTeacher\Character.cs" />
     <Compile Include="Assets\Asset\RunemarkStudio\DarkFantasyKit [Free]\Readme\Parts\Readme.cs" />
     <Compile Include="Assets\Script\Player.cs" />
-    <Compile Include="Assets\Script\Manager\Monster.cs" />
-    <Compile Include="Assets\Script\Manager\ResourceManager.cs" />
+    <Compile Include="Assets\Script\Manager\ByTeacher\Monster.cs" />
+    <Compile Include="Assets\Script\Manager\ByTeacher\ResourceManagerByTeacher.cs" />
     <Compile Include="Assets\Script\Data\Save\Test.cs" />
     <Compile Include="Assets\Script\Scene\Title.cs" />
     <Compile Include="Assets\Script\Data\Stat\Main.cs" />
     <Compile Include="Assets\Script\Manager\SceneManagerEx.cs" />
-    <Compile Include="Assets\Script\Manager\SingleTon.cs" />
+    <Compile Include="Assets\Script\Manager\ByTeacher\SingleTon.cs" />
     <Compile Include="Assets\Script\Data\Stat\PlayerStat.cs" />
     <Compile Include="Assets\Script\Manager\GameManager.cs" />
     <Compile Include="Assets\Script\Data\Stat\MonsterStat.cs" />
+    <Compile Include="Assets\Script\Utils\Define.cs" />
+    <Compile Include="Assets\Script\Controller\LoadingController.cs" />
+    <Compile Include="Assets\Script\Manager\ResourceManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
