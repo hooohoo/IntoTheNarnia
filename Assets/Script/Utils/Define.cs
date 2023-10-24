@@ -8,6 +8,7 @@ public class Define
     public enum SceneName
     {
         Title,
+        Tutorial,
         LoadingScene
     }
 }
