@@ -15,7 +15,7 @@ D:/UnityBackup/IntoTheNarnia
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-61017
+50781
 Successfully changed project path to: D:/UnityBackup/IntoTheNarnia
 D:/UnityBackup/IntoTheNarnia
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/UnityBackup/IntoTheNarnia
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 174.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 156.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,397 +63,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.038769 seconds.
+Registered in 0.034594 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 161.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 155.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.053 seconds
+- Completed reload, in  1.011 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1054ms)
-		BeginReloadAssembly (151ms)
+	ReloadAssembly (1012ms)
+		BeginReloadAssembly (139ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (700ms)
-			LoadAssemblies (143ms)
+		EndReloadAssembly (684ms)
+			LoadAssemblies (133ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (148ms)
+			SetupTypeCache (151ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (436ms)
+			SetupLoadedEditorAssemblies (415ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (90ms)
+				InitializePlatformSupportModulesInManaged (80ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (162ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (123ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
+				RefreshPlugins (155ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008693 seconds.
-Android Extension - Scanning For ADB Devices 5412 ms
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.092 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3093ms)
-		BeginReloadAssembly (237ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (2535ms)
-			LoadAssemblies (940ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (366ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (1164ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (38ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (129ms)
-				ProcessInitializeOnLoadAttributes (929ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (33ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3505 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (183.1 KB). Loaded Objects now: 3997.
-Memory consumption went from 149.2 MB to 149.0 MB.
-Total: 17.591700 ms (FindLiveObjects: 0.429200 ms CreateObjectMapping: 0.433100 ms MarkObjects: 16.453700 ms  DeleteObjects: 0.273700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 79727.534527 seconds.
-  path: Assets/Asset/Wooden Floor Pack/Materials/Wooden Floor 4.mat
-  artifactKey: Guid(b00045d5b284de34ea2e777e68ea2dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/Wooden Floor Pack/Materials/Wooden Floor 4.mat using Guid(b00045d5b284de34ea2e777e68ea2dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87dc1a2afe62e36ce0028c30924a5e46') in 0.715340 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 957.075440 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Resources_T/steel-beam.fbx
-  artifactKey: Guid(2f7e06aa9d9425c4993e0f3559a5c439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Resources_T/steel-beam.fbx using Guid(2f7e06aa9d9425c4993e0f3559a5c439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9deed3ff84f27d82929abf12ef4642') in 0.319982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Resources_M/steel-reinforcement.fbx
-  artifactKey: Guid(cf802267df324684a9b22dd701be2fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Resources_M/steel-reinforcement.fbx using Guid(cf802267df324684a9b22dd701be2fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e276d0ddb46055b7e600c3cfc2937cc3') in 0.119716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Weapons_M/stick-grenade.fbx
-  artifactKey: Guid(acc186ecc705e46e08563caef830251e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Weapons_M/stick-grenade.fbx using Guid(acc186ecc705e46e08563caef830251e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00c89a40da1058fb0db5f26d2e67eab') in 0.142196 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Animals_M/stegosaurus.fbx
-  artifactKey: Guid(5620a0d76faf140bea24fa51c4672686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Animals_M/stegosaurus.fbx using Guid(5620a0d76faf140bea24fa51c4672686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd387d32ecde3f5727795138b09ad1d') in 0.101960 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Resources_T/steel-reinforcement.fbx
-  artifactKey: Guid(4cf2187054ae32a40ba8d12196b2dcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Resources_T/steel-reinforcement.fbx using Guid(4cf2187054ae32a40ba8d12196b2dcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e516cf08d05a1641a88672ab920ee3') in 0.042814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.610741 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Music_M/spotlight.fbx
-  artifactKey: Guid(84af2e57491f8ca42af2c51c5fd0a3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Music_M/spotlight.fbx using Guid(84af2e57491f8ca42af2c51c5fd0a3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc003fc0d3c76395a57ed82ce3cbaf9') in 0.083252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Medieval_T/stables-medieval.fbx
-  artifactKey: Guid(a986b93a3dbbf4f889d8930c4f1ba3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Medieval_T/stables-medieval.fbx using Guid(a986b93a3dbbf4f889d8930c4f1ba3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd6861e89afd2d00f4cdcfbf7fce5bf') in 0.134971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/WW2_M/spitfire.fbx
-  artifactKey: Guid(8c1b81837ae4e45f384dc479656270de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/WW2_M/spitfire.fbx using Guid(8c1b81837ae4e45f384dc479656270de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b61c18044fec97e36051c91cc79925') in 0.158332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Medieval_M/stables-medieval.fbx
-  artifactKey: Guid(1a41513fae44b4a5c93c27ff3451ebf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Medieval_M/stables-medieval.fbx using Guid(1a41513fae44b4a5c93c27ff3451ebf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245d57d2b32384f42de66ef75b08977b') in 0.097595 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.510340 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Medieval_T/stone-brick.fbx
-  artifactKey: Guid(f3590266997854093967a328073bab2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Medieval_T/stone-brick.fbx using Guid(f3590266997854093967a328073bab2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a419151c1c9f017e1a1c913e4dc5171') in 0.106807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-diamond.fbx
-  artifactKey: Guid(d2fb070d35f5744fa8bc91bf969eef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-diamond.fbx using Guid(d2fb070d35f5744fa8bc91bf969eef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5acc032b9294c0d13b2215a476a6b29') in 0.135849 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-diamond_white.fbx
-  artifactKey: Guid(bc358ef3c4b2447979f1ac043f3e8161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-diamond_white.fbx using Guid(bc358ef3c4b2447979f1ac043f3e8161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f724ebee4fcded9eeca9a823234d8534') in 0.072035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-diamond_brown.fbx
-  artifactKey: Guid(049d9fa6bf7fd4077b3f3cd7d15a66ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-diamond_brown.fbx using Guid(049d9fa6bf7fd4077b3f3cd7d15a66ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76058ea56f57201b423a872c869ae55a') in 0.049767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Stones_M/stone-flat.fbx
-  artifactKey: Guid(5b97a7a3863937b458829d45785c5890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Stones_M/stone-flat.fbx using Guid(5b97a7a3863937b458829d45785c5890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7c83147e2f5e328253f37f47f9aa86') in 0.084029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Stones_M/stone-oval.fbx
-  artifactKey: Guid(b794cfa5158947e46bc60a458dc33d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Stones_M/stone-oval.fbx using Guid(b794cfa5158947e46bc60a458dc33d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faec50379d538683a282d032eb113a9d') in 0.049797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-diamond_orange.fbx
-  artifactKey: Guid(6a677f6968e7f424ab7782b3ce419d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-diamond_orange.fbx using Guid(6a677f6968e7f424ab7782b3ce419d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f95776390aba6a48c9a6cc84abbc8d') in 0.063666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.155121 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-oval_orange.fbx
-  artifactKey: Guid(e4368fb78d15b46eda4807d1666aa876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-oval_orange.fbx using Guid(e4368fb78d15b46eda4807d1666aa876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1330526421708e8ad1e378944823f7') in 0.106124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-round_brown.fbx
-  artifactKey: Guid(9d1727bc1fc0547fcbae08fc0118f521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-round_brown.fbx using Guid(9d1727bc1fc0547fcbae08fc0118f521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d0a37ada7f710068c74330f96a47af') in 0.106876 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Stones_M/stone-pointy.fbx
-  artifactKey: Guid(2e262dac35a353247839292320a9d2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Stones_M/stone-pointy.fbx using Guid(2e262dac35a353247839292320a9d2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c61ce32ec09197c17a5780f66d0c0e') in 0.040532 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-round_white.fbx
-  artifactKey: Guid(183dbcec9b699428a89aa6c1ce3b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-round_white.fbx using Guid(183dbcec9b699428a89aa6c1ce3b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7256b7aa26140c91a76af8b85d4f9f13') in 0.070359 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-small_white.fbx
-  artifactKey: Guid(11acffdc05a444ddeb50098d5d254467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-small_white.fbx using Guid(11acffdc05a444ddeb50098d5d254467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55024d57f1cda4e4361766e6e052f84c') in 0.085277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/stump-small.fbx
-  artifactKey: Guid(8f59857425e070140a552aa2fdc31ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/stump-small.fbx using Guid(8f59857425e070140a552aa2fdc31ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11481f7bc87af11a4ecffd36c182fd30') in 0.081015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Apocalypse_T/stretcher.fbx
-  artifactKey: Guid(5c059b88a2ced4cec8712b22d9dbda5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Apocalypse_T/stretcher.fbx using Guid(5c059b88a2ced4cec8712b22d9dbda5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb8f73a6f7521445d4d742202b61c6c') in 0.086580 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-small.fbx
-  artifactKey: Guid(c675f2960be724e7f91ec27c09aa2db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-small.fbx using Guid(c675f2960be724e7f91ec27c09aa2db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80527a1af773fc42b72901b4d57ea33') in 0.068105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/sunflower.fbx
-  artifactKey: Guid(27c2db138e081481fb92b2c95845f7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/sunflower.fbx using Guid(27c2db138e081481fb92b2c95845f7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec67bce915daf74c28a440003d8363e2') in 0.061735 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Beach_T/sunscreen-closed.fbx
-  artifactKey: Guid(b21a116fa76304e4b8479304e3982e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Beach_T/sunscreen-closed.fbx using Guid(b21a116fa76304e4b8479304e3982e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc81dd58175f0175c83638ae480ffb14') in 0.119130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Resources_M/superalloy.fbx
-  artifactKey: Guid(6b5c253de554b954cb061f741cb6ce1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Resources_M/superalloy.fbx using Guid(6b5c253de554b954cb061f741cb6ce1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37cf0b82d37174aebf8c38c73295fb5b') in 0.064852 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Props_T/sunscreen-tropic.fbx
-  artifactKey: Guid(cadff62bf9a8ca04bb33a234698db928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Props_T/sunscreen-tropic.fbx using Guid(cadff62bf9a8ca04bb33a234698db928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099823c8a4f2ce48e43276ae21f5e9a3') in 0.062912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/stump.fbx
-  artifactKey: Guid(3dc5da0dd62e909498fa8effe78dde80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/stump.fbx using Guid(3dc5da0dd62e909498fa8effe78dde80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e30f838b043a2967b8c1e382da8e4a1') in 0.062736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Food_T/sushi-shrimp.fbx
-  artifactKey: Guid(a0b1e9fdc1cf44733a0d5adc06a59f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Food_T/sushi-shrimp.fbx using Guid(a0b1e9fdc1cf44733a0d5adc06a59f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a48dbeafcf6ffc3edc31a9cacf686d4') in 0.101270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Zulu_M/sword-cavalry.fbx
-  artifactKey: Guid(1683241e78f321e4180b26b8312b2f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Zulu_M/sword-cavalry.fbx using Guid(1683241e78f321e4180b26b8312b2f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119cc64609b4b65cee31c5027e089c8c') in 0.114282 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Egypt_M/sword-khopesh.fbx
-  artifactKey: Guid(9e2fac127b1f89f499d763dd24421eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Egypt_M/sword-khopesh.fbx using Guid(9e2fac127b1f89f499d763dd24421eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47997728b413703156b1f174d896b8b7') in 0.093425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Animals_M/t-rex.fbx
-  artifactKey: Guid(4c61063d9c6dc4f2fb7fec8e7fb8ed34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Animals_M/t-rex.fbx using Guid(4c61063d9c6dc4f2fb7fec8e7fb8ed34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a3a4ea95054b744bb388d637690ba0') in 0.113958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Food_T/sushi.fbx
-  artifactKey: Guid(107635b1d1a32429487aff793a709c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Food_T/sushi.fbx using Guid(107635b1d1a32429487aff793a709c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c156c593abf55d28bdbb6b98bd068d75') in 0.080148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-snow.fbx
-  artifactKey: Guid(d9a3384bb91764d19ac463d3d4b7e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-snow.fbx using Guid(d9a3384bb91764d19ac463d3d4b7e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5789a516fadfa4fb205f23114170f2f9') in 0.070127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-pointy_brown.fbx
-  artifactKey: Guid(21535aaa12c8a4e76b68fb226a7b89a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-pointy_brown.fbx using Guid(21535aaa12c8a4e76b68fb226a7b89a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacd2ee934ad93775fd6b717eff749df') in 0.043780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Beach_T/surf.fbx
-  artifactKey: Guid(7c2a2eee375b34002ba8a01245f20295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Beach_T/surf.fbx using Guid(7c2a2eee375b34002ba8a01245f20295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4358aabc282d9941b015e1e09ce311f') in 0.088152 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-round_orange.fbx
-  artifactKey: Guid(e5e80cfdd95c24fedafbe465f1942887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-round_orange.fbx using Guid(e5e80cfdd95c24fedafbe465f1942887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfdefaaeb9a9b7d053744bd11f827cd') in 0.071128 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Beach_M/surf.fbx
-  artifactKey: Guid(17f83545dca4cf1438b72eacf91a4077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Beach_M/surf.fbx using Guid(17f83545dca4cf1438b72eacf91a4077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3b37757127165afaaee95e9a2768fc') in 0.060814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-pointy.fbx
-  artifactKey: Guid(e5484d82f70874de8a09ff52d5649336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-pointy.fbx using Guid(e5484d82f70874de8a09ff52d5649336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b6f9ddb51514b15f619cc7c8592f8e') in 0.031554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stump.fbx
-  artifactKey: Guid(cc07de0b1135045c5b9c211856c16cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stump.fbx using Guid(cc07de0b1135045c5b9c211856c16cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24dc46deaabb6872ecf02481c7ca422') in 0.078339 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-round.fbx
-  artifactKey: Guid(df236142b924f4ae4b573bc5e58c19bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stone-round.fbx using Guid(df236142b924f4ae4b573bc5e58c19bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c800f5830624d0405365ab24c840ad7d') in 0.093920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stump-small.fbx
-  artifactKey: Guid(85d7695900eb6499e8e523f3adf8162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/stump-small.fbx using Guid(85d7695900eb6499e8e523f3adf8162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495f5e53ee6441bb12ddb525c1e4ee3e') in 0.127320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Beach_M/sunscreen.fbx
-  artifactKey: Guid(a23cc70fe7638854a9f6cac3844b687b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Beach_M/sunscreen.fbx using Guid(a23cc70fe7638854a9f6cac3844b687b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38e712606ddd513b32f808791d597de') in 0.105527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Stones_M/stone-snow.fbx
-  artifactKey: Guid(48d69ae6a13c34e42a13869614ce2245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Stones_M/stone-snow.fbx using Guid(48d69ae6a13c34e42a13869614ce2245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e564b1a7cdeec79c24d20b7973466b16') in 0.061805 seconds 
+Registered in 0.009024 seconds.
+Android Extension - Scanning For ADB Devices 5040 ms
