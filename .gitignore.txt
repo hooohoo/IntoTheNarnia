@@ -1,1 +1,1 @@
-Assets/Asset/*
+Assets/Asset/
