@@ -80,6 +80,12 @@
     <Compile Include="Assets\Script\Manager\GameManager.cs" />
     <Compile Include="Assets\Script\Data\Stat\MonsterStat.cs" />
     <Compile Include="Assets\Script\Manager\ResourceManager.cs" />
+    <Compile Include="Assets\Asset\FantasyCastleDemo\Scripts\cameraDemoCastle.cs" />
+    <Compile Include="Assets\Asset\Vintage Interactive Radio\Scripts\TunerKnob.cs" />
+    <Compile Include="Assets\Asset\Vintage Interactive Radio\Scripts\ToggleSwitch.cs" />
+    <Compile Include="Assets\Asset\Vintage Interactive Radio\Scripts\RadioStation.cs" />
+    <Compile Include="Assets\Asset\Vintage Interactive Radio\Scripts\InteractiveRadio.cs" />
+    <Compile Include="Assets\Asset\Vintage Interactive Radio\Scripts\VolumeKnob.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -103,6 +109,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Asset\Customizable Skybox\Stylized Sky\Shaders\Stylized Sky.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Asset\FantasyCastleDemo\ReadMe.txt" />
     <None Include="Assets\Asset\Mega Fantasy Props Pack\README.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
