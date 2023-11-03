@@ -58,6 +58,8 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Manager\ByTeacher\MainManager.cs" />
     <Compile Include="Assets\Script\PlayerWithStick.cs" />
+    <Compile Include="Assets\Asset\Vintage Interactive Radio\Scripts\RadioStation.cs" />
+    <Compile Include="Assets\Asset\FantasyCastleDemo\Scripts\cameraDemoCastle.cs" />
     <Compile Include="Assets\Script\Utils\Define.cs" />
     <Compile Include="Assets\Script\Joystick.cs" />
     <Compile Include="Assets\Script\Manager\ByTeacher\GameHelper.cs" />
@@ -76,16 +78,14 @@
     <Compile Include="Assets\Script\Data\Stat\Main.cs" />
     <Compile Include="Assets\Script\Manager\SceneManagerEx.cs" />
     <Compile Include="Assets\Script\Manager\ByTeacher\SingleTon.cs" />
+    <Compile Include="Assets\Asset\Vintage Interactive Radio\Scripts\TunerKnob.cs" />
+    <Compile Include="Assets\Asset\Vintage Interactive Radio\Scripts\InteractiveRadio.cs" />
     <Compile Include="Assets\Script\Data\Stat\PlayerStat.cs" />
+    <Compile Include="Assets\Asset\Vintage Interactive Radio\Scripts\VolumeKnob.cs" />
     <Compile Include="Assets\Script\Manager\GameManager.cs" />
+    <Compile Include="Assets\Asset\Vintage Interactive Radio\Scripts\ToggleSwitch.cs" />
     <Compile Include="Assets\Script\Data\Stat\MonsterStat.cs" />
     <Compile Include="Assets\Script\Manager\ResourceManager.cs" />
-    <Compile Include="Assets\Asset\FantasyCastleDemo\Scripts\cameraDemoCastle.cs" />
-    <Compile Include="Assets\Asset\Vintage Interactive Radio\Scripts\TunerKnob.cs" />
-    <Compile Include="Assets\Asset\Vintage Interactive Radio\Scripts\ToggleSwitch.cs" />
-    <Compile Include="Assets\Asset\Vintage Interactive Radio\Scripts\RadioStation.cs" />
-    <Compile Include="Assets\Asset\Vintage Interactive Radio\Scripts\InteractiveRadio.cs" />
-    <Compile Include="Assets\Asset\Vintage Interactive Radio\Scripts\VolumeKnob.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
