@@ -15,7 +15,7 @@ D:/UnityBackup/IntoTheNarnia
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59081
+60971
 Successfully changed project path to: D:/UnityBackup/IntoTheNarnia
 D:/UnityBackup/IntoTheNarnia
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/UnityBackup/IntoTheNarnia
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 161.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 175.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,56 +63,56 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.041800 seconds.
+Registered in 0.036664 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 164.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 209.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.160 seconds
+- Completed reload, in  1.265 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1161ms)
-		BeginReloadAssembly (177ms)
+	ReloadAssembly (1266ms)
+		BeginReloadAssembly (165ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (753ms)
-			LoadAssemblies (167ms)
+		EndReloadAssembly (808ms)
+			LoadAssemblies (159ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (144ms)
+			SetupTypeCache (153ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (464ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (498ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (93ms)
+				InitializePlatformSupportModulesInManaged (85ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (164ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (123ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
+				RefreshPlugins (210ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013197 seconds.
+Registered in 0.008557 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
@@ -132,43 +132,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.125 seconds
+- Completed reload, in  2.629 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2126ms)
-		BeginReloadAssembly (314ms)
+	ReloadAssembly (2630ms)
+		BeginReloadAssembly (343ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (139ms)
-		EndReloadAssembly (1643ms)
-			LoadAssemblies (173ms)
+			CreateAndSetChildDomain (147ms)
+		EndReloadAssembly (1902ms)
+			LoadAssemblies (205ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (386ms)
+			SetupTypeCache (376ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (1008ms)
+			RebuildScriptCaches (134ms)
+			SetupLoadedEditorAssemblies (1142ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (127ms)
-				ProcessInitializeOnLoadAttributes (785ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (30ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (893ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (32ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3511 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (183.2 KB). Loaded Objects now: 4013.
-Memory consumption went from 152.3 MB to 152.1 MB.
-Total: 13.953700 ms (FindLiveObjects: 0.363900 ms CreateObjectMapping: 0.242600 ms MarkObjects: 13.157700 ms  DeleteObjects: 0.188400 ms)
+Unloading 30 unused Assets / (182.6 KB). Loaded Objects now: 4015.
+Memory consumption went from 152.4 MB to 152.3 MB.
+Total: 14.289900 ms (FindLiveObjects: 0.345800 ms CreateObjectMapping: 0.272300 ms MarkObjects: 13.478000 ms  DeleteObjects: 0.177300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -182,547 +182,162 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 323.629685 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Nature_M/Trees_M/tree-bare.prefab
-  artifactKey: Guid(7a93d1616885fd14d8cd4f0857e49b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Nature_M/Trees_M/tree-bare.prefab using Guid(7a93d1616885fd14d8cd4f0857e49b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3275614b7bc40e89505326ec2023ea1c') in 0.266373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Asset/3D/Mega Fantasy Props Pack/FBX/half_tree.001.fbx
-  artifactKey: Guid(eb368e2d1b5d2dd4a818c04e3083e64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/Mega Fantasy Props Pack/FBX/half_tree.001.fbx using Guid(eb368e2d1b5d2dd4a818c04e3083e64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71546cab1bab889717001122ad4fa93') in 1.015877 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-dead.fbx
-  artifactKey: Guid(cc20aa8ec91b145beb42457ca1e57da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-dead.fbx using Guid(cc20aa8ec91b145beb42457ca1e57da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce64250dc44126bb520d67f294a3bef') in 0.045513 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-oak_orange.fbx
-  artifactKey: Guid(8dffe205c75754f83aa4ab1ab20fd671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-oak_orange.fbx using Guid(8dffe205c75754f83aa4ab1ab20fd671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c576c9f72ff61f13785e9bf0b580518') in 0.068053 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-old.fbx
-  artifactKey: Guid(84eb5415e1d25974a97940146f3e7085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-old.fbx using Guid(84eb5415e1d25974a97940146f3e7085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e6393e4c7a65c7782b0b6aa3f6cc49') in 0.056377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-christmas.fbx
-  artifactKey: Guid(f78640cccb8b543efabe9ac2a863c52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-christmas.fbx using Guid(f78640cccb8b543efabe9ac2a863c52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988d30e23fe1992592d866f7d95dd014') in 0.063441 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/India_T/building-street2-india.fbx
-  artifactKey: Guid(234ea9d57099cee459d275ea0da16da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/India_T/building-street2-india.fbx using Guid(234ea9d57099cee459d275ea0da16da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f3a82250fd9c6ccd58fce1fbd98d98') in 0.058170 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Japan_M/japan-tree-tall.fbx
-  artifactKey: Guid(1a8eda648a25746ce85351b98604aed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Japan_M/japan-tree-tall.fbx using Guid(1a8eda648a25746ce85351b98604aed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e53fbaf300d44f0fe855e9c7680e44e') in 0.075859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-elipse.fbx
-  artifactKey: Guid(4a3fafb45c62e44ff95b0e391d3cacfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-elipse.fbx using Guid(4a3fafb45c62e44ff95b0e391d3cacfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a5eb170a687a8777170bf9ca0dfc4a') in 0.042882 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-lime.fbx
-  artifactKey: Guid(bb92f0e60ae28584e923489034b50863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-lime.fbx using Guid(bb92f0e60ae28584e923489034b50863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b8311057259ef6a86a0017ee9abe74') in 0.050186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/India_M/building-street2-india.fbx
-  artifactKey: Guid(eef68e08eb02e2d47918e94ab49b0363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/India_M/building-street2-india.fbx using Guid(eef68e08eb02e2d47918e94ab49b0363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c4612194f2b1e42a791dbb09c04415') in 0.072220 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-birch.fbx
-  artifactKey: Guid(08c7aa7afdf5848f0be1543a55d5f6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-birch.fbx using Guid(08c7aa7afdf5848f0be1543a55d5f6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07cdd979c7558ccc66cebd1cf2556014') in 0.071183 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-little.fbx
-  artifactKey: Guid(5f00499da7ef1044694def86a21558ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-little.fbx using Guid(5f00499da7ef1044694def86a21558ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2be0fb168413bf50dccfd48b1fb3c3b') in 0.082054 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-poplar_orange.fbx
-  artifactKey: Guid(fc1e80d82d6cc4a118b52795f0b264fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-poplar_orange.fbx using Guid(fc1e80d82d6cc4a118b52795f0b264fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4045e189abef5ae0baed33e8bbcb8db') in 0.065188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Japan_T/japan-tree-tall.fbx
-  artifactKey: Guid(071795414e10d458f80f7482c1a21aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Japan_T/japan-tree-tall.fbx using Guid(071795414e10d458f80f7482c1a21aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f41b00b09a8f13674b9abb0dea00f8b') in 0.056079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Nature_M/Trees_M/tree-little.prefab
-  artifactKey: Guid(ec63a064dbd786c41a053bad759efb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Nature_M/Trees_M/tree-little.prefab using Guid(ec63a064dbd786c41a053bad759efb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d827e3c275bce38aaf4c7d1cd25459c') in 0.018781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-beech.fbx
-  artifactKey: Guid(3e3123c035b7e924aa600a32b42cfbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-beech.fbx using Guid(3e3123c035b7e924aa600a32b42cfbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368f5b21c47000ce8c03a87319132cef') in 0.043586 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-baobab_orange.fbx
-  artifactKey: Guid(62fe2640e94724aeb944b7e50a59a90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-baobab_orange.fbx using Guid(62fe2640e94724aeb944b7e50a59a90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66114ae4d6109483f978008dc229cb3') in 0.161116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-round.fbx
-  artifactKey: Guid(83d44603a730d8440b8d3d0dc24dfc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-round.fbx using Guid(83d44603a730d8440b8d3d0dc24dfc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0084e08e0a8b59f489ed7e572883bc') in 0.050326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-lime_red.fbx
-  artifactKey: Guid(793f2c1286ec941b29703dc79e16be98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-lime_red.fbx using Guid(793f2c1286ec941b29703dc79e16be98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f616f6415f76534b6833bc63f02e33') in 0.042727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-baobab_white.fbx
-  artifactKey: Guid(bf6e9dcd7dfb942c88c162c35c331f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-baobab_white.fbx using Guid(bf6e9dcd7dfb942c88c162c35c331f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cc27818124762ca1560b59d4ee2adf') in 0.065913 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-poplar_white.fbx
-  artifactKey: Guid(4622cba1e8bbd4292a0d2ada93192122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-poplar_white.fbx using Guid(4622cba1e8bbd4292a0d2ada93192122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cd865bae89fbd42227999b6d5b4e26') in 0.039463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-birch-tall.fbx
-  artifactKey: Guid(d530d227de7cc4e37a5eb6f5f0d70d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-birch-tall.fbx using Guid(d530d227de7cc4e37a5eb6f5f0d70d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1788cb3f6e65ef873524b89343b82a77') in 0.039632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/India_M/building-street-india.prefab
-  artifactKey: Guid(c504aa35681966b4583f9df72878529b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/India_M/building-street-india.prefab using Guid(c504aa35681966b4583f9df72878529b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eaeea960e38f359fb3abe3d9e51287b') in 0.016728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Nature_M/Trees_M/tree-birch-tall.prefab
-  artifactKey: Guid(364b2560ed6bc4bc38dfe1a9e565fcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Nature_M/Trees_M/tree-birch-tall.prefab using Guid(364b2560ed6bc4bc38dfe1a9e565fcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53090ef54371f3dec5aaed2a9aff6f17') in 0.028682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-beech.fbx
-  artifactKey: Guid(98f7492fcbc7448fb825f8f83f0d9d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-beech.fbx using Guid(98f7492fcbc7448fb825f8f83f0d9d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a356634d73bab3d19f42bc8d39cef0') in 0.030045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-fir-snow.fbx
-  artifactKey: Guid(b5088fe4fe156452ca6a8cf1708b9217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-fir-snow.fbx using Guid(b5088fe4fe156452ca6a8cf1708b9217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca76e62eeb8dff4449a32056464a98dd') in 0.080705 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-lime_white.fbx
-  artifactKey: Guid(eea1d702897e2495da8985c514a7f81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-lime_white.fbx using Guid(eea1d702897e2495da8985c514a7f81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a8baf9ee6c8f1b26e475ccdd688c1c') in 0.061974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-little.fbx
-  artifactKey: Guid(fe32c9e73030b41aaabfedf9f121b238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-little.fbx using Guid(fe32c9e73030b41aaabfedf9f121b238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210c4f6890bbc8e41c4ec466bc026159') in 0.043413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Asset/3D/Mega Fantasy Props Pack/FBX/half_tree.fbx
-  artifactKey: Guid(2dbd510f8901f5c42bfab460bd7d54d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/Mega Fantasy Props Pack/FBX/half_tree.fbx using Guid(2dbd510f8901f5c42bfab460bd7d54d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da387a19aa07fe5d05e26f0fe56d329') in 0.053837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-conifer_snow.fbx
-  artifactKey: Guid(6715d5abbac60493e9bf4c35f5000944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-conifer_snow.fbx using Guid(6715d5abbac60493e9bf4c35f5000944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9263364dd7280949474ea95cdab5b16f') in 0.076548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-round_orange.fbx
-  artifactKey: Guid(9182eea8063e24a40a77e8f9187870e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-round_orange.fbx using Guid(9182eea8063e24a40a77e8f9187870e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d32a683d46309d7930a20ba2455e34') in 0.042656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-beech_orange.fbx
-  artifactKey: Guid(71d1af813c5bb45528529bf2ad50c1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-beech_orange.fbx using Guid(71d1af813c5bb45528529bf2ad50c1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554edb4bbe79ddd6b96b0b3f64ce0dbf') in 0.103616 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-round_white.fbx
-  artifactKey: Guid(a8e4db8df14734763b4f6d0ed7688cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-round_white.fbx using Guid(a8e4db8df14734763b4f6d0ed7688cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4364361d138af47d9b806fa089d8a4') in 0.095629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree.fbx
-  artifactKey: Guid(17be70f662abe42529b241215b8498c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree.fbx using Guid(17be70f662abe42529b241215b8498c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a06f68ee4fc949e3562656d0104e16') in 0.063643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-spruce.fbx
-  artifactKey: Guid(7ea56027038434645bfbf38035d8a7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-spruce.fbx using Guid(7ea56027038434645bfbf38035d8a7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40735bf3cbcff82ad2dc3f9fcb5e6d68') in 0.090159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-birch_white.fbx
-  artifactKey: Guid(306cec77acda144558adc4fa0eed9198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-birch_white.fbx using Guid(306cec77acda144558adc4fa0eed9198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f54bcabadb6a84049727495b4cea28') in 0.320603 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-square.fbx
-  artifactKey: Guid(44bfc562133a14325bd21401af4e7a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-square.fbx using Guid(44bfc562133a14325bd21401af4e7a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922ade93d395ec100cc383b705341a52') in 0.091915 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Nature_M/Trees_M/tree-square.prefab
-  artifactKey: Guid(9c3a99964dcf8e44483bb5cbd7884b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Nature_M/Trees_M/tree-square.prefab using Guid(9c3a99964dcf8e44483bb5cbd7884b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d6540128102bcc7d43f546895de100') in 0.129514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-square_orange.fbx
-  artifactKey: Guid(8b1de4d96ccbe4eb8b9d9445163847d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-square_orange.fbx using Guid(8b1de4d96ccbe4eb8b9d9445163847d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9ea7fb167c6922b8d09b63b0c053b8') in 0.079530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-tall.fbx
-  artifactKey: Guid(f726917801537e34dae3c8297bf620c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-tall.fbx using Guid(f726917801537e34dae3c8297bf620c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30cacb3ea26f92a9b55e58d9be519c9') in 0.023432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-tall_white.fbx
-  artifactKey: Guid(0f3451dbec2144822b6ecac073be0d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-tall_white.fbx using Guid(0f3451dbec2144822b6ecac073be0d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2282b842523d49a84be97890ef4e33b') in 0.050761 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-square_white.fbx
-  artifactKey: Guid(0128221d2b9f24074b8091f1a3d2bebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-square_white.fbx using Guid(0128221d2b9f24074b8091f1a3d2bebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2761f20a6b40353bf3c70c4d32c6644') in 0.071702 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-tall_orange.fbx
-  artifactKey: Guid(26064fbce9e824a5e9e5872d30e75aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-tall_orange.fbx using Guid(26064fbce9e824a5e9e5872d30e75aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a33394e188ee28a188a498180da8847') in 0.071740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Japan_M/tree-lime_red.fbx
-  artifactKey: Guid(fe57a71e7771e4b238896197796c9a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Japan_M/tree-lime_red.fbx using Guid(fe57a71e7771e4b238896197796c9a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96dc29e8cca9a103e834563ddb3ab5f9') in 0.055510 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-pyramid_orange.fbx
-  artifactKey: Guid(47cf07633cfe049c5bf55c8a477b0283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-pyramid_orange.fbx using Guid(47cf07633cfe049c5bf55c8a477b0283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07b9774f9d8918a8f94a9bd48927f73') in 0.052999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-dead-snow.fbx
-  artifactKey: Guid(b879294e59bd54897b348632184ca454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-dead-snow.fbx using Guid(b879294e59bd54897b348632184ca454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e7fe70bae23ef8b7747b2a630904b2') in 0.052371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-conifer.fbx
-  artifactKey: Guid(2265084a308c24bdb8431970f4252f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-conifer.fbx using Guid(2265084a308c24bdb8431970f4252f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9aeb1a8d03e33c090d0b0fa7a3be472') in 0.045384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree.fbx
-  artifactKey: Guid(9bc2df04eb34a453fbdc3f08693fa930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree.fbx using Guid(9bc2df04eb34a453fbdc3f08693fa930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b883e20541083c17b0598e185d61b561') in 0.054067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-birch-tall_orange.fbx
-  artifactKey: Guid(c0a1b4ff3ed2b40a2b2b0befb0b4fa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-birch-tall_orange.fbx using Guid(c0a1b4ff3ed2b40a2b2b0befb0b4fa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3758f159791b382f1d089117603123c') in 0.057735 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-tall.fbx
-  artifactKey: Guid(a4f600b730b2845d5b64bfe176c50f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-tall.fbx using Guid(a4f600b730b2845d5b64bfe176c50f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3891e826343243d8d0ca890cf9ce08a') in 0.036440 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-round-apple.fbx
-  artifactKey: Guid(47e8db116bd5c16419edb31edc288be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-round-apple.fbx using Guid(47e8db116bd5c16419edb31edc288be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0edef5fb8d4a9e61dac03f1ee5d52a9') in 0.024421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-bare.fbx
-  artifactKey: Guid(b7dac1e369c8df444b75f8229bf4cd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-bare.fbx using Guid(b7dac1e369c8df444b75f8229bf4cd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20533fa1342e57c1bd253ccc30bb387') in 0.030169 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-christmas.fbx
-  artifactKey: Guid(b28f47e8d0a1d4781811af98b45c053a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-christmas.fbx using Guid(b28f47e8d0a1d4781811af98b45c053a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da3a1e983739002c36778bc1d9da8f4') in 0.037857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Nature_M/Trees_M/tree-round.prefab
-  artifactKey: Guid(94c8ba7c244e81d49a22239ae0d9252b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Nature_M/Trees_M/tree-round.prefab using Guid(94c8ba7c244e81d49a22239ae0d9252b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a82dafcf31352c9962fdbf4ffd01103') in 0.016842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-conifer.fbx
-  artifactKey: Guid(5c316c32e8b4247fa86e75d19887c97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-conifer.fbx using Guid(5c316c32e8b4247fa86e75d19887c97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c521fec463f4c66f4b573f56a7ba8d') in 0.022312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Asset/3D/Mega Fantasy Props Pack/FBX/tree.fbx
-  artifactKey: Guid(5e8fe6e9b49d874468321529c49ea8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/Mega Fantasy Props Pack/FBX/tree.fbx using Guid(5e8fe6e9b49d874468321529c49ea8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8134b56ddd73b982d28f529848b33d39') in 0.051851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Nature_M/Trees_M/tree-fir.prefab
-  artifactKey: Guid(edefb56f15ddbd94c8ca1cabbc111274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Nature_M/Trees_M/tree-fir.prefab using Guid(edefb56f15ddbd94c8ca1cabbc111274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee4ede5736dd8618376c9c8821571ea') in 0.018468 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-simple_orange.fbx
-  artifactKey: Guid(773912d0959af48a78020ae755ed0bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-simple_orange.fbx using Guid(773912d0959af48a78020ae755ed0bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08adb75425a1e14bbe965145d2d56c2e') in 0.062941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-oak_white.fbx
-  artifactKey: Guid(125cdf5657f544154a873927f26016ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-oak_white.fbx using Guid(125cdf5657f544154a873927f26016ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9c20bbab61d149b5bedf7910582776') in 0.047664 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/India_T/building-street-india.fbx
-  artifactKey: Guid(8838a6149d694cd44b38f53a30468769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/India_T/building-street-india.fbx using Guid(8838a6149d694cd44b38f53a30468769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd401e5b2a6d73a9a7747a4e0111b2c9c') in 0.053371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-birch_orange.fbx
-  artifactKey: Guid(dcd287e4a656f47e7ad8a4482ff37193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-birch_orange.fbx using Guid(dcd287e4a656f47e7ad8a4482ff37193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f18180e689e52fd5454fe392cd48ce') in 0.055671 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-round-apple.fbx
-  artifactKey: Guid(7da9b717e48a5e243a983df8f6059059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-round-apple.fbx using Guid(7da9b717e48a5e243a983df8f6059059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540da52905285a66ab781bba809b1bfa') in 0.060193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-simple.fbx
-  artifactKey: Guid(f421759cda529f545ae22aaefa51ae8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-simple.fbx using Guid(f421759cda529f545ae22aaefa51ae8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a3c04b871dee5ee93500aa8c1d2a05') in 0.022780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.761676 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-triangle.fbx
-  artifactKey: Guid(6dafcfb11d4a0c44db168c2b0afefb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-triangle.fbx using Guid(6dafcfb11d4a0c44db168c2b0afefb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdcb89fb5165ac9d7f3995c676eb9ed') in 0.050701 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.039242 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Nature_M/Trees_M/tree-triangle.prefab
-  artifactKey: Guid(ede30dc43c4a9654e8660daec3e8acda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Nature_M/Trees_M/tree-triangle.prefab using Guid(ede30dc43c4a9654e8660daec3e8acda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b133055f8578f7e679d5b3744c1ad51') in 0.042543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.347011 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-triangle_orange.fbx
-  artifactKey: Guid(19235235ccb0c42f2a1a3c388ae6d647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-triangle_orange.fbx using Guid(19235235ccb0c42f2a1a3c388ae6d647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616dcbc72d0aa4a52f833b539f613770') in 0.057482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.040616 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-triangle_white.fbx
-  artifactKey: Guid(bd8cec45a8e7b4c56892bce9af501f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-triangle_white.fbx using Guid(bd8cec45a8e7b4c56892bce9af501f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8ec147d6da6158caf50275dffc5e11') in 0.063059 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.362972 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-trunk.fbx
-  artifactKey: Guid(8c908423457e14989a8e717f9e975a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree-trunk.fbx using Guid(8c908423457e14989a8e717f9e975a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4d7a79992bd53312219bfc20c25357') in 0.036312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-trunk.fbx
-  artifactKey: Guid(df85fb34443f84f5386e172ad636e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/tree-trunk.fbx using Guid(df85fb34443f84f5386e172ad636e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc9bd1d32374b7e63a510bcf88073c0') in 0.054027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.040844 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree_white.fbx
-  artifactKey: Guid(5df93139494d049388fc47ac0c3069ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Nature_T/tree_white.fbx using Guid(5df93139494d049388fc47ac0c3069ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9916b10b6f0544ddc34fd3029322c9c3') in 0.055461 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1298.793759 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-basic.prefab
-  artifactKey: Guid(86c8aa56418d04c11b5a28c96bc80f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-basic.prefab using Guid(86c8aa56418d04c11b5a28c96bc80f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c24b76b75b73395523da51864ddb8c') in 0.184241 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.897794 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-basic_orange.prefab
-  artifactKey: Guid(c3591d4a38d50e440931ebbe367ff068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-basic_orange.prefab using Guid(c3591d4a38d50e440931ebbe367ff068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9e0ac410add7173e47fa2cf0ad22a1') in 0.050126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.238501 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-basic_white.prefab
-  artifactKey: Guid(ca5fb38e5eec7409391b4ff8d35dc901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-basic_white.prefab using Guid(ca5fb38e5eec7409391b4ff8d35dc901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010a212cf6495562a450839a571e904e') in 0.022763 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.130964 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-clumb.prefab
-  artifactKey: Guid(03b67f53c002a4af881d7049bc3e950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-clumb.prefab using Guid(03b67f53c002a4af881d7049bc3e950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8389c340b203fddeec2bab50ccc36a') in 0.022156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.621418 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-clumb_orange.prefab
-  artifactKey: Guid(aa2aba1c609347b46a000dcb4078c820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-clumb_orange.prefab using Guid(aa2aba1c609347b46a000dcb4078c820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc36c8d4a2e9ee150fbd54f90ada1375') in 0.030073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.312178 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-clumb_white.prefab
-  artifactKey: Guid(8ec04f85ab069c746b87c010f75b53ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-clumb_white.prefab using Guid(8ec04f85ab069c746b87c010f75b53ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1554150856e251de8e2fa305b2c2d29c') in 0.023929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.276096 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-long.prefab
-  artifactKey: Guid(5d43bd8198132492795c84a7a66997e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-long.prefab using Guid(5d43bd8198132492795c84a7a66997e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254604ba56a35e20271326d729b946a4') in 0.023286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.156604 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-long_orange.prefab
-  artifactKey: Guid(f023a4e9862e54b47b8bfac12ce80ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-long_orange.prefab using Guid(f023a4e9862e54b47b8bfac12ce80ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5502c0ca458c1af41fa8da5cebd8ab12') in 0.025278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.363985 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-long_white.prefab
-  artifactKey: Guid(eafd78fa00d8a429fbc8942418df7e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-long_white.prefab using Guid(eafd78fa00d8a429fbc8942418df7e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9015a046d3cb6be442de75e5c6b76fd6') in 0.106413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.277469 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-tall.prefab
-  artifactKey: Guid(1689020eaa3b542b1ae54fbdb838f290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-tall.prefab using Guid(1689020eaa3b542b1ae54fbdb838f290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660054314f6ca2bfcea1c139b0b50512') in 0.025275 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.615027 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-tall_orange.prefab
-  artifactKey: Guid(b9fd96550c6ef8c48ac42fffcad3eeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-tall_orange.prefab using Guid(b9fd96550c6ef8c48ac42fffcad3eeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328110bfd6e5c3a00d95d980917f3657') in 0.028193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.615380 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-tall_white.prefab
-  artifactKey: Guid(ba6b13d1f86384c8fbd0501e98bcb762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass-tall_white.prefab using Guid(ba6b13d1f86384c8fbd0501e98bcb762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcca396037a5eb9b368245ca24608840') in 0.023073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.183677 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass.prefab
-  artifactKey: Guid(44f06f083d27f4a75bdf4b52d745f453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass.prefab using Guid(44f06f083d27f4a75bdf4b52d745f453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061d2faf72682757ada889787a9cc195') in 0.021293 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.907285 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass_orange.prefab
-  artifactKey: Guid(7ee30a12973dcb3469d7f62d34a28f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass_orange.prefab using Guid(7ee30a12973dcb3469d7f62d34a28f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e437b4e76e39260477f4d12a3eef654c') in 0.021656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.450703 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass_white.prefab
-  artifactKey: Guid(1965404b6a4754f58a960489a587b360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Grass_T/grass_white.prefab using Guid(1965404b6a4754f58a960489a587b360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee489a4465d3384d697018f8fb75e77') in 0.020872 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1447.135198 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/People_M/Rigs_M/boy-sport_Rig.fbx
-  artifactKey: Guid(3c61c207a654deb4588b93eab550760e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/People_M/Rigs_M/boy-sport_Rig.fbx using Guid(3c61c207a654deb4588b93eab550760e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18293208e8b8633c722e20c0331cbb51') in 0.239781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset/3D/Mega Fantasy Props Pack/FBX/spoon.fbx
-  artifactKey: Guid(64704605f89d97f43821f289ee58f53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/Mega Fantasy Props Pack/FBX/spoon.fbx using Guid(64704605f89d97f43821f289ee58f53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7146428ecae0c4f833d076afcd561684') in 0.404969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/People_T/boy-sport.prefab
-  artifactKey: Guid(1a40ffd21ea184e02addf27e87d2a3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/People_T/boy-sport.prefab using Guid(1a40ffd21ea184e02addf27e87d2a3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904a66b2408000e2c56573419d3eece8') in 0.063637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/People_T/Rigs_T/boy-sport_Rig.prefab
-  artifactKey: Guid(d2087cc8ab760c1469952d5aee4e2a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/People_T/Rigs_T/boy-sport_Rig.prefab using Guid(d2087cc8ab760c1469952d5aee4e2a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9f5d7341ce8e92ea0fa645dbd7823d') in 0.081185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 228.124446 seconds.
-  path: Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Trees_T/tree-beech 1.prefab
-  artifactKey: Guid(a00176ad4a67ef843aa41f61b9862b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset/3D/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Trees_T/tree-beech 1.prefab using Guid(a00176ad4a67ef843aa41f61b9862b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687af6c9c57f3b9b1ee2d783c5dd7dac') in 0.095365 seconds 
+  Time since last request: 159060.634878 seconds.
+  path: Assets/Scenes/Test.unity
+  artifactKey: Guid(9740ec8b9b34d1e43babf20ca9a019db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test.unity using Guid(9740ec8b9b34d1e43babf20ca9a019db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd43d3af487713a13d155bbdae22c1a') in 0.122993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.567823 seconds.
+  path: Assets/Asset/3D/RunemarkStudio/DarkFantasyKit [Free]/Meshes/Decoration/Textiles/dfk_carpets.fbx
+  artifactKey: Guid(ac299f5eeb3b3714392fd44ca93a8e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/3D/RunemarkStudio/DarkFantasyKit [Free]/Meshes/Decoration/Textiles/dfk_carpets.fbx using Guid(ac299f5eeb3b3714392fd44ca93a8e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5248a74796d48e2d59d228d7488da401') in 1.061044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.148000 seconds.
+  path: Assets/Asset/3D/RunemarkStudio/DarkFantasyKit [Free]/Meshes/Containers/dfk_chest_02_closed.fbx
+  artifactKey: Guid(8672f26db88ef4f44bd348e6da98ccd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/3D/RunemarkStudio/DarkFantasyKit [Free]/Meshes/Containers/dfk_chest_02_closed.fbx using Guid(8672f26db88ef4f44bd348e6da98ccd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc3e66f09053c022d10a9b87ac266a0') in 0.102921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.844378 seconds.
+  path: Assets/Asset/3D/RunemarkStudio/DarkFantasyKit [Free]/Meshes/Decoration/Textiles/dfk_flag_02.fbx
+  artifactKey: Guid(41c82b48d494599498c294206d7c4451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/3D/RunemarkStudio/DarkFantasyKit [Free]/Meshes/Decoration/Textiles/dfk_flag_02.fbx using Guid(41c82b48d494599498c294206d7c4451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e8927e404f2f1ef6e6650ed263391d') in 0.755552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.366328 seconds.
+  path: Assets/Asset/3D/RunemarkStudio/DarkFantasyKit [Free]/Meshes/Decoration/Textiles/dfk_hook.fbx
+  artifactKey: Guid(e93478e10d507284b865970da9cff652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/3D/RunemarkStudio/DarkFantasyKit [Free]/Meshes/Decoration/Textiles/dfk_hook.fbx using Guid(e93478e10d507284b865970da9cff652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6cab3a813650bb0fb9a4bd472953e9') in 0.084257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.223980 seconds.
+  path: Assets/Asset/3D/RunemarkStudio/DarkFantasyKit [Free]/Meshes/Walls/dfk_wall_1_door.fbx
+  artifactKey: Guid(bc5b4ee67ecae954cbfbfebee0f8fac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/3D/RunemarkStudio/DarkFantasyKit [Free]/Meshes/Walls/dfk_wall_1_door.fbx using Guid(bc5b4ee67ecae954cbfbfebee0f8fac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d5b92fec0512e4b03fdecd5d3dbe56') in 0.490748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 162.597455 seconds.
+  path: Assets/Scenes/Tutorial.unity
+  artifactKey: Guid(ce4cd6f63e78c7a4391f9c8f29b78b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tutorial.unity using Guid(ce4cd6f63e78c7a4391f9c8f29b78b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0bcf48be21877c18e3589f128edf01c') in 0.019148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 341.550378 seconds.
+  path: Assets/Scenes/Test/LightingData.asset
+  artifactKey: Guid(443bd2c9b36628545a7d47166c378767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/LightingData.asset using Guid(443bd2c9b36628545a7d47166c378767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7c8b88db91453ab814beb73ac98a77') in 0.025520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1329.132627 seconds.
+  path: Assets/Asset/3D/RunemarkStudio/DarkFantasyKit [Free]/Readme/Parts/Readme.cs
+  artifactKey: Guid(a098baab29416494fb3546741e8419b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/3D/RunemarkStudio/DarkFantasyKit [Free]/Readme/Parts/Readme.cs using Guid(a098baab29416494fb3546741e8419b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9a3bc1e0cd53dc02b031e31012a596') in 0.026779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.083904 seconds.
+  path: Assets/Asset/3D/RunemarkStudio/DarkFantasyKit [Free]/Scenes/DemoSceneSettings.lighting
+  artifactKey: Guid(288da60d890528c4aa4621c097bb4fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/3D/RunemarkStudio/DarkFantasyKit [Free]/Scenes/DemoSceneSettings.lighting using Guid(288da60d890528c4aa4621c097bb4fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '8d9060904b7a8ba152d05723964431a4') in 0.060367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.718311 seconds.
+  path: Assets/Asset/3D/RunemarkStudio/DarkFantasyKit [Free]/Scenes/ShowcaseSettings.lighting
+  artifactKey: Guid(3b086a595f246bd4cacf8b121d5b1d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/3D/RunemarkStudio/DarkFantasyKit [Free]/Scenes/ShowcaseSettings.lighting using Guid(3b086a595f246bd4cacf8b121d5b1d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '2738abaab76a6cbee2d95a2b4c0066ea') in 0.013709 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012310 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in D:\UnityBackup\IntoTheNarnia\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  6.163 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6164ms)
+		BeginReloadAssembly (1141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (304ms)
+		EndReloadAssembly (4572ms)
+			LoadAssemblies (739ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (945ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (147ms)
+			SetupLoadedEditorAssemblies (2241ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (87ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (339ms)
+				ProcessInitializeOnLoadAttributes (1634ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (84ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (151.0 KB). Loaded Objects now: 4028.
+Memory consumption went from 155.2 MB to 155.1 MB.
+Total: 41.217100 ms (FindLiveObjects: 0.489900 ms CreateObjectMapping: 0.308200 ms MarkObjects: 40.171700 ms  DeleteObjects: 0.245800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 643.073322 seconds.
+  path: Assets/Scenes/Title.unity
+  artifactKey: Guid(149a153342659684c83ae5ef06b4e208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title.unity using Guid(149a153342659684c83ae5ef06b4e208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2d043e50366174f6a50d4815af44e2') in 0.017360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.310104 seconds.
+  path: Assets/Scenes/Test.unity
+  artifactKey: Guid(9740ec8b9b34d1e43babf20ca9a019db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test.unity using Guid(9740ec8b9b34d1e43babf20ca9a019db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6777c13c3e656c388927fe1736891586') in 0.007903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 232.035589 seconds.
+  path: Assets/Scenes/Tutorial.unity
+  artifactKey: Guid(ce4cd6f63e78c7a4391f9c8f29b78b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tutorial.unity using Guid(ce4cd6f63e78c7a4391f9c8f29b78b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7addce9677caef86dfe4734dfe02abcb') in 0.009470 seconds 
