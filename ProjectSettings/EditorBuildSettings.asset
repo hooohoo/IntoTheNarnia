@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Title.unity
     guid: 149a153342659684c83ae5ef06b4e208
   - enabled: 1
-    path: Assets/Scenes/Tutorial.unity
+    path: Assets/Scenes/Professor_House.unity
     guid: ce4cd6f63e78c7a4391f9c8f29b78b45
   - enabled: 1
     path: Assets/Scenes/LoadingScene.unity

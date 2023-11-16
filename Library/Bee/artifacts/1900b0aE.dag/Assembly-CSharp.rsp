@@ -363,6 +363,7 @@
 "Assets/Asset/3D/Vintage Interactive Radio/Scripts/ToggleSwitch.cs"
 "Assets/Asset/3D/Vintage Interactive Radio/Scripts/TunerKnob.cs"
 "Assets/Asset/3D/Vintage Interactive Radio/Scripts/VolumeKnob.cs"
+"Assets/Script/Controller/CameraController.cs"
 "Assets/Script/Controller/LoadingController.cs"
 "Assets/Script/CustomCamera.cs"
 "Assets/Script/Data/Save/Test.cs"

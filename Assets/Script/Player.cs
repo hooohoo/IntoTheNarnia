@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    //public GameObject _character;
+    public GameObject _Camera;
     float moveSpeed;
     float rotateSpeed;
     Vector3 tmpDir;
@@ -17,50 +17,53 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKey(KeyCode.UpArrow))
+        Move();
+    }   // end Update()
+
+    // 이동 함수
+    void Move()
+    {
+        // 조이스틱 입력 경우
+
+        // 키보드 입력 경우
+        if (Input.GetKey(KeyCode.UpArrow))
         {
-            tmpDir = transform.forward;
             float z = transform.position.z;
             z += Time.deltaTime * moveSpeed;
             transform.position = new Vector3(transform.position.x, transform.position.y, z);
             // 임시 회전
-            tmpDir = Vector3.RotateTowards(transform.forward, tmpDir, Time.deltaTime * rotateSpeed, 0);
-            transform.rotation = Quaternion.LookRotation(tmpDir.normalized);
+            tmpDir = transform.forward;
         }
 
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            tmpDir = -(transform.forward);
             float z = transform.position.z;
             z -= Time.deltaTime * moveSpeed;
             transform.position = new Vector3(transform.position.x, transform.position.y, z);
             // 임시 회전
-            tmpDir = Vector3.RotateTowards(transform.forward, tmpDir, Time.deltaTime * rotateSpeed, 0);
-            transform.rotation = Quaternion.LookRotation(tmpDir.normalized);
+            tmpDir = -(transform.forward);
         }
 
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            tmpDir = transform.right;
             float x = transform.position.x;
             x += Time.deltaTime * moveSpeed;
             transform.position = new Vector3(x, transform.position.y, transform.position.z);
             // 임시 회전
-            tmpDir = Vector3.RotateTowards(transform.forward, tmpDir, Time.deltaTime * rotateSpeed, 0);
-            transform.rotation = Quaternion.LookRotation(tmpDir.normalized);
+            tmpDir = transform.right;
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            tmpDir = -(transform.right);
             float x = transform.position.x;
             x -= Time.deltaTime * moveSpeed;
             transform.position = new Vector3(x, transform.position.y, transform.position.z);
             // 임시 회전
-            tmpDir = Vector3.RotateTowards(transform.forward, tmpDir, Time.deltaTime * rotateSpeed, 0);
-            transform.rotation = Quaternion.LookRotation(tmpDir.normalized);
+            tmpDir = -(transform.right);
         }
-
+        tmpDir = Vector3.RotateTowards(transform.forward, tmpDir, Time.deltaTime * rotateSpeed, 0);
+        transform.rotation = Quaternion.LookRotation(tmpDir.normalized);
         
+        //Debug.Log("rotation : " + transform.rotation);
     }
 }
