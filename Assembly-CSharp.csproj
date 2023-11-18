@@ -66,6 +66,7 @@
     <Compile Include="Assets\Script\Data\Stat\Stat.cs" />
     <Compile Include="Assets\Script\Manager\ByTeacher\InstanceManangerByTeacher.cs" />
     <Compile Include="Assets\Script\CustomCamera.cs" />
+    <Compile Include="Assets\Script\Controller\CameraController.cs" />
     <Compile Include="Assets\Script\Manager\ByTeacher\Player2.cs" />
     <Compile Include="Assets\Script\Manager\ByTeacher\Character.cs" />
     <Compile Include="Assets\Asset\3D\RunemarkStudio\DarkFantasyKit [Free]\Readme\Parts\Readme.cs" />
@@ -86,7 +87,6 @@
     <Compile Include="Assets\Asset\3D\Vintage Interactive Radio\Scripts\ToggleSwitch.cs" />
     <Compile Include="Assets\Script\Data\Stat\MonsterStat.cs" />
     <Compile Include="Assets\Script\Manager\ResourceManager.cs" />
-    <Compile Include="Assets\Script\Controller\CameraController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
