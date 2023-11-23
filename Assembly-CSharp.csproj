@@ -87,6 +87,7 @@
     <Compile Include="Assets\Asset\3D\Vintage Interactive Radio\Scripts\ToggleSwitch.cs" />
     <Compile Include="Assets\Script\Data\Stat\MonsterStat.cs" />
     <Compile Include="Assets\Script\Manager\ResourceManager.cs" />
+    <Compile Include="Assets\Script\Controller\JoystickController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
