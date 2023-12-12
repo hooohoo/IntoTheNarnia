@@ -11,4 +11,24 @@ public class Define
         Tutorial,
         LoadingScene
     }
+
+    public enum CreatureState
+    {
+        Idle,
+        Move,
+        AutoMove,
+        Skill,
+        Skill2,
+        Skill3,
+        Rolling,
+        Attack,
+        Dead,
+        None,
+    }
+
+    public enum JoystickState
+    {
+        InputFalse,
+        InputTrue,
+    }
 }

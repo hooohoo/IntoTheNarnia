@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     // 매니저 생성
     ResourceManager _resource = new ResourceManager();
     SceneManagerEx _scene = new SceneManagerEx();
+    UiManager _ui = new UiManager();
 
     // 매니저 인스턴스 getter
     public static ResourceManager Resource
@@ -29,6 +30,10 @@ public class GameManager : MonoBehaviour
     public static SceneManagerEx Scene
     {
         get { return _instance._scene; }
+    }
+    public static UiManager Ui
+    {
+        get { return _instance._ui; }
     }
 
 
