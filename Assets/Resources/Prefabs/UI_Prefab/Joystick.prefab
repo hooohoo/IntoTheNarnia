@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5750378350164229395}
   - component: {fileID: 3106504228841496999}
   - component: {fileID: 4117601753870811368}
-  - component: {fileID: 7387167179760315783}
   - component: {fileID: 2483367702023949538}
+  - component: {fileID: 2456137301371634658}
   m_Layer: 5
   m_Name: Pan
   m_TagString: Untagged
@@ -79,20 +79,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7387167179760315783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2616969877124801316}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7611bda3b13bc14092de814bc175869, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Lever: {fileID: 2851687061301531582}
-  rcTr: {fileID: 5750378350164229395}
 --- !u!114 &2483367702023949538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,7 +96,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 7387167179760315783}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: Joystick, Assembly-CSharp
           m_MethodName: OnPointerDown
           m_Mode: 0
@@ -126,7 +112,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 7387167179760315783}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: Joystick, Assembly-CSharp
           m_MethodName: OnPointerUp
           m_Mode: 0
@@ -142,7 +128,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 7387167179760315783}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: Joystick, Assembly-CSharp
           m_MethodName: OnBeginDrag
           m_Mode: 0
@@ -158,7 +144,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 7387167179760315783}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: Joystick, Assembly-CSharp
           m_MethodName: OnDrag
           m_Mode: 0
@@ -174,7 +160,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 7387167179760315783}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: Joystick, Assembly-CSharp
           m_MethodName: OnEndDrag
           m_Mode: 0
@@ -186,6 +172,22 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &2456137301371634658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2616969877124801316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c203645093d84740a3e51fffb4f4270, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lever: {fileID: 6630158614123212447}
+  leverRange: 150
+  _joystickState: 0
+  inputDirection: {x: 0, y: 0}
 --- !u!1 &4069733459154468377
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,7 +223,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 720, y: 300}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 140, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5445258542831714838

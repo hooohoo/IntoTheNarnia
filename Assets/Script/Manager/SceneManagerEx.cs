@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneManagerEx : MonoBehaviour
+public class SceneManagerEx// : MonoBehaviour
 {
     // 씬 이름 확인용
     public string _LoadSceneName;

@@ -11,7 +11,6 @@ public class FieldManager : MonoBehaviour
     {
         // 임시 코드
         GameManager.Ui._joyStick = _joyStick;
-
         // 임시 코드
         ManagerInit();
     }

@@ -10,6 +10,7 @@ public class UiManager
 
     public void Init()
     {
+        //_joyStick = new GameObject();
         _joyStickController = _joyStick.GetComponentInChildren<JoystickController>();
     }
 }

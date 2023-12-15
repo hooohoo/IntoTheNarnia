@@ -9,6 +9,7 @@ public class Define
     {
         Title,
         Tutorial,
+        Professor_House,
         LoadingScene
     }
 
@@ -16,11 +17,8 @@ public class Define
     {
         Idle,
         Move,
-        AutoMove,
-        Skill,
-        Skill2,
-        Skill3,
-        Rolling,
+        Walk,
+        Run,
         Attack,
         Dead,
         None,

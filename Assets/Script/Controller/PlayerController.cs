@@ -16,45 +16,32 @@ public class PlayerController : MonoBehaviour
     public float _rollSpeed;
     public float _autoMoveSpeed;
 
+    public Animator _animator;
+
     void Start()
     {
         Init();
     }
 
+    // 캐릭터 상태에 따라 함수 실행 & 애니메이션 실행
     void Update()
     {
         switch (_creatureState)
         {
-            /*
             case CreatureState.Idle:
                 Idle();
+                //_animator.SetInteger();
                 break;
-            */
             case CreatureState.Move:
                 Move();
                 break;
-            /*
-            case CreatureState.AutoMove:
-                AutoMove();
-                break;
             case CreatureState.Attack:
-                Attack();
+                //_animator.SetInteger();
                 break;
             case CreatureState.Dead:
-                Dead();
+                //_animator.SetInteger();
                 break;
-            case CreatureState.Rolling:
-                Roll();
-                break;
-            case CreatureState.Skill:
-                Skill1();
-                break;
-            case CreatureState.Skill2:
-                Skill2();
-                break;
-            case CreatureState.Skill3:
-                Skill3();
-                break;
+            /*
             */
             case CreatureState.None:
                 break;
@@ -63,26 +50,48 @@ public class PlayerController : MonoBehaviour
 
     public void Init()
     {
-        _moveSpeed = 10.0f;
+        _moveSpeed = 7.0f;
         _rotationSpeed = 10f;
         _rollSpeed = 10.0f;
+        _creatureState = CreatureState.Idle;
+       // _animator = GetComponent<Animator>();
+    }
+
+    protected void Idle()
+    {
+        // 대기 중 이동
+        if (GameManager.Ui._joyStickController._joystickState == JoystickState.InputTrue)
+        {
+            _creatureState = CreatureState.Move;
+        }
     }
 
     protected void Move()
     {
-        /*
         // 이동 중 대기
         if (GameManager.Ui._joyStickController._joystickState == JoystickState.InputFalse)
         {
             _creatureState = CreatureState.Idle;
         }
-        */
         _inputDir = GameManager.Ui._joyStickController.inputDirection;
-        // Debug.Log("플레이어 : " + _inputDir);
+        //Debug.Log("플레이어 : " + _inputDir);
+        Debug.Log("_inputDir.magnitude : " + _inputDir.magnitude);
         bool isMove = _inputDir.magnitude != 0;
         //if (GameManager.Ui._joyStickController._joystickState == JoystickState.InputTrue)
         if (isMove)
         {
+            // 걷는지 뛰는지 lever 길이로 상태 판별
+            if(_inputDir.magnitude < 2.5f)
+            {
+                // Walk
+                _creatureState = CreatureState.Walk;
+            }
+            else
+            {
+                // Run
+                _creatureState = CreatureState.Run;
+            }
+
             // 이동
             float x = _inputDir.x;
             float y = _inputDir.y;
@@ -90,18 +99,9 @@ public class PlayerController : MonoBehaviour
             _tempVector = _tempVector * Time.deltaTime * _moveSpeed;
             transform.position += _tempVector;
             // 회전
-            /*
-            if (playerStat.Job == Job.Cyborg.ToString() && _isSkill1 == true)
-            {
-                transform.rotation = Quaternion.LookRotation(_tempDir.normalized);
-            }
-            else
-            */
-            {
-                _tempDir = new Vector3(x, 0, y);
-                _tempDir = Vector3.RotateTowards(transform.forward, _tempDir, Time.deltaTime * _rotationSpeed, 0);
-                transform.rotation = Quaternion.LookRotation(_tempDir.normalized);
-            }
+            _tempDir = new Vector3(x, 0, y);
+            _tempDir = Vector3.RotateTowards(transform.forward, _tempDir, Time.deltaTime * _rotationSpeed, 0);
+            transform.rotation = Quaternion.LookRotation(_tempDir.normalized);
         }
-    }
+    } // end Move()
 }

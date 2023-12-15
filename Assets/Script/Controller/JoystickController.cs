@@ -57,7 +57,7 @@ public class JoystickController : MonoBehaviour, IBeginDragHandler, IDragHandler
     // 조이스틱 움직이는 함수
     public void ControlJoystickLever(PointerEventData eventData)
     {
-        Vector2 inputPos = eventData.position - (rectTransform.anchoredPosition * 4) - new Vector2(20, 20);
+        Vector2 inputPos = eventData.position;
         Vector2 inputVector = inputPos.magnitude < leverRange ? inputPos : inputPos.normalized * leverRange;
         lever.anchoredPosition = inputVector;
         inputDirection = inputVector / leverRange;
@@ -66,8 +66,15 @@ public class JoystickController : MonoBehaviour, IBeginDragHandler, IDragHandler
     public Vector2 InputControlVector()
     {
         _joystickState = JoystickState.InputTrue;
-        // Debug.Log("조이스틱 : " + inputDirection);
+        //Debug.Log("조이스틱 : " + inputDirection);
         return inputDirection;
     }
 
+    // 걷는지 뛰는지 inputPos.magnitude로 판별
+    // inputPos.magnitude < 0.25 : 걷는 상태
+    // inputPos.magnitude > 0.25 : 뛰는 상태
+    public void WalkOrRun(float magnitude)
+    {
+        //
+    }
 }
