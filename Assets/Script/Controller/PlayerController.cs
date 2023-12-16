@@ -5,16 +5,22 @@ using static Define;
 
 public class PlayerController : MonoBehaviour
 {
+    // JoystickController 에서 받아온 direction 값
     protected Vector2 _inputDir;
     protected Vector3 _tempVector;
     protected Vector3 _tempDir;
 
+    // 카메라 오브젝트
+    public Camera _camera;
+
+    // 캐릭터 상태
     public CreatureState _creatureState;
 
     public float _moveSpeed;
     public float _rotationSpeed;
-    public float _rollSpeed;
-    public float _autoMoveSpeed;
+    //public float _rollSpeed;
+    //public float _autoMoveSpeed;
+    public bool _walkOrRun;         // 걸으면 true 뛰면 false
 
     public Animator _animator;
 
@@ -26,20 +32,23 @@ public class PlayerController : MonoBehaviour
     // 캐릭터 상태에 따라 함수 실행 & 애니메이션 실행
     void Update()
     {
-        switch (_creatureState)
+        switch(_creatureState)
         {
             case CreatureState.Idle:
                 Idle();
-                //_animator.SetInteger();
+                //_animator.SetInteger("" , );
                 break;
             case CreatureState.Move:
                 Move();
+                // 걷기면 앞의 int, 뛰기면 뒤의 int로 animation 설정
+                //int tempAniInt = _walkOrRun ? 00 : 00;
+                //_animator.SetInteger("" , tempAniInt);
                 break;
             case CreatureState.Attack:
-                //_animator.SetInteger();
+                //_animator.SetInteger("", );
                 break;
             case CreatureState.Dead:
-                //_animator.SetInteger();
+                //_animator.SetInteger("", );
                 break;
             /*
             */
@@ -52,8 +61,9 @@ public class PlayerController : MonoBehaviour
     {
         _moveSpeed = 7.0f;
         _rotationSpeed = 10f;
-        _rollSpeed = 10.0f;
+        //_rollSpeed = 10.0f;
         _creatureState = CreatureState.Idle;
+        _walkOrRun = true;
        // _animator = GetComponent<Animator>();
     }
 
@@ -75,21 +85,23 @@ public class PlayerController : MonoBehaviour
         }
         _inputDir = GameManager.Ui._joyStickController.inputDirection;
         //Debug.Log("플레이어 : " + _inputDir);
-        Debug.Log("_inputDir.magnitude : " + _inputDir.magnitude);
+        //Debug.Log("_inputDir.magnitude : " + _inputDir.magnitude);
         bool isMove = _inputDir.magnitude != 0;
         //if (GameManager.Ui._joyStickController._joystickState == JoystickState.InputTrue)
         if (isMove)
         {
             // 걷는지 뛰는지 lever 길이로 상태 판별
-            if(_inputDir.magnitude < 2.5f)
+            if(_inputDir.magnitude < 0.25f)
             {
                 // Walk
-                _creatureState = CreatureState.Walk;
+                Debug.Log("walk");
+                _walkOrRun = true;
             }
             else
             {
                 // Run
-                _creatureState = CreatureState.Run;
+                Debug.Log("run");
+                _walkOrRun = false;
             }
 
             // 이동
@@ -97,11 +109,52 @@ public class PlayerController : MonoBehaviour
             float y = _inputDir.y;
             _tempVector = new Vector3(x, 0, y);
             _tempVector = _tempVector * Time.deltaTime * _moveSpeed;
+            // 벽이나 가구에 부딪히면 움직임 x 
+            if(CheckHitSturcture(_tempVector))
+            {
+                _tempVector = Vector3.zero;
+            }
             transform.position += _tempVector;
             // 회전
-            _tempDir = new Vector3(x, 0, y);
-            _tempDir = Vector3.RotateTowards(transform.forward, _tempDir, Time.deltaTime * _rotationSpeed, 0);
+            //_tempDir = new Vector3(x, 0, y);
+            _tempDir = new Vector3( _camera.transform.position.x - x, 0, _camera.transform.position.y - y);
+            //_tempDir = Vector3.RotateTowards(transform.forward, _tempDir, Time.deltaTime * _rotationSpeed, 0);
+            _tempDir = Vector3.RotateTowards(transform.forward, new Vector3(x, 0, y), Time.deltaTime * _rotationSpeed, 0);
             transform.rotation = Quaternion.LookRotation(_tempDir.normalized);
         }
     } // end Move()
+
+    // 구조물에 부딪혔을 때 체크하는 함수
+    bool CheckHitSturcture(Vector3 movement)
+    {
+        // 움직임에 대한 로컬 벡터를 월드 벡터로 변환해준다.
+        movement = transform.TransformDirection(movement);
+        // scope로 ray 충돌을 확인할 범위를 지정할 수 있다.
+        float scope = 1f;
+
+        // 플레이어의 머리, 가슴, 발 총 3군데에서 ray를 쏜다.
+        List<Vector3> rayPositions = new List<Vector3>();
+        rayPositions.Add(transform.position + Vector3.up * 0.1f);
+        rayPositions.Add(transform.position + Vector3.up * transform.GetComponent<CapsuleCollider>().height * 0.5f);
+        rayPositions.Add(transform.position + Vector3.up * transform.GetComponent<CapsuleCollider>().height);
+
+        // 디버깅을 위해 ray를 화면에 그린다.
+        foreach(Vector3 pos in rayPositions)
+        {
+            Debug.DrawRay(pos, movement * scope, Color.red);
+        }
+
+        // ray와 벽의 충돌을 확인한다.
+        foreach(Vector3 pos in rayPositions)
+        {
+            if(Physics.Raycast(pos, movement, out RaycastHit hit, scope))
+            {
+                if(hit.collider.CompareTag("Structure"))
+                    Debug.Log("hit");
+                    return true;
+            }
+        }
+        Debug.Log("walking");
+        return false;
+    }
 }

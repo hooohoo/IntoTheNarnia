@@ -91,6 +91,8 @@
     <Compile Include="Assets\Asset\3D\Vintage Interactive Radio\Scripts\ToggleSwitch.cs" />
     <Compile Include="Assets\Script\Data\Stat\MonsterStat.cs" />
     <Compile Include="Assets\Script\Manager\ResourceManager.cs" />
+    <Compile Include="Assets\Asset\Particle\Andtech\Star Pack\Samples\Star Pack Demo\Scripts\ActivateDepthRendering.cs" />
+    <Compile Include="Assets\Asset\Particle\Andtech\Star Pack\Samples\Star Pack Demo\Scripts\Spin.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -120,6 +122,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Asset\Particle\Andtech\Star Pack\Runtime\Shaders\Particle Standard Glow.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
@@ -842,6 +845,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Andtech.StarPack.Editor.csproj">
+      <Project>{700F9F22-8273-62C4-C4EE-0A1180B34A2B}</Project>
+      <Name>Andtech.StarPack.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
