@@ -71,6 +71,7 @@
     <Compile Include="Assets\Script\Manager\ByTeacher\Character.cs" />
     <Compile Include="Assets\Asset\3D\RunemarkStudio\DarkFantasyKit [Free]\Readme\Parts\Readme.cs" />
     <Compile Include="Assets\Script\Manager\FieldManager.cs" />
+    <Compile Include="Assets\Asset\Particle\Andtech\Star Pack\Samples\Star Pack Demo\Scripts\Spin.cs" />
     <Compile Include="Assets\Script\Controller\LoadingController.cs" />
     <Compile Include="Assets\Script\Controller\JoystickController.cs" />
     <Compile Include="Assets\Script\Manager\UiManager.cs" />
@@ -81,6 +82,7 @@
     <Compile Include="Assets\Script\Data\Save\Test.cs" />
     <Compile Include="Assets\Script\Scene\Title.cs" />
     <Compile Include="Assets\Script\Data\Stat\Main.cs" />
+    <Compile Include="Assets\Asset\Particle\Andtech\Star Pack\Samples\Star Pack Demo\Scripts\ActivateDepthRendering.cs" />
     <Compile Include="Assets\Script\Manager\SceneManagerEx.cs" />
     <Compile Include="Assets\Script\Manager\ByTeacher\SingleTon.cs" />
     <Compile Include="Assets\Asset\3D\Vintage Interactive Radio\Scripts\TunerKnob.cs" />
@@ -91,8 +93,6 @@
     <Compile Include="Assets\Asset\3D\Vintage Interactive Radio\Scripts\ToggleSwitch.cs" />
     <Compile Include="Assets\Script\Data\Stat\MonsterStat.cs" />
     <Compile Include="Assets\Script\Manager\ResourceManager.cs" />
-    <Compile Include="Assets\Asset\Particle\Andtech\Star Pack\Samples\Star Pack Demo\Scripts\ActivateDepthRendering.cs" />
-    <Compile Include="Assets\Asset\Particle\Andtech\Star Pack\Samples\Star Pack Demo\Scripts\Spin.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -795,11 +795,11 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Polybrush.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Polybrush.Editor.dll</HintPath>
