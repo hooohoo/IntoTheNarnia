@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3358412}
   - component: {fileID: 2389662}
   - component: {fileID: 6429052}
+  - component: {fileID: -2110839566908199735}
   m_Layer: 0
   m_Name: stone_half_gate
   m_TagString: Untagged
@@ -100,3 +101,16 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 4739f2b2df0e3a74fbf722c2197004c2, type: 3}
+--- !u!65 &-2110839566908199735
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164862}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6, y: 6.0276523, z: 2.6281943}
+  m_Center: {x: -3.000001, y: 2.9861748, z: -0.015081525}

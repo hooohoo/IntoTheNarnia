@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
 
     public void Init()
     {
-        _moveSpeed = 7.0f;
+        _moveSpeed = 5.0f;
         _rotationSpeed = 10f;
         //_rollSpeed = 10.0f;
         _creatureState = CreatureState.Idle;
@@ -112,7 +112,7 @@ public class PlayerController : MonoBehaviour
             // 벽이나 가구에 부딪히면 움직임 x 
             if(CheckHitSturcture(_tempVector))
             {
-                _tempVector = Vector3.zero;
+               //_tempVector = Vector3.zero;
             }
             transform.position += _tempVector;
             // 회전

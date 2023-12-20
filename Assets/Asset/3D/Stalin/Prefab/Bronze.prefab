@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4000014244416558}
   - component: {fileID: 33000013987829780}
   - component: {fileID: 23000010759147590}
+  - component: {fileID: -5025391758389916196}
   m_Layer: 0
   m_Name: Bronze
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-5025391758389916196
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011190539784}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.19339813, y: 0.10715016, z: 0.2946726}
+  m_Center: {x: 0, y: -0.0130579965, z: 0.147466}

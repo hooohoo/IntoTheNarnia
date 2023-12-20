@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33985116663101896}
   - component: {fileID: 23852700452529564}
   - component: {fileID: 64882613659105632}
+  - component: {fileID: -5106499468665299684}
   m_Layer: 0
   m_Name: dfk_chair_01
   m_TagString: Untagged
@@ -98,3 +99,16 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300006, guid: f45ff85542c24e34f9284a22210bb7bf, type: 3}
+--- !u!65 &-5106499468665299684
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338609483781932}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6050836, y: 1.3213705, z: 0.64628613}
+  m_Center: {x: 0, y: 0.6452845, z: -0.028178588}

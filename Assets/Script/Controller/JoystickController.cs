@@ -25,7 +25,6 @@ public class JoystickController : MonoBehaviour, IBeginDragHandler, IDragHandler
         _joystickState = JoystickState.InputFalse;
     }
 
-    // Update is called once per frame
     private void Update()
     {
         if (_joystickState == JoystickState.InputTrue)
@@ -68,13 +67,5 @@ public class JoystickController : MonoBehaviour, IBeginDragHandler, IDragHandler
         _joystickState = JoystickState.InputTrue;
         //Debug.Log("Á¶ÀÌ½ºÆ½ : " + inputDirection);
         return inputDirection;
-    }
-
-    // °È´ÂÁö ¶Ù´ÂÁö inputPos.magnitude·Î ÆÇº°
-    // inputPos.magnitude < 0.25 : °È´Â »óÅÂ
-    // inputPos.magnitude > 0.25 : ¶Ù´Â »óÅÂ
-    public void WalkOrRun(float magnitude)
-    {
-        //
     }
 }
