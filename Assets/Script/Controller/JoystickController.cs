@@ -18,16 +18,20 @@ public class JoystickController : MonoBehaviour, IBeginDragHandler, IDragHandler
     private float leverRange;
     // 레버 상태 확인용
     public JoystickState _joystickState;
-    // 레버 반지름
-    private float leverRadius;
     // 인풋 방향
     public Vector2 inputDirection;
+    // 조이스틱 캔버스
+    private Canvas _canvas;
     private void Awake()
     {
+        // Pan ract
         rectTransform = GetComponent<RectTransform>();
-        parentRectTransform = transform.parent.GetComponent<RectTransform>();
+        // Joystick 오브젝트
+        parentRectTransform = rectTransform.parent.GetComponent<RectTransform>();
+        // 레버 상태 초기값 false
         _joystickState = JoystickState.InputFalse;
-        leverRadius = rectTransform.sizeDelta.x * 0.5f;
+        // 조이스틱 캔버스에 값 담기, 현재 transform은 Pan
+        _canvas = parentRectTransform.GetComponent<Canvas>();
     }
 
     private void Update()
@@ -62,9 +66,16 @@ public class JoystickController : MonoBehaviour, IBeginDragHandler, IDragHandler
     // 조이스틱 움직이는 함수
     public void ControlJoystickLever(PointerEventData eventData)
     {
+        // 클릭(터치) 지점 임시 저장, 스크린 좌표
         Vector2 inputPos = eventData.position;
-        Vector2 inputVector = inputPos.magnitude < leverRange ? inputPos : inputPos.normalized * leverRange;
-        Debug.Log("inputVector : " + inputVector);
+        // 스크린 좌표에서 로컬 값으로 변경해서 담을 변수
+        Vector2 inputVector;
+        // 스크린 좌표(원점이 좌하단)에서 로컬 rect 값으로 out 값 담는 부분
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(rectTransform, inputPos, _canvas.worldCamera, out inputVector);
+        // 레버 범위 나갔을 때 범위 내 최댓값으로 벡터 설정
+        if(inputVector.magnitude > leverRange)
+            inputVector = inputVector.normalized * leverRange;
+        // 레버 위치 동기화
         lever.anchoredPosition = inputVector;
         inputDirection = inputVector / leverRange;
     }

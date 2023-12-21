@@ -151,7 +151,7 @@ public class PlayerController : MonoBehaviour
             {
                 if (hit.collider.CompareTag("Structure"))
                 {
-                    Debug.Log("hit : " + hit.transform.name);
+                    //Debug.Log("hit : " + hit.transform.name);
                     return true;
                 }
             }
