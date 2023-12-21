@@ -12,17 +12,22 @@ public class JoystickController : MonoBehaviour, IBeginDragHandler, IDragHandler
     [SerializeField]
     private RectTransform lever;
     private RectTransform rectTransform;
+    private RectTransform parentRectTransform;
     // 레버위치 조정용
     [SerializeField, Range(10, 150)]
     private float leverRange;
     // 레버 상태 확인용
     public JoystickState _joystickState;
+    // 레버 반지름
+    private float leverRadius;
     // 인풋 방향
     public Vector2 inputDirection;
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
+        parentRectTransform = transform.parent.GetComponent<RectTransform>();
         _joystickState = JoystickState.InputFalse;
+        leverRadius = rectTransform.sizeDelta.x * 0.5f;
     }
 
     private void Update()
@@ -42,6 +47,7 @@ public class JoystickController : MonoBehaviour, IBeginDragHandler, IDragHandler
     public void OnDrag(PointerEventData eventData)
     {
         ControlJoystickLever(eventData);
+        //Debug.Log("OnDrag-eventData.Position : " + eventData.position);
         _joystickState = JoystickState.InputTrue;
     }
     // 레버 드래그 끝
@@ -58,6 +64,7 @@ public class JoystickController : MonoBehaviour, IBeginDragHandler, IDragHandler
     {
         Vector2 inputPos = eventData.position;
         Vector2 inputVector = inputPos.magnitude < leverRange ? inputPos : inputPos.normalized * leverRange;
+        Debug.Log("inputVector : " + inputVector);
         lever.anchoredPosition = inputVector;
         inputDirection = inputVector / leverRange;
     }

@@ -112,7 +112,7 @@ public class PlayerController : MonoBehaviour
             // 벽이나 가구에 부딪히면 움직임 x 
             if(CheckHitSturcture(_tempVector))
             {
-               //_tempVector = Vector3.zero;
+               _tempVector = Vector3.zero;
             }
             transform.position += _tempVector;
             // 회전
@@ -149,9 +149,11 @@ public class PlayerController : MonoBehaviour
         {
             if(Physics.Raycast(pos, movement, out RaycastHit hit, scope))
             {
-                if(hit.collider.CompareTag("Structure"))
-                    Debug.Log("hit");
+                if (hit.collider.CompareTag("Structure"))
+                {
+                    Debug.Log("hit : " + hit.transform.name);
                     return true;
+                }
             }
         }
         Debug.Log("walking");

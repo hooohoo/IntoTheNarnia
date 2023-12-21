@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6173986637029339813}
   m_Layer: 0
   m_Name: egypt-pillar-tent-pole
-  m_TagString: Untagged
+  m_TagString: Structure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
