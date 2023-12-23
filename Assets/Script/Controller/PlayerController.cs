@@ -18,10 +18,10 @@ public class PlayerController : MonoBehaviour
 
     public float _moveSpeed;
     public float _rotationSpeed;
-    //public float _rollSpeed;
     //public float _autoMoveSpeed;
     public bool _walkOrRun;         // 걸으면 true 뛰면 false
 
+    // 애니메이터
     public Animator _animator;
 
     void Start()
@@ -36,13 +36,14 @@ public class PlayerController : MonoBehaviour
         {
             case CreatureState.Idle:
                 Idle();
-                //_animator.SetInteger("" , );
+                _animator.SetInteger("State" ,0);
                 break;
             case CreatureState.Move:
                 Move();
                 // 걷기면 앞의 int, 뛰기면 뒤의 int로 animation 설정
-                //int tempAniInt = _walkOrRun ? 00 : 00;
-                //_animator.SetInteger("" , tempAniInt);
+                int tempAniInt = _walkOrRun ? 2 : 3;
+                Debug.Log("walk or run : " + tempAniInt);
+                _animator.SetInteger("State" , tempAniInt);
                 break;
             case CreatureState.Attack:
                 //_animator.SetInteger("", );
@@ -61,10 +62,9 @@ public class PlayerController : MonoBehaviour
     {
         _moveSpeed = 5.0f;
         _rotationSpeed = 10f;
-        //_rollSpeed = 10.0f;
         _creatureState = CreatureState.Idle;
         _walkOrRun = true;
-       // _animator = GetComponent<Animator>();
+        _animator = GetComponent<Animator>();
     }
 
     protected void Idle()
@@ -156,7 +156,7 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
-        Debug.Log("walking");
+        //Debug.Log("walking");
         return false;
     }
 }
