@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
     public bool _walkOrRun;         // 걸으면 true 뛰면 false
 
     // 애니메이터
-    public Animator _animator;
+    private Animator _animator;
 
     void Start()
     {
@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
                 Move();
                 // 걷기면 앞의 int, 뛰기면 뒤의 int로 animation 설정
                 int tempAniInt = _walkOrRun ? 2 : 3;
-                Debug.Log("walk or run : " + tempAniInt);
+                //Debug.Log("walk or run : " + tempAniInt);
                 _animator.SetInteger("State" , tempAniInt);
                 break;
             case CreatureState.Attack:
@@ -91,16 +91,16 @@ public class PlayerController : MonoBehaviour
         if (isMove)
         {
             // 걷는지 뛰는지 lever 길이로 상태 판별
-            if(_inputDir.magnitude < 0.25f)
+            if(_inputDir.magnitude < 0.5f)
             {
                 // Walk
-                Debug.Log("walk");
+                //Debug.Log("walk");
                 _walkOrRun = true;
             }
             else
             {
                 // Run
-                Debug.Log("run");
+                //Debug.Log("run");
                 _walkOrRun = false;
             }
 
@@ -112,7 +112,7 @@ public class PlayerController : MonoBehaviour
             // 벽이나 가구에 부딪히면 움직임 x 
             if(CheckHitSturcture(_tempVector))
             {
-               _tempVector = Vector3.zero;
+               //_tempVector = Vector3.zero;
             }
             transform.position += _tempVector;
             // 회전
@@ -151,9 +151,10 @@ public class PlayerController : MonoBehaviour
             {
                 if (hit.collider.CompareTag("Structure"))
                 {
-                    //Debug.Log("hit : " + hit.transform.name);
+                    Debug.Log("hit : " + hit.transform.name);
                     return true;
                 }
+                Debug.Log("충돌 안함");
             }
         }
         //Debug.Log("walking");
