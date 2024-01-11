@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 33041015989944634}
   - component: {fileID: 23030848850315240}
   - component: {fileID: 64919853279396156}
-  - component: {fileID: -2860975096960480291}
   m_Layer: 0
   m_Name: door-house-simple
   m_TagString: Structure
@@ -99,16 +98,3 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: d8872fb8ebd4e49bcafef63ea253a523, type: 3}
---- !u!65 &-2860975096960480291
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1762766438536454}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.8999998, y: 2.1000001, z: 0.21999602}
-  m_Center: {x: 0.44999686, y: 1.15, z: -0.0000026002526}
