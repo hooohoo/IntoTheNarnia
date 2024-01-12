@@ -94,13 +94,13 @@ public class PlayerController : MonoBehaviour
             if(_inputDir.magnitude < 0.5f)
             {
                 // Walk
-                //Debug.Log("walk");
+                Debug.Log("walk");
                 _walkOrRun = true;
             }
             else
             {
                 // Run
-                //Debug.Log("run");
+                Debug.Log("run");
                 _walkOrRun = false;
             }
 
@@ -149,12 +149,12 @@ public class PlayerController : MonoBehaviour
         {
             if(Physics.Raycast(pos, movement, out RaycastHit hit, scope))
             {
-                if (hit.collider.CompareTag("Structure"))
+                if(hit.collider.CompareTag("Structure"))
                 {
-                    Debug.Log("hit : " + hit.transform.name);
+                    //Debug.Log("hit : " + hit.transform.name);
                     return true;
                 }
-                Debug.Log("충돌 안함");
+                //Debug.Log("충돌 안함");
             }
         }
         //Debug.Log("walking");
