@@ -7,6 +7,8 @@ public class UiManager
     // 조이스틱
     public JoystickController _joyStickController;
     public GameObject _joyStick;
+    // 시네머신
+    public CMCameraController _cmCamController;
 
     public void Init()
     {

@@ -3,6 +3,9 @@
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
 [Ll]ibrary/
+Library/
+/[Ll]ibrary/
+/Library/
 Temp/
 obj/
 Build/

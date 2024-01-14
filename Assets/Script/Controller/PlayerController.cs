@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     protected Vector3 _tempDir;
 
     // 카메라 오브젝트
-    public Camera _camera;
+    public GameObject _camera;
 
     // 캐릭터 상태
     public CreatureState _creatureState;
@@ -116,10 +116,10 @@ public class PlayerController : MonoBehaviour
             }
             transform.position += _tempVector;
             // 회전
-            //_tempDir = new Vector3(x, 0, y);
-            _tempDir = new Vector3( _camera.transform.position.x - x, 0, _camera.transform.position.y - y);
-            //_tempDir = Vector3.RotateTowards(transform.forward, _tempDir, Time.deltaTime * _rotationSpeed, 0);
-            _tempDir = Vector3.RotateTowards(transform.forward, new Vector3(x, 0, y), Time.deltaTime * _rotationSpeed, 0);
+            _tempDir = new Vector3(x, 0, y);
+            //_tempDir = new Vector3( _camera.transform.position.x - x, 0, _camera.transform.position.y - y);
+            _tempDir = Vector3.RotateTowards(transform.forward, _tempDir, Time.deltaTime * _rotationSpeed, 0);
+            //_tempDir = Vector3.RotateTowards(transform.forward, new Vector3(x, 0, y), Time.deltaTime * _rotationSpeed, 0);
             transform.rotation = Quaternion.LookRotation(_tempDir.normalized);
         }
     } // end Move()
