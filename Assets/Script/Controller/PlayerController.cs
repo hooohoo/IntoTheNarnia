@@ -119,7 +119,6 @@ public class PlayerController : MonoBehaviour
             _tempDir = new Vector3(x, 0, y);
             //_tempDir = new Vector3( _camera.transform.position.x - x, 0, _camera.transform.position.y - y);
             _tempDir = Vector3.RotateTowards(transform.forward, _tempDir, Time.deltaTime * _rotationSpeed, 0);
-            //_tempDir = Vector3.RotateTowards(transform.forward, new Vector3(x, 0, y), Time.deltaTime * _rotationSpeed, 0);
             transform.rotation = Quaternion.LookRotation(_tempDir.normalized);
         }
     } // end Move()
