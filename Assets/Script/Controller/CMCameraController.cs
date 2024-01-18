@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Cinemachine;
+using static Define;
 
 // 시네머신 컨트롤러
 public class CMCameraController : MonoBehaviour, IPointerClickHandler
@@ -19,6 +20,7 @@ public class CMCameraController : MonoBehaviour, IPointerClickHandler
         _camera = transform.GetComponent<CinemachineFreeLook>();
         // 일단 true로 설정
         viewChange = true;
+        // 클릭했을 때만 InputAxis 들어가도록
         CinemachineCore.GetInputAxis = ClickControl;
     }
 
@@ -29,12 +31,14 @@ public class CMCameraController : MonoBehaviour, IPointerClickHandler
 
     void Update()
     {
+        // 스크린 클릭중인지 체크
         CheckClickScreen();
     }
 
     // 마우스 클릭할 때만 시점 변경할 수 있도록 하는 함수
     public float ClickControl(string axis)
     {
+        // 마우스 좌클릭 하고 조이스틱 안눌렀을 때만
         if(Input.GetMouseButton(0) && viewChange)
         {
             return UnityEngine.Input.GetAxis(axis);
@@ -47,20 +51,20 @@ public class CMCameraController : MonoBehaviour, IPointerClickHandler
         Debug.Log("game object 이름 : " + eventData.pointerCurrentRaycast.gameObject.name);
     }
 
+    // 조이스틱 클릭하고있는 것인지 스크린 조작하는 것인지
     public void CheckClickScreen()
     {
-        RaycastHit hit;
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if(Input.GetMouseButtonDown(0))
+        // 만약 조이스틱 클릭한 상태라면
+        if(GameManager.Ui._joyStickController._joystickState == JoystickState.InputTrue)
         {
-            if(Physics.Raycast(ray, out hit))
-            {
-                Debug.Log("hit : " + hit.transform.gameObject.name);
-            }
+            // 시점 변경 false
+            viewChange = false;
         }
-        //if(Input.GetMouseButtonDown(0))
-        //{
-        //    Debug.Log("클릭 오브젝트 : " + EventSystem.current.currentSelectedGameObject.name);
-        //}
+        else
+        {
+            // 시점 변경 true
+            viewChange = true;
+        }
+        //Debug.Log("viewChange : " + viewChange);
     }
 }

@@ -94,13 +94,13 @@ public class PlayerController : MonoBehaviour
             if(_inputDir.magnitude < 0.5f)
             {
                 // Walk
-                Debug.Log("walk");
+                //Debug.Log("walk");
                 _walkOrRun = true;
             }
             else
             {
                 // Run
-                Debug.Log("run");
+                //Debug.Log("run");
                 _walkOrRun = false;
             }
 
@@ -117,7 +117,10 @@ public class PlayerController : MonoBehaviour
             transform.position += _tempVector;
             // È¸Àü
             _tempDir = new Vector3(x, 0, y);
-            //_tempDir = new Vector3( _camera.transform.position.x - x, 0, _camera.transform.position.y - y);
+            float thisPosX = transform.position.x;
+            float thisPosY = transform.position.y;
+            Vector3 camPos = new Vector3(_camera.transform.position.x, 0, _camera.transform.position.y);
+            //_tempDir = new Vector3( _camera.transform.position.x - thisPosX - x, 0, _camera.transform.position.y - thisPosY - y);
             _tempDir = Vector3.RotateTowards(transform.forward, _tempDir, Time.deltaTime * _rotationSpeed, 0);
             transform.rotation = Quaternion.LookRotation(_tempDir.normalized);
         }
