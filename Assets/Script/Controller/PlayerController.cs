@@ -12,6 +12,9 @@ public class PlayerController : MonoBehaviour
 
     // 카메라 오브젝트
     public GameObject _camera;
+    Vector3 _faceDirection;
+    // 카메라 각도
+    float _camerAngle;
 
     // 캐릭터 상태
     public CreatureState _creatureState;
@@ -32,7 +35,11 @@ public class PlayerController : MonoBehaviour
     // 캐릭터 상태에 따라 함수 실행 & 애니메이션 실행
     void Update()
     {
-        switch(_creatureState)
+        // 실시간으로 변경되는 카메라 앵글 구하기
+        GetCameraAngle();
+
+        //Debug.Log("camerAngle : " + camerAngle);
+        switch (_creatureState)
         {
             case CreatureState.Idle:
                 Idle();
@@ -46,10 +53,10 @@ public class PlayerController : MonoBehaviour
                 _animator.SetInteger("State" , tempAniInt);
                 break;
             case CreatureState.Attack:
-                //_animator.SetInteger("", );
+                //_animator.SetInteger("State", );
                 break;
             case CreatureState.Dead:
-                //_animator.SetInteger("", );
+                //_animator.SetInteger("State", );
                 break;
             /*
             */
@@ -88,7 +95,7 @@ public class PlayerController : MonoBehaviour
         //Debug.Log("_inputDir.magnitude : " + _inputDir.magnitude);
         bool isMove = _inputDir.magnitude != 0;
         //if (GameManager.Ui._joyStickController._joystickState == JoystickState.InputTrue)
-        if (isMove)
+        if(isMove)
         {
             // 걷는지 뛰는지 lever 길이로 상태 판별
             if(_inputDir.magnitude < 0.5f)
@@ -109,57 +116,23 @@ public class PlayerController : MonoBehaviour
             float y = _inputDir.y;
             _tempVector = new Vector3(x, 0, y);
             _tempVector = _tempVector * Time.deltaTime * _moveSpeed;
-            // 벽이나 가구에 부딪히면 움직임 x 
-            if(CheckHitSturcture(_tempVector))
-            {
-               //_tempVector = Vector3.zero;
-            }
-            transform.position += _tempVector;
+            // 월드 기준 이동
+            //transform.position += _tempVector;
+            // 카메라를 바라보는 방향으로 이동
+            transform.Translate(_tempVector, _camera.transform);
             // 회전
             _tempDir = new Vector3(x, 0, y);
-            float thisPosX = transform.position.x;
-            float thisPosY = transform.position.y;
-            Vector3 camPos = new Vector3(_camera.transform.position.x, 0, _camera.transform.position.y);
-            //_tempDir = new Vector3( _camera.transform.position.x - thisPosX - x, 0, _camera.transform.position.y - thisPosY - y);
+            // 카메라 기준 정면
+            _tempDir = Quaternion.Euler(0, _camerAngle, 0) * _tempDir;
             _tempDir = Vector3.RotateTowards(transform.forward, _tempDir, Time.deltaTime * _rotationSpeed, 0);
             transform.rotation = Quaternion.LookRotation(_tempDir.normalized);
         }
     } // end Move()
 
-    // 구조물에 부딪혔을 때 체크하는 함수
-    bool CheckHitSturcture(Vector3 movement)
+    // 카메라가 바라보는 방향 구하는 함수(월드 기준)
+    public void GetCameraAngle()
     {
-        // 움직임에 대한 로컬 벡터를 월드 벡터로 변환해준다.
-        movement = transform.TransformDirection(movement);
-        // scope로 ray 충돌을 확인할 범위를 지정할 수 있다.
-        float scope = 1f;
-
-        // 플레이어의 머리, 가슴, 발 총 3군데에서 ray를 쏜다.
-        List<Vector3> rayPositions = new List<Vector3>();
-        rayPositions.Add(transform.position + Vector3.up * 0.1f);
-        rayPositions.Add(transform.position + Vector3.up * transform.GetComponent<CapsuleCollider>().height * 0.5f);
-        rayPositions.Add(transform.position + Vector3.up * transform.GetComponent<CapsuleCollider>().height);
-
-        // 디버깅을 위해 ray를 화면에 그린다.
-        foreach(Vector3 pos in rayPositions)
-        {
-            Debug.DrawRay(pos, movement * scope, Color.red);
-        }
-
-        // ray와 벽의 충돌을 확인한다.
-        foreach(Vector3 pos in rayPositions)
-        {
-            if(Physics.Raycast(pos, movement, out RaycastHit hit, scope))
-            {
-                if(hit.collider.CompareTag("Structure"))
-                {
-                    //Debug.Log("hit : " + hit.transform.name);
-                    return true;
-                }
-                //Debug.Log("충돌 안함");
-            }
-        }
-        //Debug.Log("walking");
-        return false;
+        _faceDirection = new Vector3(_camera.transform.forward.x, 0, _camera.transform.forward.z);
+        _camerAngle = Vector3.SignedAngle(Vector3.forward, _faceDirection, Vector3.up);
     }
 }
