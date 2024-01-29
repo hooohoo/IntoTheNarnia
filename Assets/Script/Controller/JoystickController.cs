@@ -12,7 +12,7 @@ public class JoystickController : MonoBehaviour, IBeginDragHandler, IDragHandler
     [SerializeField]
     private RectTransform lever;
     private RectTransform rectTransform;
-    private RectTransform parentRectTransform;
+    //private RectTransform parentRectTransform;
     // 레버위치 조정용
     [SerializeField, Range(10, 150)]
     private float leverRange;
@@ -27,11 +27,11 @@ public class JoystickController : MonoBehaviour, IBeginDragHandler, IDragHandler
         // Pan ract
         rectTransform = GetComponent<RectTransform>();
         // Joystick 오브젝트
-        parentRectTransform = rectTransform.parent.GetComponent<RectTransform>();
+        //parentRectTransform = rectTransform.GetComponent<RectTransform>();
         // 레버 상태 초기값 false
         _joystickState = JoystickState.InputFalse;
         // 조이스틱 캔버스에 값 담기, 현재 transform은 Pan
-        _canvas = parentRectTransform.GetComponent<Canvas>();
+        _canvas = GetComponentInParent<Canvas>();
     }
 
     private void Update()
