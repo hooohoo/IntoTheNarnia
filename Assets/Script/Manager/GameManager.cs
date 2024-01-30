@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     ResourceManager _resource = new ResourceManager();
     SceneManagerEx _scene = new SceneManagerEx();
     UiManager _ui = new UiManager();
+    ObjectManager _obj = new ObjectManager();
 
     // 매니저 인스턴스 getter
     public static ResourceManager Resource
@@ -35,7 +36,10 @@ public class GameManager : MonoBehaviour
     {
         get { return _instance._ui; }
     }
-
+    public static ObjectManager Obj
+    {
+        get { return _instance._obj; }
+    }
 
     void Awake()
     {

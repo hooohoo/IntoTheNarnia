@@ -30,4 +30,12 @@ public class Define
         InputFalse,
         InputTrue,
     }
+
+    public enum UIName
+    {
+        Joystick,
+        ActionButton,
+        SettingButton,
+        SettingWindow,
+    }
 }
