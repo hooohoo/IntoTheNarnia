@@ -37,5 +37,6 @@ public class Define
         ActionButton,
         SettingButton,
         SettingWindow,
+        MiniMap,
     }
 }

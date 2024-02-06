@@ -12,6 +12,9 @@ public class UiManager
     // 설정 버튼
     public GameObject _settingButton;
     public GameObject _settingWindow;
+    // 미니맵
+    public GameObject _miniMap;
+    public MiniMapController _miniMapController;
 
     public void Init()
     {
@@ -21,6 +24,8 @@ public class UiManager
         _settingWindow = _settingButton.transform.Find(Define.UIName.SettingWindow.ToString()).gameObject;
         // 설정 창 로드한 뒤 비활성화
         _settingWindow.SetActive(false);
+        // 미니맵 컨트롤러 스크립트
+        _miniMapController = _miniMap.GetComponent<MiniMapController>();
     }
 
     // 모든 UI 끄기

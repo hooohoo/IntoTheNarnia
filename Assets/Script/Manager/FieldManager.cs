@@ -40,6 +40,8 @@ public class FieldManager : MonoBehaviour
         GameManager.Ui._joyStick = GameManager.Obj.GetObjectByName(_uiList, Define.UIName.Joystick.ToString());
         // 세팅 버튼
         GameManager.Ui._settingButton = GameManager.Obj.GetObjectByName(_uiList, Define.UIName.SettingButton.ToString());
+        // 미니맵
+        GameManager.Ui._miniMap = GameManager.Obj.GetObjectByName(_uiList, Define.UIName.MiniMap.ToString());
     }
 
     // 씬 위에 올려져있는 UI 게임오브젝트 타입으로 갖고 있는 함수
