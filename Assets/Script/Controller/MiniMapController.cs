@@ -24,22 +24,21 @@ public class MiniMapController : MonoBehaviour
     void Update()
     {
         //Debug.Log("icon position : " + _playerIcon.transform.localPosition);
-       Debug.Log("normalizedPosition : " + _scrollRect.normalizedPosition);
+       //Debug.Log("normalizedPosition : " + _scrollRect.normalizedPosition);
         TryCalculate();
     }
 
     void TryCalculate()
     {
-        //Debug.Log("world x : " + _worldSize.x + " world y : " + _worldSize.z);
         Vector3 relativePos = _playerObject.transform.position - _plane.transform.position;
         //relativePos.x += 950f;
-        relativePos.x += 85f;
+        relativePos.x += _worldSize.x * 0.5f;
         //relativePos.z += 1069f * 0.5f;
-        relativePos.z += 46f;
+        relativePos.z += _worldSize.z * 0.5f;
         //Debug.Log("player 상대 위치 : " + relativePos);
         float playerX = Mathf.InverseLerp(0, _worldSize.x, relativePos.x);
         float playerY = Mathf.InverseLerp(0, _worldSize.z, relativePos.z);
-        Debug.Log("x : " + playerX + " y : " + playerY);
+        //Debug.Log("x : " + playerX + " y : " + playerY);
         _scrollRect.normalizedPosition = new Vector2(playerX, playerY);
     }
 }

@@ -27,9 +27,13 @@ public class PlayerController : MonoBehaviour
     // 애니메이터
     private Animator _animator;
 
+    // test code
+    Vector3 startPos;
+
     void Start()
     {
         Init();
+        startPos = transform.position;
     }
 
     // 캐릭터 상태에 따라 함수 실행 & 애니메이션 실행
@@ -39,6 +43,7 @@ public class PlayerController : MonoBehaviour
         GetCameraAngle();
 
         //Debug.Log("플레이어 위치 : " + transform.localPosition);
+        Debug.DrawLine(startPos, transform.position, Color.red);
 
         //Debug.Log("camerAngle : " + camerAngle);
         switch (_creatureState)
