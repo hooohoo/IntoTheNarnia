@@ -42,9 +42,6 @@ public class PlayerController : MonoBehaviour
         // 실시간으로 변경되는 카메라 앵글 구하기
         GetCameraAngle();
 
-        //Debug.Log("플레이어 위치 : " + transform.localPosition);
-        Debug.DrawLine(startPos, transform.position, Color.red);
-
         //Debug.Log("camerAngle : " + camerAngle);
         switch (_creatureState)
         {
@@ -132,13 +129,6 @@ public class PlayerController : MonoBehaviour
             _tempDir = Quaternion.Euler(0, _camerAngle, 0) * _tempDir;
             _tempDir = Vector3.RotateTowards(transform.forward, _tempDir, Time.deltaTime * _rotationSpeed, 0);
             transform.rotation = Quaternion.LookRotation(_tempDir.normalized);
-
-            // 미니맵 이동
-            float iconX = GameManager.Ui._miniMapController._scrollRect.normalizedPosition.x;
-            float iconY = GameManager.Ui._miniMapController._scrollRect.normalizedPosition.y;
-            iconX -= transform.localPosition.x;
-            iconY -= transform.localPosition.z;
-            //GameManager.Ui._miniMapController._scrollRect.normalizedPosition = new Vector2(iconX, iconY);
         }
     } // end Move()
 
