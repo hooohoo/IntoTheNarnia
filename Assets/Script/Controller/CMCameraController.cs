@@ -9,7 +9,7 @@ using static Define;
 public class CMCameraController : MonoBehaviour, IPointerClickHandler
 {
     // 이 스크립트 적용된 시네머신 카메라
-    CinemachineFreeLook _camera;
+    public CinemachineFreeLook _camera;
 
     // 시점 변경하기 위해 클릭한 것인지 체크하기 위한 변수(ex) UI 클릭하면 false)
     public bool viewChange;
@@ -17,7 +17,13 @@ public class CMCameraController : MonoBehaviour, IPointerClickHandler
     void Awake()
     {
         // 변수에 실제 카메라 넣어주기
-        _camera = transform.GetComponent<CinemachineFreeLook>();
+        _camera = GameManager.Camera._cmCam.GetComponent<CinemachineFreeLook>();
+        
+        // Follow 설정
+        _camera.Follow = GameManager.Obj._player.transform;
+        // Look At 설정
+        _camera.LookAt = GameManager.Obj._player.transform;
+        
         // 일단 true로 설정
         viewChange = true;
         // 클릭했을 때만 InputAxis 들어가도록

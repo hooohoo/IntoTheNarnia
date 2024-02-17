@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
     SceneManagerEx _scene = new SceneManagerEx();
     UiManager _ui = new UiManager();
     ObjectManager _obj = new ObjectManager();
+    CameraManager _camera = new CameraManager();
+    CreateManager _create = new CreateManager();
 
     // 매니저 인스턴스 getter
     public static ResourceManager Resource
@@ -39,6 +41,14 @@ public class GameManager : MonoBehaviour
     public static ObjectManager Obj
     {
         get { return _instance._obj; }
+    }
+    public static CameraManager Camera
+    {
+        get { return _instance._camera; }
+    }
+    public static CreateManager Create
+    {
+        get { return _instance._create; }
     }
 
     void Awake()

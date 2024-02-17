@@ -39,4 +39,35 @@ public class Define
         SettingWindow,
         MiniMap,
     }
+
+    public enum Parameter
+    {
+        State
+    }
+
+    public enum ObjectName
+    {
+        TheWardrobeRoomDoor,
+        TheSiblingsRoomDoor,
+    }
+
+    public enum CharacterName
+    {
+        Lucy,
+        Edmund,
+        Susan,
+        Peter,
+    }
+
+    public enum CameraName
+    {
+        CM_Camera
+    }
+
+    public enum TagName
+    {
+        Player,
+        Structure,
+        Monster,
+    }
 }

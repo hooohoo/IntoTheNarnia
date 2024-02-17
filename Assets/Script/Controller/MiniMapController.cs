@@ -23,6 +23,8 @@ public class MiniMapController : MonoBehaviour
         _scrollRect.normalizedPosition = new Vector2(0.5f, 0.5f);
         // Plane의 사이즈 가져옴
         _worldSize = _plane.transform.GetComponent<MeshCollider>().bounds.size;
+        // 플레이어 오브젝트 값 넣어줌
+        _playerObject = GameManager.Obj._player.gameObject;
     }
 
     void Update()

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 using static Define;
 
 public class PlayerController : MonoBehaviour
@@ -19,6 +20,8 @@ public class PlayerController : MonoBehaviour
 
     // 캐릭터 상태
     public CreatureState _creatureState;
+    // 캐릭터 이름
+    public string _characterName;
 
     public float _moveSpeed;
     public float _rotationSpeed;
@@ -26,14 +29,12 @@ public class PlayerController : MonoBehaviour
 
     // 애니메이터
     private Animator _animator;
-
-    // test code
-    Vector3 startPos;
+    // 애니메이터 파라미터
+    private string _animParameter;
 
     void Start()
     {
         Init();
-        startPos = transform.position;
     }
 
     // 캐릭터 상태에 따라 함수 실행 & 애니메이션 실행
@@ -47,19 +48,19 @@ public class PlayerController : MonoBehaviour
         {
             case CreatureState.Idle:
                 Idle();
-                _animator.SetInteger("State" ,0);
+                _animator.SetInteger(_animParameter ,0);
                 break;
             case CreatureState.Move:
                 Move();
                 // 걷기면 앞의 int 값, 뛰기면 뒤의 int 값으로 animation 설정
                 int tempAniInt = _walkOrRun ? 2 : 3;
-                _animator.SetInteger("State" , tempAniInt);
+                _animator.SetInteger(_animParameter, tempAniInt);
                 break;
             case CreatureState.Attack:
-                //_animator.SetInteger("State", );
+                //_animator.SetInteger(_animParameter, );
                 break;
             case CreatureState.Dead:
-                //_animator.SetInteger("State", );
+                //_animator.SetInteger(_animParameter, );
                 break;
             /*
             */
@@ -70,11 +71,20 @@ public class PlayerController : MonoBehaviour
 
     public void Init()
     {
+        // 카메라 넣어주기
+        //_camera = GameManager.Camera._cmCam;
+        // 시네머신 브레인 적용되어있는 메인카메라
+        _camera = Camera.main.gameObject;
+
+        // 상태 관련 변수
         _moveSpeed = 5.0f;
         _rotationSpeed = 10f;
         _creatureState = CreatureState.Idle;
         _walkOrRun = true;
+        
+        // 애니메이터
         _animator = GetComponent<Animator>();
+        _animParameter = Parameter.State.ToString();
     }
 
     protected void Idle()
@@ -137,5 +147,6 @@ public class PlayerController : MonoBehaviour
     {
         _faceDirection = new Vector3(_camera.transform.forward.x, 0, _camera.transform.forward.z);
         _camerAngle = Vector3.SignedAngle(Vector3.forward, _faceDirection, Vector3.up);
+        //Debug.Log("cameraAngle : " + _camerAngle);
     }
 }
