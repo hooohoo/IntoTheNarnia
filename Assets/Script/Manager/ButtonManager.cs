@@ -24,6 +24,6 @@ public class ButtonManager : MonoBehaviour
     // 액션 버튼
     public void ActionButton()
     {
-        //
+        GameManager.Ui._actionButtonController.DoActionOrDoAttack();
     }
 }

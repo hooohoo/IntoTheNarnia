@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4912126226030219987}
   - component: {fileID: 6005564906533267464}
   - component: {fileID: 5568148143606098523}
+  - component: {fileID: 1822182262494997378}
   m_Layer: 0
   m_Name: door-house-simple
   m_TagString: Structure
@@ -115,6 +116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _doorHandle: {fileID: 5209442310886780927}
+  _openOrNot: 0
 --- !u!65 &6005564906533267464
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -144,6 +146,26 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!95 &1822182262494997378
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762766438536454}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ec9f36317e2e6e64fac13da35fcb31df, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &5645948709065176238
 PrefabInstance:
   m_ObjectHideFlags: 0

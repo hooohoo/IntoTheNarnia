@@ -69,5 +69,6 @@ public class Define
         Player,
         Structure,
         Monster,
+        None,
     }
 }

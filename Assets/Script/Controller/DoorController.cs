@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static Define;
 
 // 문 열림/닫힘, 문 손잡이 컨트롤러
 // 액션버튼으로 컨트롤
@@ -18,7 +19,7 @@ public class DoorController : MonoBehaviour
     private string _animParameter;
 
     // 문 열림 or 닫힘
-    private bool _openOrNot;
+    public bool _openOrNot;
 
     void Start()
     {
@@ -43,10 +44,12 @@ public class DoorController : MonoBehaviour
     {
         // 디폴트는 잠김상태
         _openOrNot = false;
+        // 문 애니메이터 넣어주기
+        _doorAnimator = GetComponent<Animator>();
         // 문 손잡이 애니메이터 넣어주기
         _doorHandleAnimator = _doorHandle.GetComponent<Animator>();
         // 파라미터 변수 넣어주기, "State"
-        _animParameter = Define.Parameter.State.ToString();
+        _animParameter = Parameter.State.ToString();
     }
 
     // 문열기
@@ -82,8 +85,8 @@ public class DoorController : MonoBehaviour
         // 열림(State, 2) : 손잡이
         _doorHandleAnimator.SetInteger(_animParameter, 2);
         StartCoroutine("ReturnToIdle");
-        // 열림(State, ??) : 문
-        //_doorAnimator.SetInteger(_animParameter, );
+        // 열림(State, 1) : 문
+        _doorAnimator.SetInteger(_animParameter, 1);
     }
 
     // 손잡이 모션 이후 다시 Idle로 상태 전환하기 위한 코루틴
@@ -96,16 +99,26 @@ public class DoorController : MonoBehaviour
     }
 
     // 플레이어와 충돌체크
-    private void OnTriggerEnter(Collider collider)
+    private void OnTriggerStay(Collider collider)
     {
         // 플레이어 콜라이더와 충돌했을 때
-        if(collider.CompareTag(Define.TagName.Player.ToString()))
+        if(collider.CompareTag(TagName.Player.ToString()))
         {
             // 디버깅용
-            string msg = _openOrNot ? "열려있습니다." : "문 닫힘.";
-            Debug.Log(transform.name + " : " + msg);
-            // 액션버튼 태그에 Structure 넣기
-            GameManager.Ui._actionButtonController._verifyTag = Define.TagName.Structure;
+            //string msg = _openOrNot ? "열려있습니다." : "문 닫힘.";
+            //Debug.Log(transform.name + " : " + msg);
+            // 액션 버튼 태그에 Structure 넣기
+            GameManager.Ui._actionButtonController._verifyTag = TagName.Structure;
+            // 액션 버튼 컨트롤러에서 접근할 수 있도록 현재 문 넘겨주기
+            GameManager.Ui._actionButtonController._thisDoor = this;
         }
+    }
+
+    // 충돌 끝났을 때
+    private void OnTriggerExit(Collider collider)
+    {
+        // 태그 비워주기
+        GameManager.Ui._actionButtonController._verifyTag = TagName.None;
+        GameManager.Ui._actionButtonController._thisDoor = null;
     }
 }

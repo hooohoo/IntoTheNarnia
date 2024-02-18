@@ -43,6 +43,10 @@ public class ProfessorHouseMapManager : MonoBehaviour
         
         // 주요 오브젝트들 따로 저장하기
         CollectMainObject();
+
+        // TheWardrobeRoom, TheSiblingsRoom 열어두기
+        _theWardRobeRoomDoor._openOrNot = true;
+        _theSiblingsRoomDoor._openOrNot = true;
     }
 
     // 플레이어 생성 코드

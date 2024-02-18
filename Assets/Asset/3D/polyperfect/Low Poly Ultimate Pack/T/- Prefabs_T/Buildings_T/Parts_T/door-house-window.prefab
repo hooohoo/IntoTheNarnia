@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5737880640910967588}
   - component: {fileID: 914011489569062348}
   - component: {fileID: 2444269809135994472}
+  - component: {fileID: 6269833920950938055}
   m_Layer: 0
   m_Name: door-house-window
   m_TagString: Structure
@@ -115,6 +116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _doorHandle: {fileID: 6194756335485639549}
+  _openOrNot: 0
 --- !u!65 &914011489569062348
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -144,6 +146,26 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!95 &6269833920950938055
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273979623740558}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ec9f36317e2e6e64fac13da35fcb31df, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &6046621610399793196
 PrefabInstance:
   m_ObjectHideFlags: 0
