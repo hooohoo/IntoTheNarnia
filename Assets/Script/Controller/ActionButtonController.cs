@@ -33,7 +33,7 @@ public class ActionButtonController : MonoBehaviour
                 // 문열기, 잠겨있으면 잠긴 애니메이션
                 if(_thisDoor != null)
                 {
-                    _thisDoor.OpenDoor();
+                    _thisDoor.OpenAndCloseDoor();
                 }
                 // 끝났으면 태그 비워주기
                 _verifyTag = TagName.None;

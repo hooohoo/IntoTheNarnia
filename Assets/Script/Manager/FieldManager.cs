@@ -17,7 +17,7 @@ public class FieldManager : MonoBehaviour
     // 카메라들 담은 List
     private List<GameObject> _cameraList = new List<GameObject>();
 
-    // 플레이어 시작 위치
+    // 플레이어 생성될 위치 == 이 오브젝트 위치한 곳
     private Vector3 _startPos;
 
     void Awake()

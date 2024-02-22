@@ -18,8 +18,10 @@ public class DoorController : MonoBehaviour
     // 애니메이터 파라미터
     private string _animParameter;
 
+    // 잠금 장치 열림 or 잠김
+    public bool _openOrLocked;
     // 문 열림 or 닫힘
-    public bool _openOrNot;
+    public bool _openOrClose;
 
     void Start()
     {
@@ -42,8 +44,9 @@ public class DoorController : MonoBehaviour
     // 초기화
     private void Init()
     {
-        // 디폴트는 잠김상태
-        _openOrNot = false;
+        // 디폴트는 잠김, 닫힘 상태
+        _openOrLocked = false;
+        _openOrClose = false;
         // 문 애니메이터 넣어주기
         _doorAnimator = GetComponent<Animator>();
         // 문 손잡이 애니메이터 넣어주기
@@ -52,21 +55,37 @@ public class DoorController : MonoBehaviour
         _animParameter = Parameter.State.ToString();
     }
 
-    // 문열기
+    // 문열기, 닫기
     // 잠겨있으면 잠겨있다는 표시
-    public void OpenDoor()
+    public void OpenAndCloseDoor()
     {
-        // 열려있는지 확인
-        if(_openOrNot)
+        // 이미 열린 상태이면
+        if(_openOrClose)
+        {
+            // 문 닫기
+            CloseDoor();
+            _openOrClose = false;
+            return;
+        }
+        // 잠겨있는지 확인
+        if(_openOrLocked)
         {
             // 문열기
             ShowDoorOpen();
+            _openOrClose = true;
         }
         else
         {
             // 닫혀있습니다
             ShowDoorLocked();
         }
+    }
+
+    // 문 닫는 애니메이션
+    public void CloseDoor()
+    {
+        // open -> Idle
+        _doorAnimator.SetInteger(_animParameter, 0);
     }
 
     // 문잠김 상태 애니메이션 플레이(손잡이)

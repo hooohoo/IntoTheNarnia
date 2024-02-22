@@ -10,6 +10,8 @@ public class Define
         Title,
         Tutorial,
         Professor_House,
+        TheSiblingsRoom,
+        TheWardrobeRoom,
         LoadingScene
     }
 

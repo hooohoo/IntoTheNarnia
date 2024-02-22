@@ -7,7 +7,7 @@ public class Title : MonoBehaviour
     // 시작 버튼
     public void StartButton()
     {
-        GameManager.Scene.LoadScene(Define.SceneName.Professor_House.ToString());
+        GameManager.Scene.LoadScene(Define.SceneName.Professor_House);
     }
 
     // Continue 버튼

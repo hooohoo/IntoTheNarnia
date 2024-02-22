@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 // 카메라들 관리하는 클래스
 public class CameraManager
@@ -14,5 +15,7 @@ public class CameraManager
     {
         // 시네머신 컨트롤러
         _cmCamCotroller = _cmCam.GetComponent<CMCameraController>();
+        // 컨트롤러 Init()
+        _cmCamCotroller.Init();
     }
 }

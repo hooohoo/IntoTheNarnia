@@ -21,7 +21,7 @@ GameObject:
   m_TagString: Structure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4321685144267452
 Transform:
@@ -116,7 +116,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _doorHandle: {fileID: 5209442310886780927}
-  _openOrNot: 0
+  _openOrLocked: 0
+  _openOrClose: 0
 --- !u!65 &6005564906533267464
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -177,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorHandle
       objectReference: {fileID: 0}
+    - target: {fileID: 437368415295658833, guid: d5315fc6e6dd05b48b50e2904db15f2a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4651891959548993099, guid: d5315fc6e6dd05b48b50e2904db15f2a, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -233,6 +238,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6906231485963283697, guid: d5315fc6e6dd05b48b50e2904db15f2a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6906231485963283725, guid: d5315fc6e6dd05b48b50e2904db15f2a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.11
@@ -249,6 +258,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8a3ed6ace90c0ab4ca43e2820dce77aa, type: 2}
+    - target: {fileID: 6906231486859968507, guid: d5315fc6e6dd05b48b50e2904db15f2a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6906231487414167084, guid: d5315fc6e6dd05b48b50e2904db15f2a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.65
@@ -260,6 +273,10 @@ PrefabInstance:
     - target: {fileID: 6906231487414167084, guid: d5315fc6e6dd05b48b50e2904db15f2a, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6906231487414167087, guid: d5315fc6e6dd05b48b50e2904db15f2a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4499838846477413593, guid: d5315fc6e6dd05b48b50e2904db15f2a, type: 3}

@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LoadingScene.unity
     guid: 7b6bc7a880b2c75469f9b19cf3f38f27
+  - enabled: 1
+    path: Assets/Scenes/TheSiblingsRoom.unity
+    guid: a8d86ab07f909a344bd8d08fee6d1f11
+  - enabled: 1
+    path: Assets/Scenes/TheWardrobeRoom.unity
+    guid: b25302f9ef8a9f745a7c6323cadb5c7f
   m_configObjects: {}

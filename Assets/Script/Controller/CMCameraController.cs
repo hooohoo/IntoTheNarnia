@@ -11,34 +11,34 @@ public class CMCameraController : MonoBehaviour, IPointerClickHandler
     // 이 스크립트 적용된 시네머신 카메라
     public CinemachineFreeLook _camera;
 
+    // 통과 막는 투명한 오브젝트
+    public GameObject _hiddenBarrier;
+
     // 시점 변경하기 위해 클릭한 것인지 체크하기 위한 변수(ex) UI 클릭하면 false)
     public bool viewChange;
-
-    void Awake()
-    {
-        // 변수에 실제 카메라 넣어주기
-        _camera = GameManager.Camera._cmCam.GetComponent<CinemachineFreeLook>();
-        
-        // Follow 설정
-        _camera.Follow = GameManager.Obj._player.transform;
-        // Look At 설정
-        _camera.LookAt = GameManager.Obj._player.transform;
-        
-        // 일단 true로 설정
-        viewChange = true;
-        // 클릭했을 때만 InputAxis 들어가도록
-        CinemachineCore.GetInputAxis = ClickControl;
-    }
-
-    void Start()
-    {
-        //
-    }
+    
+    void Start(){}
 
     void Update()
     {
         // 스크린 클릭중인지 체크
         CheckClickScreen();
+    }
+
+    // 초기화, CameraManager에서 사용
+    public void Init()
+    {
+        // CinemachineFreeLook 컴포넌트를 _camera 변수에 넣어주기
+        _camera = GameManager.Camera._cmCam.GetComponent<CinemachineFreeLook>();
+        // Follow 설정
+        _camera.Follow = GameManager.Obj._player.transform;
+        // Look At 설정
+        _camera.LookAt = GameManager.Obj._player.transform;
+
+        // 일단 true로 설정
+        viewChange = true;
+        // 클릭했을 때만 InputAxis 들어가도록
+        CinemachineCore.GetInputAxis = ClickControl;
     }
 
     // 마우스 클릭할 때만 시점 변경할 수 있도록 하는 함수

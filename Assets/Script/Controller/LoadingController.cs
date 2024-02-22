@@ -15,7 +15,7 @@ public class LoadingController : MonoBehaviour
     Image _LoadingProgressIMG;
 
     // 로딩 변수
-    AsyncOperation _Operation;
+    private AsyncOperation _Operation;
 
     void Start()
     {
