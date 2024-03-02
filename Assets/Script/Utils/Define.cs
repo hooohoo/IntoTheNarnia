@@ -51,6 +51,7 @@ public class Define
     {
         TheWardrobeRoomDoor,
         TheSiblingsRoomDoor,
+        Everything,
     }
 
     public enum CharacterName
