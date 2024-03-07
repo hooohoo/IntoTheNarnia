@@ -8,6 +8,11 @@ public class ObjectManager
     // 플레이어
     public PlayerController _player;
 
+    // 퀘스트에 필요한 오브젝트 들
+    // ProfessorHouse 씬 관련 오브젝트
+    public DoorController _theWardrobeRoomDoor;
+    public DoorController _theSiblingsRoomDoor;
+
     // 이름으로 검색해서 GameObject 반환하는 함수
     public GameObject GetObjectByName(List<GameObject> list, string objName)
     {

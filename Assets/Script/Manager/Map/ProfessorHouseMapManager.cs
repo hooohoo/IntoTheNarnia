@@ -9,10 +9,11 @@ public class ProfessorHouseMapManager : MonoBehaviour
     // 씬 내부에 있는 문 리스트
     private DoorController[] _doorList;
 
+    // -- 아래 변수들은 ObjectManager로 관리하도록 변경
     // 옷장있는 방 문(오브젝트 : "TheWardrobeRoomDoor")
-    private DoorController _theWardrobeRoomDoor;
+    //private DoorController _theWardrobeRoomDoor;
     // 사형제 방 문(오브젝트 : "TheSiblingsRoomDoor")
-    private DoorController _theSiblingsRoomDoor;
+    //private DoorController _theSiblingsRoomDoor;
 
     // 포탈
     // SiblingsRoom 으로 이동하는 포탈
@@ -44,8 +45,8 @@ public class ProfessorHouseMapManager : MonoBehaviour
         CollectMainObject();
 
         // TheWardrobeRoom, TheSiblingsRoom 잠가두기, 퀘스트 진행할 때 열 것
-        _theWardrobeRoomDoor._openOrLocked = false;
-        _theSiblingsRoomDoor._openOrLocked = false;
+        GameManager.Obj._theWardrobeRoomDoor._openOrLocked = false;
+        GameManager.Obj._theSiblingsRoomDoor._openOrLocked = false;
 
         // 포탈에 씬 연결해두기
         _theSiblingsRoomPortal._linkedScene = SceneName.TheSiblingsRoom;
@@ -60,12 +61,12 @@ public class ProfessorHouseMapManager : MonoBehaviour
             // 옷장 방 문 저장
             if(one.name.Equals(ObjectName.TheWardrobeRoomDoor.ToString()))
             {
-                _theWardrobeRoomDoor = one;
+                GameManager.Obj._theWardrobeRoomDoor = one;
             }
             // 사형제 방 문 저장
             if(one.name.Equals(ObjectName.TheSiblingsRoomDoor.ToString()))
             {
-                _theSiblingsRoomDoor = one;
+                GameManager.Obj._theSiblingsRoomDoor = one;
             }
         }
     }// end CollectMainObject()
@@ -73,16 +74,16 @@ public class ProfessorHouseMapManager : MonoBehaviour
     // Professor_House 에서 진행할 퀘스트
     // 1. 형제방(TheSiblingsRoom) 찾아가기
     // 2. 숨바꼭질하면서 옷장있는 방(TheWardrobeRoom) 들어가기
-    private void Quest_1()
+    public void Quest_1()
     {
         // #1
         // 형제방 잠금 해제
-        _theSiblingsRoomDoor._openOrLocked = true;
+        GameManager.Obj._theSiblingsRoomDoor._openOrLocked = true;
         // 성공했을 때 탈출하도록
         while(!GameManager.Quest._successOrNot)
         {
             // 형제방(TheSiblingsRoom) 문 열리면 퀘스트 성공
-            if(_theSiblingsRoomDoor._openOrClose)
+            if(GameManager.Obj._theSiblingsRoomDoor._openOrClose)
             {
                 // 성공메세지 UI로 바꿀 것
                 Debug.Log("첫 번째 퀘스트 성공!");
@@ -97,12 +98,12 @@ public class ProfessorHouseMapManager : MonoBehaviour
     {
         // #2
         // 옷장 방 잠금 해제
-        _theWardrobeRoomDoor._openOrLocked = true;
+        GameManager.Obj._theWardrobeRoomDoor._openOrLocked = true;
         // 성공했을 때 탈출하도록
         while(!GameManager.Quest._successOrNot)
         {
             // 옷장 방(TheWardRobeRoom) 문 열리면 퀘스트 성공
-            if(_theWardrobeRoomDoor._openOrClose)
+            if(GameManager.Obj._theWardrobeRoomDoor._openOrClose)
             {
                 // 성공메세지 UI로 바꿀 것
                 Debug.Log("첫 번째 퀘스트 성공!");
