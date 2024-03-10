@@ -30,10 +30,17 @@ public class ActionButtonController : MonoBehaviour
         {
             // 구조물일 경우, 현재는 문
             case TagName.Structure:
-                // 문열기, 잠겨있으면 잠긴 애니메이션
+                // null 체크
                 if(_thisDoor != null)
                 {
+                    // 문열기, 잠겨있으면 잠긴 애니메이션
                     _thisDoor.OpenAndCloseDoor();
+                    // 잠겨있는 문이 아닐 때만 지나갈 수 있도록
+                    if(_thisDoor._openOrLocked)
+                    {
+                        // navmesh 영역 walkable로 변경
+                        GameManager.Quest.OpenDoor(_thisDoor.name);
+                    }
                 }
                 // 끝났으면 태그 비워주기
                 _verifyTag = TagName.None;

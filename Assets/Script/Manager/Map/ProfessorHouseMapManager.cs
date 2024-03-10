@@ -25,14 +25,31 @@ public class ProfessorHouseMapManager : MonoBehaviour
     {
         // 초기화
         Init();
-
-        // 퀘스트 여기서 하면 안됨... 위치 찾아야, Save랑 연동하기
-        //Quest_1();
     }
 
     void Update()
     {
-        //
+        // 디버그
+        Debug.Log("현재 퀘스트 레벨 : " + QuestManager.QuestLevel);
+        // 퀘스트
+        switch(QuestManager.QuestLevel)
+        {
+            // 시작하자마자 퀘스트 레벨 +1
+            case 0:
+                // UI 모두 끄고 튜토리얼 시작
+                GameManager.Ui.AllUIOff();
+                GameManager.Quest.QuestLevelUp();
+                break;
+            case 1:
+                Quest_1();
+                break;
+            case 2:
+                Quest_2();
+                break;
+            default:
+                Debug.Log("현재 맵에서 진행할 퀘스트가 없습니다.");
+                break;
+        }
     }
 
     // 초기화
@@ -79,8 +96,8 @@ public class ProfessorHouseMapManager : MonoBehaviour
         // #1
         // 형제방 잠금 해제
         GameManager.Obj._theSiblingsRoomDoor._openOrLocked = true;
-        // 성공했을 때 탈출하도록
-        while(!GameManager.Quest._successOrNot)
+        // 퀘스트 성공 아니면 들어와서 실행
+        if(!GameManager.Quest._successOrNot)
         {
             // 형제방(TheSiblingsRoom) 문 열리면 퀘스트 성공
             if(GameManager.Obj._theSiblingsRoomDoor._openOrClose)
@@ -90,8 +107,13 @@ public class ProfessorHouseMapManager : MonoBehaviour
                 GameManager.Quest._successOrNot = true;
             }
         }
-        // 다음 퀘스트를 위해 false로 재설정
-        GameManager.Quest._successOrNot = false;
+        else
+        {
+            // 성공하면 다음 퀘스트를 위해 false로 재설정
+            GameManager.Quest._successOrNot = false;
+            // 퀘스트 레벨 +1
+            GameManager.Quest.QuestLevelUp();
+        }
     }
 
     private void Quest_2()
@@ -100,17 +122,23 @@ public class ProfessorHouseMapManager : MonoBehaviour
         // 옷장 방 잠금 해제
         GameManager.Obj._theWardrobeRoomDoor._openOrLocked = true;
         // 성공했을 때 탈출하도록
-        while(!GameManager.Quest._successOrNot)
+        if(!GameManager.Quest._successOrNot)
         {
             // 옷장 방(TheWardRobeRoom) 문 열리면 퀘스트 성공
             if(GameManager.Obj._theWardrobeRoomDoor._openOrClose)
             {
                 // 성공메세지 UI로 바꿀 것
-                Debug.Log("첫 번째 퀘스트 성공!");
+                Debug.Log("두 번째 퀘스트 성공!");
                 GameManager.Quest._successOrNot = true;
             }
         }
-        // 다음 퀘스트를 위해 false로 재설정
-        GameManager.Quest._successOrNot = false;
+        else
+        {
+            // 다음 퀘스트를 위해 false로 재설정
+            GameManager.Quest._successOrNot = false;
+            // 퀘스트 레벨 +1
+            GameManager.Quest.QuestLevelUp();
+        }
+        
     }
 }

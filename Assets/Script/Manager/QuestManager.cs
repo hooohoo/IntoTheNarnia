@@ -9,7 +9,7 @@ public class QuestManager
 {
     // 퀘스트 레벨
     // 플레이어 저장 파일에서 가져오기
-    private int _questLevel;
+    private static int _questLevel;
 
     // 플레이어 네비메시 에이전트 컴포넌트
     private NavMeshAgent _playerNavmeshAgent;
@@ -19,6 +19,11 @@ public class QuestManager
     // 성공여부 확인하는 변수, 성공은 true 실패는 false
     public bool _successOrNot;
 
+    // _questLevel Getter
+    public static int QuestLevel
+    {
+        get { return _questLevel; }
+    }
     // 초기화
     public void Init()
     {
@@ -41,12 +46,12 @@ public class QuestManager
     }
 
     // 열려야 하는 문 가져와서 해당 영역 AreaMask에 추가하는 함수
-    // Define.ObjectName 타입으로 가져옴
-    public void OpenDoor(Define.ObjectName objName)
+    // string 타입으로 가져옴
+    public void OpenDoor(string objName)
     {
         // Area Mask에 더해줌 == 플레이어가 다닐 수 있는 영역으로 설정
         // GetAreaFromName("Everything") 은 모든 영역으로 설정
-        _areaMask += 1 << NavMesh.GetAreaFromName(objName.ToString());
+        _areaMask += 1 << NavMesh.GetAreaFromName(objName);
         _playerNavmeshAgent.areaMask = _areaMask;
     }
 }

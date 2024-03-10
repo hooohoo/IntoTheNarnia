@@ -66,6 +66,8 @@ public class FieldManager : MonoBehaviour
         GameManager.Ui._actionButton = GameManager.Obj.GetObjectByName(_uiList, UIName.ActionButton.ToString());
         // 미니맵
         GameManager.Ui._miniMap = GameManager.Obj.GetObjectByName(_uiList, UIName.MiniMap.ToString());
+        // 대화창
+        GameManager.Ui._messageBox = GameManager.Obj.GetObjectByName(_uiList, UIName.MessageBox.ToString());
     }// end PutUIObjectToUiManager()
 
     // Camera 매니저에 오브젝트 넘겨주는 함수

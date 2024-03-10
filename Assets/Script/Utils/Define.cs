@@ -40,6 +40,7 @@ public class Define
         SettingButton,
         SettingWindow,
         MiniMap,
+        MessageBox,
     }
 
     public enum Parameter
