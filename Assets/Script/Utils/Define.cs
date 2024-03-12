@@ -61,6 +61,9 @@ public class Define
         Edmund,
         Susan,
         Peter,
+        ProfessorDigoryKirke,
+        MrsMacready,
+        System,
     }
 
     public enum CameraName
