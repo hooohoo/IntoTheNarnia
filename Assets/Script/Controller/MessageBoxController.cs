@@ -20,4 +20,18 @@ public class MessageBoxController : MonoBehaviour
     {
         //
     }
+
+    // 이름 칸에 텍스트 넣는 함수
+    public void SetNameBoxText(string newText)
+    {
+        // 매개변수로 받아온 string 넣기
+        _nameText.text = newText;
+    }
+
+    // 대사 칸 텍스트 넣는 함수
+    public void SetContentsBoxText(string newText)
+    {
+        // 매개변수로 받아온 string 넣기
+        _contentsText.text = newText;
+    }
 }

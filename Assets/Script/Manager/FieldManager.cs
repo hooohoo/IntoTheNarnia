@@ -53,6 +53,7 @@ public class FieldManager : MonoBehaviour
         GameManager.Ui.Init();
         GameManager.Camera.Init();
         GameManager.Quest.Init();
+        GameManager.FileIO.Init();
     }// end ManagerInit()
 
     // UI 매니저에 오브젝트 넘겨주는 함수

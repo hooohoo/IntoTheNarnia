@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     CameraManager _camera = new CameraManager();
     CreateManager _create = new CreateManager();
     QuestManager _quest = new QuestManager();
+    FileIOManager _fileIO = new FileIOManager();
 
     // 매니저 인스턴스 getter
     public static ResourceManager Resource
@@ -54,6 +55,10 @@ public class GameManager : MonoBehaviour
     public static QuestManager Quest
     {
         get { return _instance._quest; }
+    }
+    public static FileIOManager FileIO
+    {
+        get { return _instance._fileIO; }
     }
 
     void Awake()

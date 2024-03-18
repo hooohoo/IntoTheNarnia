@@ -21,6 +21,11 @@ public class ProfessorHouseMapManager : MonoBehaviour
     // WardrobeRoom 으로 이동하는 포탈
     public NextMapController _theWardrobeRoomPortal;
 
+    // 이 씬에서 사용하는 대사 관련 정보들 리스트
+    private List<CharacterLineClass> _characterLineList;
+    // 대사만
+    private string[] _onlyLines;
+
     void Start()
     {
         // 초기화
@@ -38,6 +43,19 @@ public class ProfessorHouseMapManager : MonoBehaviour
             case 0:
                 // UI 모두 끄고 튜토리얼 시작
                 GameManager.Ui.AllUIOff();
+                // 루시 독백
+                GameManager.Ui._messageBox.SetActive(true);
+                // 이름 칸에 string 넣기
+                GameManager.Ui._messageController.SetNameBoxText(_characterLineList[0]._CharacterName);
+                // 대사만 담고
+                _onlyLines = _characterLineList[0]._Line.Split(",");
+                // 코루틴 필요...
+                foreach(string one in _onlyLines)
+                {
+                    // 대사 칸에 string 넣기
+                    GameManager.Ui._messageController.SetContentsBoxText(one);
+                }
+                // 퀘스트 레벨 업
                 GameManager.Quest.QuestLevelUp();
                 break;
             case 1:
@@ -68,6 +86,10 @@ public class ProfessorHouseMapManager : MonoBehaviour
         // 포탈에 씬 연결해두기
         _theSiblingsRoomPortal._linkedScene = SceneName.TheSiblingsRoom;
         _theWardrobeRoomPortal._linkedScene = SceneName.TheWardrobeRoom;
+
+        // 대사 리스트 담기(해당 씬은 0 ~ 1)
+        _characterLineList.Add(GameManager.Obj._characterLineList[0]);
+        _characterLineList.Add(GameManager.Obj._characterLineList[1]);
     }
 
     // _doorList에서 핵심 오브젝트 빼서 정리하기

@@ -13,6 +13,10 @@ public class ObjectManager
     public DoorController _theWardrobeRoomDoor;
     public DoorController _theSiblingsRoomDoor;
 
+    // 퀘스트 데이터
+    // 캐릭터 대사
+    public List<CharacterLineClass> _characterLineList;
+
     // 이름으로 검색해서 GameObject 반환하는 함수
     public GameObject GetObjectByName(List<GameObject> list, string objName)
     {

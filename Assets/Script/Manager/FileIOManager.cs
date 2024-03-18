@@ -5,35 +5,40 @@ using System.IO;
 using System.Text;
 using static Define;
 
-public class FileIOManager : MonoBehaviour
+public class FileIOManager
 {
-    void Start()
-    {
-        CreateFile();
-    }
+    private CharacterLineClass _questData = new CharacterLineClass();
+    // Split 하고 생긴 여러 개의 CharacterLineClass 객체 담을 Array
+    private string[] _questDataArr; 
+    // QuestData 파일에서 가져온 Json 객체 각각 담을 List(CharacterLineClass 타입)
+    private List<CharacterLineClass> _questDataList = new List<CharacterLineClass>();
+    
 
-    void Update()
+    public void Init()
     {
-        //
+        // Json 로드하면 _questDataList에 담김
+        LoadQuestJson();
+        // 위에서 담은 _questDataList를 ObjectManager 변수에 옮겨담음
+        GameManager.Obj._characterLineList = _questDataList;
     }
 
     public void CreateFile()
     {
         CharacterLineClass messagePackage_1 = new CharacterLineClass();
-        messagePackage_1.questLevel = 1;
-        messagePackage_1.sceneName = SceneName.Professor_House.ToString();
-        messagePackage_1.characterName = CharacterName.Lucy.ToString();
-        messagePackage_1.line += "'이 곳으로 피난 온 지 벌써 일주일째.',";
-        messagePackage_1.line += "'평화롭고 아름다운 곳이지만 조금 심심해',";
-        messagePackage_1.line += "'Peter에게 놀아달라고 해야겠어!'";
+        messagePackage_1._QuestLevel = 1;
+        messagePackage_1._SceneName = SceneName.Professor_House.ToString();
+        messagePackage_1._CharacterName = CharacterName.Lucy.ToString();
+        messagePackage_1._Line += "'이 곳으로 피난 온 지 벌써 일주일째.',";
+        messagePackage_1._Line += "'평화롭고 아름다운 곳이지만 조금 심심해',";
+        messagePackage_1._Line += "'Peter에게 놀아달라고 해야겠어!'";
         CharacterLineClass messagePackage_2 = new CharacterLineClass();
-        messagePackage_2.questLevel = 1;
-        messagePackage_2.sceneName = SceneName.Professor_House.ToString();
-        messagePackage_2.characterName = CharacterName.System.ToString();
-        messagePackage_2.line += "'Peter는 2층 방에 있습니다. 찾아가보세요.'";
+        messagePackage_2._QuestLevel = 1;
+        messagePackage_2._SceneName = SceneName.Professor_House.ToString();
+        messagePackage_2._CharacterName = CharacterName.System.ToString();
+        messagePackage_2._Line += "'Peter는 2층 방에 있습니다. 찾아가보세요.'";
         CharacterLineClass messagePackage_3 = new CharacterLineClass();
-        messagePackage_3.characterName = CharacterName.Lucy.ToString();
-        messagePackage_3.line += "루시 대사3";
+        messagePackage_3._CharacterName = CharacterName.Lucy.ToString();
+        messagePackage_3._Line += "루시 대사3";
 
         string json;
         string fileName = SceneName.Professor_House.ToString() + "_1";
@@ -54,22 +59,37 @@ public class FileIOManager : MonoBehaviour
             fileStream.Write(data, 0, data.Length);
             fileStream.Close();
         }
+    }// end CreateFile()
+
+    public void LoadQuestJson()
+    {
+        string fileName = "QuestData";
+        // 경로
+        string path = Application.dataPath + "/Resources/Data/Message/" + fileName + ".json";
+
+        FileStream fileStream = new FileStream(path, FileMode.Open);
+        byte[] data = new byte[fileStream.Length];
+        fileStream.Read(data, 0, data.Length);
+        fileStream.Close();
+        string json = Encoding.UTF8.GetString(data);
+
+        // JsonUtility에 여러개의 {}{}{} 묶음을 꺼내서 변환하는 기능이 없으므로 직접 분리
+        SplitJson(json);
         
-    }
-}
+        for(int i = 0; i < _questDataArr.Length-1; i++)
+        {
+            //Debug.Log(_questDataArr[i]);
+            CharacterLineClass lineData = JsonUtility.FromJson<CharacterLineClass>(_questDataArr[i]);
+            _questDataList.Add(lineData);
+        }
+    }// end LoadQuestJson()
 
-[System.Serializable]
-public class CharacterLineClass
-{
-    [SerializeField]
-    public int questLevel;
-
-    [SerializeField]
-    public string sceneName;
-
-    [SerializeField]
-    public string characterName;
-
-    [SerializeField]
-    public string line;
+    public void SplitJson(string jsonSentence)
+    {
+        _questDataArr = jsonSentence.Split("}");
+        for(int i = 0; i < _questDataArr.Length - 1; i++)
+        {
+            _questDataArr[i] += "}";
+        }
+    }// end SplitJson()
 }
