@@ -22,7 +22,7 @@ public class ProfessorHouseMapManager : MonoBehaviour
     public NextMapController _theWardrobeRoomPortal;
 
     // 이 씬에서 사용하는 대사 관련 정보들 리스트
-    private List<CharacterLineClass> _characterLineList;
+    private List<CharacterLineClass> _characterLineList = new List<CharacterLineClass>();
     // 대사만
     private string[] _onlyLines;
 

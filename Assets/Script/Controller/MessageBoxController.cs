@@ -10,6 +10,8 @@ public class MessageBoxController : MonoBehaviour
     public Text _nameText;
     // 대사 칸 텍스트
     public Text _contentsText;
+    // 다음 대화 버튼
+    public Button _nextButton;
 
     void Start()
     {
@@ -33,5 +35,11 @@ public class MessageBoxController : MonoBehaviour
     {
         // 매개변수로 받아온 string 넣기
         _contentsText.text = newText;
+    }
+
+    // 다음 대화 버튼
+    public void PlayNextLine()
+    {
+        //
     }
 }
