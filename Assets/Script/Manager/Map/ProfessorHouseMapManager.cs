@@ -49,11 +49,12 @@ public class ProfessorHouseMapManager : MonoBehaviour
                 GameManager.Ui._messageController.SetNameBoxText(_characterLineList[0]._CharacterName);
                 // 대사만 담고
                 _onlyLines = _characterLineList[0]._Line.Split(",");
+                GameManager.Ui._messageController.SetContentsBoxText(_onlyLines);
                 // 코루틴 필요...
                 foreach(string one in _onlyLines)
                 {
                     // 대사 칸에 string 넣기
-                    GameManager.Ui._messageController.SetContentsBoxText(one);
+                    //GameManager.Ui._messageController.SetContentsBoxText(one);
                 }
                 // 퀘스트 레벨 업
                 GameManager.Quest.QuestLevelUp();
