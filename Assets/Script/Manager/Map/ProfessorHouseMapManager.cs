@@ -44,18 +44,17 @@ public class ProfessorHouseMapManager : MonoBehaviour
                 // UI 모두 끄고 튜토리얼 시작
                 GameManager.Ui.AllUIOff();
                 // 루시 독백
-                GameManager.Ui._messageBox.SetActive(true);
-                // 이름 칸에 string 넣기
-                GameManager.Ui._messageController.SetNameBoxText(_characterLineList[0]._CharacterName);
                 // 대사만 담고
                 _onlyLines = _characterLineList[0]._Line.Split(",");
-                GameManager.Ui._messageController.SetContentsBoxText(_onlyLines);
-                // 코루틴 필요...
-                foreach(string one in _onlyLines)
-                {
-                    // 대사 칸에 string 넣기
-                    //GameManager.Ui._messageController.SetContentsBoxText(one);
-                }
+                // SetMessageBox(이름, 대사[]);
+                GameManager.Ui._messageController.SetMessageBox(_characterLineList[0]._CharacterName, _onlyLines);
+
+                // 시스템 안내
+                _onlyLines = _characterLineList[1]._Line.Split(",");
+                //GameManager.Ui._messageController.SetMessageBox(_characterLineList[1]._CharacterName, _onlyLines);
+
+                // UI 모두 켜기
+                GameManager.Ui.AllUIOn();
                 // 퀘스트 레벨 업
                 GameManager.Quest.QuestLevelUp();
                 break;
