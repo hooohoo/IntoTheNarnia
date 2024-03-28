@@ -72,8 +72,17 @@ public class MessageBoxController : MonoBehaviour
         }
     }
 
+    // 다음 대화 버튼 함수에서 SpeekOneByOne()을 사용하기 위한 코루틴
+    public IEnumerator Speek()
+    {
+        // 한 글자씩 나오는 코루틴
+        _coTalking = StartCoroutine(SpeekOneByOne(_lineListQueue.Dequeue().ToCharArray()));
+        // PlayNextTime() 함수가 끝날 때까지 기다림
+        yield return new WaitUntil(() => PlayNextLine());
+    }
+
     // 다음 대화 버튼
-    public void PlayNextLine()
+    public bool PlayNextLine()
     {
         // 코루틴 실행중이면
         if(_coTalking != null)
@@ -87,11 +96,16 @@ public class MessageBoxController : MonoBehaviour
         {
             // 코루틴 시작, char[] 타입으로 넣어줌
             _coTalking = StartCoroutine(SpeekOneByOne(_lineListQueue.Dequeue().ToCharArray()));
+            //
+            //StartCoroutine(Speek());
         }
         else
         {
             // 남은 대사 없으면 종료
             GameManager.Ui._messageBox.SetActive(false);
         }
+
+        // 이 함수가 끝나는 시점(리턴하는 조건)이 코루틴 시작
+        return true;
     }
 }
