@@ -14,7 +14,7 @@ public class MessageBoxController : MonoBehaviour
     public Button _nextButton;
 
     // 남은 대사 모음
-    private Queue<string> _lineListQueue = new Queue<string>();
+    public Queue<string> _lineListQueue = new Queue<string>();
 
     // 코루틴 변수
     private Coroutine _coTalking;
@@ -58,7 +58,7 @@ public class MessageBoxController : MonoBehaviour
     }
 
     // 한 음절씩 끊어서 말하는 코루틴
-    private IEnumerator SpeekOneByOne(char[] lineSyllableArr)
+    public IEnumerator SpeekOneByOne(char[] lineSyllableArr)
     {
         // 이전 대사 초기화
         _contentsText.text = string.Empty;
@@ -72,17 +72,18 @@ public class MessageBoxController : MonoBehaviour
         }
     }
 
-    // 다음 대화 버튼 함수에서 SpeekOneByOne()을 사용하기 위한 코루틴
-    public IEnumerator Speek()
+    // SpeekOneByOne() 종료할 때까지 기다리기위해 만든 코루틴
+    public IEnumerator Wait()
     {
         // 한 글자씩 나오는 코루틴
-        _coTalking = StartCoroutine(SpeekOneByOne(_lineListQueue.Dequeue().ToCharArray()));
+        //_coTalking = StartCoroutine(SpeekOneByOne(_lineListQueue.Dequeue().ToCharArray()));
         // PlayNextTime() 함수가 끝날 때까지 기다림
-        yield return new WaitUntil(() => PlayNextLine());
+        //yield return StartCoroutine(SpeekOneByOne(lineSyllableArr));
+        yield return new WaitForEndOfFrame();
     }
 
     // 다음 대화 버튼
-    public bool PlayNextLine()
+    public void PlayNextLine()
     {
         // 코루틴 실행중이면
         if(_coTalking != null)
@@ -96,16 +97,15 @@ public class MessageBoxController : MonoBehaviour
         {
             // 코루틴 시작, char[] 타입으로 넣어줌
             _coTalking = StartCoroutine(SpeekOneByOne(_lineListQueue.Dequeue().ToCharArray()));
+            //_coTalking = StartCoroutine(SpeekALine(_lineListQueue.Dequeue().ToCharArray()));
             //
             //StartCoroutine(Speek());
         }
         else
         {
             // 남은 대사 없으면 종료
+            //StopCoroutine(_coTalking);
             GameManager.Ui._messageBox.SetActive(false);
         }
-
-        // 이 함수가 끝나는 시점(리턴하는 조건)이 코루틴 시작
-        return true;
     }
 }
