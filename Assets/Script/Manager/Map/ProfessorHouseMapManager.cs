@@ -52,8 +52,7 @@ public class ProfessorHouseMapManager : MonoBehaviour
                 // 시스템 안내
                 _onlyLines = _characterLineList[1]._Line.Split(",");
                 // 코루틴 시작 SetMessageBox()
-                GameManager.Ui._messageController.SetMessageBox(_characterLineList[1]._CharacterName, _onlyLines);
-
+                //GameManager.Ui._messageController.SetMessageBox(_characterLineList[1]._CharacterName, _onlyLines);
                 // UI 모두 켜기
                 GameManager.Ui.AllUIOn();
                 // 퀘스트 레벨 업
