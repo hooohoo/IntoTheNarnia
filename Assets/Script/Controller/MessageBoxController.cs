@@ -15,6 +15,8 @@ public class MessageBoxController : MonoBehaviour
 
     // 남은 대사 모음
     public Queue<string> _lineListQueue = new Queue<string>();
+    // 코루틴 큐
+    public Queue<IEnumerator> _coroutineQueue;
 
     // 코루틴 변수
     private Coroutine _coTalking;
@@ -30,6 +32,21 @@ public class MessageBoxController : MonoBehaviour
 
     // 메세지 박스 한번에 작동시키는 함수(이름, 대사[])
     public void SetMessageBox(string nameString, string[] lines)
+    {
+        // 대사 처음이니까 true
+        _conversationStart = true;
+        // 아직 다음 코루틴 가면 안됨
+        _isReady = false;
+
+        // UI MessageBox 활성화
+        GameManager.Ui._messageBox.SetActive(true);
+        // 이름 넣기
+        SetNameBoxText(nameString);
+        // 대사 넣기
+        SetContentsBoxText(lines);
+    }
+
+    public IEnumerator SetMessageBox(string nameString,, string[] lines)
     {
         // 대사 처음이니까 true
         _conversationStart = true;
