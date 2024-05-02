@@ -46,7 +46,7 @@ public class MessageBoxController : MonoBehaviour
         SetContentsBoxText(lines);
     }
 
-    public IEnumerator SetMessageBox(string nameString,, string[] lines)
+    public IEnumerator SetMessageBox_todo(string nameString, string[] lines)
     {
         // 대사 처음이니까 true
         _conversationStart = true;
@@ -59,6 +59,9 @@ public class MessageBoxController : MonoBehaviour
         SetNameBoxText(nameString);
         // 대사 넣기
         SetContentsBoxText(lines);
+
+        // 임시코드
+        yield return null;
     }
 
     // 이름 칸에 텍스트 넣는 함수
