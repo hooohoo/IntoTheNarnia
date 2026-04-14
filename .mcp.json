@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "serena": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/Users/leejae/Hoo/WorkSpace/chalk_4_game/serena",
+        "serena-mcp-server",
+        "--context=claude-code",
+        "--project",
+        "/Users/leejae/Hoo/WorkSpace/chalk_4_game"
+      ]
+    },
+    "mcp-gsheets": {
+      "command": "npx",
+      "args": ["-y", "mcp-gsheets@latest"],
+      "env": {
+        "GOOGLE_PROJECT_ID": "defaultproject-h",
+        "GOOGLE_APPLICATION_CREDENTIALS": "/Users/leejae/Hoo/Resources/GoogleService/defaultproject-h-3a12b02a6d25.json"
+      }
+    }
+  }
+}
