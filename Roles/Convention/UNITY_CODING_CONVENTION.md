@@ -1,12 +1,3 @@
-# Unity Coding Convention
+# 컨벤션 목차
 
-이 문서는 주제별로 분할되었습니다.
-
-- 공통: [CONVENTION.common.md](CONVENTION.common.md)
-- Manager: [CONVENTION.manager.md](CONVENTION.manager.md)
-- UI: [CONVENTION.ui.md](CONVENTION.ui.md)
-- Event: [CONVENTION.event.md](CONVENTION.event.md)
-- Data: [CONVENTION.data.md](CONVENTION.data.md)
-- Input: [CONVENTION.input.md](CONVENTION.input.md)
-
-검토는 `/convention` 커맨드 사용.
+[루트 컨벤션](../../UNITY_CODING_CONVENTION.md)을 기준으로 분야별 문서를 읽습니다.

@@ -1,0 +1,53 @@
+{
+  "removedPlanes": 34,
+  "changes": [
+    {
+      "rug": "Rug1",
+      "source": "Assets/Asset/3D/Azerilo/Free Rug Pack/Material/Material1.mat",
+      "material": "Assets/Scenes/Professor_House/Materials/ProfessorHouse_Rug1_Toned.mat",
+      "multiplier": 0.709803939
+    },
+    {
+      "rug": "Rug1 (1)",
+      "source": "Assets/Asset/3D/Azerilo/Free Rug Pack/Material/Material1.mat",
+      "material": "Assets/Scenes/Professor_House/Materials/ProfessorHouse_Rug1_Toned.mat",
+      "multiplier": 0.709803939
+    },
+    {
+      "rug": "Rug1 (3)",
+      "source": "Assets/Asset/3D/Azerilo/Free Rug Pack/Material/Material1.mat",
+      "material": "Assets/Scenes/Professor_House/Materials/ProfessorHouse_Rug1_Toned.mat",
+      "multiplier": 0.709803939
+    },
+    {
+      "rug": "Rug2",
+      "source": "Assets/Asset/3D/Azerilo/Free Rug Pack/Material/Material2.mat",
+      "material": "Assets/Scenes/Professor_House/Materials/ProfessorHouse_Rug2_Toned.mat",
+      "multiplier": 0.709803939
+    },
+    {
+      "rug": "Rug2 (1)",
+      "source": "Assets/Asset/3D/Azerilo/Free Rug Pack/Material/Material2.mat",
+      "material": "Assets/Scenes/Professor_House/Materials/ProfessorHouse_Rug2_Toned.mat",
+      "multiplier": 0.709803939
+    },
+    {
+      "rug": "Rug2 (2)",
+      "source": "Assets/Asset/3D/Azerilo/Free Rug Pack/Material/Material2.mat",
+      "material": "Assets/Scenes/Professor_House/Materials/ProfessorHouse_Rug2_Toned.mat",
+      "multiplier": 0.709803939
+    },
+    {
+      "rug": "Rug2 (3)",
+      "source": "Assets/Asset/3D/Azerilo/Free Rug Pack/Material/Material2.mat",
+      "material": "Assets/Scenes/Professor_House/Materials/ProfessorHouse_Rug2_Toned.mat",
+      "multiplier": 0.709803939
+    },
+    {
+      "rug": "Rug2 (4)",
+      "source": "Assets/Asset/3D/Azerilo/Free Rug Pack/Material/Material2.mat",
+      "material": "Assets/Scenes/Professor_House/Materials/ProfessorHouse_Rug2_Toned.mat",
+      "multiplier": 0.709803939
+    }
+  ]
+}

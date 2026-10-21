@@ -1,0 +1,150 @@
+{
+  "references": {
+    "missingScripts": 0,
+    "missingMeshes": 0,
+    "missingMaterials": 3,
+    "modifiedFilters": 2657,
+    "uvIssues": 0,
+    "paths": [
+      {
+        "destination": [
+          -44.8,
+          2.1,
+          25
+        ],
+        "sampled": true,
+        "calculated": true,
+        "status": "PathComplete"
+      },
+      {
+        "destination": [
+          -55.5,
+          4.5,
+          33.04
+        ],
+        "sampled": true,
+        "calculated": true,
+        "status": "PathComplete"
+      },
+      {
+        "destination": [
+          -33.2,
+          4.2,
+          33.9
+        ],
+        "sampled": true,
+        "calculated": true,
+        "status": "PathComplete"
+      }
+    ],
+    "materials": [
+      {
+        "path": "Assets/Scenes/Professor_House/Materials/ProfessorHouse_Rug1_Toned.mat",
+        "shader": "Legacy Shaders/Bumped Diffuse",
+        "supported": true,
+        "shaderErrors": false,
+        "texture": "Assets/Asset/3D/Azerilo/Free Rug Pack/Material/rugTexture1.png",
+        "normal": "",
+        "tint": 0.709803939
+      },
+      {
+        "path": "Assets/Scenes/Professor_House/Materials/ProfessorHouse_Rug2_Toned.mat",
+        "shader": "Legacy Shaders/Bumped Diffuse",
+        "supported": true,
+        "shaderErrors": false,
+        "texture": "Assets/Asset/3D/Azerilo/Free Rug Pack/Material/rugTexture2.png",
+        "normal": "",
+        "tint": 0.709803939
+      }
+    ],
+    "sceneDirty": true
+  },
+  "rugs": {
+    "removedPlanes": 34,
+    "tonedRugs": [
+      {
+        "rug": "Rug1",
+        "source": "Assets/Asset/3D/Azerilo/Free Rug Pack/Material/Material1.mat",
+        "material": "Assets/Scenes/Professor_House/Materials/ProfessorHouse_Rug1_Toned.mat",
+        "multiplier": 0.709803939
+      },
+      {
+        "rug": "Rug1 (1)",
+        "source": "Assets/Asset/3D/Azerilo/Free Rug Pack/Material/Material1.mat",
+        "material": "Assets/Scenes/Professor_House/Materials/ProfessorHouse_Rug1_Toned.mat",
+        "multiplier": 0.709803939
+      },
+      {
+        "rug": "Rug1 (3)",
+        "source": "Assets/Asset/3D/Azerilo/Free Rug Pack/Material/Material1.mat",
+        "material": "Assets/Scenes/Professor_House/Materials/ProfessorHouse_Rug1_Toned.mat",
+        "multiplier": 0.709803939
+      },
+      {
+        "rug": "Rug2",
+        "source": "Assets/Asset/3D/Azerilo/Free Rug Pack/Material/Material2.mat",
+        "material": "Assets/Scenes/Professor_House/Materials/ProfessorHouse_Rug2_Toned.mat",
+        "multiplier": 0.709803939
+      },
+      {
+        "rug": "Rug2 (1)",
+        "source": "Assets/Asset/3D/Azerilo/Free Rug Pack/Material/Material2.mat",
+        "material": "Assets/Scenes/Professor_House/Materials/ProfessorHouse_Rug2_Toned.mat",
+        "multiplier": 0.709803939
+      },
+      {
+        "rug": "Rug2 (2)",
+        "source": "Assets/Asset/3D/Azerilo/Free Rug Pack/Material/Material2.mat",
+        "material": "Assets/Scenes/Professor_House/Materials/ProfessorHouse_Rug2_Toned.mat",
+        "multiplier": 0.709803939
+      },
+      {
+        "rug": "Rug2 (3)",
+        "source": "Assets/Asset/3D/Azerilo/Free Rug Pack/Material/Material2.mat",
+        "material": "Assets/Scenes/Professor_House/Materials/ProfessorHouse_Rug2_Toned.mat",
+        "multiplier": 0.709803939
+      },
+      {
+        "rug": "Rug2 (4)",
+        "source": "Assets/Asset/3D/Azerilo/Free Rug Pack/Material/Material2.mat",
+        "material": "Assets/Scenes/Professor_House/Materials/ProfessorHouse_Rug2_Toned.mat",
+        "multiplier": 0.709803939
+      }
+    ],
+    "createdMaterials": 2,
+    "undoGroup": 105
+  },
+  "surfaces": {
+    "updatedMeshFilters": 2657,
+    "disabledRenderers": 1,
+    "undoGroup": 117,
+    "sceneDirty": true,
+    "lightmaps": 37
+  },
+  "screenshots": [
+    {
+      "source": "/Users/leejae/Hoo/WorkSpace/IntoTheNarnia/Temp/MCPSceneReview/screenshot-20260910-124928.png",
+      "name": "hall-before.png"
+    },
+    {
+      "source": "/Users/leejae/Hoo/WorkSpace/IntoTheNarnia/Temp/MCPSceneReview/screenshot-20260910-130211_1.png",
+      "name": "hall-after.png"
+    },
+    {
+      "source": "/Users/leejae/Hoo/WorkSpace/IntoTheNarnia/Temp/MCPSceneReview/screenshot-20260910-130038.png",
+      "name": "wainscoting-before.png"
+    },
+    {
+      "source": "/Users/leejae/Hoo/WorkSpace/IntoTheNarnia/Temp/MCPSceneReview/screenshot-20260910-130211.png",
+      "name": "wainscoting-after.png"
+    },
+    {
+      "source": "/Users/leejae/Hoo/WorkSpace/IntoTheNarnia/Temp/MCPSceneReview/screenshot-20260910-124929.png",
+      "name": "stairs-before.png"
+    },
+    {
+      "source": "/Users/leejae/Hoo/WorkSpace/IntoTheNarnia/Temp/MCPSceneReview/screenshot-20260910-130212.png",
+      "name": "stairs-after.png"
+    }
+  ]
+}

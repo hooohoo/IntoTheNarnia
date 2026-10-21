@@ -1,136 +1,32 @@
-# CLAUDE.md
+# IntoTheNarnia 작업 지침
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+## 읽는 순서
 
-## Project Overview
+README.md → ARCHITECTURE.md → UNITY_CODING_CONVENTION.md → 해당 Roles/Architecture 및 Roles/Convention 문서를 읽습니다. 전환 중에는 Docs/Architecture/Migration.md의 상태를 확인합니다. 사용자의 명시적 작업 지시가 문서의 일반 지침보다 우선합니다.
 
-Unity 프로젝트 (chalk_4_game) - Flutter 앱에 임베딩되는 교육용 3D 게임. 학습 콘텐츠를 은하/노드/블록 기반 헥스 그리드로 시각화하며, Flutter와 양방향 메시징으로 통신한다.
+## 프로젝트 기준
 
-- **Unity Version**: URP (Universal Render Pipeline) 14.x 기반
-- **Async**: UniTask 사용 (코루틴 사용 금지)
-- **주요 패키지**: Addressables, Cinemachine, TextMeshPro, Newtonsoft.Json, FlutterUnityIntegration
+Unity 2021.3.6f1, Built-in 렌더러, Cinemachine 2.8.9, 기존 Input Manager를 사용합니다. Flutter, Web bridge, HexGrid, URP 프로젝트가 아닙니다. 엔진·렌더러 교체는 구조 개편에 포함하지 않습니다. Resources 경로는 콘텐츠 계약이며 ResourceManager를 통해 접근합니다. Addressables는 현재 사용하지 않으며 이름만 다른 가짜 래퍼를 만들지 않습니다.
 
-## Build & Development
+현재 구조는 Assets/Script의 GameManager와 8개 일반 C# 서비스입니다. 목표 구조는 Assets/@Project 아래의 Framework, Manager, Scene, State, UI, Game, Data, Samples, Editor, Tests입니다. 전환 완료 여부는 코드와 검증 결과로 판단합니다.
 
-Unity Editor에서 직접 빌드. CLI 빌드 스크립트 없음.
+## 구현 원칙
 
-```bash
-# Solution 파일
-chalk_4_game.sln
+- FacadeManager에 매니저를 명시적으로 등록하고 [Singleton] 의존성을 주입합니다. 의존성 순서로 Init, 역순으로 Release합니다. 미등록·중복·순환 의존성은 즉시 오류로 처리합니다.
+- 일반 코드에서 Singleton.Instance를 직접 호출하지 않습니다. 런타임 부트스트랩과 직렬화 호환 어댑터만 예외입니다.
+- Initialize/Release의 소유자를 명확히 합니다. 컴포넌트의 Unity 수명주기를 연결하는 공통 기반 클래스와 씬 진입점만 Awake/OnEnable/OnDisable/OnDestroy를 사용합니다.
+- Update/FixedUpdate/LateUpdate, Coroutine, LINQ, 일반 람다를 사용하지 않습니다. 반복 작업은 취소 가능한 UniTask와 명시적인 프레임 수신 인터페이스로 처리합니다.
+- 상태는 게임 흐름과 입력 전략을, 화면은 UI 표시를 소유합니다. 상태에서 UI 계층을 검색하지 않습니다. 퀘스트 진행은 매 프레임 폴링 대신 이벤트로 전달합니다.
+- UI는 복잡도에 따라 Model/Presenter/View를 분리합니다. 단순 버튼·표시 컴포넌트는 Controller로 유지할 수 있습니다. 바인딩·입력·이벤트·비동기 작업은 재활성화와 파괴 시 정리합니다.
+- private 필드는 camelCase, 공개 API는 PascalCase, 비동기 메서드는 Async 접미사를 사용합니다. UTF-8/LF, 공백 4칸을 사용합니다.
+- 기존 직렬화 필드를 바꿀 때 FormerlySerializedAs를 붙이고 .meta GUID를 보존합니다. UnityEvent 메서드와 JSON 키는 명시적으로 호환합니다.
+- Find 계열은 씬 구성/바인딩 기반 코드에 한정합니다. 일반 코드의 Camera.main, 반복 GetComponent는 금지합니다. 캐시된 참조를 주입하거나 전달합니다.
+- 에셋은 .meta와 함께 이동합니다. 서드파티 코드는 임의로 재작성하지 않습니다. Resources 상대 경로, Animator의 State 파라미터, 태그·NavMesh Area 이름을 보존합니다.
 
-# 프로젝트 Assets 기준 경로
-Assets/@Project/
-```
+## 검증 및 Git
 
-## Architecture
+main이 통합 브랜치입니다. 기능 브랜치 → 검증 → 커밋 → push → PR → merge 순서를 사용합니다. 사용자에게 이미 승인받은 push/merge를 다시 확인하지 않습니다. 보호 규칙을 우회하거나 force push하지 않습니다. 커밋은 `type : 한글 설명` 형식이며 생성 도구 광고/Co-Authored-By를 추가하지 않습니다.
 
-### FacadeManager 기반 싱글톤 시스템
+코드 변경은 Unity 컴파일과 관련 EditMode/PlayMode 검증을 수행합니다. 씬 이동 시 Build Settings, GUID, 프리팹 참조, 라이트맵·NavMesh 의존성을 검사합니다. 실행하지 않은 검증을 통과했다고 쓰지 않습니다. SceneBackups는 원본 복원 및 이전 검증 증거이며 새 검증 결과와 구분합니다.
 
-`FacadeManager`가 16개의 `Singleton<T>` 매니저를 리플렉션(`[Singleton(typeof(...))]` 어트리뷰트)으로 수집하고, `DependencyResolver`가 Kahn's Algorithm 위상 정렬로 초기화 순서를 결정한다.
-
-**계층 구조:**
-```
-Presentation:  UIManager, LoadingManager
-Game Logic:    GameStateManager, HexGridManager, InputManager
-Core Service:  EventManager, GameSceneManager, CameraManager
-Data/Resource: DataManager, AddressableManager, ObjectManager, APIManager, SoundManager, FactoryManager
-Platform:      FlutterMessageManager (Flutter ↔ Unity Bridge), WebMessageManager (Web ↔ Unity Bridge)
-```
-
-**의존성 주입**: `[Singleton(typeof(T))]` 어트리뷰트 + `InjectUtil.InjectSingleton(this)` 패턴으로 매니저 간 참조를 주입.
-
-### 매니저 간 통신 3가지 방식
-1. **[Singleton] 직접 참조** - Init 시 어트리뷰트 기반 주입, 동기 호출
-2. **EventManager 이벤트** - `PostNotification<TEnum>()` / `OnEvent()` 간접 통신
-3. **AddressableManager 리소스** - 프리팹/에셋 비동기 로드
-
-### GameState FSM
-
-`GameStateManager`가 `IGameState` 구현체를 관리하는 상태 머신. 상태 전환 시 `EventManager`를 통해 `GameStateEvent` 발행.
-
-**상태 흐름**: Dashboard → Depth0 → Depth1 → Depth1.5 → Depth2 (auto→) Depth3
-
-**씬별 상태 등록**:
-- **Main 씬** (`Main.cs`): LobbyState, DashboardState, Depth1State, Depth1_5State, Depth1_5RestoreState, StyleRoomState
-- **Planet 씬** (`Planet.cs`): Depth2State, Depth3State, Depth2RestoreState
-
-### UI 3계층 시스템
-
-`UIManager`가 관리하는 3종류의 UI:
-- **UI_Scene** (sortOrder 0~99): Dictionary 캐싱, 고정 HUD
-- **UI_Popup** (sortOrder 100+): Stack(LIFO), +10씩 증가
-- **UI_Sub**: Queue 기반 오브젝트 풀링, 부모 UI 자동 연동
-
-모든 UI는 `UI_Base`를 상속하며, Addressable로 프리팹을 비동기 로드한다.
-
-### Data Layer - Provider 패턴
-
-`DataManager`(partial class 6파일)와 `APIManager`(partial class 4파일)가 인터페이스 기반 Provider로 데이터 소스를 추상화:
-- `IKnowledgeGraphProvider` → `JsonKnowledgeGraphProvider`
-- `IAvatarDataProvider` → `JsonAvatarDataProvider` / `ApiAvatarDataProvider`
-- `ITokenProvider` → `FlutterTokenProvider` / `MockTokenProvider`
-
-### Flutter ↔ Unity 통신
-
-`FlutterMessageManager`(partial class 3파일)가 Flutter와 JSON 메시지 기반 양방향 통신을 담당. `pendingRequests`에 `UniTaskCompletionSource`를 사용한 비동기 요청/응답 패턴.
-
-### Web ↔ Unity 통신
-
-`WebMessageManager`(partial class 3파일)가 Web(JavaScript)과 JSON 메시지 기반 양방향 통신을 담당. `U2WMessageType` 상수 + `U2WMessage<T>` 구조로 단방향 전송, `U2WRequest<T>` + `UniTaskCompletionSource`로 요청-응답 패턴 지원.
-
-## Project Structure
-
-```
-Assets/@Project/
-├── 00.Scenes/          # Unity 씬 파일
-├── 01.Scripts/
-│   ├── Base/           # 기반 클래스
-│   ├── Manager/
-│   │   ├── Facade/     # FacadeManager, DependencyResolver
-│   │   ├── Interface/  # IManager 등 매니저 인터페이스
-│   │   └── Manager/    # 15개 싱글톤 매니저 (partial class 포함)
-│   ├── Singleton/      # Singleton<T> 제네릭 베이스
-│   ├── Scene/          # 씬별 초기화 (Main.cs, Planet.cs) + Screen 클래스
-│   ├── UI/             # UI_Base, UI_Scene, UI_Popup, UI_Sub, Component
-│   ├── Game/           # HexGrid 게임 로직
-│   ├── Data/           # 데이터 모델, Provider 구현체
-│   ├── Enum/           # GameStateType, SceneEvent 등 열거형
-│   ├── Obj/Object/     # 게임 오브젝트 관련
-│   ├── Rendering/      # 렌더링 유틸리티
-│   └── Util/           # InjectUtil, 공통 유틸리티
-├── 02.Prefabs/
-├── 03.Sprites/
-├── 04.Materials/
-├── 05.Animations/
-├── 06.Data/            # JSON 데이터 파일
-├── 07.Sounds/
-└── 08.Fonts/
-```
-
-## Coding Convention (핵심 요약)
-
-자세한 내용은 `UNITY_CODING_CONVENTION.md` 참조.
-
-- **한 파일 = 한 클래스**, 파일명과 클래스명 동일
-- **private 필드**: camelCase (`_`, `m_` 접두어 금지)
-- **UI 클래스**: `UI_` 접두어 (예외적으로 언더바 허용)
-- **비동기 메서드**: `Async` 접미어, UniTask 사용
-- **상수**: `static readonly` 권장 (`const`보다 선호)
-- **Update()/FixedUpdate() 사용 금지** - UniTask 기반 루프 또는 `Initialize()` 메서드 사용
-- **Awake()/Start()**: 프레임워크/씬 초기화에만 허용, 일반 객체는 `Initialize()`
-- **람다식 사용 금지** (외부 라이브러리 호환 시에만 허용)
-- **LINQ 사용 금지** - foreach 반복문으로 직접 구현
-- **Camera.main 사용 금지** - CameraManager를 통해 접근
-- **델리게이트**: 해당 객체 내부에서만 사용, 외부 체인 연결 금지
-- **매직 넘버/스트링 금지** - 상수 클래스로 관리
-- **멤버 정렬**: 상수 → static → public → SerializeField → private → 프로퍼티 → Unity 콜백 → Initialize → public 메서드 → private 메서드 → Release
-
-## Architecture Review
-
-변경사항은 `ARCHITECTURE.md`의 계층 구조와 일치해야 한다. 매니저 간 의존성 추가 시 `[Singleton(typeof(...))]` 어트리뷰트를 정확히 설정하고, 순환 의존이 발생하지 않는지 확인할 것.
-
-## Git Conventions
-
-- **Main Branch**: `dev`
-- **커밋 메시지**: 한글, `feat:` / `fix:` / `refactor:` 등 타입 접두어 사용
-- **Co-Authored-By 문구 제거**: 커밋 메시지에 "Generated with Claude Code" 등의 자동생성 문구 포함하지 않음
+비밀 설정과 개인 인증 정보는 문서·로그에 출력하지 않습니다. .claude/settings.local.json의 실행 권한은 설계 규칙이 아닙니다.

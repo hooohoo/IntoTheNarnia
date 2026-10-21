@@ -1,0 +1,11 @@
+{
+  "checkedPairs": 13139,
+  "overlappingRegionsOverTolerance": 0,
+  "uncoveredRegionsOverTolerance": 0,
+  "areaTolerance": 5e-06,
+  "maxOverlapArea": 1.1063780931408473e-06,
+  "totalOverlapArea": 0.00017523799028240536,
+  "maxUncoveredArea": 2.721490311330399e-06,
+  "overlaps": [],
+  "holes": []
+}

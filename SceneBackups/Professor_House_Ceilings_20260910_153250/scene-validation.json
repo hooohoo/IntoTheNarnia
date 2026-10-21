@@ -1,0 +1,70 @@
+{
+  "changedTransforms": [
+    "@UI"
+  ],
+  "changedMeshes": [
+    "Environment/Floors/Ceillings/Ceiling_1st (1)",
+    "Environment/Floors/Ceillings/Ceiling_1st (2)",
+    "Environment/Floors/Ceillings/Ceiling_1st (3)"
+  ],
+  "changedMaterials": [],
+  "changedLightmaps": [],
+  "changedActivation": [],
+  "addedObjects": [],
+  "removedObjects": [],
+  "colliderMismatches": [],
+  "rayTests": [
+    {
+      "x": -30.15,
+      "z": 0.055,
+      "hits": [
+        "Ceiling_1st"
+      ]
+    },
+    {
+      "x": -61.6,
+      "z": 14.9,
+      "hits": [
+        "Ceiling_1st"
+      ]
+    },
+    {
+      "x": 1.7,
+      "z": -0.015,
+      "hits": [
+        "Ceiling_1st (1)"
+      ]
+    },
+    {
+      "x": -44.0,
+      "z": 15.0,
+      "hits": [
+        "Ceiling_1st"
+      ]
+    },
+    {
+      "x": -12.0,
+      "z": -3.0,
+      "hits": [
+        "Ceiling_1st (1)"
+      ]
+    },
+    {
+      "x": -67.0,
+      "z": 15.0,
+      "hits": [
+        "Ceiling_1st (2)"
+      ]
+    },
+    {
+      "x": 2.0,
+      "z": 10.0,
+      "hits": [
+        "Ceiling_1st (3)"
+      ]
+    }
+  ],
+  "lightmaps": 37,
+  "sceneDirty": true,
+  "geometry": "/Users/leejae/Hoo/WorkSpace/IntoTheNarnia/SceneBackups/Professor_House_Ceilings_20260910_153250/ceilings-after.json"
+}
