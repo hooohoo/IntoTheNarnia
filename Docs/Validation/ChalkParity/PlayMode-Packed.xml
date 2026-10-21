@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Passed" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-21 07:59:52Z" end-time="2026-10-21 07:59:55Z" duration="3.2707476">
+  <test-suite type="TestSuite" id="1000" name="IntoTheNarnia" fullname="IntoTheNarnia" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-21 07:59:52Z" end-time="2026-10-21 07:59:55Z" duration="3.270748" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1008" name="IntoTheNarnia.PlayModeTests.dll" fullname="VERIFICATION_COPY/Library/ScriptAssemblies/IntoTheNarnia.PlayModeTests.dll" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-21 07:59:52Z" end-time="2026-10-21 07:59:55Z" duration="3.268244" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="69493" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="AddressableLifecycleTests" fullname="AddressableLifecycleTests" classname="AddressableLifecycleTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-21 07:59:52Z" end-time="2026-10-21 07:59:52Z" duration="0.051488" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties>
+          <property name="platform" value="PlayMode" />
+        </properties>
+        <test-case id="1003" name="LeavingDuringPreloadDoesNotOverwriteReentry" fullname="AddressableLifecycleTests.LeavingDuringPreloadDoesNotOverwriteReentry" methodname="LeavingDuringPreloadDoesNotOverwriteReentry" classname="AddressableLifecycleTests" runstate="Runnable" seed="1722389906" result="Passed" start-time="2026-10-21 07:59:52Z" end-time="2026-10-21 07:59:52Z" duration="0.040803" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="platform" value="PlayMode" />
+          </properties>
+        </test-case>
+        <test-case id="1004" name="MissingLabelReleasesItsHandleAndAllowsRecovery" fullname="AddressableLifecycleTests.MissingLabelReleasesItsHandleAndAllowsRecovery" methodname="MissingLabelReleasesItsHandleAndAllowsRecovery" classname="AddressableLifecycleTests" runstate="Runnable" seed="415192460" result="Passed" start-time="2026-10-21 07:59:52Z" end-time="2026-10-21 07:59:52Z" duration="0.004725" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="platform" value="PlayMode" />
+          </properties>
+          <output><![CDATA[
+IgnoreFailingMessages:true
+UnityEngine.AddressableAssets.InvalidKeyException: Exception of type 'UnityEngine.AddressableAssets.InvalidKeyException' was thrown. No Location found for Key=MissingFeatureForFailureTest
+[AddressableManager] System.InvalidOperationException: Required label failed or is empty: MissingFeatureForFailureTest ---> UnityEngine.AddressableAssets.InvalidKeyException: Exception of type 'UnityEngine.AddressableAssets.InvalidKeyException' was thrown. No Location found for Key=MissingFeatureForFailureTest
+   --- End of inner exception stack trace ---
+  at AddressableManager.LoadBatchAsync[T] (AddressableManager+Batch batch) [0x00102] in VERIFICATION_COPY/Assets/@Project/01.Scripts/Manager/Manager/AddressableManager.cs:63 
+
+IgnoreFailingMessages:false
+]]></output>
+        </test-case>
+        <test-case id="1002" name="SharedLabelSurvivesUntilItsLastOwnerLeaves" fullname="AddressableLifecycleTests.SharedLabelSurvivesUntilItsLastOwnerLeaves" methodname="SharedLabelSurvivesUntilItsLastOwnerLeaves" classname="AddressableLifecycleTests" runstate="Runnable" seed="1563883297" result="Passed" start-time="2026-10-21 07:59:52Z" end-time="2026-10-21 07:59:52Z" duration="0.001360" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="platform" value="PlayMode" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1005" name="NarniaPlayModeTests" fullname="NarniaPlayModeTests" classname="NarniaPlayModeTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-21 07:59:52Z" end-time="2026-10-21 07:59:55Z" duration="3.216204" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties>
+          <property name="platform" value="PlayMode" />
+        </properties>
+        <test-case id="1007" name="DirectHouseEntryDoesNotRequireTitle" fullname="NarniaPlayModeTests.DirectHouseEntryDoesNotRequireTitle" methodname="DirectHouseEntryDoesNotRequireTitle" classname="NarniaPlayModeTests" runstate="Runnable" seed="156031273" result="Passed" start-time="2026-10-21 07:59:52Z" end-time="2026-10-21 07:59:53Z" duration="1.366145" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="platform" value="PlayMode" />
+          </properties>
+        </test-case>
+        <test-case id="1006" name="TitleToHouseSupportsDialogueSettingsDoorsAndReentry" fullname="NarniaPlayModeTests.TitleToHouseSupportsDialogueSettingsDoorsAndReentry" methodname="TitleToHouseSupportsDialogueSettingsDoorsAndReentry" classname="NarniaPlayModeTests" runstate="Runnable" seed="1978084199" result="Passed" start-time="2026-10-21 07:59:53Z" end-time="2026-10-21 07:59:55Z" duration="1.849643" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="platform" value="PlayMode" />
+          </properties>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

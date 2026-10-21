@@ -63,3 +63,17 @@ sysinfo.txt
 crashlytics-build.properties
 
 .gitmessage.txt
+
+# Addressables build output (settings/groups stay versioned)
+/ServerData/
+/Assets/StreamingAssets/aa/
+/Assets/StreamingAssets/aa.meta
+/Assets/AddressableAssetsData/**/addressables_content_state.bin
+/Assets/AddressableAssetsData/**/addressables_content_state.bin.meta
+/Assets/AddressableAssetsData/BuildReports/
+/Assets/AddressableAssetsData/BuildReports.meta
+/Artifacts/
+/TestResults/
+
+/Assets/Unity.VisualScripting.Generated/
+/Assets/Unity.VisualScripting.Generated.meta

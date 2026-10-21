@@ -9,4 +9,4 @@
 - [이벤트](Roles/Convention/CONVENTION.event.md)
 - [입력](Roles/Convention/CONVENTION.input.md)
 
-에셋은 .meta와 함께 이동합니다. 새 에셋은 UI_, OBJ_, CAM_, MAT_, TEX_, FBX_ 등 역할이 분명한 이름을 사용하되 기존 Resources 키와 외부 패키지 이름은 보존합니다. 애니메이션은 대상@동작, Animator Controller는 대상 이름을 사용합니다.
+에셋은 .meta와 함께 이동합니다. 새 에셋은 UI_, OBJ_, CAM_, MAT_, TEX_, FBX_ 등 역할이 분명한 이름을 사용하되 기존 콘텐츠 이름과 외부 패키지 이름은 보존합니다. Addressable 주소는 실제 파일명과 일치해야 합니다. 애니메이션은 대상@동작, Animator Controller는 대상 이름을 사용합니다.

@@ -1,0 +1,10 @@
+{
+  "name": "IntoTheNarnia.Samples",
+  "references": [
+    "IntoTheNarnia.Runtime",
+    "UniTask",
+    "Cinemachine"
+  ],
+  "includePlatforms": [],
+  "autoReferenced": false
+}

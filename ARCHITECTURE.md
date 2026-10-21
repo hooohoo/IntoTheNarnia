@@ -1,79 +1,79 @@
 # IntoTheNarnia 아키텍처
 
-문서 기준일: 2026-10-21. 아래 구조는 구현된 코드 기준입니다. 전환 전 구조는 [기준선 기록](Docs/Status/2026-10-21-baseline.md), 적용 내역과 검증 제한은 [Migration](Docs/Architecture/Migration.md)을 확인합니다.
+Chalk의 공통 설계 계약을 Narnia 게임 도메인에 적용한다. 엔진·패키지와 프레임워크 계약은 [통합 점검](Docs/Architecture/ChalkParity.md)을 따른다. 제품 ID, 씬·퀘스트·태그·NavMesh, 서비스 연동 목적지는 Narnia 소유다.
 
-## 실행 구조
-
-FacadeManager가 런타임 시작 전에 11개 서비스를 등록합니다. ServiceRegistry가 의존성을 정렬·주입하고 초기화하며, 부분 초기화 실패도 역순으로 정리합니다. GameManager는 기존 씬의 MonoScript GUID를 보존하는 호환 컴포넌트입니다.
-
-FieldManager는 카메라, 플레이어 생성, HUD 연결을 구성합니다. ProfessorHouseMapManager는 문·포털을 연결하고 초기 대화를 요청합니다. QuestManager는 문 이벤트로 진행하며 같은 플레이 세션의 씬 재진입에서도 진행을 유지합니다. LoadingController는 로딩 표시만 담당하고 GameSceneManager가 중복 요청을 차단하며 실제 비동기 씬 전환을 소유합니다.
-
-## 폴더 구조
+## 폴더
 
 ```text
 Assets/@Project/
-  00.Scenes/                 게임 씬, 라이트맵, NavMesh, 씬 전용 메시·재질
+  00.Scenes/          씬과 씬 전용 베이크·메시
   01.Scripts/
-    Framework/              Facade, Singleton, DI, 수명주기, 프레임 루프
-    Manager/                전역 서비스
-    Scene/                  Title/Loading/필드 구성과 화면
-    State/                  게임 상태와 입력 정책
-    UI/                     View/Presenter/Model, UI 입력 어댑터
-    Game/                   캐릭터, 문, 포털, 퀘스트
-    Data/                   DTO, Provider, 저장
-    Util/                   공통 상수·열거형·바인딩
-    Samples/                교사 예제, 프로토타입 코드
-    Editor/                 검증 도구
-    Tests/                  EditMode/PlayMode 검증
-  02.Resources/Resources/   기존 Resources 상대 경로 유지
-  03.Models/                프로젝트 모델
-  04.Environment/           프로젝트 라이팅 설정
-  05.Animations/            프로젝트 Animator Controller
-  06.LevelData/             Polybrush 설정
-  07.UI Toolkit/            프로젝트 UI Toolkit 설정
+    Base/            RuntimeBehaviour, FrameLoop, 주소·라벨 상수
+    Manager/Facade/  FacadeManager, ServiceRegistry, DependencyResolver
+    Manager/Interface/
+    Manager/Manager/ 전역 매니저와 도메인별 State/Handler
+    Singleton/
+    Scene/           SceneRoot와 씬 구성, Screen
+    UI/              Base, UI_Scene, UI_Popup, 컴포넌트와 대화 MVP
+    Object/          OBJ_Base, 캐릭터·문·퀘스트
+    Data/            DTO·Provider·저장 데이터
+    Enum/            도메인 이벤트
+    Util/            DI, 바인딩, 로그
+  02.Prefabs/        UI·캐릭터·환경 프리팹
+  03.Sprites/        UI 이미지·텍스처
+  04.Materials/
+  05.Animations/
+  06.Data/
+  07.Sounds/
+  08.Fonts/
+  09.Shaders/
+  10.Models/
+  Settings/          URP, 라이팅, Polybrush, UI Toolkit
+  Editor/            이관·검증·빌드 도구
+  Tests/             EditMode, PlayMode
+  Samples/           별도 예제 어셈블리 (빌드 씬 참조 금지)
 ```
 
-Assets/Asset, TextMesh Pro, Plugin 등 외부 패키지와 Unity 생성 폴더, StreamingAssets 특수 경로는 원래 경로에 유지합니다. 무관한 리소스의 일괄 이름 변경은 하지 않습니다. 자체 씬·스크립트·데이터·프리팹·모델·애니메이션은 새 루트로 모으고 GUID를 보존합니다.
+Asset Store, TextMesh Pro 등의 외부 폴더는 원래 소유 경로를 유지한다. TMP의 패키지 설정용 Resources는 자체 게임 Resources와 구분한다. 원본 스크립트 46개와 콘텐츠 .meta GUID를 보존하며 [ScriptMigration.json](Docs/Architecture/ScriptMigration.json)이 현재 목적지를 가리킨다.
 
 ## 서비스와 소유권
 
-| 서비스 | 책임 | 핵심 의존성 |
-| --- | --- | --- |
-| EventManager | 타입 기반 구독/해제와 동기 알림 | 없음 |
-| ResourceManager | Resources 콘텐츠 캐시와 검색 | 없음 |
-| DataManager | 대화 Provider 및 저장 경로 | ResourceManager |
-| ObjectManager | 현재 씬의 플레이어·상호작용 대상 참조 | 없음 |
-| InputManager | 이동·카메라 입력, 상태별 입력 허용 | 없음 |
-| CameraManager | 현재 카메라 및 Cinemachine 연결 | ObjectManager, InputManager |
-| UIManager | 활성 화면과 HUD 바인딩 | EventManager, GameStateManager |
-| QuestManager | 퀘스트 진행·문 해제, 이벤트 발행 | EventManager, ObjectManager |
-| FactoryManager | 플레이어 생성 및 씬 소유권 | ResourceManager, ObjectManager |
-| GameStateManager | 상태 Enter/Exit, 입력 정책 | InputManager, EventManager |
-| GameSceneManager | 비동기 씬 이동·중복 요청 차단 | GameStateManager |
+| 서비스 | 책임 |
+| --- | --- |
+| EventManager | enum 도메인, IListener, Add/RemoveListener, PostNotification |
+| AddressableManager | 라벨/타입별 프리로드 합류, 이름 캐시, 소유자 추적, 핸들 해제 |
+| DataManager | Addressable JSON, IDialogueProvider, 데이터 캐시·교체, persistentDataPath 저장 |
+| ObjectManager | 씬 소유 비UI Spawn/Despawn 풀, 플레이어·상호작용 참조 |
+| InputManager | 장치 입력 수집, 상태별 InputHandlerBase 연결 |
+| CameraManager | 현재 카메라·Cinemachine 대상과 입력 델리게이트 연결·복원 |
+| UIManager | Scene 캐시, Popup 순서, Sub 풀·부모별 정리, Screen 연결 |
+| QuestManager | Narnia 퀘스트 진행과 문·NavMesh 잠금 |
+| FactoryManager | 도메인 객체 생성 요청, 플레이어 스폰 위치 결정 |
+| GameStateManager | 씬별 상태 등록, 입력 전략 전환, 중첩 상태와 재진입 순서 |
+| GameSceneManager | 로딩 씬·목표 씬 전환, SceneRoot Ready 대기 |
 
-의존성은 실제 필드의 [Singleton] 선언이 기준입니다. FacadeManager가 명시적인 목록을 등록하고 Kahn 위상 정렬로 초기화합니다. 부팅 실패 시 초기화한 서비스만 역순으로 해제합니다. 씬 종료 시 씬 참조를 해제하고 애플리케이션 종료 시 전역 서비스를 해제합니다. 게임 씬을 직접 실행해도 부트스트랩이 동작해야 합니다.
+FacadeManager가 명시적으로 등록한 서비스를 위상 정렬로 초기화하고 역순 해제한다. 원래 초기화 예외와 정리 예외를 함께 보존한다. RuntimeBehaviour는 주입·바인딩·생명주기·프레임 등록을 담당한다. 일반 객체는 Singleton.Instance를 사용하지 않는다. 복제한 매니저/샘플 MonoScript를 추가로 씬에 붙이지 않는다.
 
-## 흐름
+## 리소스와 씬
 
-부트스트랩 → 서비스 Init → 씬 구성 → 객체·HUD·카메라 연결 → 상태 Enter.
-상태는 입력 전략과 게임 진행만 담당합니다. 화면은 상태 이벤트를 받아 UI를 갱신합니다. 문 상호작용 → DoorChanged 이벤트 → QuestManager의 진행·잠금 갱신 → QuestChanged 이벤트로 연결합니다. 현재 HUD는 StateChanged를 구독하며 QuestChanged는 확장용 도메인 알림입니다. 씬 이동은 Loading 상태를 거쳐 목표 씬이 준비된 뒤 상태를 전환합니다.
+씬 루트가 상태 등록 → Loading 상태 → 필요한 라벨 비동기 프리로드 → 데이터/객체/UI/카메라/Screen 구성 → 초기 상태 → Ready를 소유한다. GameSceneManager는 Unity의 sceneLoaded만으로 준비 완료를 판단하지 않는다. 필수 프리로드 실패 시 화면 구성과 입력을 열지 않는다.
 
-비동기 작업은 UniTask로 처리하며 소유자의 취소 토큰을 받습니다. 컴포넌트 반복 작업은 공통 프레임 루프에 등록하고 비활성화 시 해제합니다. UI 버튼·드래그·물리 트리거는 Unity 이벤트 진입점을 유지합니다. 외부 라이브러리의 Update는 이 규칙의 대상이 아닙니다.
+라벨은 Title / Loading / ProfessorHouse / Story다. 그룹은 같은 피처명이며 주소는 확장자 없는 파일명이다. 공용 번들 의존성만 라벨 없는 Dependencies 그룹을 쓸 수 있다. `AssetKeys`, `AddressableLabels`를 통해 접근한다. 기존 Lucy 등 레거시 에셋 이름은 실제 등록 주소와 일치하며 신규 UI는 `UI_` 이름을 쓴다.
 
-## 수명주기와 어셈블리
+`PreloadAsync<T>(label, owner, token)`은 동일 라벨/타입 진행 중 로드에 합류한다. 같은 소유자의 반복 요청은 중복 획득하지 않는다. `ReleaseOwner` 또는 `ReleaseLabel(label, owner)`로 소유를 반환한다. 다른 소유자가 남으면 캐시를 유지하며, 마지막 소유자가 떠난 진행 중 로드는 완료 시 결과를 폐기하고 핸들을 해제한다. 로드 실패는 로그+false이며 호출 씬이 예외로 진입을 중단한다. 외부 취소는 대기를 취소하므로 소유자는 항상 Release 경로에서 소유를 반환해야 한다.
 
-RuntimeBehaviour가 OnEnable에서 DI/컴포넌트 바인딩과 Initialize를 실행하고 OnDisable/OnDestroy에서 프레임 등록·취소 토큰·Release를 정리합니다. IFrameTick/ILateFrameTick만 Facade 소유의 UniTask FrameLoop에 등록합니다. 입력 갱신이 게임 객체 갱신보다 먼저 실행됩니다. FindComponents는 현재 단일 Component 필드의 자기 자신/상대 경로 바인딩을 지원합니다. 컬렉션 탐색은 SceneBinding의 씬 범위 검색으로 수행합니다.
+UIManager/ObjectManager가 프리로드 캐시를 동기 조회해 Instantiate한다. 이 인스턴스는 Addressables.InstantiateAsync 인스턴스가 아니므로 Destroy/풀 반환으로 정리하고, 그 뒤 씬이 에셋 핸들을 해제한다. 핸들 해제가 즉시 모든 메모리 반환을 의미하지는 않는다.
 
-IntoTheNarnia.Runtime에 자체 런타임과 호환 샘플을 배치합니다. Editor, EditModeTests, PlayModeTests는 별도 asmdef입니다. link.xml은 리플렉션 주입/JSON 필드가 스트리핑되지 않도록 보존합니다. 샘플의 기존 MonoScript GUID와 씬 참조는 남아 있으며, Test_QuestBoxController 같은 호환 트리거도 보존합니다.
+## UI·상태·입력
 
-MessageBoxController는 직렬화 View와 기존 UnityEvent 진입점을, DialoguePresenter는 표시 진행·타이핑 취소·상태 복구를, DialogueModel은 대사 큐를 소유합니다. 기존 버튼 바인딩이 있으면 같은 콜백을 다시 등록하지 않습니다. FieldScreen이 HUD 표시를 담당하고 UIManager가 상태 이벤트와 설정 팝업을 연결합니다.
+UI_Base 아래 UI_Scene/UI_Popup/UI_Sub 3계층을 사용한다. Scene UI는 캐시, Popup은 중복 방지와 표시 순서(100 + 깊이×10), Sub는 부모 소유와 OnSpawn/OnDespawn 쌍을 가진다. CanvasScaler와 시각 배치는 프리팹이 소유한다. 현재 화면 프리팹은 Scale With Screen Size, 기준 1920×1080, Match 0.5를 사용한다. 실제 화면은 UI_Title/UI_Loading/UI_Field/UI_Settings/UI_Dialogue다. FieldScreen은 표시 조정, Dialogue Model/Presenter/View는 대사 진행을 맡는다.
 
-## 호환성 경계
+상태는 씬 루트가 등록하며 전역 Init에서 게임 상태를 미리 만들지 않는다. 입력 핸들러는 상태마다 한 번 생성해 Enter/Exit에서 연결·초기화한다. ExplorationInputHandler는 이동·카메라, BlockedInputHandler는 로딩/대화/설정의 입력 차단을 담당한다. 키보드·마우스·터치와 조이스틱의 포인터 소유권을 유지하며 UI에서 시작한 드래그는 카메라로 넘어가지 않는다.
 
-기존 MonoBehaviour의 .meta GUID와 UnityEvent 메서드를 유지하거나 명시적인 어댑터로 연결합니다. 필드 이름 변경에는 FormerlySerializedAs, 데이터 필드 이름에는 JSON 매핑을 사용합니다. Lucy, UI 프리팹, 대화 데이터의 Resources 상대 경로를 유지합니다. 기존 연결 JSON 형식을 읽되 표준 배열도 지원하도록 Provider를 분리합니다. 저장은 persistentDataPath를 사용합니다.
+## 이벤트·어셈블리·검증
 
-교수의 집의 817개 벽 메시와 3개 천장 메시, 2개 러그 재질, 37개 라이트맵 및 NavMesh는 구조 전환의 보존 대상입니다. SceneBackups의 과거 검사 결과를 현재 실행 검증으로 간주하지 않습니다.
+도메인별 enum과 IListener<TEnum>을 사용하고 payload는 명시적으로 캐스팅한다. 이벤트는 수신자 스냅샷을 사용해 등록/해제·중첩 발행을 처리한다. 상태 이벤트 처리 중 전환 요청은 현재 알림 뒤에 실행하여 현재 상태와 알림 순서를 일치시킨다.
 
-## 상세 규칙
+Runtime, Editor, Samples, EditModeTests, PlayModeTests를 나눈다. 프로덕션 씬의 퀘스트 트리거는 Object에 있으며 샘플 어셈블리에 의존하지 않는다. link.xml은 리플렉션·직렬화 호환을 위해 Runtime을 보존한다. IL2CPP 타깃 검증 범위는 결과 보고서에 별도로 기록한다.
 
-[State](Roles/Architecture/ARCHITECTURE.State.md) · [UI](Roles/Architecture/ARCHITECTURE.UI.md) · [Input](Roles/Architecture/ARCHITECTURE.Input.md) · [Event](Roles/Architecture/ARCHITECTURE.Event.md) · [Data](Roles/Architecture/ARCHITECTURE.Data.md)
+메시 820개, 교수의 집 참조 2663개, 라이트맵 37개 및 NavMesh는 전환 보존 대상이다. 머티리얼은 URP 변환하되 GUID·텍스처·표면 속성을 유지한다. 프로젝트 검증, 실제 콘텐츠 빌드, 플레이어 빌드 및 PlayMode 테스트가 완료 근거다.

@@ -1,11 +1,25 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Threading;
+using Cysharp.Threading.Tasks;
+using UnityEngine;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
 public sealed class JsonDialogueProvider : IDialogueProvider
 {
+    private readonly AddressableManager resources;
+    public JsonDialogueProvider(AddressableManager resources = null) { this.resources = resources; }
+    public async UniTask<IReadOnlyList<CharacterLineClass>> LoadAsync(object owner, CancellationToken token)
+    {
+        if (resources == null) throw new InvalidOperationException("Addressable source was not supplied to the provider.");
+        if (!await resources.PreloadAsync<TextAsset>(AddressableLabels.Story, owner, token))
+            throw new InvalidOperationException("Story preload failed.");
+        token.ThrowIfCancellationRequested();
+        return Load(resources.Load<TextAsset>(AssetKeys.QuestData).text);
+    }
+
     public IReadOnlyList<CharacterLineClass> Load(string text)
     {
         var result = new List<CharacterLineClass>();

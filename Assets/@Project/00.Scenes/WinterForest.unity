@@ -30149,7 +30149,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1352890069}
-          m_TargetAssemblyTypeName: Joystick, IntoTheNarnia.Runtime
+          m_TargetAssemblyTypeName: Joystick, IntoTheNarnia.Samples
           m_MethodName: OnPointerDown
           m_Mode: 0
           m_Arguments:
@@ -30165,7 +30165,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1352890069}
-          m_TargetAssemblyTypeName: Joystick, IntoTheNarnia.Runtime
+          m_TargetAssemblyTypeName: Joystick, IntoTheNarnia.Samples
           m_MethodName: OnPointerUp
           m_Mode: 0
           m_Arguments:
@@ -30181,7 +30181,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1352890069}
-          m_TargetAssemblyTypeName: Joystick, IntoTheNarnia.Runtime
+          m_TargetAssemblyTypeName: Joystick, IntoTheNarnia.Samples
           m_MethodName: OnBeginDrag
           m_Mode: 0
           m_Arguments:
@@ -30197,7 +30197,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1352890069}
-          m_TargetAssemblyTypeName: Joystick, IntoTheNarnia.Runtime
+          m_TargetAssemblyTypeName: Joystick, IntoTheNarnia.Samples
           m_MethodName: OnDrag
           m_Mode: 0
           m_Arguments:
@@ -30213,7 +30213,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1352890069}
-          m_TargetAssemblyTypeName: Joystick, IntoTheNarnia.Runtime
+          m_TargetAssemblyTypeName: Joystick, IntoTheNarnia.Samples
           m_MethodName: OnEndDrag
           m_Mode: 0
           m_Arguments:

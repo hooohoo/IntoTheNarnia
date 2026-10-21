@@ -1,5 +1,5 @@
 # Event
 
-EventManager는 도메인 이벤트를 전달합니다. 문 변화, 퀘스트 진행, 상태 전환을 UI 및 지도 로직에 알립니다. 구독 변경과 재진입을 고려한 스냅샷으로 전달하며 Release에서 해제합니다. 전역 C# 이벤트/정적 델리게이트에 씬 객체가 남지 않아야 합니다. Cinemachine 입력 델리게이트도 연결한 소유자가 복원합니다.
+도메인 enum(GameStateEvent, DialogueEvent, DoorEvent, QuestEvent)과 IListener<TEnum>을 사용한다. AddListener/RemoveListener는 소유자의 생명주기에 대칭 배치하고 PostNotification으로 알린다. payload는 계약 타입으로 명시 캐스팅한다. 이벤트 순회는 독립 스냅샷으로 등록·해제와 중첩 발행을 지원한다.
 
-[전체 구조](../../ARCHITECTURE.md)와 해당 [컨벤션](../Convention/UNITY_CODING_CONVENTION.md)을 함께 적용합니다.
+[전체 구조](../../ARCHITECTURE.md)를 함께 적용한다.

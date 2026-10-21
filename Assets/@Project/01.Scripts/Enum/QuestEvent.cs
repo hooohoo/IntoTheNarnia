@@ -1,0 +1,4 @@
+public enum QuestEvent
+{
+    Changed
+}

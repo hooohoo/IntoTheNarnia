@@ -1,5 +1,5 @@
 # State
 
-GameStateManager는 Title, Loading, Exploration, Dialogue, Settings 상태의 전환과 Enter/Exit를 소유합니다. 상태는 입력 전략을 한 번 만들고 재사용합니다. Screen은 상태 이벤트를 구독하여 표시를 갱신합니다. State와 Screen은 1:1로 강제하지 않습니다. Settings/Dialogue 종료 시 이전 상태를 복구합니다. 씬 전환 중 이전 씬의 콜백이 새 상태를 덮어쓰지 않도록 씬 소유권을 정리합니다.
+SceneRoot가 상태를 등록하고 Loading에서 프리로드·구성을 마친 뒤 초기 상태로 전환한다. 전역 서비스 Init에서 일괄 상태 등록하지 않는다. GameStateManager는 중첩 UI 상태를 보관하며 덮인 상태의 종료도 제거한다. 이벤트 처리 중 재진입 전환은 현재 알림 이후 실행한다. State는 UI 생성·검색을 소유하지 않는다.
 
-[전체 구조](../../ARCHITECTURE.md)와 해당 [컨벤션](../Convention/UNITY_CODING_CONVENTION.md)을 함께 적용합니다.
+[전체 구조](../../ARCHITECTURE.md)를 함께 적용한다.

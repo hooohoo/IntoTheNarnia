@@ -1,0 +1,19 @@
+name: Project contracts
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  contracts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - name: Validate structure and preserved GUID contracts
+        run: python3 Tools/validate_structure.py
+      - name: Validate shared Chalk settings and resource contracts
+        run: python3 Tools/validate_chalk_contracts.py

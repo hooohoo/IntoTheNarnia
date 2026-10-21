@@ -1,17 +1,24 @@
+using System;
+using System.Threading;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-public sealed class LoadingController : RuntimeBehaviour, IFrameTick
+public sealed class LoadingController : SceneRoot
 {
-    private static readonly string[] Backgrounds = { "NarniaLandscape", "TheWhiteWitch", "TheWardrobe" };
     [FormerlySerializedAs("_BackgroundIMG"), SerializeField] private Image backgroundImage;
     [FormerlySerializedAs("_LoadingProgressIMG"), SerializeField] private Image progressImage;
-    [Singleton(typeof(ResourceManager))] private ResourceManager resources;
-    [Singleton(typeof(GameSceneManager))] private GameSceneManager scenes;
-    protected override void Initialize()
+    [Singleton(typeof(UIManager))] private UIManager ui;
+    protected override async UniTask BuildAsync(CancellationToken token)
     {
-        if (backgroundImage != null) backgroundImage.sprite = resources.GetImage(Backgrounds[Random.Range(0, Backgrounds.Length)]);
+        if (!await resources.PreloadAsync<GameObject>(AddressableLabels.Loading, this, token) ||
+            !await resources.PreloadAsync<Sprite>(AddressableLabels.Loading, this, token))
+            throw new InvalidOperationException("Loading screen preload failed.");
+        token.ThrowIfCancellationRequested();
+        ui.SetSceneUIRoot(this, transform);
+        var loading = ui.ShowSceneUI<UI_Loading>(AssetKeys.UI.Loading);
+        loading.SetBackground(resources.Load<Sprite>(AssetKeys.LoadingBackgrounds[UnityEngine.Random.Range(0, AssetKeys.LoadingBackgrounds.Length)]));
     }
-    public void Tick(float deltaTime) { if (progressImage != null) progressImage.fillAmount = scenes.Progress; }
+    protected override void ReleaseScene() { ui.ReleaseSceneUIs(this); }
 }

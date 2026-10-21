@@ -1,0 +1,16 @@
+{
+  "name": "IntoTheNarnia.PlayModeTests",
+  "references": [
+    "IntoTheNarnia.Runtime",
+    "UniTask",
+    "GUID:2bafac87e7f4b9b418d9448d219b01ab",
+    "Cinemachine",
+    "Unity.Addressables",
+    "Unity.ResourceManager"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [],
+  "autoReferenced": false
+}

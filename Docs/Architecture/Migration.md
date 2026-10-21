@@ -1,5 +1,7 @@
 # 프로젝트 구조 전환 기록
 
+> 이 문서는 첫 구조 이관의 역사 기록이다. 이후 Addressables·URP·공통 계약 통합은 [ChalkParity.md](ChalkParity.md), 현재 구조는 루트 ARCHITECTURE.md를 따른다. 아래 Resources/2021 관련 표현은 당시 상태다.
+
 2026-10-21, 기준선 `486a49e8` 이후 적용했습니다. 기존 변경·백업·문서 75개는 먼저 커밋, push, main fast-forward 병합했습니다. GitHub 연결 앱이 PR 생성에 403을 반환하여 사용자에게 알린 뒤, 이미 push 가능한 Git 인증으로 보호 규칙에 따라 병합했습니다.
 
 ## 구현 결과

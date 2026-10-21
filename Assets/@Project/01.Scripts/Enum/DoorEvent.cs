@@ -1,0 +1,4 @@
+public enum DoorEvent
+{
+    Changed
+}

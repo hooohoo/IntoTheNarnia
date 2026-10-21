@@ -1,9 +1,0 @@
-{
-  "name": "IntoTheNarnia.Editor",
-  "references": [
-    "IntoTheNarnia.Runtime"
-  ],
-  "includePlatforms": [
-    "Editor"
-  ]
-}

@@ -17,6 +17,11 @@ public sealed class MiniMapController : RuntimeBehaviour, IFrameTick
         if (plane != null && plane.TryGetComponent<Collider>(out var collider)) worldSize = collider.bounds.size;
         if (scrollRect != null) scrollRect.normalizedPosition = new Vector2(0.5f, 0.5f);
     }
+    public void BindWorld(GameObject ground)
+    {
+        plane = ground;
+        if (plane != null && plane.TryGetComponent<Collider>(out var collider)) worldSize = collider.bounds.size;
+    }
     public void Tick(float deltaTime)
     {
         var player = objects.Player;

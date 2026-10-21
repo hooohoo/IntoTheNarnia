@@ -36,7 +36,7 @@ public sealed class DialoguePresenter
             string scene = view.gameObject.scene.name;
             states.Pop(GameStateType.Dialogue);
             view.Hide();
-            events.Publish(new DialogueCompleted(scene));
+            events.PostNotification(DialogueEvent.Completed, new DialogueCompleted(scene));
             return;
         }
         typing = CancellationTokenSource.CreateLinkedTokenSource(lifetime);
