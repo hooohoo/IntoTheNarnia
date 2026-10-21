@@ -25,7 +25,11 @@ Unity 2021.3.6f1, Built-in 렌더러, Cinemachine 2.8.9, 기존 Input Manager를
 
 ## 검증 및 Git
 
-main이 통합 브랜치입니다. 기능 브랜치 → 검증 → 커밋 → push → PR → merge를 기본으로 합니다. GitHub 연결 앱에 쓰기 권한이 없고 사용자가 merge까지 명시적으로 요청했다면, 저장소 보호 규칙을 따르는 Git fast-forward 병합을 사용할 수 있으며 실제 경로를 기록합니다. 사용자에게 이미 승인받은 push/merge를 다시 확인하지 않습니다. 보호 규칙을 우회하거나 force push하지 않습니다. 커밋은 `type : 한글 설명` 형식이며 생성 도구 광고/Co-Authored-By를 추가하지 않습니다.
+- **통합 브랜치**: `main`. 최신 `origin/main`에서 작업 브랜치를 만들고, 후속 작업은 새 브랜치에서 진행합니다. 이미 머지한 브랜치를 재사용하지 않습니다.
+- **1 push · 1 merge**: 하나의 작업 단위를 **커밋 1개 → 작업 브랜치 push 1회 → PR 1개 → merge commit 1회**로 마무리합니다. 문서·코드 정리와 관련 검증을 push 전에 끝내고, 중간 상태를 나누어 push하지 않습니다.
+- **병합 방식**: PR의 `Merge pull request`로 두 부모를 가진 merge commit을 남깁니다. 작업 커밋과 별도로 merge commit이 생기는 것이 정상입니다. fast-forward, squash, rebase merge로 대체하지 않으며 `main`에 직접 push하지 않습니다.
+- **권한 제한**: PR 생성·병합 권한이 부족하면 검증된 변경과 차단 사유를 보고합니다. 이를 이유로 직접 push나 fast-forward 병합으로 우회하지 않습니다. 사용자에게 이미 승인받은 push/merge를 다시 확인하지 않습니다.
+- **커밋 형식**: `type : 한글 설명`. 생성 도구 광고/Co-Authored-By를 추가하지 않습니다. 보호 규칙을 우회하거나 force push하지 않습니다.
 
 코드 변경은 Unity 컴파일과 관련 EditMode/PlayMode 검증을 수행합니다. 씬 이동 시 Build Settings, GUID, 프리팹 참조, 라이트맵·NavMesh 의존성을 검사합니다. 실행하지 않은 검증을 통과했다고 쓰지 않습니다. SceneBackups는 원본 복원 및 이전 검증 증거이며 새 검증 결과와 구분합니다.
 
