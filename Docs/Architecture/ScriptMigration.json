@@ -1,0 +1,232 @@
+[
+  {
+    "old": "Assets/Script/AnimationTest.cs",
+    "new": "Assets/@Project/01.Scripts/Samples/Prototype/AnimationTest.cs",
+    "guid": "f5faea9ee76ad8448a3e724804ee23a2"
+  },
+  {
+    "old": "Assets/Script/ColliderTest.cs",
+    "new": "Assets/@Project/01.Scripts/Samples/Prototype/ColliderTest.cs",
+    "guid": "c175d0730e5225940a39c25dc64b1178"
+  },
+  {
+    "old": "Assets/Script/Controller/ActionButtonController.cs",
+    "new": "Assets/@Project/01.Scripts/UI/ActionButtonController.cs",
+    "guid": "93faa8971bb139643930cb7db28d0853"
+  },
+  {
+    "old": "Assets/Script/Controller/CMCameraController.cs",
+    "new": "Assets/@Project/01.Scripts/Game/Camera/CMCameraController.cs",
+    "guid": "b6767b4b8261342439f214c388f28fa1"
+  },
+  {
+    "old": "Assets/Script/Controller/CameraController.cs",
+    "new": "Assets/@Project/01.Scripts/Samples/Prototype/CameraController.cs",
+    "guid": "34234f30516352149adbc7690d27996a"
+  },
+  {
+    "old": "Assets/Script/Controller/DoorController.cs",
+    "new": "Assets/@Project/01.Scripts/Game/Interaction/DoorController.cs",
+    "guid": "fb60578ff0f1be9418b9cd7c9a4d45c8"
+  },
+  {
+    "old": "Assets/Script/Controller/JoystickController.cs",
+    "new": "Assets/@Project/01.Scripts/UI/JoystickController.cs",
+    "guid": "6c203645093d84740a3e51fffb4f4270"
+  },
+  {
+    "old": "Assets/Script/Controller/LoadingController.cs",
+    "new": "Assets/@Project/01.Scripts/Scene/LoadingController.cs",
+    "guid": "96ed4ca37b6c8f94090091e320cc483c"
+  },
+  {
+    "old": "Assets/Script/Controller/MessageBoxController.cs",
+    "new": "Assets/@Project/01.Scripts/UI/Dialogue/MessageBoxController.cs",
+    "guid": "d7cc56c1946ab2447b9bd9f55fe8b468"
+  },
+  {
+    "old": "Assets/Script/Controller/MiniMapController.cs",
+    "new": "Assets/@Project/01.Scripts/UI/MiniMapController.cs",
+    "guid": "afe9acff8cedf0345b42794197981431"
+  },
+  {
+    "old": "Assets/Script/Controller/NextMapController.cs",
+    "new": "Assets/@Project/01.Scripts/Game/Interaction/NextMapController.cs",
+    "guid": "0122c60842464ae47b0ca0173c19901d"
+  },
+  {
+    "old": "Assets/Script/Controller/PlayerController.cs",
+    "new": "Assets/@Project/01.Scripts/Game/Character/PlayerController.cs",
+    "guid": "76249f4d3d6a9694f9881ccb2727a03e"
+  },
+  {
+    "old": "Assets/Script/CustomCamera.cs",
+    "new": "Assets/@Project/01.Scripts/Samples/Prototype/CustomCamera.cs",
+    "guid": "ee31ca50782a87641aad5856d2bc192d"
+  },
+  {
+    "old": "Assets/Script/Data/Quest/CharacterLineClass.cs",
+    "new": "Assets/@Project/01.Scripts/Data/Dialogue/CharacterLineClass.cs",
+    "guid": "288c85d5123e9b64681070b1cb02c4c6"
+  },
+  {
+    "old": "Assets/Script/Data/Save/Test.cs",
+    "new": "Assets/@Project/01.Scripts/Samples/Prototype/Test.cs",
+    "guid": "f2c0068a1af45c8459e2a64d2db6dc5f"
+  },
+  {
+    "old": "Assets/Script/Data/Stat/Main.cs",
+    "new": "Assets/@Project/01.Scripts/Samples/Stat/Main.cs",
+    "guid": "d87bbb1a45884d7479cb3c28fb480961"
+  },
+  {
+    "old": "Assets/Script/Data/Stat/MonsterStat.cs",
+    "new": "Assets/@Project/01.Scripts/Data/Stat/MonsterStat.cs",
+    "guid": "2130934e35f6a224e8479abfb0e1012c"
+  },
+  {
+    "old": "Assets/Script/Data/Stat/PlayerStat.cs",
+    "new": "Assets/@Project/01.Scripts/Data/Stat/PlayerStat.cs",
+    "guid": "bf3b64f5d0bcb7f418a6db0be8e29170"
+  },
+  {
+    "old": "Assets/Script/Data/Stat/Stat.cs",
+    "new": "Assets/@Project/01.Scripts/Data/Stat/Stat.cs",
+    "guid": "933acf9e200dc434fbb900a2238de0a5"
+  },
+  {
+    "old": "Assets/Script/Joystick.cs",
+    "new": "Assets/@Project/01.Scripts/Samples/Prototype/Joystick.cs",
+    "guid": "e7611bda3b13bc14092de814bc175869"
+  },
+  {
+    "old": "Assets/Script/Manager/ButtonManager.cs",
+    "new": "Assets/@Project/01.Scripts/UI/ButtonManager.cs",
+    "guid": "49de95b816253064f903c76a5f8c8d37"
+  },
+  {
+    "old": "Assets/Script/Manager/ByTeacher/Character.cs",
+    "new": "Assets/@Project/01.Scripts/Samples/ByTeacher/Character.cs",
+    "guid": "998d9be69350d9b498fcbdbbe5440a5f"
+  },
+  {
+    "old": "Assets/Script/Manager/ByTeacher/GameHelper.cs",
+    "new": "Assets/@Project/01.Scripts/Samples/ByTeacher/GameHelper.cs",
+    "guid": "6c47da0a28376994daa2d75eddd8c043"
+  },
+  {
+    "old": "Assets/Script/Manager/ByTeacher/InstanceManangerByTeacher.cs",
+    "new": "Assets/@Project/01.Scripts/Samples/ByTeacher/InstanceManangerByTeacher.cs",
+    "guid": "39cc07b03508e57458f3e1dac5ee9515"
+  },
+  {
+    "old": "Assets/Script/Manager/ByTeacher/MainManager.cs",
+    "new": "Assets/@Project/01.Scripts/Samples/ByTeacher/MainManager.cs",
+    "guid": "d87b218a52e66ad4aafc40eb1555853c"
+  },
+  {
+    "old": "Assets/Script/Manager/ByTeacher/Monster.cs",
+    "new": "Assets/@Project/01.Scripts/Samples/ByTeacher/Monster.cs",
+    "guid": "6c2b16be6c921994785d83b678d80ce1"
+  },
+  {
+    "old": "Assets/Script/Manager/ByTeacher/Player2.cs",
+    "new": "Assets/@Project/01.Scripts/Samples/ByTeacher/Player2.cs",
+    "guid": "361d3fad0e783ee48b0fbf52c4f0b6b6"
+  },
+  {
+    "old": "Assets/Script/Manager/ByTeacher/ResourceManagerByTeacher.cs",
+    "new": "Assets/@Project/01.Scripts/Samples/ByTeacher/ResourceManagerByTeacher.cs",
+    "guid": "0c6e9d586bc2d3d45b50b6d165e0799e"
+  },
+  {
+    "old": "Assets/Script/Manager/ByTeacher/SingleTon.cs",
+    "new": "Assets/@Project/01.Scripts/Samples/ByTeacher/SingleTon.cs",
+    "guid": "66ad1b768e9127f4490af2bf6e0719bf"
+  },
+  {
+    "old": "Assets/Script/Manager/CameraManager.cs",
+    "new": "Assets/@Project/01.Scripts/Manager/CameraManager.cs",
+    "guid": "04fb0a116ecb7b7478accad0cbbbded1"
+  },
+  {
+    "old": "Assets/Script/Manager/CreateManager.cs",
+    "new": "Assets/@Project/01.Scripts/Manager/FactoryManager.cs",
+    "guid": "4112183f49f2df74db6e0f6736827bc2"
+  },
+  {
+    "old": "Assets/Script/Manager/FieldManager.cs",
+    "new": "Assets/@Project/01.Scripts/Scene/FieldManager.cs",
+    "guid": "f7e09535da0da3948b8f7219e7ad6126"
+  },
+  {
+    "old": "Assets/Script/Manager/FileIOManager.cs",
+    "new": "Assets/@Project/01.Scripts/Manager/DataManager.cs",
+    "guid": "627ca40e2a0ee1e4cbdb2d11949c7cfc"
+  },
+  {
+    "old": "Assets/Script/Manager/GameManager.cs",
+    "new": "Assets/@Project/01.Scripts/Scene/GameManager.cs",
+    "guid": "d543b5f9f357a6c4ab02eb8c76607789"
+  },
+  {
+    "old": "Assets/Script/Manager/Map/ProfessorHouseMapManager.cs",
+    "new": "Assets/@Project/01.Scripts/Scene/ProfessorHouseMapManager.cs",
+    "guid": "4d3d02ac5c96265438bc6fe2a52debc1"
+  },
+  {
+    "old": "Assets/Script/Manager/ObjectManager.cs",
+    "new": "Assets/@Project/01.Scripts/Manager/ObjectManager.cs",
+    "guid": "2f434885a0f6cac41b0ddee020174b48"
+  },
+  {
+    "old": "Assets/Script/Manager/QuestDataManager.cs",
+    "new": "Assets/@Project/01.Scripts/Samples/Prototype/QuestDataManager.cs",
+    "guid": "ab0a7d540b687d1488d4540264ce8a5a"
+  },
+  {
+    "old": "Assets/Script/Manager/QuestManager.cs",
+    "new": "Assets/@Project/01.Scripts/Manager/QuestManager.cs",
+    "guid": "71160b65f4734cb4f94b65919735a880"
+  },
+  {
+    "old": "Assets/Script/Manager/ResourceManager.cs",
+    "new": "Assets/@Project/01.Scripts/Manager/ResourceManager.cs",
+    "guid": "30a678208a08f81419367822eb8d16e5"
+  },
+  {
+    "old": "Assets/Script/Manager/SceneManagerEx.cs",
+    "new": "Assets/@Project/01.Scripts/Manager/GameSceneManager.cs",
+    "guid": "8912813bd8e1b84468ca7cf047d01d3d"
+  },
+  {
+    "old": "Assets/Script/Manager/UiManager.cs",
+    "new": "Assets/@Project/01.Scripts/Manager/UIManager.cs",
+    "guid": "a35baa4196f08514d9a6483bb91725d8"
+  },
+  {
+    "old": "Assets/Script/Player.cs",
+    "new": "Assets/@Project/01.Scripts/Samples/Prototype/Player.cs",
+    "guid": "c8d86fe70a2d1454e8732bd5165df256"
+  },
+  {
+    "old": "Assets/Script/PlayerWithStick.cs",
+    "new": "Assets/@Project/01.Scripts/Samples/Prototype/PlayerWithStick.cs",
+    "guid": "9de32f2b47fc5054baf840633fe9e3fa"
+  },
+  {
+    "old": "Assets/Script/Scene/Title.cs",
+    "new": "Assets/@Project/01.Scripts/Scene/Title.cs",
+    "guid": "e207a930dca2fff4d9812698dc78d7f7"
+  },
+  {
+    "old": "Assets/Script/Test_QuestBoxController.cs",
+    "new": "Assets/@Project/01.Scripts/Samples/Prototype/Test_QuestBoxController.cs",
+    "guid": "565ab072854939f4583c00e0aa8f4c69"
+  },
+  {
+    "old": "Assets/Script/Utils/Define.cs",
+    "new": "Assets/@Project/01.Scripts/Util/Define.cs",
+    "guid": "2020385cc2239324bba1b7e4d62515e7"
+  }
+]

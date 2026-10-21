@@ -1,6 +1,6 @@
 # IntoTheNarnia 코딩 컨벤션
 
-규칙의 단일 원본은 Roles/Convention의 분야별 문서입니다. CLAUDE.md는 요약이며 ARCHITECTURE.md는 구조와 소유권을 정의합니다. 전환 전 코드의 위반 사항은 Docs/Architecture/Migration.md에 기록합니다.
+규칙의 단일 원본은 Roles/Convention의 분야별 문서입니다. CLAUDE.md는 요약이며 ARCHITECTURE.md는 구조와 소유권을 정의합니다. 전환 이력과 호환성 경계는 Docs/Architecture/Migration.md에 기록합니다.
 
 - [공통](Roles/Convention/CONVENTION.common.md)
 - [매니저](Roles/Convention/CONVENTION.manager.md)

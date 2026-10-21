@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-21 06:17:44Z" end-time="2026-10-21 06:17:52Z" duration="8.3103085">
+  <test-suite type="TestSuite" id="1000" name="IntoTheNarnia" fullname="IntoTheNarnia" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-21 06:17:44Z" end-time="2026-10-21 06:17:52Z" duration="8.310309" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1004" name="IntoTheNarnia.PlayModeTests.dll" fullname="/private/tmp/narnia-modernization-qhtuk86b/validation-project/Library/ScriptAssemblies/IntoTheNarnia.PlayModeTests.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-21 06:17:44Z" end-time="2026-10-21 06:17:52Z" duration="8.307489" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="19086" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="NarniaPlayModeTests" fullname="NarniaPlayModeTests" classname="NarniaPlayModeTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-21 06:17:44Z" end-time="2026-10-21 06:17:52Z" duration="8.306680" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1003" name="DirectHouseEntryDoesNotRequireTitle" fullname="NarniaPlayModeTests.DirectHouseEntryDoesNotRequireTitle" methodname="DirectHouseEntryDoesNotRequireTitle" classname="NarniaPlayModeTests" runstate="Runnable" seed="1718323186" result="Passed" start-time="2026-10-21 06:17:44Z" end-time="2026-10-21 06:17:46Z" duration="1.665231" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+          <output><![CDATA[7 node options failed to load and were skipped.
+Try rebuilding the node options with 'Edit > Project Settings > Visual Scripting > Node Library > Regenerate Nodes' to purge outdated nodes.
+
+System.Collections.Generic.List`1[[UnityEngine.CompressionType, UnityEngine.AssetBundleModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]@literal
+System.Collections.Generic.List`1[[UnityEngine.CompressionLevel, UnityEngine.AssetBundleModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]@literal
+Unity.Rendering.HybridV2.DOTSInstancingPropertyType@literal
+System.Collections.Generic.List`1[[Unity.Rendering.HybridV2.DOTSInstancingPropertyType, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]@literal
+UnityEngine.Rendering.RendererUtils.RendererListStatus@literal
+System.Collections.Generic.List`1[[UnityEngine.Rendering.RendererUtils.RendererListStatus, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]@literal
+System.Collections.Generic.List`1[[Stat, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]@literal
+
+System.Collections.Generic.List`1[[UnityEngine.CompressionType, UnityEngine.AssetBundleModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]@literal: 
+System.Runtime.Serialization.SerializationException: Unable to find type: 'System.Collections.Generic.List`1[[UnityEngine.CompressionType, UnityEngine.AssetBundleModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+  at Unity.VisualScripting.RuntimeCodebase.DeserializeType (System.String typeName) [0x0000a] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Core/Reflection/RuntimeCodebase.cs:169 
+  at Unity.VisualScripting.Codebase.DeserializeType (System.String typeName) [0x00000] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Reflection/Codebase.cs:162 
+  at Unity.VisualScripting.LiteralOption.Deserialize (Unity.VisualScripting.UnitOptionRow row) [0x00007] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Framework/Codebase/LiteralOption.cs:53 
+  at Unity.VisualScripting.UnitOptionRow.ToOption () [0x00020] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Options/UnitOptionRow.cs:42 
+  at Unity.VisualScripting.UnitBase.Load () [0x000de] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Options/UnitBase.cs:97 
+
+System.Collections.Generic.List`1[[UnityEngine.CompressionLevel, UnityEngine.AssetBundleModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]@literal: 
+System.Runtime.Serialization.SerializationException: Unable to find type: 'System.Collections.Generic.List`1[[UnityEngine.CompressionLevel, UnityEngine.AssetBundleModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+  at Unity.VisualScripting.RuntimeCodebase.DeserializeType (System.String typeName) [0x0000a] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Core/Reflection/RuntimeCodebase.cs:169 
+  at Unity.VisualScripting.Codebase.DeserializeType (System.String typeName) [0x00000] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Reflection/Codebase.cs:162 
+  at Unity.VisualScripting.LiteralOption.Deserialize (Unity.VisualScripting.UnitOptionRow row) [0x00007] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Framework/Codebase/LiteralOption.cs:53 
+  at Unity.VisualScripting.UnitOptionRow.ToOption () [0x00020] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Options/UnitOptionRow.cs:42 
+  at Unity.VisualScripting.UnitBase.Load () [0x000de] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Options/UnitBase.cs:97 
+
+Unity.Rendering.HybridV2.DOTSInstancingPropertyType@literal: 
+System.Runtime.Serialization.SerializationException: Unable to find type: 'Unity.Rendering.HybridV2.DOTSInstancingPropertyType'.
+  at Unity.VisualScripting.RuntimeCodebase.DeserializeType (System.String typeName) [0x0000a] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Core/Reflection/RuntimeCodebase.cs:169 
+  at Unity.VisualScripting.Codebase.DeserializeType (System.String typeName) [0x00000] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Reflection/Codebase.cs:162 
+  at Unity.VisualScripting.LiteralOption.Deserialize (Unity.VisualScripting.UnitOptionRow row) [0x00007] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Framework/Codebase/LiteralOption.cs:53 
+  at Unity.VisualScripting.UnitOptionRow.ToOption () [0x00020] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Options/UnitOptionRow.cs:42 
+  at Unity.VisualScripting.UnitBase.Load () [0x000de] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Options/UnitBase.cs:97 
+
+System.Collections.Generic.List`1[[Unity.Rendering.HybridV2.DOTSInstancingPropertyType, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]@literal: 
+System.Runtime.Serialization.SerializationException: Unable to find type: 'System.Collections.Generic.List`1[[Unity.Rendering.HybridV2.DOTSInstancingPropertyType, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+  at Unity.VisualScripting.RuntimeCodebase.DeserializeType (System.String typeName) [0x0000a] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Core/Reflection/RuntimeCodebase.cs:169 
+  at Unity.VisualScripting.Codebase.DeserializeType (System.String typeName) [0x00000] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Reflection/Codebase.cs:162 
+  at Unity.VisualScripting.LiteralOption.Deserialize (Unity.VisualScripting.UnitOptionRow row) [0x00007] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Framework/Codebase/LiteralOption.cs:53 
+  at Unity.VisualScripting.UnitOptionRow.ToOption () [0x00020] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Options/UnitOptionRow.cs:42 
+  at Unity.VisualScripting.UnitBase.Load () [0x000de] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Options/UnitBase.cs:97 
+
+UnityEngine.Rendering.RendererUtils.RendererListStatus@literal: 
+System.Runtime.Serialization.SerializationException: Unable to find type: 'UnityEngine.Rendering.RendererUtils.RendererListStatus'.
+  at Unity.VisualScripting.RuntimeCodebase.DeserializeType (System.String typeName) [0x0000a] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Core/Reflection/RuntimeCodebase.cs:169 
+  at Unity.VisualScripting.Codebase.DeserializeType (System.String typeName) [0x00000] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Reflection/Codebase.cs:162 
+  at Unity.VisualScripting.LiteralOption.Deserialize (Unity.VisualScripting.UnitOptionRow row) [0x00007] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Framework/Codebase/LiteralOption.cs:53 
+  at Unity.VisualScripting.UnitOptionRow.ToOption () [0x00020] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Options/UnitOptionRow.cs:42 
+  at Unity.VisualScripting.UnitBase.Load () [0x000de] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Options/UnitBase.cs:97 
+
+System.Collections.Generic.List`1[[UnityEngine.Rendering.RendererUtils.RendererListStatus, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]@literal: 
+System.Runtime.Serialization.SerializationException: Unable to find type: 'System.Collections.Generic.List`1[[UnityEngine.Rendering.RendererUtils.RendererListStatus, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+  at Unity.VisualScripting.RuntimeCodebase.DeserializeType (System.String typeName) [0x0000a] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Core/Reflection/RuntimeCodebase.cs:169 
+  at Unity.VisualScripting.Codebase.DeserializeType (System.String typeName) [0x00000] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Reflection/Codebase.cs:162 
+  at Unity.VisualScripting.LiteralOption.Deserialize (Unity.VisualScripting.UnitOptionRow row) [0x00007] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Framework/Codebase/LiteralOption.cs:53 
+  at Unity.VisualScripting.UnitOptionRow.ToOption () [0x00020] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Options/UnitOptionRow.cs:42 
+  at Unity.VisualScripting.UnitBase.Load () [0x000de] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Options/UnitBase.cs:97 
+
+System.Collections.Generic.List`1[[Stat, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]@literal: 
+System.Runtime.Serialization.SerializationException: Unable to find type: 'System.Collections.Generic.List`1[[Stat, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+  at Unity.VisualScripting.RuntimeCodebase.DeserializeType (System.String typeName) [0x0000a] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Core/Reflection/RuntimeCodebase.cs:169 
+  at Unity.VisualScripting.Codebase.DeserializeType (System.String typeName) [0x00000] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Reflection/Codebase.cs:162 
+  at Unity.VisualScripting.LiteralOption.Deserialize (Unity.VisualScripting.UnitOptionRow row) [0x00007] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Framework/Codebase/LiteralOption.cs:53 
+  at Unity.VisualScripting.UnitOptionRow.ToOption () [0x00020] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Options/UnitOptionRow.cs:42 
+  at Unity.VisualScripting.UnitBase.Load () [0x000de] in ./Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Options/UnitBase.cs:97 
+
+
+]]></output>
+        </test-case>
+        <test-case id="1002" name="TitleToHouseSupportsDialogueSettingsDoorsAndReentry" fullname="NarniaPlayModeTests.TitleToHouseSupportsDialogueSettingsDoorsAndReentry" methodname="TitleToHouseSupportsDialogueSettingsDoorsAndReentry" classname="NarniaPlayModeTests" runstate="Runnable" seed="965846332" result="Passed" start-time="2026-10-21 06:17:46Z" end-time="2026-10-21 06:17:52Z" duration="6.636097" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

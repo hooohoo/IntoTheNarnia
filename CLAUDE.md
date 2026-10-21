@@ -8,7 +8,7 @@ README.md → ARCHITECTURE.md → UNITY_CODING_CONVENTION.md → 해당 Roles/Ar
 
 Unity 2021.3.6f1, Built-in 렌더러, Cinemachine 2.8.9, 기존 Input Manager를 사용합니다. Flutter, Web bridge, HexGrid, URP 프로젝트가 아닙니다. 엔진·렌더러 교체는 구조 개편에 포함하지 않습니다. Resources 경로는 콘텐츠 계약이며 ResourceManager를 통해 접근합니다. Addressables는 현재 사용하지 않으며 이름만 다른 가짜 래퍼를 만들지 않습니다.
 
-현재 구조는 Assets/Script의 GameManager와 8개 일반 C# 서비스입니다. 목표 구조는 Assets/@Project 아래의 Framework, Manager, Scene, State, UI, Game, Data, Samples, Editor, Tests입니다. 전환 완료 여부는 코드와 검증 결과로 판단합니다.
+현재 구조는 Assets/@Project 아래의 Framework, Manager, Scene, State, UI, Game, Data, Samples, Editor, Tests입니다. FacadeManager가 11개 서비스를 등록합니다. GameManager는 기존 씬 GUID를 유지하는 호환 컴포넌트입니다. 상세 이동표와 검증 범위는 Docs/Architecture/Migration.md를 확인합니다.
 
 ## 구현 원칙
 
@@ -25,7 +25,7 @@ Unity 2021.3.6f1, Built-in 렌더러, Cinemachine 2.8.9, 기존 Input Manager를
 
 ## 검증 및 Git
 
-main이 통합 브랜치입니다. 기능 브랜치 → 검증 → 커밋 → push → PR → merge 순서를 사용합니다. 사용자에게 이미 승인받은 push/merge를 다시 확인하지 않습니다. 보호 규칙을 우회하거나 force push하지 않습니다. 커밋은 `type : 한글 설명` 형식이며 생성 도구 광고/Co-Authored-By를 추가하지 않습니다.
+main이 통합 브랜치입니다. 기능 브랜치 → 검증 → 커밋 → push → PR → merge를 기본으로 합니다. GitHub 연결 앱에 쓰기 권한이 없고 사용자가 merge까지 명시적으로 요청했다면, 저장소 보호 규칙을 따르는 Git fast-forward 병합을 사용할 수 있으며 실제 경로를 기록합니다. 사용자에게 이미 승인받은 push/merge를 다시 확인하지 않습니다. 보호 규칙을 우회하거나 force push하지 않습니다. 커밋은 `type : 한글 설명` 형식이며 생성 도구 광고/Co-Authored-By를 추가하지 않습니다.
 
 코드 변경은 Unity 컴파일과 관련 EditMode/PlayMode 검증을 수행합니다. 씬 이동 시 Build Settings, GUID, 프리팹 참조, 라이트맵·NavMesh 의존성을 검사합니다. 실행하지 않은 검증을 통과했다고 쓰지 않습니다. SceneBackups는 원본 복원 및 이전 검증 증거이며 새 검증 결과와 구분합니다.
 

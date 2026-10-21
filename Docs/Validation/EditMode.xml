@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="13" result="Passed" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-21 06:14:12Z" end-time="2026-10-21 06:14:12Z" duration="0.3466737">
+  <test-suite type="TestSuite" id="1021" name="IntoTheNarnia" fullname="IntoTheNarnia" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-21 06:14:12Z" end-time="2026-10-21 06:14:12Z" duration="0.346674" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1036" name="IntoTheNarnia.EditModeTests.dll" fullname="/private/tmp/narnia-modernization-qhtuk86b/validation-project/Library/ScriptAssemblies/IntoTheNarnia.EditModeTests.dll" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-21 06:14:12Z" end-time="2026-10-21 06:14:12Z" duration="0.246505" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="18095" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <test-suite type="TestFixture" id="1022" name="ArchitectureTests" fullname="ArchitectureTests" classname="ArchitectureTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-21 06:14:12Z" end-time="2026-10-21 06:14:12Z" duration="0.241359" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1023" name="DependenciesInitializeFirstAndReleaseLast" fullname="ArchitectureTests.DependenciesInitializeFirstAndReleaseLast" methodname="DependenciesInitializeFirstAndReleaseLast" classname="ArchitectureTests" runstate="Runnable" seed="1539685511" result="Passed" start-time="2026-10-21 06:14:12Z" end-time="2026-10-21 06:14:12Z" duration="0.119595" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1026" name="DependencyCycleFails" fullname="ArchitectureTests.DependencyCycleFails" methodname="DependencyCycleFails" classname="ArchitectureTests" runstate="Runnable" seed="1843135099" result="Passed" start-time="2026-10-21 06:14:12Z" end-time="2026-10-21 06:14:12Z" duration="0.002485" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1031" name="DialogueArrayPreservesExternalKeys" fullname="ArchitectureTests.DialogueArrayPreservesExternalKeys" methodname="DialogueArrayPreservesExternalKeys" classname="ArchitectureTests" runstate="Runnable" seed="1333990295" result="Passed" start-time="2026-10-21 06:14:12Z" end-time="2026-10-21 06:14:12Z" duration="0.071553" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1024" name="DuplicateRegistrationFailsBeforeInitialization" fullname="ArchitectureTests.DuplicateRegistrationFailsBeforeInitialization" methodname="DuplicateRegistrationFailsBeforeInitialization" classname="ArchitectureTests" runstate="Runnable" seed="1659819583" result="Passed" start-time="2026-10-21 06:14:12Z" end-time="2026-10-21 06:14:12Z" duration="0.000445" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1032" name="EmptyDialogueIsValid" fullname="ArchitectureTests.EmptyDialogueIsValid" methodname="EmptyDialogueIsValid" classname="ArchitectureTests" runstate="Runnable" seed="1967797083" result="Passed" start-time="2026-10-21 06:14:12Z" end-time="2026-10-21 06:14:12Z" duration="0.000103" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1027" name="FailedInitializationReleasesPartiallyInitializedService" fullname="ArchitectureTests.FailedInitializationReleasesPartiallyInitializedService" methodname="FailedInitializationReleasesPartiallyInitializedService" classname="ArchitectureTests" runstate="Runnable" seed="552200709" result="Passed" start-time="2026-10-21 06:14:12Z" end-time="2026-10-21 06:14:12Z" duration="0.000235" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1033" name="InvalidDialogueReportsMissingFields" fullname="ArchitectureTests.InvalidDialogueReportsMissingFields" methodname="InvalidDialogueReportsMissingFields" classname="ArchitectureTests" runstate="Runnable" seed="1683917451" result="Passed" start-time="2026-10-21 06:14:12Z" end-time="2026-10-21 06:14:12Z" duration="0.000308" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1030" name="LegacyDialogueCanContainClosingBraceInQuotedText" fullname="ArchitectureTests.LegacyDialogueCanContainClosingBraceInQuotedText" methodname="LegacyDialogueCanContainClosingBraceInQuotedText" classname="ArchitectureTests" runstate="Runnable" seed="53414032" result="Passed" start-time="2026-10-21 06:14:12Z" end-time="2026-10-21 06:14:12Z" duration="0.000139" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1028" name="ListenerMutationUsesSnapshotAndSkipsRemovedReceiver" fullname="ArchitectureTests.ListenerMutationUsesSnapshotAndSkipsRemovedReceiver" methodname="ListenerMutationUsesSnapshotAndSkipsRemovedReceiver" classname="ArchitectureTests" runstate="Runnable" seed="1190260751" result="Passed" start-time="2026-10-21 06:14:12Z" end-time="2026-10-21 06:14:12Z" duration="0.000939" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1025" name="MissingDependencyFails" fullname="ArchitectureTests.MissingDependencyFails" methodname="MissingDependencyFails" classname="ArchitectureTests" runstate="Runnable" seed="1382782436" result="Passed" start-time="2026-10-21 06:14:12Z" end-time="2026-10-21 06:14:12Z" duration="0.000124" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1029" name="NestedPublishUsesIndependentSnapshot" fullname="ArchitectureTests.NestedPublishUsesIndependentSnapshot" methodname="NestedPublishUsesIndependentSnapshot" classname="ArchitectureTests" runstate="Runnable" seed="1845133213" result="Passed" start-time="2026-10-21 06:14:12Z" end-time="2026-10-21 06:14:12Z" duration="0.000111" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1034" name="QuestAdvancesOnlyForExpectedDoorAndOnce" fullname="ArchitectureTests.QuestAdvancesOnlyForExpectedDoorAndOnce" methodname="QuestAdvancesOnlyForExpectedDoorAndOnce" classname="ArchitectureTests" runstate="Runnable" seed="485971848" result="Passed" start-time="2026-10-21 06:14:12Z" end-time="2026-10-21 06:14:12Z" duration="0.000338" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1035" name="ReplacingDialogueDiscardsPreviousQueue" fullname="ArchitectureTests.ReplacingDialogueDiscardsPreviousQueue" methodname="ReplacingDialogueDiscardsPreviousQueue" classname="ArchitectureTests" runstate="Runnable" seed="2066206811" result="Passed" start-time="2026-10-21 06:14:12Z" end-time="2026-10-21 06:14:12Z" duration="0.001158" asserts="0">
+          <properties />
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
