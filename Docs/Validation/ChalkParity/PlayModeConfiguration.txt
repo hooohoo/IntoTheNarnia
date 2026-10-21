@@ -1,0 +1,3 @@
+Verified using: UnityEditor.AddressableAssets.Build.DataBuilders.BuildScriptPackedPlayMode
+Local editor default: UnityEditor.AddressableAssets.Build.DataBuilders.BuildScriptFastMode
+Play mode selection is local Library/AddressablesConfig.dat; it is not committed.

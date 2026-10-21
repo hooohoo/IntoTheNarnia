@@ -1,0 +1,4206 @@
+{
+  "unity": "2022.3.62f3",
+  "note": "Final validated source/assets/settings. Addressables local Play Mode selection and generated content are excluded.",
+  "files": [
+    {
+      "path": "Assets/@Project/00.Scenes/LoadingScene.unity",
+      "sha256": "7f6328c4fd7e8d9742df64ac9869a22cadcf7fc9d26b0c4d91f3893501b9ace0"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/LoadingScene.unity.meta",
+      "sha256": "f41a9eca8caf6dbf4b7acd27b590cbf5b0554c47907424a4ebb5a8899b3a1a57"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Main.unity",
+      "sha256": "9d9d32a533873d3b7bfb56619c82aa8bb23a38ffc4099366e90096e1a58b04ae"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Main.unity.meta",
+      "sha256": "d4a2c2de980854f4c911e54d810ea4756f670ea05fe874dea53f14869d1a70c4"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/LightingData.asset",
+      "sha256": "df8da197d26d1f2555ec5dd7f5f23b3f84b1d8c96db7f4d423766aea6de5a31a"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/LightingData.asset.meta",
+      "sha256": "4f52e9d062c6c74eda863ae08b9d1c6abe151bc3a11746f5c8a6c2de42e13c5f"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-0_comp_dir.png",
+      "sha256": "97b1c4bd93ab3fbfca042d446273703069f92c8c2d585de96574fe691dcb15b0"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-0_comp_dir.png.meta",
+      "sha256": "e4350196dde5fc31275a259806ab5e3b435bf310e97f7d3c6045ca65605a3d4e"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-0_comp_light.exr",
+      "sha256": "63d74686b9a17eac2cd44c4e49759b9326db43783a871d67b33c28ebd099eef1"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-0_comp_light.exr.meta",
+      "sha256": "ef1c2888fdb3dd10b7186ab68bd9b8879c83a2c05150fb402430b26ca466bd46"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-10_comp_dir.png",
+      "sha256": "6cbf45661d526706dea577a533bc31a1381d3a5a4b5b2f27d95dc92a661ff6f9"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-10_comp_dir.png.meta",
+      "sha256": "d20ab6f6374a6db9077d4e148726dad6a67dcf05d773116f27b7a039c5b0d870"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-10_comp_light.exr",
+      "sha256": "901c39cadd05e9015bece2dd81291cab47b3bc2d644814636b72c1a861a32b5e"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-10_comp_light.exr.meta",
+      "sha256": "2f77f9b6a33238caea4bddb08d7b15211e571ffb0fccd457399319774612429a"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-11_comp_dir.png",
+      "sha256": "0aa0423fd70d99f833456820eaa1ec8d40269c1f211409ea8d032c502aadbbfe"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-11_comp_dir.png.meta",
+      "sha256": "22c96cd25a41e786c56e073a915ba10d1fc8a0c71c51177ef3a3c8561db6d569"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-11_comp_light.exr",
+      "sha256": "2c285e86875c6aadd28939cb399aa961d15b6033ba05ed1b8a8b6ed46acebca0"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-11_comp_light.exr.meta",
+      "sha256": "57f5a6d0e94cd8c8ef71a273613d1b623ff0d5bb5216e2b805572ec439affc71"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-12_comp_dir.png",
+      "sha256": "098f852dddb56bb128ce28346f7c7a0e8c7f84703e8e207570df47404ae16f0a"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-12_comp_dir.png.meta",
+      "sha256": "f397db8d4d1200475d637373d8c3cd508fa797b56555bb53b9732409409d3edb"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-12_comp_light.exr",
+      "sha256": "d2e78623f4e78ec5bf8737e2b158dc57f62dfb372148e45377871e008c088e84"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-12_comp_light.exr.meta",
+      "sha256": "d7abfb43d2025ca21c6cc0da854dd96e79318db3b56d2100dc206d23506ef0fc"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-13_comp_dir.png",
+      "sha256": "8bfae37ea70fa0af9f81632bc4b2913ff8f9cdb64729e32a1ee5a572f70078c6"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-13_comp_dir.png.meta",
+      "sha256": "888428dc7d9ad5538b66d3d0a4136e9318d9678ec24fc6312ddafa7b620879fa"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-13_comp_light.exr",
+      "sha256": "3e2821c62d10ea28a0135a5004bfe32cba535ddebbc202a2cfeda90e323803c4"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-13_comp_light.exr.meta",
+      "sha256": "4427b0b5e980e0e1c469cb0ccb57f497499d1bc44f77d0a8b3cbc1f7b205ef8d"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-14_comp_dir.png",
+      "sha256": "e2e5cf6e3cf7f3255fb1a6ee1777970e2507cb99bc4b2b15c824535789a70713"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-14_comp_dir.png.meta",
+      "sha256": "46b012510db55ee08b8c6fc57877f961c94a3e564e255d04a11d2781578407e9"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-14_comp_light.exr",
+      "sha256": "91d472b06644d41493a1a6163e7badcd68fad2754546ef8b60da5eca23657dc0"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-14_comp_light.exr.meta",
+      "sha256": "b0270791f1c857fd7b8fadc7b898b93bd1afdb48996fc5be5e8dce6d09664e65"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-15_comp_dir.png",
+      "sha256": "a2e1625d346fcead400aee34a2219232f50192046c662e97d08f189f23ae8729"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-15_comp_dir.png.meta",
+      "sha256": "2f3099b52d33a8f910c423d518368efedc4ac93d222f9a6fe2c5a05e029bd769"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-15_comp_light.exr",
+      "sha256": "962854a667a249e26b5fa2552583ace5b0669a10011cb3a2791c4ae7364fbada"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-15_comp_light.exr.meta",
+      "sha256": "310cf94f55ca5e207496789cb9f4d484ff71808af155d71cb237e870bd8c9ee6"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-16_comp_dir.png",
+      "sha256": "24aeab76f809732cc19c7725decedcdb0de286752b187ab1541717909a030582"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-16_comp_dir.png.meta",
+      "sha256": "a620ad7e04899035c82b12b906d5db8769a74235cebe56440a42669444e6eaab"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-16_comp_light.exr",
+      "sha256": "ec70b0d28ce74f382f7271372f52fb45b5515c5889f8002aee26767918eb069f"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-16_comp_light.exr.meta",
+      "sha256": "5757a7e37e9e9cbd169741f5a71688c3b242f76bd7fe5cd3beb2ed526599c006"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-17_comp_dir.png",
+      "sha256": "8c5e498050709e3fd2e84c9363d666dcab871d4b9ee7cea1fd9e0b9b72a733aa"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-17_comp_dir.png.meta",
+      "sha256": "6c8ac338aeeb08370564d6ec8d58cbd1d1544653bd1dfa987cdd4c662342f37c"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-17_comp_light.exr",
+      "sha256": "ca8da9c2dc5be4a56d55b6867d71c50565ac0927ced3546df525fa9eea42689f"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-17_comp_light.exr.meta",
+      "sha256": "bebe430c08c7bc14ab46ef4cf456abc561b34d2bfd58827596328bba1ca953da"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-18_comp_dir.png",
+      "sha256": "e54523ee1d77f13c87efa2ba30a0ee3bad7d2f8964f40af7921392952a7fe6c5"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-18_comp_dir.png.meta",
+      "sha256": "d63c81e6b4317b92eac78c0ccc45de5700f8f1cc2620acfc8e5915572779f479"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-18_comp_light.exr",
+      "sha256": "dd248f526af731574bd4762ac5bfb377968a09377d8d75b8c8e5a6c78c48d5f2"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-18_comp_light.exr.meta",
+      "sha256": "2ceda76121364c8649d24097ab9068689f361d4a1b2b194c44734c697443231b"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-19_comp_dir.png",
+      "sha256": "9308ec85026e5479475ee1ab73931e94a28df22b1efcd242ebd96c8a86bebedc"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-19_comp_dir.png.meta",
+      "sha256": "83cced5eec8e07f6ae335c0eef02092a8a5643196b7cc72a1bb9f833119091f5"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-19_comp_light.exr",
+      "sha256": "52fe9639c629cd005e11687bcc6992d6edfc0eb325188faf5024a8fa1dd5e23d"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-19_comp_light.exr.meta",
+      "sha256": "c5c6bc1a5961bded24603315c8031edd203633f4cdfbb5b79ff6ea73ad24de2a"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-1_comp_dir.png",
+      "sha256": "9a2ed44226922af7ed391fd6a80b58f138781e7e186acb06081cd3ded9080487"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-1_comp_dir.png.meta",
+      "sha256": "d5c4a20f6658be9afb2711599150bd450faadd86e1dace6f396e9e7da3009b12"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-1_comp_light.exr",
+      "sha256": "321afd8129c50f6f0767e9c87ec20b333ae68cc3dd70d7bf68737487d85202c5"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-1_comp_light.exr.meta",
+      "sha256": "67f6ebad62dca14f24bc63820c500d410ddd8c04773d138289e80ff3051988ee"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-20_comp_dir.png",
+      "sha256": "3f2345aabfb7b24ce4f8b63504e02c9b0431da36c6239afaacc026ae760069ff"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-20_comp_dir.png.meta",
+      "sha256": "e3cc2ddebab19ce1c2d4effb65dd4e544a7cf299e1fd3ade51bb4dc237933b1b"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-20_comp_light.exr",
+      "sha256": "e2110c9a55aa7df83f5962c0853059be2cb7fa7ce0a0490fac123f82ecfa5ddb"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-20_comp_light.exr.meta",
+      "sha256": "8198d78eb65592ad0a62b3a34341bf743850b5640b284752b4bf13b9623c2a4a"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-21_comp_dir.png",
+      "sha256": "d7c6445b3b6bc46e58af4f817fade1fdddff4d880975a2765a367e6ebb4e4597"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-21_comp_dir.png.meta",
+      "sha256": "a75db01e74303a921e3a9d2df7f8bd3909bcb0c76791359dc23116c807ae6783"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-21_comp_light.exr",
+      "sha256": "7c7f5989ca1d11cf076c970edb468f2af343657f2f47eb953279e4f585109c08"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-21_comp_light.exr.meta",
+      "sha256": "6c127a7368bf8c6d9523051ad29eb6cd1e0ddd792d50fe9c3a776d5fdec6af96"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-22_comp_dir.png",
+      "sha256": "f3c0e3254429e0f134fe691166bb9cc87e02f8f2b3f142db9803dd7462cb5d10"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-22_comp_dir.png.meta",
+      "sha256": "493032082510702704bb56aac56fc4461cc96801df11350cff743981e8a0b869"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-22_comp_light.exr",
+      "sha256": "a3f8bd22e9f56efafc302af63b36b6cd12c47784f8c436f3b64e4f06961a7c25"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-22_comp_light.exr.meta",
+      "sha256": "f41d16fdb75fd666087742b78c1bdfc17a3ff1f2dd1266acd059a60e8548144b"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-23_comp_dir.png",
+      "sha256": "44869d5db52d91863bdf024ce49a0f91654c8e3efcd3546ee8e86c8ae9548a74"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-23_comp_dir.png.meta",
+      "sha256": "b06ca1aee7b6e6a51e573db04239ddf4993f794c2eeced170dd4932ce0707e74"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-23_comp_light.exr",
+      "sha256": "12139b618ab101e3af16f62801dbda9ff425d60e782714db5ed4e654aa5cb2eb"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-23_comp_light.exr.meta",
+      "sha256": "ce1f2eb9edcf2750b309db74d8cd14149322fdb2f0c26da968006c86de299128"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-24_comp_dir.png",
+      "sha256": "96d42294996aea1149811e7e51ea2f75aeb758db60bb09b30dead90c73f2f4f4"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-24_comp_dir.png.meta",
+      "sha256": "a849c69ababf351beca5cd8748af9825c8e3e55b1dc218c9ee22c7608f8a7a8e"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-24_comp_light.exr",
+      "sha256": "85febd08cfd5fbe0a24161d7c37c796fd093d86eb1af1761324708460c8f66e0"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-24_comp_light.exr.meta",
+      "sha256": "d8124a81c79c3e4a596c88e7b8a76792627d6a4dd73e45c37533d32055c031fd"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-25_comp_dir.png",
+      "sha256": "5e68cf2c308a6ed671eff0e45a523bcff03ac352e568de60626b6f694f0d26ff"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-25_comp_dir.png.meta",
+      "sha256": "fbb547a7823a8a64e7d231c7639db4b84622477fbb9d54c7055c8406e5610a5f"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-25_comp_light.exr",
+      "sha256": "b0e637f5f8375353f522b412ec38481e9689c5f7b33c6337dc4f5963124a6303"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-25_comp_light.exr.meta",
+      "sha256": "9253fb5088867b4fc13b7112863b466790d34438418e585e1777300329b08be8"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-26_comp_dir.png",
+      "sha256": "dccee2ea736a433cc0fe58164ca0ac2dcbc217e095e94f6e7f9aab4147807cf3"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-26_comp_dir.png.meta",
+      "sha256": "1b2c45fb1544e888d8620d1f63bb1c217959905ed7e9c76b1bb04b5165a8e77b"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-26_comp_light.exr",
+      "sha256": "ed02bbc6f99fee05e61caf524c2aa394b21ecb2ecb206c1c08ba1760fa2ce7f1"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-26_comp_light.exr.meta",
+      "sha256": "1219a76f681e0b560683526ab34b5bc3d8159209e7605c7076df3deca8c6f18b"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-27_comp_dir.png",
+      "sha256": "c7018fb401d514dc82a5ae0035e6bcfc029be9f7ed7bc051febaedd5a1b2e8e7"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-27_comp_dir.png.meta",
+      "sha256": "4d4cf485bd9413d7fb592f4092b0d3a9c5d595a53f67056514f4cd1be0dbd7d6"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-27_comp_light.exr",
+      "sha256": "02838524bb1c1a6a40cdbb24545070e92c1c52797a77fcf301f0532ba67abfaa"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-27_comp_light.exr.meta",
+      "sha256": "4ca8d437460159518c1aebc3c2f53d2499f7b040a358d817b679a9633708950c"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-28_comp_dir.png",
+      "sha256": "a367334e2f1956fa0dffa0375fb6d2c6f0c94d8a36944e2687a2eca58be27828"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-28_comp_dir.png.meta",
+      "sha256": "a9c0fb95927d6f01c8cd9629bd50f992403314ec2d4173d0a3a9d0163f2d0272"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-28_comp_light.exr",
+      "sha256": "99f6a66cfd9cc297148ed9ac3c8903a68e635108849e4736410ac28a0eadfb87"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-28_comp_light.exr.meta",
+      "sha256": "53695f989ee9b44dbc559fcb10c359d1c5ee06ac25ada88e017f784eec75d68a"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-29_comp_dir.png",
+      "sha256": "5be7439589a1e3336ad0a1e382f2b8f48c96782e09046b9cfc47864514ebd608"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-29_comp_dir.png.meta",
+      "sha256": "fcd88ac44be2aae5adbdb29a2debdef18edb80afd21cf85582c878ebbf50939d"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-29_comp_light.exr",
+      "sha256": "b74b0e575271438001f7761de8006cb8f23ce70d12dc4f6fd4ccc0e74a3cd26a"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-29_comp_light.exr.meta",
+      "sha256": "c84fb13ecb6053362f78165b3a0320c456bd08e26c012bf54dd12f4f0c560a90"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-2_comp_dir.png",
+      "sha256": "050215eadb1ed2cb8135243eab3ed1ad3ffcd0bd95a872b60afb8de6742c0234"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-2_comp_dir.png.meta",
+      "sha256": "647e46b3447cf6062ccec81e331267aa3789817a8fadca2fbce11a7b0ed6d478"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-2_comp_light.exr",
+      "sha256": "1b43bc0b1331cda3d4254ff9adcb1f00a16e8af76ea8ae21dafc9c0f2f0f35bd"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-2_comp_light.exr.meta",
+      "sha256": "f094f96d6f7246a46afc3a1ab69aed30f0dd816a3d56546a763664dec88022c8"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-30_comp_dir.png",
+      "sha256": "fedf1cef974dc99e33900937976b3da45dee44a9a8f580d0fa8296bfc5784a33"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-30_comp_dir.png.meta",
+      "sha256": "7ce4ae66a29b42279d562f62393a5a4a9b001c7ddecada463a3eb8295426247a"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-30_comp_light.exr",
+      "sha256": "a0d534dbf63ae51091cd87e52b9f0c2a9e01657df32878b2cb28fb16ec4280ed"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-30_comp_light.exr.meta",
+      "sha256": "6666517f9926ad16d957dc18d202059585e244a994c4019ee55f7c23ff9ce1e6"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-31_comp_dir.png",
+      "sha256": "b4c8a0374ca7632052b0393a8c5a828b154b8c50871a03ce69b019c20c23fd3e"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-31_comp_dir.png.meta",
+      "sha256": "c091eb61218c7ea13bb514958742840ab2f7698709ee2a046d004578faa64ac8"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-31_comp_light.exr",
+      "sha256": "cf3fe31cd3155ddb4133988e49ed19010ffcdcff9c451b956c4e47733f9b78c2"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-31_comp_light.exr.meta",
+      "sha256": "36da0a7f246758e03155a1b1122229af8a0b33048fbdcb5512864394f78530f7"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-32_comp_dir.png",
+      "sha256": "09cf73ce65f6851d4865e8b1dcb09e12df08556be4e58c88fdca023c71a35e31"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-32_comp_dir.png.meta",
+      "sha256": "3eeca95d537899d53215b87a78ffebc1b021eb87b594a42f362c0633b8740ae9"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-32_comp_light.exr",
+      "sha256": "5e3014ffa375acda4f03d16ef648196e021369a59a1bd8c12eace3b084f360bd"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-32_comp_light.exr.meta",
+      "sha256": "d112bb12f0d8172d5efd1b127bcfad16d8eed691f4751423e993e17f25cdd66b"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-33_comp_dir.png",
+      "sha256": "8c7de94a6b91a94194fda682753c973414b835d5dea3b3ebee8c152223ba0c1d"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-33_comp_dir.png.meta",
+      "sha256": "c1ed72b13fea1a3f250a14417057cbd5b68a29048ab27ecbe8b61d8ba5b03b81"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-33_comp_light.exr",
+      "sha256": "b4d811f772125030f9faa427f95aa279eb80b6001da1dd86fe0ea2010d6ba4be"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-33_comp_light.exr.meta",
+      "sha256": "3275ae22f018490a1f9d6a8d0ba8001be68f943390975935fb416f564a96f11f"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-34_comp_dir.png",
+      "sha256": "e9a246162583cbf4abc655dcf3e0d46ad3a39c27298cf280df4cb8293b8620b3"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-34_comp_dir.png.meta",
+      "sha256": "ed4c3f9b29e35f236f431458600b50c198340054ef0ee7bdab6ca0d61afad525"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-34_comp_light.exr",
+      "sha256": "233ced7f2f9590a052a98471318c76475851b79180f2ae5d3c0da87b95750ce3"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-34_comp_light.exr.meta",
+      "sha256": "f828079378ce241f1c7da371c1a9909a98163cdf33415d299ea7af4f9bf31dd1"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-35_comp_dir.png",
+      "sha256": "0e0da0e931ca1afb5275593d0fef9382ea5feaef15e573e5764374296d3372bc"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-35_comp_dir.png.meta",
+      "sha256": "c6e9c5866144a2d93fb69db7c476e73b924523e087b37deb63df313c639a7e2c"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-35_comp_light.exr",
+      "sha256": "e47f32a963789106f8278589f63bf730ab5946d6fa3cb7ffc6153c5e8901fcc4"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-35_comp_light.exr.meta",
+      "sha256": "358df1dadc71eb21720888a62f681186300a22916a14e6bf08fa1807adef2991"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-36_comp_dir.png",
+      "sha256": "6ea305f0e5448a64171ca977eba97448e8084cab0b6553c92c4f2b2df1cff6e2"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-36_comp_dir.png.meta",
+      "sha256": "05d1847d194ddd14084bd9a722196cf2a3b9e4338fa7ffddcf80a19e1b32e8a0"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-36_comp_light.exr",
+      "sha256": "5c3c3421a36bca037029b3e16bc1d8e96a6b8d8227be309370e3db497e64c1df"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-36_comp_light.exr.meta",
+      "sha256": "25bca0190ca5ecfa140abbfe6c6aa8c6e8a1f53302f40ff42595ab8d8a77b3fa"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-3_comp_dir.png",
+      "sha256": "94a9ef71d766f2363fe08b3e703ff22e459a510e583911c1affb27c37cd4b37f"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-3_comp_dir.png.meta",
+      "sha256": "a9936c567d09d61e0d4a18b3f7f6e322ecc00b28f61b1a60d8fe79787c13a702"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-3_comp_light.exr",
+      "sha256": "3c527e83f1ab8d5840e4a35271f80bf0085b9952e17b0182522b088415320037"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-3_comp_light.exr.meta",
+      "sha256": "549532150c9b86bcaf5499f36abeee443e15f15181c407d44983c69e391c38d3"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-4_comp_dir.png",
+      "sha256": "0f84b16630198293c948970d01fa014eb0af63a28377a387b06ae755dd120b93"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-4_comp_dir.png.meta",
+      "sha256": "b6d3acf44876b3f5d1c76a1e6673d7a4711508813f7cad5deefb7e1df2f2be1c"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-4_comp_light.exr",
+      "sha256": "b2fe1d74121835991de5609c34f2f01c62e1b81f096028aaa8847b516a9f8d68"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-4_comp_light.exr.meta",
+      "sha256": "552f0c0e5c2cbd156dbf1b768c22d59c4870a31e8f8dd5648b9d0be51bd811a1"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-5_comp_dir.png",
+      "sha256": "c428ccd910bbf90f8e0f653c51c6565f72222acaf6d45d43659daccf0f2de45a"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-5_comp_dir.png.meta",
+      "sha256": "a5d8a36b7824129eefa419a05a1a1be7aad7d9b381122365fb226ebc9b8e4c3c"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-5_comp_light.exr",
+      "sha256": "059fed925837b54399261e2669dd99b05d9a8af3a34b84bb4d693dda1fe96346"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-5_comp_light.exr.meta",
+      "sha256": "4b8d825a0fae3c08c252140a957ab772b641fede737c4409b2a1eba27e322b60"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-6_comp_dir.png",
+      "sha256": "e81f88e6075e2f67d631d77efec13ee5a32c3d1ca1f410e0a2b64414bdc3f116"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-6_comp_dir.png.meta",
+      "sha256": "5445323ad7c20f52db224a310ed66a5be7731c3b12031d9363d0eb421b706c58"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-6_comp_light.exr",
+      "sha256": "b2402031e4ab7746584669efa5ddd86e8bd23607f6b68811c13b5bc8920e0574"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-6_comp_light.exr.meta",
+      "sha256": "1a32c7287336c82f1a9947a2e5b83b700ed85fa3115abe1e5fcd98cf98237ddb"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-7_comp_dir.png",
+      "sha256": "9e6399298e932b7ac87ad8b7bcde56a4730220312940a842b888f8b21e96ce1f"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-7_comp_dir.png.meta",
+      "sha256": "deb9e77705ff7997b669df4e32529b4050077603a81770938c0d0774c3a3556b"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-7_comp_light.exr",
+      "sha256": "31179025e6aab7791f4589eb7e108d5e24de8f1726b63eb0f4776b043343678f"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-7_comp_light.exr.meta",
+      "sha256": "c31051ad8106f1f670770421d25dc8cc357163da7ed1fe5dd1eb9d5d5c97811e"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-8_comp_dir.png",
+      "sha256": "dc6bb8cba814418e0fe5082c8cceeaaea274c13fc5250e0cee0cf16468f36a4d"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-8_comp_dir.png.meta",
+      "sha256": "857b131b751d587f392e19f747254d7552d15ad3808ba9e507b4917eef0bf1f4"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-8_comp_light.exr",
+      "sha256": "b49365d67a221f0d5b4bb0f17f6372c55e6e5437ce515bd60bd94e34b5205716"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-8_comp_light.exr.meta",
+      "sha256": "1677bf5e5126b9f09834f13215ff773e90df96945f0951b640b8dc67f7ed7d9c"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-9_comp_dir.png",
+      "sha256": "5bcee5dccadb056c81e271428a617bed5d659d0d96f1543afa19223550b5fa12"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-9_comp_dir.png.meta",
+      "sha256": "6394cae7565a98b251daa0af380bd32bcf4bf54e8a1812c7e843778a90133a4d"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-9_comp_light.exr",
+      "sha256": "fcbc766cca9f0a267678cae7be7a7a077ac7e5daab758b64e4efefa8b45de061"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Lightmap-9_comp_light.exr.meta",
+      "sha256": "3dba322458acbbac810b443a289d32cd8c9481ad0b8111431e347908c6a817db"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Materials/ProfessorHouse_Rug1_Toned.mat",
+      "sha256": "99cd8f432acca23d2698b153c0fb4980157166773d120bc905e287c8ad4e10dd"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Materials/ProfessorHouse_Rug1_Toned.mat.meta",
+      "sha256": "1fa4f88166ce16b07bcddab6e9a471bafc4abc7abaa6e9009154062855e824b5"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Materials/ProfessorHouse_Rug2_Toned.mat",
+      "sha256": "52f4558346f6651e5577396d799f8f0c61fe2715741981f4314cdc91a3b02dda"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Materials/ProfessorHouse_Rug2_Toned.mat.meta",
+      "sha256": "ca4aea6e57cbf0f051c40bc6a6b0d241a3fd0275b9feb0a11e69054faac2ae1f"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Materials.meta",
+      "sha256": "6f53f6dd63cb54f03f5297e3469940fa52d7770790ab1a7101a5d81eee6041c0"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Meshes/ProfessorHouse_CeilingSurfaces.asset",
+      "sha256": "f6627d4e6340b5bc5f3b4048e8966409381653fff22d8517f9aa2e7d38b1c803"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Meshes/ProfessorHouse_CeilingSurfaces.asset.meta",
+      "sha256": "38bb5d771f2f79e2b792d9bee88dda469b1c375459b35e3bebc4d12e20ad0fb6"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Meshes/ProfessorHouse_JoinedSurfaces.asset",
+      "sha256": "5acc3c30c6725e1399e26550abadd19544dc1b9df2b523ef1e1addf0f4ab4610"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Meshes/ProfessorHouse_JoinedSurfaces.asset.meta",
+      "sha256": "c3e757ca92754714dd1e9f1807e4bbb4f700c5ee76bbeaf0372d863a9c582aa4"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/Meshes.meta",
+      "sha256": "cba6ee38058faee50659f1e499824311c10edf124f64193ae78a3cac0315f1a8"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/NavMesh.asset",
+      "sha256": "d795e87aacf68011bc1e5608ad3b289d5e6af47de7b0ddd05cb5a2cf3c06d2b1"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/NavMesh.asset.meta",
+      "sha256": "5366e9b54a73a2c518d530c8c8f791e0546380b20bf1b3a20bd07afef0362ade"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/ReflectionProbe-0.exr",
+      "sha256": "328785db29de946d7af16e15138270ca927183c684b12ce6781b0d26844ae995"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House/ReflectionProbe-0.exr.meta",
+      "sha256": "67afbd77cb354f3c9e60639d291bc3d9159a05f2cb6e530aeb5f158eb676d65d"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House.meta",
+      "sha256": "a9b38943eb5b01f70250b3ae01ffe61103e828f32e571f05fc2954ec03529e03"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House.unity",
+      "sha256": "efce0b9b3dba66ca7e5c6a51b5628284435a44d1abf0edabbba27abf8aab1333"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House.unity.meta",
+      "sha256": "bbc6ebf413009d25b32e86b255fb2b8b06bcde6bbf4dc477c3c5687c84932e09"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Test/LightingData.asset",
+      "sha256": "4d892bc2f893590818b5d39bf05ce11af2d965b695e45b1d7a4412cb49152892"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Test/LightingData.asset.meta",
+      "sha256": "967b443fb8c5839f720c09e5be8d5be607f0b46902de7c406b639284499b74c2"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Test/Lightmap-0_comp_dir.png",
+      "sha256": "2d91f7968c83461aae227a79ae61121916d4f6b13edf5b860e1451dbd25cccfd"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Test/Lightmap-0_comp_dir.png.meta",
+      "sha256": "ff715861b52ab08367b5eba94c902fa86cef71ea75673f5b5a2b5c9fa1c0b87c"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Test/Lightmap-0_comp_light.exr",
+      "sha256": "05f52263e1606f9098251c2cee7499d5fab5909f890c6dc2767d83eb82a38570"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Test/Lightmap-0_comp_light.exr.meta",
+      "sha256": "32698547d8a9287042ae0be86848fad6b9fb25507c2b268dcd2871085526f8a9"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Test/Lightmap-1_comp_dir.png",
+      "sha256": "38393af1ca9bc95a19c4a80613f0bbff99fb7d30da44cdc87eea293e8dea4ddb"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Test/Lightmap-1_comp_dir.png.meta",
+      "sha256": "5016b459579fa993740e20e4228064b7e22e36774b184d7244e4aca3a75dc385"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Test/Lightmap-1_comp_light.exr",
+      "sha256": "420ddcea6120d4c1ce460ac81c2aadd9e552a21c4773128e0d85585e2430ffbe"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Test/Lightmap-1_comp_light.exr.meta",
+      "sha256": "9093e0360b681a2e596178f8c35ada5fbe7b1a94fdb8f1d2f9a463a4ce3553a0"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Test/NavMesh.asset",
+      "sha256": "d9d33f07c461d2be4a3a000634960627924079ffa744e9615b9deda4728c99ee"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Test/NavMesh.asset.meta",
+      "sha256": "e4913f9c5207d9ffa28863ba9a6e97ffbc3b9fb5d1a428f7e4f3112844159e26"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Test/ReflectionProbe-0.exr",
+      "sha256": "03683213b7fd662c4ae9463958ee87fe77010cd03b1ed2ebdd0bf4a82b9f0caa"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Test/ReflectionProbe-0.exr.meta",
+      "sha256": "0b58d7adf0a4c3756b6f52247037e64e18470eda6d7ea66e73d2c5507fea06fa"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Test.meta",
+      "sha256": "97f9e68d6fba8b10b2cc6ce5afc04f2f9f09d16e7c5c2b4099b92b1856c79051"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Test.unity",
+      "sha256": "002cd41114fd4b46282d186c2038a26b5444c97b3bf449447a3fada0895712d6"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Test.unity.meta",
+      "sha256": "99e7b95d4159f66c4c719b85739bc286237fccabc6d8855795b50191c10b944b"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/TheSiblingsRoom.unity",
+      "sha256": "f96d843fde6d7e07dbcf8d46b34b3cc1013356016b786110040f8bc42b97ea65"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/TheSiblingsRoom.unity.meta",
+      "sha256": "a902649475dd8bbdb94e1121bd3041792c465ca6589783649cea8c3aa259cf17"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/TheWardrobeRoom.unity",
+      "sha256": "c847b47500493e7b3c81093429fe4bac9c85bbadb6233f9c754a7ec49fa63206"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/TheWardrobeRoom.unity.meta",
+      "sha256": "a52c3f8fa76fece8455db7faf39a3365a4635fb6e60133e70496b00e2ea25757"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Title.unity",
+      "sha256": "d7b91e44cb96a76b6d78651bef821e60621c6164460c0142648479940f835408"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Title.unity.meta",
+      "sha256": "dfe2573ce4eb903d1603ec07aa3add6998fd50ca885a83ab3b9a5706cf3a0676"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Tutorial/NavMesh.asset",
+      "sha256": "df07699ac454e2a06d4b7e5717ecb8b1339066a7b2180801c127def5e7e290db"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Tutorial/NavMesh.asset.meta",
+      "sha256": "2bfceafee02331f8aec0375007a97a3a76a1553fa8c94ab9d7529d326a4f7506"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Tutorial.meta",
+      "sha256": "999341d238b50f7bebaad6fb41f4a8a4aa049757fb8cb12af2c0f887ed8453da"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/WinterForest/LightingData.asset",
+      "sha256": "204d03d5583eff66eddfd1e7c29dae628968843d663a54d024166d4bf2d85292"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/WinterForest/LightingData.asset.meta",
+      "sha256": "ad7e066247dd863abf85f13023691fa203fc410b2fb15ea1650b3563a6db0496"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/WinterForest/NavMesh.asset",
+      "sha256": "9a6d48ccad858a12e0c3373e83a539cd418d7eb9afcd8f26e5508ae7b93445d2"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/WinterForest/NavMesh.asset.meta",
+      "sha256": "0d34581391fc4680cc2f2e1697fa8d6c081842f8ac00f984e18e51160f7e6773"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/WinterForest/ReflectionProbe-0.exr",
+      "sha256": "bf3712803a23145e65e7066fade7b66859e34a795c5820dac683aeaa2f4f55b0"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/WinterForest/ReflectionProbe-0.exr.meta",
+      "sha256": "1065fccfc05476bd706260ee73f3e389306fec860e38f47c164da61f04b630f7"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/WinterForest.meta",
+      "sha256": "01e020cc52cd052372d520aeb1b0de1e893fdc0ad0b834fb97c009fd4f63254a"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/WinterForest.unity",
+      "sha256": "bec130f688831def160ff86c3f65b56828a30c1f3e0f2daa774692b28e6c4c80"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/WinterForest.unity.meta",
+      "sha256": "e4c891b38d9cf4e2b5921f23b861f91086ac471ccbe34baea5f6a0453b063c2b"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes.meta",
+      "sha256": "0e0b1380017a94b9a6a0be02e4e69453a0ac33d3527b8e69fb03832d336d04e1"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Base/AddressableLabels.cs",
+      "sha256": "0c92f51655156d1ad6e76332fd49a439867b5256458bd8b2033c322d53ed29fb"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Base/AddressableLabels.cs.meta",
+      "sha256": "bd1a6249e56b0f5b79fd1d5bd195ce8bb425ed4039a548834af8d50063a7c600"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Base/AssetKeys.cs",
+      "sha256": "a08eddba2ab98b1df72aa6c26248dae49f2cf6a0c63fe9acbae944c9047c2591"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Base/AssetKeys.cs.meta",
+      "sha256": "c6accdb12afa0e6cca977375b229ddc03ae64c8d02a1ad69d688d3427e13c995"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Base/FrameLoop.cs",
+      "sha256": "09b474f814960188ea482490bfc635bf80c6b68321bc7676e0295b4c937beb92"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Base/FrameLoop.cs.meta",
+      "sha256": "aca9654c8fccbb992ecc234f6e7fe7e7dcb8e7910f029cd1926f1a3afdbfda1a"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Base/IFrameTick.cs",
+      "sha256": "fcb5562dd4f324161a6be547574a086dea038361bdec71ec4b2181c5fb892b1d"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Base/IFrameTick.cs.meta",
+      "sha256": "191cda637766a578a3b0bd9fd48b4a892a2bff4312200830c1b065bf28056e50"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Base/ILateFrameTick.cs",
+      "sha256": "c2211aac20a22e299c549a4146a00aaeb987c92f67780fa99f0c30a316123609"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Base/ILateFrameTick.cs.meta",
+      "sha256": "dbb94520acd37a70cdb9aa6b28b893ccab8c64a38af3d278233c2ce11c536e29"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Base/RuntimeBehaviour.cs",
+      "sha256": "369da47f3c48b426c693004addd3727996c30927ac65a6dc6e5b2f2b0ef19256"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Base/RuntimeBehaviour.cs.meta",
+      "sha256": "d0133556da9dfe45c6da7681213e31befec33c56a0190ff51f336527d6c82b7e"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Base.meta",
+      "sha256": "9bdf811dc6fe5ebb17227f17520388e8cfe39c0f9ebd066fe0ca83e9397aa79d"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Data/Dialogue/CharacterLineClass.cs",
+      "sha256": "2b68bd0292beac07d4d0eb9507a1601a6b28e769763da474b058a3bd3665ee9e"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Data/Dialogue/CharacterLineClass.cs.meta",
+      "sha256": "e23555350ca91ff6d6b96cf3eaf09f7af8bd688c9a02f21358268da6a79bfa4a"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Data/Dialogue/IDialogueProvider.cs",
+      "sha256": "fc5b3b2af0cdb230c26631bddf5371c9f6685ff822b1d2a0fcf27aea598f7e4a"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Data/Dialogue/IDialogueProvider.cs.meta",
+      "sha256": "58247c1acf23ef65455997db2bbcf911f096350089822fc66b1bc0aef96f2175"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Data/Dialogue/JsonDialogueProvider.cs",
+      "sha256": "559e0b900fe37689101a853a0e1e87ca1c1364fccec8808de4f606ecc2ee9d74"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Data/Dialogue/JsonDialogueProvider.cs.meta",
+      "sha256": "64fe4105a1bdab8cf91c49cde0a5bc23d3eae8ed32ec7d816eead150dc6c7126"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Data/Dialogue.meta",
+      "sha256": "81155d1f3ae925b267913ebf195424f560a58402e208710fb293b429aba22b7a"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Data/Stat/MonsterStat.cs",
+      "sha256": "4e58d1f0a03636b02cce1a1ade31af982c5b5f619f139e641744a4109c154d98"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Data/Stat/MonsterStat.cs.meta",
+      "sha256": "4a6867aeac37084b41e23dfba2f3924d62799360d99d8c5cd0eadf0206e3f37b"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Data/Stat/PlayerStat.cs",
+      "sha256": "c0b84283034aaf39d043a3e45788c913e1277e02e6c60985ec3f35e6e31ad254"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Data/Stat/PlayerStat.cs.meta",
+      "sha256": "4fbedf83f5e39e77d4d61ab743a3076a0940c672b67d90e017fbfb81b63bcdbc"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Data/Stat/Stat.cs",
+      "sha256": "381ab476f9f46890f2bbe2b83254ebf16f0717f5c2ab6d305ec301e25f740152"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Data/Stat/Stat.cs.meta",
+      "sha256": "f1aba02ae760baaa0338c056f50283706995797d81308de20332e995ebfa1a9b"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Data/Stat.meta",
+      "sha256": "eea7c4da19799199c2bedc5099217139a0b5110823ac0f7717c6012ea0277408"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Data.meta",
+      "sha256": "2c8e4c1cfa12816a81ad6a93ec18e0fc7ab8ccdf7d6fdb7be3ab5235536a4d45"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Enum/DialogueEvent.cs",
+      "sha256": "0991acf84b4848a7af3ce5d749dfaef12c7a9b88c67f0b3106524101975caf3d"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Enum/DialogueEvent.cs.meta",
+      "sha256": "6c7db98021a6558777ceaf6e28eb7f9171e3b9ccfe2b8ae03fe5d819a8b13c6d"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Enum/DoorEvent.cs",
+      "sha256": "a37175a75c9c36c8e3a16eda6523fb5933c7fac5cd2095c44aba529c31dc4fea"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Enum/DoorEvent.cs.meta",
+      "sha256": "7308aec0fddd29a7a31616cf6308c128d45522a5ea08e46c7d4ce82be1e62101"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Enum/GameStateEvent.cs",
+      "sha256": "9296ff1c208adb2e3bfa4e3c649ca12cc76fe0d890a9a59cea993335683ffbec"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Enum/GameStateEvent.cs.meta",
+      "sha256": "0be8e3fec471d71c4bf47f362face683a462a2a91d7b5e12e97d3cabe94589b5"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Enum/QuestEvent.cs",
+      "sha256": "b04d55ec384392c970e35fdeaf693510d6314a9027207dcf24930ec94524adff"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Enum/QuestEvent.cs.meta",
+      "sha256": "a8a1c89a424a3958e3dfbacf21ba5e1e611845b2b6f7b439f5826303d5ec8bd5"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Enum.meta",
+      "sha256": "03529c03d8350afb696c7035d7452eebf9d532950085752867ac63c7a1533f23"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/IntoTheNarnia.Runtime.asmdef",
+      "sha256": "48acbaa424fd228bd6b828939987a5a474268f5265cc07cf262d830dbf7e26c4"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/IntoTheNarnia.Runtime.asmdef.meta",
+      "sha256": "cd75f9d28a0c4d929938f8bc7921047025d6a1053a48007f9a52fae3cf24541d"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Facade/DependencyResolver.cs",
+      "sha256": "b6bfbda670a98b620b6ba09aeead833d0bcd2a58fcc4a8abe94b86780730a465"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Facade/DependencyResolver.cs.meta",
+      "sha256": "f8ed6f6fecac89ac2076bea6703d66d4f37e8b34461a04bf127a32d8d8e9dd90"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Facade/FacadeManager.cs",
+      "sha256": "da7aeebf22a850f6bb048f6c4bd0ff29a53857b14bd2ce3d76648d56729e6b8c"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Facade/FacadeManager.cs.meta",
+      "sha256": "cc0d83decf8c851a42cc58ecae3e68a651fe6ec1b2df029450a5146bf232033a"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Facade/ServiceRegistry.cs",
+      "sha256": "c306f03243a142f2dfd725b8ecd097982cfff0bf253ebc6e80ead98ab676b5be"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Facade/ServiceRegistry.cs.meta",
+      "sha256": "91da37fb9f1c0f19d11386d7e530b756f8a7f48b02ebcadb060cda2617ff1c42"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Facade.meta",
+      "sha256": "f7fb1ab0f35c0bbe60f024a77bdf32508566979b93f44c35bc74572e72424f23"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Interface/IManager.cs",
+      "sha256": "de2be3ae49f5ae55d3445df7526ea8ea75576116f9b571ba9dce64f67e01b3e6"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Interface/IManager.cs.meta",
+      "sha256": "25a994995023ef759646c2ede037f58786bade2e8dba0135ce673a64460a0da7"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Interface.meta",
+      "sha256": "1204fa327985f357b0b086f3c01507fcf5e9950129efebe5a6b4c25f0f6db415"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/AddressableManager.cs",
+      "sha256": "ed146015057d8bd59a161d523fc19d9cc455fe9ae9784b04077ca4ad1cf10a9c"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/AddressableManager.cs.meta",
+      "sha256": "b03c800fde171f06add46cc9ea182e40c9b67ac2d309532a1a509d6d507fac9e"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/CameraManager.cs",
+      "sha256": "838e9d00ecb1df3bfac93404eb3c7e3f420f43959b4892d12677af5d1ee5a839"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/CameraManager.cs.meta",
+      "sha256": "9059a6973c840a03d12fed33aae0f2659302816dac26aab1eb47798ef734ab20"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/DataManager/DataManager.cs",
+      "sha256": "80321b905622e3a240b5e97c2a13e73f63ad8b898ab8e1bb8edbcad8be11d828"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/DataManager/DataManager.cs.meta",
+      "sha256": "60222483ab546623885a561c6a9d2edee3ff8ddb965d871fdcb823aa33d11ef4"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/DataManager.meta",
+      "sha256": "0e7c91fe09df2d40e65c9e88c2e740f5c9a570e7c538a02974fb1cb41b211cb7"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/EventManager/EventManager.cs",
+      "sha256": "edb8f206ed96e82cdd7e3aa0666b06e5fefe383596de3dd84a614cd27feead8d"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/EventManager/EventManager.cs.meta",
+      "sha256": "2ae982427a21ffba9cb87f283b9d1124c2f6d909799b4259944b915ca166cb72"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/EventManager/IListener.cs",
+      "sha256": "d1327a43a3e6429fa059d36d8c8bb4319c95a16c67deb40744ae23e744f2f419"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/EventManager/IListener.cs.meta",
+      "sha256": "5ca2cd4018abf2ea6e6d71494385832d3a9d266c06ee11925c7b73c6c0e4e4d5"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/EventManager.meta",
+      "sha256": "11a1beeaf4ed50c3fd3f6f3626e1c1407300c58d4558bf207e89d0bfc6a110de"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/FactoryManager.cs",
+      "sha256": "5d50380478c55092b05109a3e80f7b956c52e24ab3c132b7de0f91cc87f12086"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/FactoryManager.cs.meta",
+      "sha256": "ae31f58e2efa08acae03cfabd19286a8e606658c527a764596223dc0515892ab"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/GameSceneManager.cs",
+      "sha256": "102524e0eca305c9dbcfbced41a12dfdaea9be6487efa298c7cc80dd74e3bac0"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/GameSceneManager.cs.meta",
+      "sha256": "84250cb0eaefd02a73f1d73f762080ed60d320a1e1cc825b6a78c57f9f21f40b"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/GameStateManager/GameStateManager.cs",
+      "sha256": "a35d0fe0a571be4388516fa8106e72d8d07e0bc0331d8632bbfd4e230a6aa337"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/GameStateManager/GameStateManager.cs.meta",
+      "sha256": "f761ea9911c4c0f3136e7eaf4880e49f66f5d515937b26a7370efd8b356b6a91"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/GameStateManager/State/GameState.cs",
+      "sha256": "8625d3c648c6ed01afed4170932adcca38dc3e5977598bfd160f7b93c10f2028"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/GameStateManager/State/GameState.cs.meta",
+      "sha256": "b48cf0f75e76e4ea474fce86204a275420202b5be34f4c38f3df4a25b7bdbe9b"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/GameStateManager/State/GameStateType.cs",
+      "sha256": "0cb5a79d2656eb044e41b7b0f4f4c723c742a9fef0579bcdedf0e00c0793e95b"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/GameStateManager/State/GameStateType.cs.meta",
+      "sha256": "23fde788e431bba59176340c1a701580e4caa19f8bfdd77b94e46ab04598c09b"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/GameStateManager/State/IGameState.cs",
+      "sha256": "8bf043cbfee1ddb62e262c422b50b5a3408c82b5a3ff38c4201de8a9b6208a51"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/GameStateManager/State/IGameState.cs.meta",
+      "sha256": "2505d2490160f91260367fb0ba038bd17ce19613be79bda1e88c6dceaebfe5ff"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/GameStateManager/State/StateChanged.cs",
+      "sha256": "cc652516a04addbd2eb6cf67d59a977b4e7f01b9ec9a3b4b2a3843c17811592d"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/GameStateManager/State/StateChanged.cs.meta",
+      "sha256": "9ff51f2b4a4cf625850a52bf57cdc5fd657e13bd1d37ff62a42b82c688c5b448"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/GameStateManager/State.meta",
+      "sha256": "c645e9feaff5b010ea44eb4f5dc185f3c2b4fe9bf2e31b46fccf0ab291099587"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/GameStateManager.meta",
+      "sha256": "06357f2dae3a2ae5d9a76e124670e9d63a2933065e5101d7a69db2bf22e43480"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/InputManager/Handler/BlockedInputHandler.cs",
+      "sha256": "7826d6b36d3242cb662d65630b409423be8a94a1a19018a9514421748fdd48f6"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/InputManager/Handler/BlockedInputHandler.cs.meta",
+      "sha256": "5703016649668277931bc7174fc53e14ecc774a1f48746ff1ecb76ed331b22ca"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/InputManager/Handler/ExplorationInputHandler.cs",
+      "sha256": "3ec2a9b1c7d0c444fa3bd7853ff3659efeff54455929fd52c55edce01f74239c"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/InputManager/Handler/ExplorationInputHandler.cs.meta",
+      "sha256": "3d4dd313be161eb54706d45ed22a682e04f720c9c3f616016790966a9030af03"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/InputManager/Handler/InputHandlerBase.cs",
+      "sha256": "dec0cc6bc17f52c6eced29591c1d29e4ba306a9f833a76dd05dd7eef432184ee"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/InputManager/Handler/InputHandlerBase.cs.meta",
+      "sha256": "c43db499bb1b1d012d56b6741f0055d6a6a30c09d29b121d98517b75325081b7"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/InputManager/Handler.meta",
+      "sha256": "c4f879642628fad4d56f9c2d97a54dbcd74fee26ea216ab510390d5d77ded2fc"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/InputManager/InputManager.cs",
+      "sha256": "cd4a70629e54e17f55ade981527630ea5f5259553f980acd5a8f129f67054977"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/InputManager/InputManager.cs.meta",
+      "sha256": "d34ab03590a73dd71d608444452957143da859ffb6f6bdcedda9ce4c5aa0caba"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/InputManager.meta",
+      "sha256": "2ff4d32d0769ae509733859c55074ab21b981a722970b61088644fd5ca553cf5"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/ObjectManager.cs",
+      "sha256": "3912db1f09091dd2a1fcbe489ae57d6f7050409cb1dfcc87234c56071280b48d"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/ObjectManager.cs.meta",
+      "sha256": "c8073b7397bfd1d3c090c9fc06982b2bc8468611cbed20b9cf68be301fb426ce"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/QuestManager.cs",
+      "sha256": "0a3c175e153f1041603bf90c02a8aedd4518f2cbec2c2244d9e8263313c6ddcd"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/QuestManager.cs.meta",
+      "sha256": "97c32ab275420a629227a7bb7035275945f5ab3d9c36fb352436d60a0fa514c0"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/UIManager.cs",
+      "sha256": "732b73c4dcd3b0aa6255deda77314e85754322a5ea4e92541e5a0970f01b1323"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager/UIManager.cs.meta",
+      "sha256": "63a6b6732e44a537e314d3164e6574a81d909fde8db20f195aeb3f4e214ab575"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager/Manager.meta",
+      "sha256": "4554f72abfe7c8c9247c6d40aacb5ff4ea7f7ec26f80053ded033de13ab19f7f"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Manager.meta",
+      "sha256": "f7b0655eab4c0d04317dbb82c5d8f49533060ffe3786bcba390af8c2aa59a757"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Base/OBJ_Base.cs",
+      "sha256": "1e3edf63ea19fd2d31144078d5f0965fc4d9b2d047ad866364c95ea0542a25c3"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Base/OBJ_Base.cs.meta",
+      "sha256": "42c94352b8851b8ad70b9887c0c6868bc5cbc9b22471038fc9fbc0a12a5193ae"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Base.meta",
+      "sha256": "868d2dfe1d8bc8e64eb10ca55ead8f4f9b39b4dae277f18424e748ef2e9544d4"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Camera/CMCameraController.cs",
+      "sha256": "87f1ecd39c4288db932882da144b080910cc4e7404dfc998cfb966b6f3bf1823"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Camera/CMCameraController.cs.meta",
+      "sha256": "d84e625bf690dfe0d40a84ad6894fd1a87fc65a4f1a4293634efe3fbf98efb31"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Camera.meta",
+      "sha256": "6babd5bd738a4c42f0e1507a394addce7a74fbc270438f1acecc747b54a0ed2c"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Character/PlayerController.cs",
+      "sha256": "da7b3a9356586beb70116d79a93b01b378204dbd0c625a629f2a2333f4df47e2"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Character/PlayerController.cs.meta",
+      "sha256": "03238649fc2701cfb2268d657460ebf6e8195932ffd5f2f037e768ed30344864"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Character.meta",
+      "sha256": "97d2d202ab4372fc3281a5509ef7ba766add448da95db0efd638bbcfa7b7e5b9"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Interaction/DoorController.cs",
+      "sha256": "36f2a21264e058421cb907b2f45e15d350d23c2b5fd09f854d1d7de9c210c645"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Interaction/DoorController.cs.meta",
+      "sha256": "4e81835b16f2434bc71d529e2c239bf0b546562ea20ce136d36a5277c86969d7"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Interaction/NextMapController.cs",
+      "sha256": "c6626c5fc92aa175e31541c12ab485ec030ed325a8220880fce339f454b117b4"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Interaction/NextMapController.cs.meta",
+      "sha256": "16892df1e901b24e6532f60fbc02a67ab188f0efca1478efb5895ca433176b77"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Interaction.meta",
+      "sha256": "1f2e925be5cee19451f90641034aaa410fc55e91b02fb5121b590b3f7ea8ee16"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Quest/DoorChanged.cs",
+      "sha256": "58884b47f44f1eba33e5d8de67d29fa4b89a820cdde2da6cb4f8fb1f5b997000"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Quest/DoorChanged.cs.meta",
+      "sha256": "956f4e2dcae4024b4144f98906f613a335d90968f52fcce3d3b64628f08f4726"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Quest/QuestChanged.cs",
+      "sha256": "9970afa6f5b60fb061ea41f3a773c4476eb4bdd5a0cb2e5bcf7cd622958c30be"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Quest/QuestChanged.cs.meta",
+      "sha256": "acaad680cc51f3053a0d83d0f5fdc4dc59b81f98256eb5b7eeb83305ea1b1728"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Quest/QuestProgress.cs",
+      "sha256": "6d154403a396cc91828b9993d27da668d3c249d2e321e9ce604fbc209a42c385"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Quest/QuestProgress.cs.meta",
+      "sha256": "f2c9d9c0a5047192741d2fca4e1ef4ae1da58273c67f6fe08cdfb5878b5f7468"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Quest/Test_QuestBoxController.cs",
+      "sha256": "2978880284b3e08f0cb3f6d1161ffe72785759f875646af38de3e727ec986bb7"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Quest/Test_QuestBoxController.cs.meta",
+      "sha256": "48b8bf1868b4b699991fd45d9e0ef98f9484913d20c8b87995369aa1120afa25"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object/Quest.meta",
+      "sha256": "7a730608f073d44e2a0b996932f06ad173934abe4a3acfef8d92510131b6c682"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Object.meta",
+      "sha256": "1659236635daef4864a66480588e1af491db3d61a1bacda994b73ebd09102984"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/FieldManager.cs",
+      "sha256": "fbfaba93f59566f73a54b2ad9809253b802996f5bd8dfc1c863a44d5631fc320"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/FieldManager.cs.meta",
+      "sha256": "e05ff504ec303a72eb869aa148700625f474eef3d317ec1d6c81f6478d04509e"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/GameManager.cs",
+      "sha256": "7756e1c341b0ddb2914e98eb4150d1e7af7d7dd0043fcedb977911c7d075f770"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/GameManager.cs.meta",
+      "sha256": "97f1ceb67703892ddfb0ee3ee6ff2d535544f0643d723e18bd895ff681f698e3"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/LoadingController.cs",
+      "sha256": "e1aa497f718f419b87e83e47d75f53356cad628ce19662e7581f1a24bb52e59e"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/LoadingController.cs.meta",
+      "sha256": "101e00fe6e628f2350803baeb0ce01d32f47197c7497584c0ff3aaad6ee45945"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/ProfessorHouseMapManager.cs",
+      "sha256": "98c21f6064176c5e956f1e6af32fd6f489c7339274b2991b1ec2ffb2457f488c"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/ProfessorHouseMapManager.cs.meta",
+      "sha256": "c45a4d152c1e016fb83c8997ed61ee7fbc26788dc082da7f929c056be6781fd7"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/RoomScene.cs",
+      "sha256": "0f9e068ed6475d4c06204f6cbb55bd8a247022f2302ea23bfc9da296d29cebc4"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/RoomScene.cs.meta",
+      "sha256": "73ef8fd29dcab5653eab1d52930412bb9d38ff2a5651d3928baaca09faadf3b5"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/SceneBinding.cs",
+      "sha256": "d9ff12c4b81ce23e1865beeb9eb760ba530fc7ef294ee23760c8fccac9252ba6"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/SceneBinding.cs.meta",
+      "sha256": "fb1fdc4e5fd98b6e10c36a92bb56ad9011a2bf53ba0e69d7f53d546ba3c74452"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/SceneRoot.cs",
+      "sha256": "c4f735b85c249c12c047690d3c1b16cbdc039b6770b531d339c492756b8e89ed"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/SceneRoot.cs.meta",
+      "sha256": "7b048b277550aae1134104722edc74a11ef85e6e45ded5996973272c9f873f6b"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/Screen/FieldScreen.cs",
+      "sha256": "4f95cc8f79cf9c742cdd933a05a51da75e2aabc949fd7ddef4bb8525a14861a9"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/Screen/FieldScreen.cs.meta",
+      "sha256": "f8bf91063c47b04175df1bb56f3ed27b1ceb3048033a590bdcfa5d65078837bb"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/Screen.meta",
+      "sha256": "5bc7ad924a837fa0ad6233a80680c753c077be793cae8038278ec00b891bf1ea"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/Title.cs",
+      "sha256": "2a54c49d53ae537bf91f5ec044101cc7839afa4805552e9df3634104414b9df9"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/Title.cs.meta",
+      "sha256": "ed24778fb8cc850277a802a977295a84a070b24fc8222bdc2f9bcc2b059ed23c"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene.meta",
+      "sha256": "808c46087323970306177b531738057709289e6e96b21116e7946c736784937c"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Singleton/Singleton.cs",
+      "sha256": "93e80e31fb1da3fb2118a850abe6d23b9124ec80dded1fc83a9c85c232af7139"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Singleton/Singleton.cs.meta",
+      "sha256": "31d57b445a56d9333766b0ae84532e9d22252e220e1ec574cb6652ee1d883ccf"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Singleton.meta",
+      "sha256": "c5815bf463e50bd96f69ed712712597f584012e90545f54a4edd4bcd4458f132"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/ActionButtonController.cs",
+      "sha256": "a5461f759e2dcd5e1f9ec74a28256f390c4b3212b4d88671a3b85b6a6206249a"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/ActionButtonController.cs.meta",
+      "sha256": "73223d28dca14a15abacc675f80004d3fdf2178e5e8ce62222e0bbccb746cdc4"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/Base/UI_Base.cs",
+      "sha256": "7e930303b02dd0920d0a71d6bd18a4d64cdd45ff28ee930cf72b146d0fcd072f"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/Base/UI_Base.cs.meta",
+      "sha256": "ee4d7c08662f1eeb6e3e7b5cbbce458a4af1eb576a68d97409c110e7d5388c9c"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/Base/UI_Popup.cs",
+      "sha256": "d5802afc59a8db0c85a17ce392b85b8e80104b442b878212a49348e68f1ffbda"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/Base/UI_Popup.cs.meta",
+      "sha256": "7b1c2f3d993f4e0324de750b349b7374e7f749813aa557c3e987a7c4b20788da"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/Base/UI_Scene.cs",
+      "sha256": "105c58724ad0f30181a42968f444086323a48a281aa7603d1c1c48063b477177"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/Base/UI_Scene.cs.meta",
+      "sha256": "925509d9060bdcb0617789184d448dc40aa85cf1747fd8000a884f984f4c3b2c"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/Base/UI_Sub.cs",
+      "sha256": "c4e3714be5d1ed47c60abbeb2c0e2204941d139b8af7698f7e42e43120836f01"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/Base/UI_Sub.cs.meta",
+      "sha256": "81ea3c8b1814da9905cbaf0cbd423089bf2f8d24d63aa3aaa5e4c101d98cacaf"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/Base.meta",
+      "sha256": "c5a022878c72bb3b33688a5a6850a01f17fb01e329d488554497b7e7909d6c21"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/ButtonManager.cs",
+      "sha256": "7fdc17f1cc0f0728fe47577754aebe7b106852f83e85385379c6111ced0f4fc6"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/ButtonManager.cs.meta",
+      "sha256": "eac8c711fa7f558a44f27a7fa7e4557f850e65c0b12ffa7a5f0c77be5a1bf118"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/Dialogue/DialogueCompleted.cs",
+      "sha256": "1d053f6edfdd814e23f3f9410fdea50dceb9175a759eae3a906f09e5276d6755"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/Dialogue/DialogueCompleted.cs.meta",
+      "sha256": "d4eda65b2a4df23eb1367eca74ec1fd9aa6d1c11e00dd9cfa88fdcfe58c51963"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/Dialogue/DialogueModel.cs",
+      "sha256": "ab260e114eca451a6b56ff5d1fa903b1c93e576b69a4e1cff8338e2a3acaaf90"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/Dialogue/DialogueModel.cs.meta",
+      "sha256": "f31eef0ffea42416fc48c48110c1fb1623b848018f3ac1f4f4376275fea91819"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/Dialogue/DialoguePresenter.cs",
+      "sha256": "5d56c46d8e243d44e279bc1ef07dc94cab124ffd732ca61f78266872cc87c38a"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/Dialogue/DialoguePresenter.cs.meta",
+      "sha256": "2c11c6926f8b67220ca2e9a61d0595508ea6734ae56cd0c193112389187f4981"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/Dialogue/MessageBoxController.cs",
+      "sha256": "a5f4654745316b33913fc0e22a6c62aaa4e39f4e60691b299433369bc913dcf6"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/Dialogue/MessageBoxController.cs.meta",
+      "sha256": "a3c820be39a7ea0f101b8a22ed500b22407e34dba49dd1b43c990a60f420045e"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/Dialogue.meta",
+      "sha256": "c21283050fc041282b08bfb8b23bde3198ee5a2eb33853a21db32775407620b0"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/JoystickController.cs",
+      "sha256": "beeb79727d0fa0e7c881f871441e0f8680d3ea7b4411d1509c896477b0bdca8f"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/JoystickController.cs.meta",
+      "sha256": "69b804e5602ca149398fabf837b5c00f37563ae926a86510a9805391a0ebac06"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/MiniMapController.cs",
+      "sha256": "85d5afeeedba67760bf246ce75096b1490c3c602d591ec05587547a45fea6e89"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/MiniMapController.cs.meta",
+      "sha256": "9af80f17f7847d06123eb9251d1a52096f1956a53f1d9682434412ec139d86ea"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/UI_Popup/UI_Dialogue.cs",
+      "sha256": "5355b6cfa7568dd3d36858d72b947d510571fa7eaeda7e2d11832ed967e6752a"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/UI_Popup/UI_Dialogue.cs.meta",
+      "sha256": "4a66db113da121bff45ec5a430ece65224d20af56b5ab3fa2b20ee6e9ec0d366"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/UI_Popup/UI_Settings.cs",
+      "sha256": "db39b216e7acabd33fb3ce20ac9116b978b55b377299e14fea55593e8a47b440"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/UI_Popup/UI_Settings.cs.meta",
+      "sha256": "2c82fc6e628b4ee3ee0d379e1dde2ee5c92e8bef0adbe741dcecbcaeb773b238"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/UI_Popup.meta",
+      "sha256": "dd0a6f892b2b9ab1f316d59e67e7d304e002abb9d485569ed1305ae735cdb204"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/UI_Scene/UI_Field.cs",
+      "sha256": "d6ef4c1c7f35c51378427d024a0fbcf7d591dc54fdc73fbe4958c9aa395cb834"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/UI_Scene/UI_Field.cs.meta",
+      "sha256": "059668a7d928a30e212c279595f27996db35352eb15e24967803c76399209219"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/UI_Scene/UI_Loading.cs",
+      "sha256": "1527ffe07ca869069e22fa8e53af2daa1c4fac3a3b43f80410b18913b41776c1"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/UI_Scene/UI_Loading.cs.meta",
+      "sha256": "5930d0d1692fcee862d20e31a7b5950f0f828854b2ad855220d6ef2857eff8db"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/UI_Scene/UI_Title.cs",
+      "sha256": "f973a0bb386c4332411faa4617fcfa1ba78337655a18a37317a57aa17dbcd06c"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/UI_Scene/UI_Title.cs.meta",
+      "sha256": "a339543d7f2a55cb66365e76d0193a5ae15154892ee839d1d14022d3f1341757"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI/UI_Scene.meta",
+      "sha256": "ac182a2b0ff2d1d45b5e32eb2b99c8bff85fad81bbd9a01ec982cf98db6db263"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/UI.meta",
+      "sha256": "e328dd14014d30f1503e0dd350a826648c96c69ca66b57f606cc5a9ecfbb134f"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Util/Define.cs",
+      "sha256": "13c7badf9f7ec964c29e1a27521ea34a018b039a90a3ed1927e7258396510d87"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Util/Define.cs.meta",
+      "sha256": "51240e39ffddc953b55851c7992488efece609a51a5392e9c882a92b8ea9d340"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Util/Inject/FindComponentsAttribute.cs",
+      "sha256": "ff6c4832205cac2cfba52de5f17883201dad8ba348de8275b0080b8c4d248095"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Util/Inject/FindComponentsAttribute.cs.meta",
+      "sha256": "3583a16d08401719487109d1c1fc376d93d8e01ca3bacaf9e9f7ca0ed5430b45"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Util/Inject/InjectUtil.cs",
+      "sha256": "08bf4d77dfb072ad7d504c0890a55a22aa4cce925d146f513b61dc540d413ca2"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Util/Inject/InjectUtil.cs.meta",
+      "sha256": "c8274e2c49358b1e9251164fc265d63073092ac1623f36efebce1844951eddc6"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Util/Inject/SingletonAttribute.cs",
+      "sha256": "aa16817b864dc90c5206becbf728ec883c8271167a1cf1d9f0032b635dc9a663"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Util/Inject/SingletonAttribute.cs.meta",
+      "sha256": "790c0d895dc30563d15eb06a7f7aaace3d7addc814d529dd7277395065751926"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Util/Inject.meta",
+      "sha256": "0b36fa0d9b2f39185be55c87d7885659d0d57f347b593d3e4a0b5bf3c867c140"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Util/Log/LogUtil.cs",
+      "sha256": "309f15334daa3861ef6452b560be507ee12b36e06f3ffa67186a864ac893662d"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Util/Log/LogUtil.cs.meta",
+      "sha256": "74415cc6c63ab148aa6f974416a89d9e3a5f604b22854c67d790f00bf22e3190"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Util/Log.meta",
+      "sha256": "8e944d45a27bc8a5425b8edfa0f5c58d6808e2b7a4ffb8cf92a784b14ed5bf71"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Util.meta",
+      "sha256": "a8da110de10a555f0daf18e4b43530cd1836c8469ef96439805d939409f17841"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/link.xml",
+      "sha256": "e706d34fc3ef09050b18fec141da5884b20b38b23b295abec7a971b89b8dbecb"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/link.xml.meta",
+      "sha256": "7be1dd6017544f93730dc4c7c9dcef0e112fa2f065baca739b303bad26340e1b"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts.meta",
+      "sha256": "d876b3396d926bcd4c1a18a3e1204f1f74afbf1373d4ec6c1aacbff04255abb1"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Camera_Prefab/CM_Camera.prefab",
+      "sha256": "a4da8df1fe3ff9a040981658aebd82c0cc9398d20ac925c48995741d36d43c87"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Camera_Prefab/CM_Camera.prefab.meta",
+      "sha256": "39313d2308190df5b48f8578f8ab6d5514d35210c0dc3e97bb0ea59bc315631f"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Camera_Prefab.meta",
+      "sha256": "dcf43936b536fcc42cfef20976b554081eaa8ed6128103d5ad58d33e8cc8a808"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Character/Lucy.prefab",
+      "sha256": "d6f5f341d6700da510ca5f5e7a9b7d8a4e74b9a205612b1ec09b67400b380a4d"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Character/Lucy.prefab.meta",
+      "sha256": "251dd53f8f1fa5c0d43f69b1333ad5ce7e7b4a5dee6de4dbfa27559b8deb4240"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Character/Lucy_.prefab",
+      "sha256": "040c1c740c7ed5a453e8ae3715fbf7b0b7e439d2ce189ca95ac8f47c4280fd6a"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Character/Lucy_.prefab.meta",
+      "sha256": "cba7eb4e5bf65c51c66199d369ad454efb79485f64fae7ddf1c37b1a4dde3e7c"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Character/WithTeacher/Monster.prefab",
+      "sha256": "302644ce72fe403b17045b04e00ac0d55a9d851fce456723670659c4174e2df0"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Character/WithTeacher/Monster.prefab.meta",
+      "sha256": "9b616e7b006ff5ec18edff69d141ef751aff2a7fb9537df360f8c474cfd0b271"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Character/WithTeacher/Player.prefab",
+      "sha256": "2a9d7f096121c232bb6d1349799b0dccc05ca37d73b6cfa79dba0704d49ae5dd"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Character/WithTeacher/Player.prefab.meta",
+      "sha256": "18fe516ea94a6eb0786cddb26b3eb236d2ceb0a817cbd0b183cebdab0c7269b3"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Character/WithTeacher.meta",
+      "sha256": "333bbcb78e95217764528eade2a90b21dbf14688dc24666d8678d999f1cfd36f"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Character.meta",
+      "sha256": "42a675ec113cd9eb8c294478ea5aa7d63dc5327c388341e62ec7dee2d9599664"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/CandleStick.prefab",
+      "sha256": "ea393bcf93ac3884966d6b6eab20e05caf8e7c5999da0f44e2f4d113d969cf9a"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/CandleStick.prefab.meta",
+      "sha256": "99f8b997d5adc1fb78849bbb6b5ab2e0f0ca4d729d91ec0c81051a3febe620a7"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/Curtain.prefab",
+      "sha256": "b5a5513523be70d4e79f94b7e74d799dd6ffc1de36908ecb5576d5ee4f394460"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/Curtain.prefab.meta",
+      "sha256": "ee4949b1cc93a74a6e2514e63de87ff1b73b900e706b121d9d66478d80c1d666"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/DoorHandle.prefab",
+      "sha256": "94d8908ad73f06ca342d6cc7a4278e88d8307ade322bc6a5ceb7e67701e438bc"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/DoorHandle.prefab.meta",
+      "sha256": "acf49f66cfbc28a4f375e7a56306bb4361280bd61bea8651d1467583fe707e1d"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/FakeRoom.prefab",
+      "sha256": "4a9e9c7c52ae6ff057e6eb8026a7d26c10147bb655c676abde4e62b84a7563c6"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/FakeRoom.prefab.meta",
+      "sha256": "8198471cbc54b8feca70ce0b6472814b0526a892fea5827548148a0a325aa90d"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/HiddenBarrier.prefab",
+      "sha256": "4f7cb873fa652d2063ba96ed94d3f27f5835ac57964e49e9ea92f22348345f94"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/HiddenBarrier.prefab.meta",
+      "sha256": "124279787d792a69570011f59db2e89ac7c5eb5b16e4f2aeff50b7e4c9600c45"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/WainsCoting.prefab",
+      "sha256": "fc092c023e85ab5ec2aaa4a659754aec728388bed2f0746a48dc6d6faf0f173b"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/WainsCoting.prefab.meta",
+      "sha256": "f46f4371c0b4bea35ebb9a975555bafa39a9174994fa6aa947f48d911a23db45"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/WainsCoting_RightTriangle.prefab",
+      "sha256": "89d68f2deecef76aa2d119dcc0266ea74494d5aadf87d662e7e4e00910aec27b"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/WainsCoting_RightTriangle.prefab.meta",
+      "sha256": "edffd33db93f30dc38e7e8da9240c6f304f38bcf51a1cbc07174a3997468492a"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/WainsCoting_Single.prefab",
+      "sha256": "b141dc9d8068b67cc9e8e9cb3cc0af5310e0560a19d322b0191173d22c3fb503"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/WainsCoting_Single.prefab.meta",
+      "sha256": "38c23e61181e6bbe5c32dd7c387ebe8801e2800871190570df6ac8f3389b349e"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/dfk_doorframe.prefab",
+      "sha256": "177602e6384a46e67c39189b97d78324b7056b97b52f184df5cd996935b1c66a"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/dfk_doorframe.prefab.meta",
+      "sha256": "ab6ff3677f94a6a428223111084e9fcd83a88b9a14c239cc43a697d43d3f0f23"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/glass.prefab",
+      "sha256": "f2d40e3393ab7f0581aab1425a54222d212de35d59d175122bf40786b067e73c"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/glass.prefab.meta",
+      "sha256": "28a1fc62455144f49a54048e7fdae0e4ba28ea8d13378c1e0b3854bbef98f657"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/glass_halfTransparent.prefab",
+      "sha256": "ec13e52922f6e9406c043facea6f41813ff9dc596d9ca729d7b95cc99a4b88e3"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/glass_halfTransparent.prefab.meta",
+      "sha256": "b55606244790a80925713c1c83ce07452c48d68d722453b27616fc1caaae639f"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/terrain-world-plain.prefab",
+      "sha256": "0b0dacbc7a453eb3d9290030e2536a03a045f9b3d58329eb7473cafd5dbb8d09"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/terrain-world-plain.prefab.meta",
+      "sha256": "7f5200919224d152d6d4d5450bbb32231336efdd5b5168b73f0e1f12f2c9d76d"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab.meta",
+      "sha256": "2b7c758f6e37bd3efdf9b5633dd405f1942cf3ab7ef74c0488f52aea7a9a3aeb"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI/UI_Dialogue.prefab",
+      "sha256": "77da8e1e1f2ba8968d55c3f24ce29c28793574d5257b0938c4778ede306454b4"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI/UI_Dialogue.prefab.meta",
+      "sha256": "e9fe4157bb9dbcb5c4ff32bea7237417ae7b5501e0f12d7ec0d58b5b167a9252"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI/UI_Field.prefab",
+      "sha256": "bf3bf2d6cfc98cc933dc68e03b507f09973e8b1e2854f4ebbc457f95e5697cde"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI/UI_Field.prefab.meta",
+      "sha256": "15dfacfc831050bb750538d19f86398fe732f243cfc3d80c81b308fde3e9b671"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI/UI_Loading.prefab",
+      "sha256": "feb918404a2affc33fed2be4e6fb0cff233ff0762202485a1cdc433e21853c82"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI/UI_Loading.prefab.meta",
+      "sha256": "5bfaf2d6b0805b317ee52e7f61783334d4947588005865c3086b73292df521df"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI/UI_Settings.prefab",
+      "sha256": "b4d976fa38e325d63afd9098301c6abd290d058a8b6c9ce6b476f415f1cd6a85"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI/UI_Settings.prefab.meta",
+      "sha256": "badcec3a33ec364fab1706a732946ffb1644cc7706e64aca6cd3424ad8bec613"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI/UI_Title.prefab",
+      "sha256": "6074bc08f2f8238153aeb699aae157387effef786acc0d123b6ae64dc6dbfa16"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI/UI_Title.prefab.meta",
+      "sha256": "1e78b438133f20edf16be3be8d9fad8f6c25d05084551705726794f33680d752"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI.meta",
+      "sha256": "c82c831e178186f116c91b45d47b94c98c271e47fd88b45b2211f5d41013444a"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI_Prefab/ActionButton.prefab",
+      "sha256": "5c7ffae3edd91200be79df6c31563cc375da97471ca010cb26c1c3c2f57da1cf"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI_Prefab/ActionButton.prefab.meta",
+      "sha256": "588d7891626fb608d04144bbdb0cf799e31c1f49dfc9c485257ff4213c864630"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI_Prefab/Joystick.prefab",
+      "sha256": "7bcb0f482d4fd5f4804ea4648a0bb0657d83b65f7287ffb70f8ebbaf4e44be1e"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI_Prefab/Joystick.prefab.meta",
+      "sha256": "ea64ddde11e59e936bf31cde80fa089392a12fc4185257e6a67f330b2be02dad"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI_Prefab/Joystick_.prefab",
+      "sha256": "cfbe5c5a3229d1903e6a7b6a764849dadcad6fec1a2afc63f692020b5ccad673"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI_Prefab/Joystick_.prefab.meta",
+      "sha256": "23569c8655ef09a684c62f2166d2d442abac0c0a200d7a5df1249a99c24838b0"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI_Prefab/MessageBox.prefab",
+      "sha256": "befe113d010f38eda8125ccb06ff19812ce4b7e3dd6701d48962952b38851e1b"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI_Prefab/MessageBox.prefab.meta",
+      "sha256": "a89a61308099e7ec607afe82b4153cbafc04d974f27cd3e4398f7a07c9d9cdbb"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI_Prefab/MiniMap.prefab",
+      "sha256": "166cb95633718a0c0766384023880e388b545dc4c0a45899e70bf377ef35a232"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI_Prefab/MiniMap.prefab.meta",
+      "sha256": "7089da5c5039231fdd586dfbdd6e8ff70a0d5532dacb195ae46d13ee25902692"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI_Prefab/SettingButton.prefab",
+      "sha256": "e30ab218e327a192de8fec0a8b627e6b513e54af7ea8d8bd672a0121d01417b7"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI_Prefab/SettingButton.prefab.meta",
+      "sha256": "4c82c16103427230919b00ef0fbd923887a4c38a072506242de5c9b4f447e1ec"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/UI_Prefab.meta",
+      "sha256": "f61fff69fe66c84f05c2492b6ca717a5284c6b1fc774e8ef1ee2343d724fb568"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs.meta",
+      "sha256": "08db56e8940d2ffd69f5f4733759cb5e020c203b7e77369fe751dbbd8750a115"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Button_Attack.png",
+      "sha256": "17b01c5bbe4a2092a18e9e45389aaafd9fbe096ccee2c25aa63e128589a54539"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Button_Attack.png.meta",
+      "sha256": "30d3f78e4d37e4d151dbf888b9bf18b747dd4f31adec802da88e43f8bb40d2e6"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Button_Inventory.png",
+      "sha256": "d4f015022569d855d2e40958066b9b34ff0bf78609f5d965f25c7ac5d66fc362"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Button_Inventory.png.meta",
+      "sha256": "db2fcf8278fd7558dae8b6d351fbfc174df33ad4d8b8d8b9132e347152967724"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Button_Skill.png",
+      "sha256": "cf7d00ab53b38a31a32dfbf3f74a520681e10d50d7c9e2c32aaf5efbfbe9006f"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Button_Skill.png.meta",
+      "sha256": "4ccbcefd35891727fa365f3d8384c1d4cefec6d5cc60372510fefa1c924cd7c5"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/HP_Bar.png",
+      "sha256": "898d16bd4afc0431a658f0b12ab82b2fb95c554412d9da4ba80145d0054162f2"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/HP_Bar.png.meta",
+      "sha256": "f7787149da0983ee31e3a1a6404e72d49fb5ab3c8c8e32cbaba620623e9e6a2f"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/HP_Bar_Frame.png",
+      "sha256": "74ef9cf6632ec87075f72d2961fae0ba789d838f2f4947fa8480fbe712adc0d8"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/HP_Bar_Frame.png.meta",
+      "sha256": "90fdb134ce8bd21fa39b493cbdb412217d665c6574385d992c18d276e2f41aa6"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Map_Background.png",
+      "sha256": "cfe08ee49f953b8a4f5886606545524ace6a7540535f84b7109bfeae1c4bfdf2"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Map_Background.png.meta",
+      "sha256": "d5403512a79184be69cb8e3f677e63f242fb0ee0dea444cd480f8fd8f175decb"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Menu_Bar.png",
+      "sha256": "b5c38a8903fb05c4904ccdc2019e8d59c76e5d8bf5fcde027b45b5a3125b19bb"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Menu_Bar.png.meta",
+      "sha256": "e2ffb54408d2d9da371364dd169fbb981802b9f749584e0cfafac58a3c6202e1"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/paint_carriage.jpg",
+      "sha256": "25e6649b9971961849e8b46bbf4ace8456436840398357ef22f9436224268c1c"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/paint_carriage.jpg.meta",
+      "sha256": "f8a753a652ded91798c3a4ea50aa9a8ecb47b0dd7a15e5144ffd11dcfce8328a"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/paint_flower_printed_dress_girl.jpg",
+      "sha256": "74688d05aaf5c7924c7b2eeb452ce682c3ed465f063f2b84bf76a2be8c34bb9f"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/paint_flower_printed_dress_girl.jpg.meta",
+      "sha256": "4b1ff4aed11c625c6ac7a5b3ff02ab39b13a3c0aea26bc33addd60aa9ef481ef"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/paint_getting_ready_girl.jpg",
+      "sha256": "6c55df29cc6179147924a485a96716b21f68cf1992e3d91b20d78abe97a3ddfe"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/paint_getting_ready_girl.jpg.meta",
+      "sha256": "4b0f8efaefecea9db5e1a85759c7c904b014e737acce78c6aed6987088f6c4b9"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/paint_klimt_flower.jpg",
+      "sha256": "304f617a29f25977cf4bf9bc735461038dc4714bd8ae8eee63240d9c7d0fbe6e"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/paint_klimt_flower.jpg.meta",
+      "sha256": "5faf8c64bd8270d0e315241c51d489be88875f8aa1680aca8e493718497b7f5c"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/paint_lady_on_the_grass.jpg",
+      "sha256": "8ef32835570e9d5983496bf036930d37d6eb0ceefcda639efd25224e4b5c5847"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/paint_lady_on_the_grass.jpg.meta",
+      "sha256": "55766a133184a26bb56ccc7678c650cdcef7c83d33dda98c3be22b122621deac"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/paint_reading_madam.jpg",
+      "sha256": "7cbab92d78897091cecbad2fc7ba0ef5c8b3596bb5bf574d3a05697e3afefd3f"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/paint_reading_madam.jpg.meta",
+      "sha256": "be9ddb6f94aafde0874b070a518ea5a899b4febda33f19f5195fa7aeaf36b6ed"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/paint_staring_us.jpg",
+      "sha256": "bd269894dfd86a0dbc6d1c4c3a6e73fab2f3b0053a725b2084e67ccf5ac308a6"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/paint_staring_us.jpg.meta",
+      "sha256": "594a7bdcd48a8e03fb6565da5546b0b7a402a4aa1646faa449e832e0f43c9aab"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/paint_two_boys.jpg",
+      "sha256": "dba755c9ab5ac77a2f31fb495104edad8ae1ae92a90b74bcbbde825e4289e3b6"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/paint_two_boys.jpg.meta",
+      "sha256": "9e726e121b12c44c71d97d526ba8a739cd34b19d6b5e4c45c2b736585a693621"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/paint_whitedress_girl.jpg",
+      "sha256": "0af3c30acba1409548db0dfd5d03a6654ae61322ce36adb2ec789ebec730e972"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/paint_whitedress_girl.jpg.meta",
+      "sha256": "a2985939e5b8426fd3bd5f793f9a3eb90305aa500d6d3fd51f58ce4861a8d2fa"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/painting_reading.png",
+      "sha256": "fdbcea076f2f7a98a688e54615962d1dd580931055e897f2d3f23b1578754abf"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/painting_reading.png.meta",
+      "sha256": "189e6d42f322dcc4cfb9f31b5275befe274ce54568f918a87b7daa78db26101f"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/portrait.jpg",
+      "sha256": "3f52e81a2608a3236a5bebb22060bd1cb512ed5cb2bead2ff8edff7b84cfea0b"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/portrait.jpg.meta",
+      "sha256": "3a59b9de1f8f7643e758b24817d5cd478ba34e3aec3f41ab6100b700f9a88f58"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/portrait_british_royal.jpg",
+      "sha256": "3789dc1789b1992f46cb6beafc32585752b61366b4bbb8d79e1d8a5ab588e96d"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/portrait_british_royal.jpg.meta",
+      "sha256": "d3466b0cf944539db1d1b6e60326df83b46995a3401101ab6925880e533aa6eb"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/portrait_gentleman.jpg",
+      "sha256": "08039f112aaffa58de4a30a26cd02fbe3e22cd16e0918ae917bd8d948f035644"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/portrait_gentleman.jpg.meta",
+      "sha256": "f39902a26768ef8d00b231fa06d50844d7a3ab1980735d5728f4fb40b85c2545"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/portrait_gentleman_in_military_tunic.JPG",
+      "sha256": "ad2ced80e0c2a6f99685de5785a32550cb9237b7aef1fd7e737e59ff4edbe7c2"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/portrait_gentleman_in_military_tunic.JPG.meta",
+      "sha256": "43fc0806d39a2053b20cb22ae6758a4b69c399918f79286618ae9a3859ebe0e4"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/portrait_london_gentleman.jpg",
+      "sha256": "990c018526f810e6599f39f642360c7ea5f6941b20301c638f8af84d985290cb"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/portrait_london_gentleman.jpg.meta",
+      "sha256": "e1ea35d4b9c9005d8c66194301765b5bad91ba1fdb0fff38792ee219304edd2e"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/portrait_military_officer.jpg",
+      "sha256": "2fbb36a08014ccdc0803d6af2ab40ca035653de39165e9312397cdbf943af596"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/portrait_military_officer.jpg.meta",
+      "sha256": "ab71bfce44d8d74acf3223df94760fe9864b2b5e9e44317fefbc93351d5f4151"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/portrait_noble_boy.jpg",
+      "sha256": "54d4f2cb4d83780ffce0164a90047d63c58a216c6209220a4e44a70da7916641"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/portrait_noble_boy.jpg.meta",
+      "sha256": "a8b195436bf89b825983bbf93429b034b9f5334ed9bfe3b208a53d387b163adc"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/portrait_of_a_man_by_henry_raeburn.jpg",
+      "sha256": "f9725594bf61b46d0abf190ca6a1cdea888fa9a363d7889551fb1e08c94e7b88"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/portrait_of_a_man_by_henry_raeburn.jpg.meta",
+      "sha256": "c749171c72ed885ecf3f9e6c9dff32a18fb97c948bb5e03dd65071f4e04bacb2"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/renoir_paint.jpg",
+      "sha256": "ac59c063346c7581d3636b43df9b3ae6b4bf8a7c73dc1d372175d5470d5883da"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/renoir_paint.jpg.meta",
+      "sha256": "238653a8f76e2bcc34e805192da0c723473867bea33d7bcde0cd49377654dcd5"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/renoir_paint2.jpg",
+      "sha256": "0c932b21e249b045a7aeb115fd295f04bf9ca7d8cc94433e9016ce65c5175efa"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting/renoir_paint2.jpg.meta",
+      "sha256": "d58d4090dca0c108fabad4e5e283f1e5f8d4638a88af50c127aae78dd67726de"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Painting.meta",
+      "sha256": "dd8b7a318c36c985d5c9a7881315a0cf5e99e8a6772b416b44cad445caf4d828"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Profile_Frame.png",
+      "sha256": "b7154b7b1424a5f01db6d8a68db588c5e8a83f72f5ed9e47874a77748edd1715"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Profile_Frame.png.meta",
+      "sha256": "a0ed5dfce69faf20c16d2e1c7fb74846c4de9c1326d8a5b0383e071286f47212"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Start_Letter_image.png",
+      "sha256": "0bd69b1e1f923079844e55926041dcf33c5feacf7d516e4586bff0bd7a373c1e"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/Start_Letter_image.png.meta",
+      "sha256": "9c80fd1f76f2864d24b82260ecc12a39161e209e89e40b825ec89dd10058bb81"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/TheNarnia.jpg",
+      "sha256": "d8ed42d91e4e0da718bf836d2466126cca5086e498aef8b14aeee39602642697"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/TheNarnia.jpg.meta",
+      "sha256": "971b2045ea35e33bbce0386d74e42fd4c284053271145d8024dd4aa4973fd496"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/TitleImage.png",
+      "sha256": "4e2a5ffcfd507991884cdb8c844a86421fa88550ec24e2d3adccdb17bdb9c080"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/TitleImage.png.meta",
+      "sha256": "b132cd28a53ebe131b15a02b8e8691a75de67a50366ec142b5534a6eda46960e"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/TitleImage_white.png",
+      "sha256": "36db694d5de7537447b9ba418583448dcb6af38afe02c734e0740e9576faee4e"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/TitleImage_white.png.meta",
+      "sha256": "929a5ec7411cb04d8c1a0a84b5bb279f0dc588feb9bf50f81ff527a366ac41ec"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/JoystickLever_simpleGray.png",
+      "sha256": "f82671e95741ad48db6ea121c83d34dbac05061c9fdfb17bfa5b5ac14322ca32"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/JoystickLever_simpleGray.png.meta",
+      "sha256": "eeaeecf20b6d7ae410e02e0f9249ad1a52e510571196e10fd63025567bb04b57"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/JoystickPan_simpleGray.png",
+      "sha256": "86740dfee3e12380badd4e11cc677dfc218627e0b410f979382cd042086a1eb6"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/JoystickPan_simpleGray.png.meta",
+      "sha256": "57fcfada3c80a538b64122b1194aa0a05a15a557c1d507c6222449c64f869fc3"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/arrowIcon.png",
+      "sha256": "c5538e7710d5771a28169f21560e760d4486480f969e1e70ea956d40dba34f58"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/arrowIcon.png.meta",
+      "sha256": "bd19e56bb76bc6cba6f321c9feec134d89135704b611c3dfbab0029044b6e5d6"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/arrowIcon_black.png",
+      "sha256": "c400c99592cabc90fc2ce43fe1c5393c0818f4b58abc9601a701d9ae5e2bf8e4"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/arrowIcon_black.png.meta",
+      "sha256": "4069fa261cecc90e2e9bd37551ad0eaa752f3344851b0e49eb6becf835d377cf"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/setting.png",
+      "sha256": "0a1aab6004e4297f7746f86702d099e3c951044631f04cff5f4dce8ec8123282"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/setting.png.meta",
+      "sha256": "3b74b341c251a00e60a53afa4388719b907cbc8a72e5d371df0a45f2f4ef11de"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/simpleRectangle_gray.png",
+      "sha256": "3a7ac8e058d6466afab1bbfe06abecb1a047fd2548c8f379061fab0a2d8d8c90"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/simpleRectangle_gray.png.meta",
+      "sha256": "7b9e386bb9be593ac745fd20458e113ea43fe61a5a96f84b2391139da2a45cf6"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_bar.png",
+      "sha256": "e760961208bc35caa50aff551a70e3a17a76850f5801568bf6e51e13f56c66a6"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_bar.png.meta",
+      "sha256": "5e72650126e7e92fcb43296496532c2613db1fe1fe9e8fc5a72c6ce2b44c5cc1"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_bar_without_fillings.png",
+      "sha256": "7e1f2f8ca4dbe2575072bc19be5559b7ed7f0dae4285c8324500b8f052691185"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_bar_without_fillings.png.meta",
+      "sha256": "4928ebe836fe79142927b804e9ebc026f0e70d7db8955fea25a1bebe8bb489f7"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_board_hexagonal.png",
+      "sha256": "7b15967e203511a0e8f311d5be5c8f997518b1f74e80d3fdb4443297622570ec"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_board_hexagonal.png.meta",
+      "sha256": "7241c92be405049027b517327bad33b68f2a3d622fed5643f105a0b7fa1e4a4a"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_board_hexagonal_with_green_fillings.png",
+      "sha256": "a148ca37b763bacf68cbb125a3e5b317fc307d0684314117658baa7e8db9a11b"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_board_hexagonal_with_green_fillings.png.meta",
+      "sha256": "e5e0e66d6f16dd85af7e197eec90d901c61202259862494c873329060b313459"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_board_level.png",
+      "sha256": "544256603688e9eb0ddb85226f552531303098772426d4a41b2733341483aaee"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_board_level.png.meta",
+      "sha256": "97f69e62e3499ecb38a38d71def47e5005d5846ea7b26d8e1d3f584caf25161b"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_board_level_1.png",
+      "sha256": "3d05005d2eb58b068610f8a7a5299de3e1edeb0a75390b4e3eb7ae169aec378e"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_board_level_1.png.meta",
+      "sha256": "a9d3e1633f2dc3600ee8e516b2a1a76acf9fe33ae61db1433b74703cc4b3ea8f"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_board_pentagonal_round.png",
+      "sha256": "a8fc6969e178f1b9bf9cdcec5bbc4a895724569d1f3e2f876b27374175476faf"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_board_pentagonal_round.png.meta",
+      "sha256": "8c8dc865d951c8bce92e66b13b6483cdc2947b7d0605c04ea60d1467b8cb406e"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_board_with_a_green_jewel.png",
+      "sha256": "1149a7fe1aba9412f8ade951c873d8ef4d04c6aa96a9da85ed9d1f69d55b8600"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_board_with_a_green_jewel.png.meta",
+      "sha256": "abcf8e5ecbeff470c8111dd6d6544dbee4ffcbc6969de4f413882f669cde2433"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_board_without_level.png",
+      "sha256": "c0b990995c697e59b37302dd57670f5a14bbc97d3cab3e031ccdb6b6e1d1643c"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_board_without_level.png.meta",
+      "sha256": "31a38a6013fede39786871d1798dddda2909992023ae5032238398104fa89891"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_button_circle.png",
+      "sha256": "2381b468c13a4d54b8c6a172a640a3f989a23cb242a0d1f5ac45321d81140c5f"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_button_circle.png.meta",
+      "sha256": "aff8381bd16ede158fd0efd9643927334fd9bb6c568bdc5194000d905607c904"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_button_circle_with_green_fillings.png",
+      "sha256": "583b97f40e35b5374a36fda5d3b6ece3fb15e869cb1acd8a6e82c82eeb6efa01"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_button_circle_with_green_fillings.png.meta",
+      "sha256": "54d97037e89775ce55109da73f490bf4f4dd4885298fe79a4a8309f9554e8834"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_button_hexagonal.png",
+      "sha256": "9f1a74ef051b6464e8606c9a0b1639cdbe3eafa6c4ca5f1ad613683c07c77c68"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_button_hexagonal.png.meta",
+      "sha256": "7b8a81a7100a0833166616108a542711082fea892cec575f331af889da31242d"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_button_hexagonal_with_green_fillings.png",
+      "sha256": "aa3926edd9a12ab788026f4284102aa27853c3d96e74b7f0153d0ac829d1254f"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_button_hexagonal_with_green_fillings.png.meta",
+      "sha256": "a4eddbbc3c207d69be117be7498afd001ccb0e2b60d6f265a6c47ac9f03540c7"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_button_rectangle_with_green_fillings.png",
+      "sha256": "48dd9b90a70123cf1518a92577460d7f2ad77d424bb4c3024f699087bf8168de"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_button_rectangle_with_green_fillings.png.meta",
+      "sha256": "b250baabb5b42f8f8760844b3deebda6efcda450e3bb010a26113e5b5c8ef25f"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_decoration_with_green_jewel.png",
+      "sha256": "7b03b5f9db6f563a855dcd775cb77b1f755625d6b8373224eafe1afe84248fd3"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_decoration_with_green_jewel.png.meta",
+      "sha256": "6069dabe0035cb58494502bcc610e92b2dfaa394b6aa27c081e5dee97c89a448"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_start_button.png",
+      "sha256": "6a705eb4e1f364de912c88c142d63eed90860eaab22b8ec02ede9b0241939d25"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_start_button.png.meta",
+      "sha256": "493f9438d4ed36122ed5d2d7fc1d13e4973cda15ebcdf41c91eec55cfeb2af9f"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_surrounded_green_jewel.png",
+      "sha256": "57ca96690c3f2e75f430f8c509c10c293699d94b5312ed2aa3513171b24406f1"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/stone_surrounded_green_jewel.png.meta",
+      "sha256": "558733be47298aadee41ea6b0fabf7eb8ae598475ac14e8fbf39c91a79b01709"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/triangle_navy_with_white_outline.png",
+      "sha256": "536013b38c228ba444a2811374ce735254adce64c14805f389f6917376cdd190"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI/triangle_navy_with_white_outline.png.meta",
+      "sha256": "342d6eb3df589508b054a2cccea0f2d2d54f4d72a0ef6ea4420b415fa1709d28"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/UI.meta",
+      "sha256": "685b81427e6d6af634843010a012b9498dc60baf651ab6515fa8fa056bf1097e"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/White.png",
+      "sha256": "be338ada12aaf51c685b71bb6c78a6c74ec4b553f193a7c28a8a2bf69b36fa1b"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/White.png.meta",
+      "sha256": "fcf768add909bf2135bb489323a8837e1268697cb05629fd40d307e673e5bd5b"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/bag.png",
+      "sha256": "009f4ff8695cd30182d24c7d440309d9b6f552b1dd02aa4336cfb6ba9e19bfd4"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/bag.png.meta",
+      "sha256": "c1ebefe1fa19858bc3051be473cd446ee3fad5e20304fdb2df55e25cde98ff8c"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/exclamation.png",
+      "sha256": "2c87ced66b3291466115bce7c8ac656d1a4c2e4bbd95cf87640f4ee02151df07"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/exclamation.png.meta",
+      "sha256": "9e48f04c6dade01f4288159fc3a158fda42a39039ff0acb5e3e5501955e9722d"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/glass_texture_amature.png",
+      "sha256": "dc80d10c03efb4b2ae2979a62e9adb218251a9f5242d19b5f1d1715ca82283c5"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/glass_texture_amature.png.meta",
+      "sha256": "0bf74fc6252b69f0d16c096bfbd9672d24d495353fbeb236604cf0c26bc6f784"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/joystick_lever.png",
+      "sha256": "e8c217957b9d03a7aed65fa7dd12ef933464adf4faad46c2fb08ca7995af72e4"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/joystick_lever.png.meta",
+      "sha256": "23502888d829a0c64b4061ebd76aac3b9845150833c3b22100cb487fa5f6a3d8"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/joystick_pan.png",
+      "sha256": "cc5dc386d08557604b643dee1b924e9b83e73d05f901a62014bc6d0185eee1b5"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/joystick_pan.png.meta",
+      "sha256": "e21956c90c3b9200fe2da068d79b29766b3c67a929ce46e52cadd3cdbb82e411"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/map_professors_house.png",
+      "sha256": "067f2d6dac2d4ba2dc94c5c2392c56da5d77c929b85cc91a8504c5f535c28a5e"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/map_professors_house.png.meta",
+      "sha256": "e64632db7bfb97a48b50f35349948d96ad87910f98d5ef4ad79503960076565d"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/map_professors_house2.png",
+      "sha256": "c1ad7bc703ff7315bc896030ec98dea1d2dd6f87a00155e3387c133af99bcb28"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/map_professors_house2.png.meta",
+      "sha256": "095941f0303f2f466326df48695ff564eb23da4373acab0478f5557b4b6c1e2b"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/map_professors_room.png",
+      "sha256": "23d6e80a7d1b2b79edd902fd0c4c5463c16d45e14e10020e17c5356b6896aeed"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/map_professors_room.png.meta",
+      "sha256": "70c9d1bf1dee76abc7446aafe4ad13b120637db349b01971772c2d1743d1f4c1"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/map_test.png",
+      "sha256": "3956f0c9059783bf33c5f350a6f16f47254624159d8b571d083fe62c0a3d9d47"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/map_test.png.meta",
+      "sha256": "c7176c0590bac62d4abe186188a85cbd42fb8a3473d3ea1f3fb0e659599a46f2"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/map_test2.png",
+      "sha256": "a2d4a64763a7d17ca84d92c635f926546a595376973e89437820d739c18bb879"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/map_test2.png.meta",
+      "sha256": "aff77dcbdeb28657268c7fda955afd15a7b1c46143397239723822427f5f68f5"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/miniMap.png",
+      "sha256": "ca428ac77b6fd62728a33c29236081dfcac70bba2540267c5930b7a00c3f1ea3"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/miniMap.png.meta",
+      "sha256": "5a407631afab9171d6a6c81e6eadf1b4340bb74b7ecb8e70fcf3e26bc822a1da"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/miniMap_Blur.png",
+      "sha256": "f7aebf35639986a7308d472d7f8bc6e940faacaafb6992dd4198a7073f111bb9"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/miniMap_Blur.png.meta",
+      "sha256": "38efe5240e902d87215a1496bcd3f9f499b841263f3fe93808ee4f171266057c"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/question.png",
+      "sha256": "da3428229009d3eb9d1806e2a0f9d8fe029b1a0f053b7cc5dbcdf9a0ae51f70f"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/question.png.meta",
+      "sha256": "ccb5031e9fc32da6b5eb8e9cdfd2bcdcb222776c97fc00c6b4c27715aaab42c2"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/sky_01.png",
+      "sha256": "c83db1522c295c1a752f80545cb23cb4ed7071836a5f9380d33ef2faa4dd8df8"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/sky_01.png.meta",
+      "sha256": "99f2306900d774e68a4c7c9cf4634707fc56c717a6a825f27b554d6d55f899cc"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/sky_02.png",
+      "sha256": "6644c078b86b41ac3340ce4e2054287e013c6bffc62921aa0a04476e9d702b88"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/sky_02.png.meta",
+      "sha256": "d51d8fec54196c3ec0aef414bcaff619ced4b60fba9c1cf2452114b0c4152032"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/sky_03.png",
+      "sha256": "9c387106aa2173a08e48af05ae41898fffb17b8b6b292a4064930d5e49d6f398"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/sky_03.png.meta",
+      "sha256": "ef9029be8a4b08e9c8ab1d9d14a118fb742fdba24b5b225dbc18c18d9e5b7c93"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/sky_04.png",
+      "sha256": "18e04d9edd326e233f4a932ce0f819a8750c4ec7aa3959d773ea7990ff1bf72e"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/sky_04.png.meta",
+      "sha256": "f8f8714fd0cdc2b8eb9c11048f7bda7fba85c796c312de164b8b2e1025bf9a90"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/sky_05.png",
+      "sha256": "cd45cdb5e7b33a80647f75c3a02f485ae09e8521033abfa718f238a3c1613070"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/sky_05.png.meta",
+      "sha256": "10dd2dfec041531fbc9b1cb8843dcbc258a265d315de08a91fe401877033def5"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/sparkle_made_by_hoo.png",
+      "sha256": "56bba1eb3971ea03e6992347e806ecb283114ea038f33759244481d326f82db7"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/sparkle_made_by_hoo.png.meta",
+      "sha256": "13b37c79ecc799d2c6e0827db09e0e255f492a1cf0ce5887444fa7b626351b19"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/sparkle_transparent.png",
+      "sha256": "3b505a9c9fa552d889d09e5a5dfbced6153dbda15ca736e8f6d47c1b52462619"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/sparkle_transparent.png.meta",
+      "sha256": "f42e643626a697e8ed8f8f92e334ff9bda78adb7ede38e13368a3a834e4b6738"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/tap_to_start.png",
+      "sha256": "2d9d784ceaf322d23a25ff0d14d7d0ca4217e1d3e81991f31ac39e1baff6587e"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/tap_to_start.png.meta",
+      "sha256": "aa6d32b6248da4fd369f88e6fefae46578a6842f6f0df16db27fefb05f2c4d30"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/tile_marble_like.png",
+      "sha256": "baacfeee290aded214ae148f5895c12ca3a486aaec96487b23ddb97e31f4401e"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/tile_marble_like.png.meta",
+      "sha256": "d7a28c60578c0661fd30d846a2031f050df08dc907075f88600dbdd5c0dc8a75"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/wall_paper.png",
+      "sha256": "e997d07fd391d6d8d9521463174c0d807921ec4fb55b211fa105506103c4919d"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/wall_paper.png.meta",
+      "sha256": "360a770f08dbf17311788efe08ba056041beabe7ab4f6466ec80ffabebd745a1"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/wall_paper_normal.png",
+      "sha256": "e997d07fd391d6d8d9521463174c0d807921ec4fb55b211fa105506103c4919d"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG/wall_paper_normal.png.meta",
+      "sha256": "c519f7a28696c43a7d7d7882da06ab041e286334bba452deb7164f0d08523e4b"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/IMG.meta",
+      "sha256": "1be5e5db4cc5cf8026129bb0fea9757ceaf0db9d7a116cec0af64665025105fb"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/Loading/BackgroundImage/NarniaLandscape.jpg",
+      "sha256": "41e9480417f8413c7cb6feca44bd0546a07c6c5ba94b0cd2f9f67e246b93b4ef"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/Loading/BackgroundImage/NarniaLandscape.jpg.meta",
+      "sha256": "ae18bf0155b7d9b601fc924e9a15b4897a453a00c913c4286d17d48564083227"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/Loading/BackgroundImage/TheWardrobe.jpg",
+      "sha256": "ffc2a3c32e502d70bee965918a00fe3e754bdea46011ca6b9cde4336e4b61d0e"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/Loading/BackgroundImage/TheWardrobe.jpg.meta",
+      "sha256": "d098251238f7ad5eef6f7db01c0ee753670c0625d4915ccd39e7897ea1ca1f56"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/Loading/BackgroundImage/TheWhiteWitch.jpg",
+      "sha256": "9a02979e67698afc3836de5007249de1e9c63bfe14fd590a86be376da4f98ef7"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/Loading/BackgroundImage/TheWhiteWitch.jpg.meta",
+      "sha256": "12cf4f519d29da099734020623b3a94d56773b1e2ab6ea271867bd00dfe0f038"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/Loading/BackgroundImage.meta",
+      "sha256": "d96fa53a549d545a6fafe212e98ac3a1d46eeb30e62e66a60be65d7257210cb3"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/Loading.meta",
+      "sha256": "76bf14f3cdb3091ad1e373249cb6b22ce1b2780bcddce6385bb8aa5b642fb63a"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites.meta",
+      "sha256": "608f1b8b712e9d20c0c8560e0c5453d5532ecf64fa24cad13955879a581d77b6"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/MAT_Default.mat",
+      "sha256": "2fb7d72b90564c6406016fecd171d7350547b1605efbbd1b9a39abfaf090745f"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/MAT_Default.mat.meta",
+      "sha256": "0acdac5c96b90f9ed0992727934d8115336f7db9862b3aef7f10334163ae4bcd"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/123testmap.mat",
+      "sha256": "cc1a8c6a69ba439b7b87529303d48148488972c0a30fd063dd6b4a7ff14a306b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/123testmap.mat.meta",
+      "sha256": "a82f8e996b3929f009520a0ca25bd195026c1b9b396102491e936f08e6f818fc"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Black.mat",
+      "sha256": "d24d4e4d7ddf090353eb6a14e8e88641c83b30a5a3b8fcdacc2d460873b12635"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Black.mat.meta",
+      "sha256": "6ce99e74beca70ec8963ac8d23b11e9f629675b4ebca488eba426c066047a329"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Button_Attack.mat",
+      "sha256": "9de5435960480af1d63f9f1f06ce7ce134c69355d50163c516aca368222aa118"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Button_Attack.mat.meta",
+      "sha256": "f144d4a83066e4c61d0305efdb2bc8e88258b6b7fa127cca48a3c492f0d7c4bb"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Button_Skill.mat",
+      "sha256": "289bc2a4632c23a145e39aeb521e3dc77e74041ae832beb9599d98507fd3f10a"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Button_Skill.mat.meta",
+      "sha256": "cd50e1bc35cc500e2d24a9f71aec9f2cd92d62d35cef445100fb57d838d152cf"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Curtain.mat",
+      "sha256": "6ff1442c7d6b714c86a6b257e7524fbd27fc9724147124c6be2b984b9e028cb3"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Curtain.mat.meta",
+      "sha256": "e8d85a45309747b67c58d6fbd014f4163c2d2519ff444e4ab9ed262a085d5c12"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Curtain_Fabric.mat",
+      "sha256": "1a27dadee3549e4e5b5135b7b75d6465c469441c49245898ddbad41f5865431b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Curtain_Fabric.mat.meta",
+      "sha256": "5450bdd8a7d475972f6d93b6ec39d92caea79fcf2bec0ca5156be2b55ab7a148"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/FreezeSky.mat",
+      "sha256": "07827759dc3ce2c43d3f48bc1e9d06a7db96096b8ec59d03effb7f067a09ad1c"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/FreezeSky.mat.meta",
+      "sha256": "3c4159727e23ed364151a63f35fdf69c3a52512738aed19756f55f659a3cabe6"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Glass.mat",
+      "sha256": "74c3a2a2f6452e992be7194607a31fca8dd06c7654f428e3c210a359c87a9bcf"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Glass.mat.meta",
+      "sha256": "a8165e8c4939ee23c84698100383d980635127fc6136b8e2d0fa66445fbfdb26"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Glass_HalfTransparent.mat",
+      "sha256": "1063ba03bdb22d02ea7107f127194f58517b7136273c1b1c03f842ff7a13b375"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Glass_HalfTransparent.mat.meta",
+      "sha256": "4fe6ae707bed43affcccb13b4fb95fef2f559d7ce65bef698858bf85859f41ba"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Glass_Opacity.mat",
+      "sha256": "47f832177504e5e7d5747ca1fe7bc2040d509e0fbb8bd59fd324dc762ca425a3"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Glass_Opacity.mat.meta",
+      "sha256": "1f24c70678ffba0cc50a5ca04167c719ba2274c2591be22a46bf170b8c61ce61"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Joystick_Lever.mat",
+      "sha256": "297e050ae8f7c96858e2108ffc9971b3b2d50df163ee5698ff0bc970a8202370"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Joystick_Lever.mat.meta",
+      "sha256": "27128381f66e250baee345a56eacffc974a86b8e1954f0bcab06e484663458ae"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Joystick_Lever_simple_Gray.mat",
+      "sha256": "2a6ed540a1286dc0f082e27fb984510a83b889cdf3885945132117310a093c76"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Joystick_Lever_simple_Gray.mat.meta",
+      "sha256": "0b1b7ac78d30b3a1629a93f7a9948892d8d083b705194c10a0e1aa1a6e0816cc"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Joystick_Pan.mat",
+      "sha256": "3688f1d15b4fc9a0cd8f1ba53a95aed2c1c4726f4d28fe060f14def121998fa1"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Joystick_Pan.mat.meta",
+      "sha256": "e0fd2ccb2771f79f00da3452719f7a552cdf5a334f7ad2e25e079d7e9fa51e42"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Joystick_Pan_simple_Gray.mat",
+      "sha256": "201d4bff2e361894d5bbc852d35d0c86d54e5ce9e6babd0e2a0f37103ae86c88"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Joystick_Pan_simple_Gray.mat.meta",
+      "sha256": "51f7b28f6d3066b0e96a526c9669255985a5807d699b45420593dd1c0a48b425"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Map_Background.mat",
+      "sha256": "56061c6d23831319127bb75a68f49c6487dcdd57e108c1e3fad436bf693a2b87"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Map_Background.mat.meta",
+      "sha256": "65cc8051a12757baeb5b5a85eee2806cf73cd0d9f81102850d4339553ab1dedc"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Paint1_renoir_1.mat",
+      "sha256": "e189d16e2890e5cd3dd187cb2f230c44910ba78c3635d2b0932ac18630ed333e"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Paint1_renoir_1.mat.meta",
+      "sha256": "eaee37e1ea1f91ef94d1066514dfbae1ec1f7330cc56f823a6ea15d98aaeab44"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Paint2_renoir_2.mat",
+      "sha256": "3f1c1f444e9a502f47e458fa61a7bc08bbf35f197c0b8fdeea6b0499fe1843df"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Paint2_renoir_2.mat.meta",
+      "sha256": "274bc962eab09f06f6f472dcf97802bd60917d37336a6cf88e9afb3e63261529"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Paint3_two_boys.mat",
+      "sha256": "163f3a8fc06d1ebe5b16b2f007f114c471ec7ebd30182bc9984a0e2412e6ecb7"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Paint3_two_boys.mat.meta",
+      "sha256": "c3a96bfde70bc6b65e6fb37b0d114c4509da4251a30dbb91e67b60d3240cf743"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Paint4_carriage.mat",
+      "sha256": "c64c5f4a1554811fdb5def6b085cb6a091d02c2f9aeded98c95a4983ce1123ee"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Paint4_carriage.mat.meta",
+      "sha256": "13d33b7042e43fe95a17e6c42a1bcd941eeae2f65dfebc8fbd03fd8b9d6a9c10"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Paint5_Klimt.mat",
+      "sha256": "cd28d3ca4847dfeeb64dd07f5f1f176422a36aae7844133987cfa56759c76630"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Paint5_Klimt.mat.meta",
+      "sha256": "aba89616d7b3a1d257489c43748838418e02b83d37e0584e0c4396566fa9a6ea"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Paint6_lady_on_the_grass.mat",
+      "sha256": "ec2dd94060e6f77bec60c92254969f6eac39d687bce8778aa11bc494f54d8d3a"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Paint6_lady_on_the_grass.mat.meta",
+      "sha256": "c365208aa7dcd32aa803b1410c7a3b366ff94879b84091075b914446b8d3f04a"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait10_gentleman_in_military_tunic.mat",
+      "sha256": "fae0e6cf43a9015906bd7eea33d1bad1c084fd6618752028eff2b87159a50e7d"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait10_gentleman_in_military_tunic.mat.meta",
+      "sha256": "a4cfc6dfab355954f7ee2692d79677d0be4c4d2608701d209f39b271a927f676"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait11_london_gentleman.mat",
+      "sha256": "cd5646f0d14f930063e974c95d5608172dd6c095537c2c3bbc0713d8d9d6e516"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait11_london_gentleman.mat.meta",
+      "sha256": "523ef86de5f23990020a1b6c1314e321a97903bf1021f1e89db85a6db20e1bf2"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait12_military_officer.mat",
+      "sha256": "048c9aeaa4141c81d2e8d32f4047a50368b98a3f9bae9a4a5616c165d8259778"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait12_military_officer.mat.meta",
+      "sha256": "863304c431f52fce1797a33776bbd537e508b9dc97bee31ab6b282f77bb24214"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait13_noble_boy.mat",
+      "sha256": "227803eb5ff91798162be64f168f1950a1197a2d950f4a8324e32ae9f67da544"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait13_noble_boy.mat.meta",
+      "sha256": "69b0c7fda1a2a3fc018f9bd2d9ebfbe15d03b1875a5251c4813303e51dc76174"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait14_gentleman_henry.mat",
+      "sha256": "a0ac4f6c5d3eaed5c581f748d440bbc01eb60a71f2933e6ff10581e6f6b2c6ec"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait14_gentleman_henry.mat.meta",
+      "sha256": "5457ad21f7f550c9de9f17c0c1cbedad0dddaab0ff0a6db093c87b94222cf091"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait1_portrait.mat",
+      "sha256": "25f829fae32eb4cabc7fb6cd3fabcc80c0dd97cd24daef98c9c47d89f0bd629a"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait1_portrait.mat.meta",
+      "sha256": "53a38728cd7b4e9f667b0b40c0fe518371545af5c8cda37403e6a9c8554169b7"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait2_reading.mat",
+      "sha256": "55189e0670c24d493ebb84ec451823f0d120ff7963c3bddbe9809d2c7c5e3dc9"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait2_reading.mat.meta",
+      "sha256": "44633fb675eded45ac0812d246caec68f50b55b74448efff35afa58eff94ed87"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait3_reading_madam 1.mat",
+      "sha256": "3ba64fb2a9e07ffb9115e26ce32da11708e1218548ac88a1ffa6a10b4ed4419f"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait3_reading_madam 1.mat.meta",
+      "sha256": "60295395c54db72e6168e7cf316af9623afc610c7466beae66566d0cbc36deaf"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait4_flower_printed_whitedress.mat",
+      "sha256": "83864ac2aa26437e20e5c854383a8b5f224ca78f7be92392bd1152e6f0e33118"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait4_flower_printed_whitedress.mat.meta",
+      "sha256": "f45ee83b94514641e28b0e9bbd0bf9905f39456cd03923bea636ff829010aa41"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait5_getting_ready.mat",
+      "sha256": "145cc21024c06e72d946b0423ba291d800e421f9e503b3a743a595165590630d"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait5_getting_ready.mat.meta",
+      "sha256": "9394dade9b5f586109d97d112d6fe38a760eb1492dfb77e673020eed7478f5d4"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait6_staring_us.mat",
+      "sha256": "d74951b62a4de07b27dfe975a72e892ed7c629fdbbde93030dbed486dd092a3a"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait6_staring_us.mat.meta",
+      "sha256": "4b1b7643e8b6a1db27efa4af1190b3b09dbfb0254c3533e33fbb8712897e624b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait7_whitedress_girl.mat",
+      "sha256": "50fd987ec78bf5840bb49de2a68c1e775a51baa90c9a7ddc94fa80f55e22b436"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait7_whitedress_girl.mat.meta",
+      "sha256": "84c1e26aa51b200469b379d5ad5fe5eaa31e9f7e636f21035abc23c08d9dd8e9"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait8_gentleman.mat",
+      "sha256": "e79b5619f2a7c61763faffd93e3210a005756baf489d9cc5532185a22c8c0eab"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait8_gentleman.mat.meta",
+      "sha256": "93ac0fcdddf31111e404f34a68cc6f0b381ed30d42865f2925e104289dc52ea0"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait9_british_gentleman.mat",
+      "sha256": "584e67ab54023c2378a52b4f6651a8ece8da297e30866f94fc004746aa86bbfa"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Portrait9_british_gentleman.mat.meta",
+      "sha256": "05f0fba04fd8e17fb04d7f503260894b2718a172875d33e15ad8531ed446162f"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Profile_Frame.mat",
+      "sha256": "d86a1e6cb42cdf580731775aa1f65af77cfbf551efce133b17d776a1cbbeafb7"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Profile_Frame.mat.meta",
+      "sha256": "4808a5db8f2c1a03698b1bde27f91ba28cef818b4f9e120fe70eeea161bbf7f3"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Snow.mat",
+      "sha256": "4a05fca17bc408ab42fc2a4d76178f4e68ae58c39cb0dedf372aaef010036396"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Snow.mat.meta",
+      "sha256": "6e27c9e3a742a8962179996c0846a336309701d8df2b2fc3f5d76cdde045c96c"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Tile_Marble_Like.mat",
+      "sha256": "d0404d628a10bb0fca4dd5126dabfc7cd356a7b594bb0b6a596d6a8960e59497"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Tile_Marble_Like.mat.meta",
+      "sha256": "07346b999eeae320592203e3ef4e8974823283fda360a5cb4f80f2f4111d2e06"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Transparent_Gray.mat",
+      "sha256": "c16893e8d9e773db88b41d88010f7428c7dd210699214a361e143e0bceb36f1f"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Transparent_Gray.mat.meta",
+      "sha256": "afe62267199df0fd31dad9c489d5383bf3a408db4ac2418b623ed8b45e54824f"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Transparent_Gray_Light.mat",
+      "sha256": "b4d4a25c0d5129453235246f0affc57f8ce600a5a4c642c7b3aa5ddcbf0ca95d"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Transparent_Gray_Light.mat.meta",
+      "sha256": "38b2ab3a9b0835dcb2203a9a879a5e4a4efd7626f1124953b6aae31c8843472b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/WallPaper_OldYellow.mat",
+      "sha256": "4790eaa5d5597ba6d0bed0c5ec3d7963963b9c6bff86fa964d9abe02f92f7268"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/WallPaper_OldYellow.mat.meta",
+      "sha256": "3f7eb10c7639d800c0fbf21c7909ed94fbfeffca03a95cf24f2159bdefcebbad"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/White.mat",
+      "sha256": "1638cf52daf65c4b7aff93c0bc637af0251a3d3efcec3e427220f8f3f8fe043a"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/White.mat.meta",
+      "sha256": "20cd1192b0a93289b825930d1465e6a998c16ba304f52990dc5a71fb7a44acc5"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Wood_Floor_ver_Me.mat",
+      "sha256": "8141f36086780b1aeea951ad8b75cf232f91f59236c95f27ddd5a3772842d7c8"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Wood_Floor_ver_Me.mat.meta",
+      "sha256": "0b3c7b6e0167cd2c82174dffbe564dfd389fcb7a4a585047b47c27200d5940e2"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Wood_Floor_ver_simple.mat",
+      "sha256": "f959f0cb84cae193a77ac8455b37fe83d5d7fb57c15b2fedfaf4e9bcd1fde749"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material/Wood_Floor_ver_simple.mat.meta",
+      "sha256": "cda97858c3432a439bf0a8834d4104d0cf16df4013294e22931971c939778fed"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/Material.meta",
+      "sha256": "5d54775bb64be6c20cf606a9d2bfe625dea52db30db58bd46d28e13887031c66"
+    },
+    {
+      "path": "Assets/@Project/04.Materials.meta",
+      "sha256": "313e536f692d449cef21b571e8d0c20265cf3e097b20586272b22d90713f06ee"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/CloseDoor.anim",
+      "sha256": "5ac88f2976196f49928d9fede7519aa1c48b3bf0d53a46f2c3145188f4f1a9c2"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/CloseDoor.anim.meta",
+      "sha256": "db8e7cb49004f04ead9707ebdc71dd9cce62817429818b5377867461f7942477"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/DoorHandle_Locked.anim",
+      "sha256": "007937dc2772c9a6a6aac490cbc51cd1d6ba50f75a13dc7cb6f7fc83bec35170"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/DoorHandle_Locked.anim.meta",
+      "sha256": "0182c1080a20d700250329809795e49af7056fabe6b6cd99200e6f1790ff49e5"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/DoorHandle_Open.anim",
+      "sha256": "36bb5d0eef872e3cda42a7c74cc821a9e41dbed6a0d225a26f13f855c98c46f5"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/DoorHandle_Open.anim.meta",
+      "sha256": "d85105b054a56f6a708530a4e6bb2bdbda4d511d56605e2004d98434fdc9647e"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/DoorIdle_180.anim",
+      "sha256": "3fdb7438af9eac61552c8ecb01f0a30fad062df1c0c4278f47c6cd2e185c0793"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/DoorIdle_180.anim.meta",
+      "sha256": "cd4c2e9647795f5421edb6137d37b0be5f3008cf558ca02e7425c0c677a0bf90"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/DoorIdle_270.anim",
+      "sha256": "7e72c0e2d44861a7aa81b9c7f3fd3f340d799ee3593ebea7ffe8dd35f2cb9235"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/DoorIdle_270.anim.meta",
+      "sha256": "e974d5c2587d46e7758043a5a2beb5a7a1bdb7f785f566b2aa6f0912b235e71a"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/DoorIdle_90.anim",
+      "sha256": "6f519f20c9e2512f4e191e7981c5175d3e8186bcbfb54a412e0ba04262677e37"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/DoorIdle_90.anim.meta",
+      "sha256": "68293888590a5aeac4e87c42de95d11218cfbd13338833083289fcb32acbf8b6"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/Glittering1.anim",
+      "sha256": "f9cb027c1b2060ff82cf8627e699d755235d068087d393f62da83852dd4cd37c"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/Glittering1.anim.meta",
+      "sha256": "51c6308d44c5b97758c7416d408fcac7ee1e610608382d240d0e6b834852e4a9"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/Glittering2.anim",
+      "sha256": "7b7314a6d78843e3858793fbba75b444159f62af7586c820d60604724fd939cb"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/Glittering2.anim.meta",
+      "sha256": "8ebeac11f03a6b6926660a349604773b7837267a99bbaa7e8f68528139a6f832"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/Glittering3.anim",
+      "sha256": "b3cc5cd8ee1f910046fd48f7bd8698fbfaf65538ae6f74cfa2f5a74a99f7ad32"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/Glittering3.anim.meta",
+      "sha256": "dba0e03d998f03e57ad038aa2b255ce52ba2e5d8444fa996c0de1a6c9ba38d43"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/Idle_fromTeam.anim",
+      "sha256": "f061902bf114ab0f1948433047700a1912b25c6cd45b776cf84a3c120f265bee"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/Idle_fromTeam.anim.meta",
+      "sha256": "8129e0817434bdf577a642c7ed57c6a82c376d70faf50c440eace7fd6dbbedeb"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/OnAndOff.anim",
+      "sha256": "1d7d89a65d08d7882ef9484a7756df7c736a40f26d6656d1ac8e6eaa627c7104"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/OnAndOff.anim.meta",
+      "sha256": "3a1f7d2c373fec7ba031ebae9f769005b8c36d199dd60eef8175086ff05ef573"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/OpenDoor_180.anim",
+      "sha256": "21b05d208dae83bf7568abf296f1346fc4855bbc02a50d8661212577635f3c90"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/OpenDoor_180.anim.meta",
+      "sha256": "b557849b64b2decc8546fd85a4008755d904ccfd974913869aef38cdd5fa2e4e"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/OpenDoor_270.anim",
+      "sha256": "7098b3d18406b3ca46ba28533cc7c594c9b71eeecea2504f14cf542ca4917669"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/OpenDoor_270.anim.meta",
+      "sha256": "21f6bb945adc0bcaa0064b05be837dec5085de7635229e309ca5e164e1e10006"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/OpenDoor_90.anim",
+      "sha256": "fa37aa1e1fdc814daa62349fa3bf99fe78549d2f85b03dfc2509905945fc971e"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/OpenDoor_90.anim.meta",
+      "sha256": "c2d4d8cc7e374d3e23ac7c0448953a889f146b4641aa03aa368bc70dc788c0fc"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/PlayerIdle.anim",
+      "sha256": "be4cc61251f4318dd39ef98fb939f6e10b92aa87d61596aa9f0c92f23ed742ad"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/PlayerIdle.anim.meta",
+      "sha256": "9a1874756e9f1148f0af5b28356678adbb433365f031a619416d9c0e963db3b6"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/PlayerJump.anim",
+      "sha256": "351021a91033cfbf0d5d5b09590c8006b906214d021a6d084d6e49fb406affe4"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/PlayerJump.anim.meta",
+      "sha256": "5925056aa0d154a0ed72eb03939878260cdf7f52ac373928ba41aaf2df903c16"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/PlayerJump_in_Place.anim",
+      "sha256": "575a56fcc29e3c2b3fb8f80c1ff44f8c25908c06713defacc5ae87b1227cd400"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/PlayerJump_in_Place.anim.meta",
+      "sha256": "55d6fedbcad48ea05be25173843e9eed0372d33353b141db43db8ccca16c72ec"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/PlayerOneLegIdle.anim",
+      "sha256": "a9f2719cf979fb2d531fdc8cefa610721c20101e1a0c596effb9a48cf5df4e90"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/PlayerOneLegIdle.anim.meta",
+      "sha256": "62f7d3bc89cd83a45de8ee78c3dd5c643b3e93e9586933f15c44142505cfc1f0"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/PlayerRunning.anim",
+      "sha256": "44ccabdb113f5c86ac99a9ee030736fd2bcd83ab2c533e265de740abc2f969f3"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/PlayerRunning.anim.meta",
+      "sha256": "98be33ff550bdea244708266fe199da6a2cacb73d1c44aadd02d23b8aaea2a6e"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/PlayerRunning2.anim",
+      "sha256": "af9d4b04decc879d846cc1ae40393836128ff4ae6659bd8d809d60ca52fe7f7f"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/PlayerRunning2.anim.meta",
+      "sha256": "b6a79b447e6fb1213eb925088c95800b1ee214603e0f6d144ea8919f9b2d1f37"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/PlayerRunning3.anim",
+      "sha256": "7d63cacba8e1401a8149c30a538d9ad2a74a834d7ab080f2b57a614982af6960"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/PlayerRunning3.anim.meta",
+      "sha256": "6fa084dfe0e9efff324578b72e56a54de2d04c157a4069e6797a9c6712316a15"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/PlayerRunning4.anim",
+      "sha256": "af21c47528a0f43cd2f766d9fe00ef9f65f234102cfc937bdd2e681224255e1b"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/PlayerRunning4.anim.meta",
+      "sha256": "b2455a9c82a705a7699b569ca27de9204ccf24e32feea534b1cf2278fb0c1ce7"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/PlayerWalk.anim",
+      "sha256": "57e28bbb29c12d21a87d6c9d4639ff55cc555fd3d844a4e44c869690029d37be"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/PlayerWalk.anim.meta",
+      "sha256": "0219af6ac853c231f9962458dd903cb745baf671f0f1468fb6c6a4031dd75a8b"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/Slide.anim",
+      "sha256": "1ccdafdd1bb7c91b0271f1818fb348d9df003cd939a9123232b3e7f42eaf105e"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip/Slide.anim.meta",
+      "sha256": "3ca0be9a91b90ec66a7d5b3d7318a003bb2191aa17143660fd12ca9f2d19c7c9"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Clip.meta",
+      "sha256": "9ab0f9737ac329b6255b8f9b61096a5acae36a4945f2698f8c3c6c31ff38ad11"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller/DoorHandle.controller",
+      "sha256": "8f1a6bc6c6d813c799c2d4aad8cd949723719d853152dbd1da452808d63b69b6"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller/DoorHandle.controller.meta",
+      "sha256": "04df211e8ede60e11c07192528a25ca62429b88552c7b3b4fc809fd5eb2a66a1"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller/Door_180.controller",
+      "sha256": "5236438cdcc361aefdd8262cc8038fc1b4d1a11000519346bf7328937616924a"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller/Door_180.controller.meta",
+      "sha256": "a35a221d156c79ebcb228d46877de49ed92cf3fa5c2cca13bd4ab14977e8a700"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller/Door_270.controller",
+      "sha256": "bc55cfa93b9285258ac6aebfc50baa8abce94b75d180a13b89d78bc77da5f2f4"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller/Door_270.controller.meta",
+      "sha256": "349c4537546f8fe2948f204e17ba86a64508cd5a130e04aae862e0746dbbc428"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller/Door_90.controller",
+      "sha256": "71ffe69001292c80a475dad4a1eec223fc5a07539d38c8b2fcec7b2601d2d63d"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller/Door_90.controller.meta",
+      "sha256": "a6b185038966c0890b3936e7fcc8085fd270c0b537b23f074b669af56d2abdf5"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller/Glittering1.controller",
+      "sha256": "6477ecb327e13f50b07a224505167e93360438f9e59c235f96acd42839b2a1aa"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller/Glittering1.controller.meta",
+      "sha256": "29c956f63b96384a36bf82c73f0266ca51e8fffa3bb0480545a0a412559eb213"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller/Glittering2.controller",
+      "sha256": "c823cdb33a9b1e64618ca3354769f490e594f491a112dcc43b301f0acd6523b2"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller/Glittering2.controller.meta",
+      "sha256": "6342ba5acbdd678fe399a0db2bc27118fb9f4d0268ec0c93cf080377aa947d1e"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller/Glittering3.controller",
+      "sha256": "897dcdf99ce94c42bc19458e31df38db47b58ff08e588ce27ad9242d723de9a4"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller/Glittering3.controller.meta",
+      "sha256": "f9831acbc2aa679db074deee3896ee79934a07486a7882200779ab92177e1582"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller/OnAndOff.controller",
+      "sha256": "4e0af3b537152b9997b7bbfe6959c9f26d25f1a14c216faab253d2d80f920e13"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller/OnAndOff.controller.meta",
+      "sha256": "0e012a1280eaf3a607dfffad30ed6f9b83eabd76088556b9d44129d5f76ba827"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller/Player.controller",
+      "sha256": "8c2c2a29532ced1a6a24ecc6a811632ad5a9912c5ebc35587a44a32416827002"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller/Player.controller.meta",
+      "sha256": "9df802e3fdb358d8befa6059beddd3ccfe1e0c3a026ab405db20330914811baf"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller/ShadowLetter.controller",
+      "sha256": "9c4cbcfd6bd06015e8a4bd80a139f0c6ec185209514487e817094dfc861c0b47"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller/ShadowLetter.controller.meta",
+      "sha256": "72ba7cb32463598dcfa37e698d8538b1ab7b3353e784b00722c0b7285b3ba555"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Controller.meta",
+      "sha256": "f456b95a17f3eccd1abe6da7919e27920ec40008e5e4447ce8593029aa65bdd4"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Mixamo/Idle.fbx",
+      "sha256": "9c86396374a583f33dfa2f5800790a727417b9ea7188ffdf242c81219d7304cf"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Mixamo/Idle.fbx.meta",
+      "sha256": "bcb9fcbf7aa7913ef933afd0b92c95f93a373004f0e7c4b0b48a412896fdbc3b"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Mixamo/Jump.fbx",
+      "sha256": "2ebe3a8e3958c929cb8552f44f2ee1293ef70e087d2e8a60a8a64d811547db75"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Mixamo/Jump.fbx.meta",
+      "sha256": "01a964f2b381c5c8037e9d5c3adddd92c4f29ec0a002fbfcbe2148755f2e9cdd"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Mixamo/Jump_in_Place.fbx",
+      "sha256": "05bd744c7d62aa9c3b8f5547e2838fa419a3d47eed2fc567eee1d819cddf2e90"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Mixamo/Jump_in_Place.fbx.meta",
+      "sha256": "79f85df19572730f3e12b22ed5200e7a1d9cbb633a60cd55b9a05c8c83387ed0"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Mixamo/Running.fbx",
+      "sha256": "9fb165301e8c1c597a3bd7ed1cf4cea3e8aa6bae67d17065fe292e7f3acc6cfe"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Mixamo/Running.fbx.meta",
+      "sha256": "166babdf914e52436832e1fb1761a6bb34d9ec1b866280d3ad630b84fd1eb73a"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Mixamo/Running_2.fbx",
+      "sha256": "abc7c13d077d68cede9e3929917783db866c0417ccc27c21424c10a1b19befe2"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Mixamo/Running_2.fbx.meta",
+      "sha256": "a75a10a500248687efb604fa26d1d6d735eb486c50f8efb96c81eb4e6cc5a453"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Mixamo/Running_3.fbx",
+      "sha256": "82f4ee6f0202e6572ab761615c00ad08d0553d84330a2db084ce82495feaa7c3"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Mixamo/Running_3.fbx.meta",
+      "sha256": "dc21342fff9dd8c6808b7c8549bce899583fbdd10d41f24a75e268e79ea79760"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Mixamo/Running_4.fbx",
+      "sha256": "b11a57f2d7ef47fdcee158bacdd67c22758037260d6c5d7ba550539a685cb8ea"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Mixamo/Running_4.fbx.meta",
+      "sha256": "4960a8f325850e517bf0b498eacb180e95a6bf96aea6b2a3d191a8c748761faf"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Mixamo/Walk.fbx",
+      "sha256": "75f120a48540317feea8293f18fd433f2230c5c80d00d844e8d0a2a6f7ec34a9"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Mixamo/Walk.fbx.meta",
+      "sha256": "13162a50b83b77ac898ba348fe69767ad4e9dd94724ae1aa185ed6964495e34a"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Mixamo/woman-casual@Idle.fbx",
+      "sha256": "163c3fcd2fb05acf9f7a909fe710995deb5e27f1a5ac67b5cd9cf456e113d13b"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Mixamo/woman-casual@Idle.fbx.meta",
+      "sha256": "320e6de9502d00620120813eed5b3413038db4920c3efdaaf75f05b1a4e72fdd"
+    },
+    {
+      "path": "Assets/@Project/05.Animations/Mixamo.meta",
+      "sha256": "3cbb00517b7fc5183b0630df920cbb0079bdf837ceeb7ffbdfaa71f8d2012e4b"
+    },
+    {
+      "path": "Assets/@Project/05.Animations.meta",
+      "sha256": "18493e7019679c3d886ad77a208c06a61a38d7c575a226a640852a8e531f5aff"
+    },
+    {
+      "path": "Assets/@Project/06.Data/Json/playerStat.json",
+      "sha256": "761556bd6b32a03a66ad63cae3369133bd6536f21d062f4e8e50e845a440fdf5"
+    },
+    {
+      "path": "Assets/@Project/06.Data/Json/playerStat.json.meta",
+      "sha256": "8a612d4c69b9ac48663e5fd055a1e628ca593d51c073d56525da1fd3fd12d971"
+    },
+    {
+      "path": "Assets/@Project/06.Data/Json/playerStat_01.json",
+      "sha256": "2819ce8f5e91b99f214132015518d1bc6201e4e8dd95b512afa31ede15b7aeee"
+    },
+    {
+      "path": "Assets/@Project/06.Data/Json/playerStat_01.json.meta",
+      "sha256": "d9f3e771688b749260eccf87411569c3294fea4fdaf5ead71fa1f735d31c5e02"
+    },
+    {
+      "path": "Assets/@Project/06.Data/Json/playerStat_02.json",
+      "sha256": "e9821ed0fc937115c3d75e885dfbff5b15afe790db09d48f75b6d4e6dd38af33"
+    },
+    {
+      "path": "Assets/@Project/06.Data/Json/playerStat_02.json.meta",
+      "sha256": "25a72c74e2ffd60087c14192f981944cc27e7561aae6454c1f00bb52ac918ce8"
+    },
+    {
+      "path": "Assets/@Project/06.Data/Json.meta",
+      "sha256": "638fa9e1fde790562d97c36e717857dc195821e6bd7f3be10f49bba5ed5e3a22"
+    },
+    {
+      "path": "Assets/@Project/06.Data/Message/QuestData.json",
+      "sha256": "ea342afc526f8d889d3193259671eca617dca866ce79383686d270b1641277b2"
+    },
+    {
+      "path": "Assets/@Project/06.Data/Message/QuestData.json.meta",
+      "sha256": "f1faaa931a8524ec12394e655b7a150c0c0a022da15195653ac7ac5467c1fc62"
+    },
+    {
+      "path": "Assets/@Project/06.Data/Message/test.json",
+      "sha256": "4d00052cf0770332402eaf973c1f634b140f74de73f355c42b4ab5490dc14b70"
+    },
+    {
+      "path": "Assets/@Project/06.Data/Message/test.json.meta",
+      "sha256": "6525f74c6f818cd95c4e8da4e0843dc342daee22ff37e9b6a61ad0e7243eb52b"
+    },
+    {
+      "path": "Assets/@Project/06.Data/Message.meta",
+      "sha256": "992f7d2b3aecc2e60c5a7ed17fa2fcaa7513c2b152e9bad81a245ee7bc7005db"
+    },
+    {
+      "path": "Assets/@Project/06.Data.meta",
+      "sha256": "da6acaacb6a4fd10beb3f67f96809a4a1b28d38f740897e76f0d81db09799910"
+    },
+    {
+      "path": "Assets/@Project/07.Sounds/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Assets/@Project/07.Sounds.meta",
+      "sha256": "aa9663a9d1507e23a9e9265875e67bbc19861cf5e70773202ba754eb478c680e"
+    },
+    {
+      "path": "Assets/@Project/08.Fonts/DNFForgedBlade/DNFForgedBlade-Bold.ttf",
+      "sha256": "c906b3ab3490b6450106ec1be5bef344a63c4d40cacef508a2c74e34ecc22fe7"
+    },
+    {
+      "path": "Assets/@Project/08.Fonts/DNFForgedBlade/DNFForgedBlade-Bold.ttf.meta",
+      "sha256": "7779a80c8e80ecf06d423c5af4d68f6af47e7bda180c46f95baf2e9b2180c35b"
+    },
+    {
+      "path": "Assets/@Project/08.Fonts/DNFForgedBlade/DNFForgedBlade-Light.ttf",
+      "sha256": "92803f69e1212603717e62a01dfbf3ff6a9d72ebaaabc0abca7282e62b42087b"
+    },
+    {
+      "path": "Assets/@Project/08.Fonts/DNFForgedBlade/DNFForgedBlade-Light.ttf.meta",
+      "sha256": "2527da32acab2cbf70fdb728be82fe667ffda89e584babd1208934dc4eb4c3ce"
+    },
+    {
+      "path": "Assets/@Project/08.Fonts/DNFForgedBlade/DNFForgedBlade-Medium.ttf",
+      "sha256": "364ea508e7f58114052406369bc9c6e5c7dfdc09e3693bd20f14ce35aef66af9"
+    },
+    {
+      "path": "Assets/@Project/08.Fonts/DNFForgedBlade/DNFForgedBlade-Medium.ttf.meta",
+      "sha256": "af6e375beb4c726d44d9b9ab4c037ed86a2f9cef8075e7e0226cf40d0a5e4d96"
+    },
+    {
+      "path": "Assets/@Project/08.Fonts/DNFForgedBlade.meta",
+      "sha256": "d02d715476c5334dfd760f097b76f01eebe04fb8fcbacad334335cf2a4e176d6"
+    },
+    {
+      "path": "Assets/@Project/08.Fonts.meta",
+      "sha256": "7bf3e7dc01c6c68601e447c1bf022324c6330169aaa95df07625b6edb5533a8d"
+    },
+    {
+      "path": "Assets/@Project/09.Shaders/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Assets/@Project/09.Shaders.meta",
+      "sha256": "612c7c52cf4fd00d75f2df9ce90902a04651e98251fabb27a3e6cc7e8972b217"
+    },
+    {
+      "path": "Assets/@Project/10.Models/Shader/SnowBumpMap.shader",
+      "sha256": "ad3e415bb05d2d6a43c3a4270c70c334de74a34d0c8a065d72914476dcf5a745"
+    },
+    {
+      "path": "Assets/@Project/10.Models/Shader/SnowBumpMap.shader.meta",
+      "sha256": "cc49539b64b75bb2505393b3037e7e5bee68401c124d7bb87d3e97939396531c"
+    },
+    {
+      "path": "Assets/@Project/10.Models/Shader.meta",
+      "sha256": "9896f2667f73c67c15b1b4b4c38c0bbdbb02d5f3d25dc98db662126c1245a87b"
+    },
+    {
+      "path": "Assets/@Project/10.Models.meta",
+      "sha256": "b647d86ef4df47772262b991c960a39d6b32de9f34ea8fefb30997799c925e1a"
+    },
+    {
+      "path": "Assets/@Project/Editor/AddressableValidation.cs",
+      "sha256": "ff7d2e12209ff4e1da3540ce2ba0c5ca3450b842f36abf44b36b60fc9e1f911a"
+    },
+    {
+      "path": "Assets/@Project/Editor/AddressableValidation.cs.meta",
+      "sha256": "34e21f2d8bff00a02081af263d3da22de27c539a09402f3de738f727d7001f94"
+    },
+    {
+      "path": "Assets/@Project/Editor/ChalkParityMigration.cs",
+      "sha256": "5fbe0bb3168ba82d59ca5a4fc93a8fc35f5ff25cd7b9cf06dda408564630ead7"
+    },
+    {
+      "path": "Assets/@Project/Editor/ChalkParityMigration.cs.meta",
+      "sha256": "a0dd622de23ad93d8fd4f610ed84333e0561b3c12489e237973daead2428cc81"
+    },
+    {
+      "path": "Assets/@Project/Editor/ContentValidation.cs",
+      "sha256": "7f6a13bd70532f5dec3486a2dce3a35b2650303516a05158d93269539517b947"
+    },
+    {
+      "path": "Assets/@Project/Editor/ContentValidation.cs.meta",
+      "sha256": "51b0f5ca718c1b307332ef64c82dbe07a7234aa78e60dd625d3b54c0ad56abcc"
+    },
+    {
+      "path": "Assets/@Project/Editor/IntoTheNarnia.Editor.asmdef",
+      "sha256": "a426416fb164773ef0c96cae0960af7c19b80638fdb53eb504ae1242a73529d5"
+    },
+    {
+      "path": "Assets/@Project/Editor/IntoTheNarnia.Editor.asmdef.meta",
+      "sha256": "60a640713c1091f7eddc73351d5722244a5e444be68d3e8a09ad4cfc3978797d"
+    },
+    {
+      "path": "Assets/@Project/Editor/NarniaBuild.cs",
+      "sha256": "ee3503e458eaa65a04af26ea4b9a9b20318b718628f4ca171a3a4921b444aa63"
+    },
+    {
+      "path": "Assets/@Project/Editor/NarniaBuild.cs.meta",
+      "sha256": "11c8eda04533986d2fb1b5d682ff8dfed49bf7b7f2bdbc5d76d6348a219640cc"
+    },
+    {
+      "path": "Assets/@Project/Editor/ProjectValidation.cs",
+      "sha256": "f9adf1dd7695b516c22856486326e27a5c885a23ef1ea426e38aa5959c3af7f1"
+    },
+    {
+      "path": "Assets/@Project/Editor/ProjectValidation.cs.meta",
+      "sha256": "2f0b913ea6979d31aad2aa4fa02b4abf798eeae7456b7c12137937b3d54d5249"
+    },
+    {
+      "path": "Assets/@Project/Editor.meta",
+      "sha256": "c9a541dabc62e07cee59e90359fd37b91c22fae43ef3d62e99be573624f02f41"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/Area.cs",
+      "sha256": "9f25a4fb548bcf7d827ecbdfbdfb944c29c31b2969648473914015dacd596436"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/Area.cs.meta",
+      "sha256": "01095d31812bb3f7aebff898c0b53bdf62e52e0fb5412e25b46d66f567ed029f"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/Character.cs",
+      "sha256": "df05f9160766ac0e286ab318657d2327b9142f2191e594bbea6abab24eee8780"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/Character.cs.meta",
+      "sha256": "9e58eb3cb33d4f43f851f2f39a37ac53fb6342a2c8149bdd1b63401f4818caf5"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/GameHelper.cs",
+      "sha256": "cd83d2180dc12fff6ddf8fd613e3518987bfd4cdf9e90f29d4ca97155e23b366"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/GameHelper.cs.meta",
+      "sha256": "d4148daa1d328b9caec804a71535f97c44b4d4a6b465c2306d04290ccf606386"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/InstanceManangerByTeacher.cs",
+      "sha256": "fce2896ca23ac71109da8566f8959d3e272d4a79615443c488c332540dc577ca"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/InstanceManangerByTeacher.cs.meta",
+      "sha256": "63448a8ce453360023339bde339b18b76ae823a194bcfc2c74a03f15d629cab7"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/MainManager.cs",
+      "sha256": "8199982d56696fdd35af4aaccbebd30c9ac0e758deb20bb24728a66b701242a4"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/MainManager.cs.meta",
+      "sha256": "1d74bab4430c0ca112e187ed25a511a54f7fe164784f093e50dbe8324f1fe3f8"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/Monster.cs",
+      "sha256": "d1db20255a35cdaf8f9b70abed7c9125e351f486dec47601b77d2f3472744daf"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/Monster.cs.meta",
+      "sha256": "36e0f6fca4a8e41da14374e515f56b1052a1bdc7357698c183333e70fed1e7bd"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/Player2.cs",
+      "sha256": "e7be2bbec07afa04c2c322eb11ad5508dc0b3935c51b7841d50e90fd05dc20ae"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/Player2.cs.meta",
+      "sha256": "49e74d21101aabaaaf5e855da4a67d4b710b568e576e2c119f5d010d1d58b897"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/ResourceManagerByTeacher.cs",
+      "sha256": "c879e19be861526032081d432825e597c7b074436945dafe7f66e597e2cb4fca"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/ResourceManagerByTeacher.cs.meta",
+      "sha256": "6bb9d8f88f22ab59db110edd445a44b5de5ad73747afa8752ad78e4d00f2a998"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/SampleCharacterData.cs",
+      "sha256": "be1edce260d5e356217f13477cb2d90f9ce02066ecd874cd4ed065ef502a4e95"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/SampleCharacterData.cs.meta",
+      "sha256": "2fe67077b325d301d6ef936b02607ea3adb1e8678b630feda25348ddffadfa6c"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/SampleMonsterData.cs",
+      "sha256": "b00d8fbff2105a2407c40a65d748d8250bf3495261a7e5a68cb11923db9fabad"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/SampleMonsterData.cs.meta",
+      "sha256": "2713ec4084fa444175b53bce93df7998a4b889c0f86fc32c1a56e49e9edf9906"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/SingleTon.cs",
+      "sha256": "1607b2144997f8d377d1c86caeaded380a8638b3fddff7ba4b4ae54478b8a1e0"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher/SingleTon.cs.meta",
+      "sha256": "04d946588eeb17b5ecd97bdacfae6e5585e84706a347fbc472e8f1648395c9d1"
+    },
+    {
+      "path": "Assets/@Project/Samples/ByTeacher.meta",
+      "sha256": "35bae1adfe015659b1f991b75048fa3bbeca47bfa754f43a0a12218d3a4f0807"
+    },
+    {
+      "path": "Assets/@Project/Samples/IntoTheNarnia.Samples.asmdef",
+      "sha256": "019c0472e6c1a7324705f7cd03bee2830171666087d1563ac2d0210ad6d5e26b"
+    },
+    {
+      "path": "Assets/@Project/Samples/IntoTheNarnia.Samples.asmdef.meta",
+      "sha256": "7a22d9a818d5d8176971c484483d17727ab64d4c832bc8fa21f4eff373a48653"
+    },
+    {
+      "path": "Assets/@Project/Samples/Prototype/AnimationTest.cs",
+      "sha256": "9e3b74b02b6b0c5da0b4ccfbfc413d1be6b3efada5d0962c6d23a82f1c778ee3"
+    },
+    {
+      "path": "Assets/@Project/Samples/Prototype/AnimationTest.cs.meta",
+      "sha256": "d9bacbf34fd226c844451df623ab13d09a8546182522610c3161c482fff87144"
+    },
+    {
+      "path": "Assets/@Project/Samples/Prototype/CameraController.cs",
+      "sha256": "ba60d7c22671acc0b5f3fa939840678d88266f75edb445dc51831f091874ef3f"
+    },
+    {
+      "path": "Assets/@Project/Samples/Prototype/CameraController.cs.meta",
+      "sha256": "537cc0b616e666535c42053106af729a8cf0804d292ed39bc2f54934c67974dc"
+    },
+    {
+      "path": "Assets/@Project/Samples/Prototype/ColliderTest.cs",
+      "sha256": "2ca71e3521b0369160ca28ebb4b8c41d679286a1ad590c9eb6f66bee5f6d8a10"
+    },
+    {
+      "path": "Assets/@Project/Samples/Prototype/ColliderTest.cs.meta",
+      "sha256": "6c10c1b2a2aab3cf383a4d5428574afb17299891823dde0d4f5292f9f3d65382"
+    },
+    {
+      "path": "Assets/@Project/Samples/Prototype/CustomCamera.cs",
+      "sha256": "1eb5098a5522329ce972df6e6a0304336c6dcda3c32ed48c99eaceb644c77e97"
+    },
+    {
+      "path": "Assets/@Project/Samples/Prototype/CustomCamera.cs.meta",
+      "sha256": "7275d1ffd57db169d0b393c961b2bb0b71a518ede8057b68b98b8f5b3cc2972c"
+    },
+    {
+      "path": "Assets/@Project/Samples/Prototype/Joystick.cs",
+      "sha256": "c223c1687c5fb037ba4d5b28e3ccedbf329ebfa3179e4c41f1846f22492dfb27"
+    },
+    {
+      "path": "Assets/@Project/Samples/Prototype/Joystick.cs.meta",
+      "sha256": "b66a19067571cfe6329ffaca90ee2ae433932364850884749537340b2e91a556"
+    },
+    {
+      "path": "Assets/@Project/Samples/Prototype/Player.cs",
+      "sha256": "aa7bab468d159c8e5eee0daf265874c1f10553b053b94a25fe5c93da0949fbd1"
+    },
+    {
+      "path": "Assets/@Project/Samples/Prototype/Player.cs.meta",
+      "sha256": "1489b026db28489e0962ef749eed355058a4e4c3947268e4df4a2f5cde9df159"
+    },
+    {
+      "path": "Assets/@Project/Samples/Prototype/PlayerWithStick.cs",
+      "sha256": "3d55a44e813574bd12343fdad62b062bc0fe9f582f1516cefbd708d2702eb9b1"
+    },
+    {
+      "path": "Assets/@Project/Samples/Prototype/PlayerWithStick.cs.meta",
+      "sha256": "4e533a5029387ba3dce4541751aa849c62acd7f76e6ae8285d7c0898f44b4613"
+    },
+    {
+      "path": "Assets/@Project/Samples/Prototype/QuestDataManager.cs",
+      "sha256": "ba190f12bce76c7dc4ca3b1e30d82aa47b1243bfb904d1cde64548a265d68088"
+    },
+    {
+      "path": "Assets/@Project/Samples/Prototype/QuestDataManager.cs.meta",
+      "sha256": "8466119c26342aff4c37a7522e7def6e7846386fabcdb8e1a2d2307bbf99de4e"
+    },
+    {
+      "path": "Assets/@Project/Samples/Prototype/Test.cs",
+      "sha256": "4ad28cef3ca3a6e9fa7d5207a91a9fe4001e5cc193c08b8925b2ced38b46b8b4"
+    },
+    {
+      "path": "Assets/@Project/Samples/Prototype/Test.cs.meta",
+      "sha256": "a887fe8be1879bd37c9ae38fc11ce2579449009d4b16ca360254f727372400eb"
+    },
+    {
+      "path": "Assets/@Project/Samples/Prototype.meta",
+      "sha256": "5473afbfafef50702c9dcfb22849654e891c81a6e86357f33411e4f0b0a3b534"
+    },
+    {
+      "path": "Assets/@Project/Samples/Stat/Main.cs",
+      "sha256": "d76d8747a37d26925d5a18a7bc075563ef118b202570544506bb307579fab900"
+    },
+    {
+      "path": "Assets/@Project/Samples/Stat/Main.cs.meta",
+      "sha256": "507652145f2a50c7afc4dd4587be9a4c77267f526f3cf94d805e2201e8a5954a"
+    },
+    {
+      "path": "Assets/@Project/Samples/Stat.meta",
+      "sha256": "8aa7ab1f70da6a16d97e6674d8a65fbc30dd0eafa8004a23cff00fc9cbd3fcef"
+    },
+    {
+      "path": "Assets/@Project/Samples.meta",
+      "sha256": "57c80979ce0a3661771d998725053f0b8b5a10b8b2c6237a7121746517755008"
+    },
+    {
+      "path": "Assets/@Project/Settings/LevelData/Polybrush Data/Brush Settings/BrushSettings-Default.asset",
+      "sha256": "9bcfcad6c64d2788ae15be0394050d8dedfd1474f4081f6f0c2292232f837154"
+    },
+    {
+      "path": "Assets/@Project/Settings/LevelData/Polybrush Data/Brush Settings/BrushSettings-Default.asset.meta",
+      "sha256": "a45715b5c738b631fb1203e865b6eb4a0279cfdbf6fd3604dada2fb550588972"
+    },
+    {
+      "path": "Assets/@Project/Settings/LevelData/Polybrush Data/Brush Settings.meta",
+      "sha256": "9923eb6cfb5ccf8fe05a118452bcc502c0ae0bb187657574c4fad9a884986b2a"
+    },
+    {
+      "path": "Assets/@Project/Settings/LevelData/Polybrush Data/Color Palette/ColorPalette-Default.asset",
+      "sha256": "69157e10722d30c39b4c53862f51eea43d32559542ef122f994f2892a0f5a67e"
+    },
+    {
+      "path": "Assets/@Project/Settings/LevelData/Polybrush Data/Color Palette/ColorPalette-Default.asset.meta",
+      "sha256": "5abe8942d6814f26227cb5a189aea3a60f1b4811fbf93bc70fdef670539a4b2f"
+    },
+    {
+      "path": "Assets/@Project/Settings/LevelData/Polybrush Data/Color Palette.meta",
+      "sha256": "e2c9f53f3f8235f0e14a13d18b7541366be5ab62ec403c39cdbb4a228a5f908f"
+    },
+    {
+      "path": "Assets/@Project/Settings/LevelData/Polybrush Data.meta",
+      "sha256": "632ce22626ab9b6cf8a5ceb15343fd6eab5d890bdf0f628e08dd50002b194dc2"
+    },
+    {
+      "path": "Assets/@Project/Settings/LevelData.meta",
+      "sha256": "af4da0dfa01d04ac2f929f7885d8f685e970b5edf32a3d291093e70dcf55cbcb"
+    },
+    {
+      "path": "Assets/@Project/Settings/Lighting/Professor_House.lighting",
+      "sha256": "6785602a3e36240891756c4c6ed2ccf94b1c50d43fabfdd51f1fe59d270c09eb"
+    },
+    {
+      "path": "Assets/@Project/Settings/Lighting/Professor_House.lighting.meta",
+      "sha256": "06b4125b7ae92f67aaad9b10d83a987117978517aa07799b60314a8c1091cfda"
+    },
+    {
+      "path": "Assets/@Project/Settings/Lighting.meta",
+      "sha256": "4fe7fe54e9f2277b87c91e8f89f6f06690cb99e791064238de4197d852ac2446"
+    },
+    {
+      "path": "Assets/@Project/Settings/Rendering/NarniaRenderer.asset",
+      "sha256": "57e69966dca7b3e13564360841311069281722008360e8b8d5f3dd20768c2df0"
+    },
+    {
+      "path": "Assets/@Project/Settings/Rendering/NarniaRenderer.asset.meta",
+      "sha256": "100a01f3c7df77e24959fe2d96893708514fa28c6bb65ebf55b4f69f8d73fe82"
+    },
+    {
+      "path": "Assets/@Project/Settings/Rendering/NarniaURP.asset",
+      "sha256": "e49673f67b0db26c17bf1a3309eec6393369e00e8c11b999fca84bdfd0f71387"
+    },
+    {
+      "path": "Assets/@Project/Settings/Rendering/NarniaURP.asset.meta",
+      "sha256": "36c36fa18add8a8ab546723beda78d7e6d36cf72e2c6fdb23a1c6e0b822dcd95"
+    },
+    {
+      "path": "Assets/@Project/Settings/Rendering.meta",
+      "sha256": "6ddfec7594cdf455f3db359897f13f5d2e642635757245c11d418ba53e0ec354"
+    },
+    {
+      "path": "Assets/@Project/Settings/UIToolkit/PanelSettings.asset",
+      "sha256": "4b84de4a89fd4fd67ca54b00cc1659c043bcacd21f3c4b56d50915a7615f76e4"
+    },
+    {
+      "path": "Assets/@Project/Settings/UIToolkit/PanelSettings.asset.meta",
+      "sha256": "8c5a660f683b0bdb3f366cad53d100b6bfe733ea479d5ef4c57ad163c3379e68"
+    },
+    {
+      "path": "Assets/@Project/Settings/UIToolkit/UnityThemes/UnityDefaultRuntimeTheme.tss",
+      "sha256": "341561a31fcbb6f0c53c2ca99c2c311e2904369efb470004dd3ae9701b8cb433"
+    },
+    {
+      "path": "Assets/@Project/Settings/UIToolkit/UnityThemes/UnityDefaultRuntimeTheme.tss.meta",
+      "sha256": "4a2bcc85e30d2deeca0a22e5f24d6ed3d6c280914e647254574d97c8b6d4361b"
+    },
+    {
+      "path": "Assets/@Project/Settings/UIToolkit/UnityThemes.meta",
+      "sha256": "34746cef2b7490c1e5f304cf55a971240bfcc02b7f1de6227053eff2a90fd4ba"
+    },
+    {
+      "path": "Assets/@Project/Settings/UIToolkit.meta",
+      "sha256": "d099697ca4b38dc27732526dc1c841d2935d65f4914dbefe40d15f501b5617a6"
+    },
+    {
+      "path": "Assets/@Project/Settings.meta",
+      "sha256": "97813bdbfc5b82a211fd931beda88ce1b8687f8de7f6e52fdaca87ff7f5e81bb"
+    },
+    {
+      "path": "Assets/@Project/Tests/EditMode/ArchitectureTests.cs",
+      "sha256": "e79e42583c280e644e67fd13889b05efd23f95a04e98635b73abefb25fecc30d"
+    },
+    {
+      "path": "Assets/@Project/Tests/EditMode/ArchitectureTests.cs.meta",
+      "sha256": "4d9cbd06044b1abac5601281d59919e81bbb65729b8efd088606a32c3c42bdcb"
+    },
+    {
+      "path": "Assets/@Project/Tests/EditMode/ChalkContractTests.cs",
+      "sha256": "0d22b33405d21be26ec5dd6f2e5c2b6db665af76484e5afb609a6b0752260861"
+    },
+    {
+      "path": "Assets/@Project/Tests/EditMode/ChalkContractTests.cs.meta",
+      "sha256": "f62dbba07755183d20ab49c8c3eca778f01ed4e707cb8728ffaf2bf0594e86cc"
+    },
+    {
+      "path": "Assets/@Project/Tests/EditMode/IntoTheNarnia.EditModeTests.asmdef",
+      "sha256": "706e6dfd56976f22b5239ac48ed8a7d33bfc0600fe2ca18149b0137f0c72df60"
+    },
+    {
+      "path": "Assets/@Project/Tests/EditMode/IntoTheNarnia.EditModeTests.asmdef.meta",
+      "sha256": "aa6b7724d84c190f08cd078e75f2c1c967cdcc482bf748f33f56df30a1c609e0"
+    },
+    {
+      "path": "Assets/@Project/Tests/EditMode.meta",
+      "sha256": "fae34b6107ea0303893b8554046d53745ba1f95b81935eec32efca84091a3b01"
+    },
+    {
+      "path": "Assets/@Project/Tests/PlayMode/AddressableLifecycleTests.cs",
+      "sha256": "e6b32fc896b3dd1ace529c7dabef5e5e6dbe3e114acf88c1c9bae1d2b91ca583"
+    },
+    {
+      "path": "Assets/@Project/Tests/PlayMode/AddressableLifecycleTests.cs.meta",
+      "sha256": "353f146396837d7c700c2d365f4bf4c25ac215e6d8b7cdb3daef0c40a423f212"
+    },
+    {
+      "path": "Assets/@Project/Tests/PlayMode/IntoTheNarnia.PlayModeTests.asmdef",
+      "sha256": "35ca80906ba17a784526eba07f75102adab42fecd645b307daa4f7f77505ad8d"
+    },
+    {
+      "path": "Assets/@Project/Tests/PlayMode/IntoTheNarnia.PlayModeTests.asmdef.meta",
+      "sha256": "afa46f979ac0d75caf73cca31b33cc99c9b1a3010a1e7067759b1c7c2ab552af"
+    },
+    {
+      "path": "Assets/@Project/Tests/PlayMode/NarniaPlayModeTests.cs",
+      "sha256": "aeab314a69e096db67d91e75d23bf7dd8c7b6bac4d2aea64508659597cc453b4"
+    },
+    {
+      "path": "Assets/@Project/Tests/PlayMode/NarniaPlayModeTests.cs.meta",
+      "sha256": "f3fff97d973d611ea05d1c2ba47f63329897a6f280a294f63e3a83c9376c0a34"
+    },
+    {
+      "path": "Assets/@Project/Tests/PlayMode.meta",
+      "sha256": "77d9c189c2d526791b0c8f6eecbbec49938ce982f2b98e6a997ff68d610eb27c"
+    },
+    {
+      "path": "Assets/@Project/Tests/Player/IntoTheNarnia.PlayerSmoke.asmdef",
+      "sha256": "44f75b062d093e6d53ddf637fbd873f77b86b8b65d667ac12c64873e1b460e5b"
+    },
+    {
+      "path": "Assets/@Project/Tests/Player/IntoTheNarnia.PlayerSmoke.asmdef.meta",
+      "sha256": "b7276a682e81a61f49637da44c51118275ae93b00e83fe90d2f6ea27ca9e9bec"
+    },
+    {
+      "path": "Assets/@Project/Tests/Player/PlayerSmokeRunner.cs",
+      "sha256": "f9818c38a3ed9eb1852ca93b8dae5aecc1d66789227c176f76de3feb20b26771"
+    },
+    {
+      "path": "Assets/@Project/Tests/Player/PlayerSmokeRunner.cs.meta",
+      "sha256": "948ebbd744ab422cf5c102067c3dc91d289823d2a36ee5e27c78dfedb65f286e"
+    },
+    {
+      "path": "Assets/@Project/Tests/Player.meta",
+      "sha256": "68795dc29fa8d46d7871d9b0ea1a7a2b8ca317ff968afd2fc2575a646edd337e"
+    },
+    {
+      "path": "Assets/@Project/Tests.meta",
+      "sha256": "42ab989d7b44a7a3f298e2b43e233cfbd39beb7ab85774712867b1828bf11e4b"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AddressableAssetSettings.asset",
+      "sha256": "760ee49d8a50ed90134c069088f4eb665a208e61d8268c8065b8fa6fa708bf90"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AddressableAssetSettings.asset.meta",
+      "sha256": "02fd2f89818314442508208c929eb60931c6a52207c5faf77d274851510fbc90"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroupTemplates/Packed Assets.asset",
+      "sha256": "e9d4f6f13447d821a96b7d125a523ca15d2f676b86c6e02c7f3ffe4c7e03cb29"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroupTemplates/Packed Assets.asset.meta",
+      "sha256": "83acfe0eefa8333330968f6409ff125fd4ca098a25cf9f12526227febb31f745"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroupTemplates.meta",
+      "sha256": "e14c7b0e3fffebd9cba37c45e1b927871feff9dfd89cb72f5cf2c106e2e67462"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Built In Data.asset",
+      "sha256": "aa53c8f07b7669c2e915f815719cca2e9663b82e858ba092ada87aa14f84f5c0"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Built In Data.asset.meta",
+      "sha256": "4c07db0f55a54a06c70280dc97b8226459517ba9c30667e55e1a39d659fa616d"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset",
+      "sha256": "0a5ed93d57bfff0c69d924fa045acd440634f891d9707b0f3ee069e0d2f1f389"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset.meta",
+      "sha256": "44a4619a6897a5165d633c1525f1b4d2dbc33898411921324729cfcaf43db611"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Dependencies.asset",
+      "sha256": "17a055898b00dbfc1d3624a715108e830bdd6a573400cccb2acb8917e0713546"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Dependencies.asset.meta",
+      "sha256": "454755e41dbd8c2fc33ebe4ca5d1f7f5fc146b6582172487144bb53f3f202137"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Loading.asset",
+      "sha256": "ebb7d305274028517308e1637c280ca6e20a042fab6684d25d09c6059a6bf082"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Loading.asset.meta",
+      "sha256": "544327a64f572ea9a254ac4b68fe4dd04cbfd899a747c8ec3dd92a5a092ae21b"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/ProfessorHouse.asset",
+      "sha256": "b0c30c535f2f1486b5b968e41191d2d8ff899f9ac2bf1b91d72eb50bee2aeba0"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/ProfessorHouse.asset.meta",
+      "sha256": "cd19f46a84f09e80c19a51c24285c72ab4bf6cd60dc4926bc6fbcb554da60b62"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Built In Data_PlayerDataGroupSchema.asset",
+      "sha256": "7dfa419ab057a20dae8407e053fa12d8fdb833441d8b8293d19c9f634106df6a"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Built In Data_PlayerDataGroupSchema.asset.meta",
+      "sha256": "27bd47de66f730be4a57df02c8abc74a0ea6178abdba88bfcf98ef04cc3c177b"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_BundledAssetGroupSchema.asset",
+      "sha256": "8ff001ca0debeb863ad59dc0c7cd05585a897bfb15c7abfbf952dfb29b334fb8"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_BundledAssetGroupSchema.asset.meta",
+      "sha256": "5a70029ac6ad0f9cb3b905676454aff11685e52f478b43306c2a513450bf246f"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_ContentUpdateGroupSchema.asset",
+      "sha256": "9868fb186b99761e05aeb5b86433ed5b32a5cb491c9049335d1e1c2d11a8a940"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_ContentUpdateGroupSchema.asset.meta",
+      "sha256": "c9a5689bbb53ea393769e53e074ffa6d7f3904f4a0d49c53156a39d861e83d9f"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Dependencies_BundledAssetGroupSchema.asset",
+      "sha256": "203048b26b1ee673d0db8f870c8da802a1858b077271bf0f02b44e58468718ce"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Dependencies_BundledAssetGroupSchema.asset.meta",
+      "sha256": "5e7cca682d26fe4c6f7b2f527c71a97a630db82e634b136160f521c6880f61f3"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Dependencies_ContentUpdateGroupSchema.asset",
+      "sha256": "a330b44d137a7ffdc6ce42057232ec1941e1c2313f7152220a086c8be48f15a8"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Dependencies_ContentUpdateGroupSchema.asset.meta",
+      "sha256": "482c60bde978f142e6d4f718b0d5fadf9f46e3f1a3ea19ac0e27ef81c53aa3ed"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Loading_BundledAssetGroupSchema.asset",
+      "sha256": "e14743fc85e9fc39ad3176b78095fb08048408d6daa4b91335c652b443df7019"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Loading_BundledAssetGroupSchema.asset.meta",
+      "sha256": "b9b8106ac18c23c2621de4fc215ffb254af19983e9ae97bec076381cb0e74b24"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Loading_ContentUpdateGroupSchema.asset",
+      "sha256": "1631c5f84e6bc47baa5705645b0964d78adeb545516e15ba42b1d9afd5ec5f67"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Loading_ContentUpdateGroupSchema.asset.meta",
+      "sha256": "452417fe1ccfebc70eab8375f01b01b484e586f64010bae5574812f16746a2f1"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/ProfessorHouse_BundledAssetGroupSchema.asset",
+      "sha256": "3bd0d188f1c0a1d7952a73327e15f593d3efb2196aee4b1e48cb095fca62d750"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/ProfessorHouse_BundledAssetGroupSchema.asset.meta",
+      "sha256": "270c09d1055950f414b16347a5ece29124b4b17add45bad70bf54cac8304bd34"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/ProfessorHouse_ContentUpdateGroupSchema.asset",
+      "sha256": "7d9c99183328488b1e5ad5d2d919e5594deb99d8f4de4fa05f6765153f29e074"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/ProfessorHouse_ContentUpdateGroupSchema.asset.meta",
+      "sha256": "1863da9c19683c0edaee54328b8c64faa2c83add26745d7a8807db76940d3e6d"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Story_BundledAssetGroupSchema.asset",
+      "sha256": "1913bb4c941de7a3b19d0118f02dec7528bbb6abdb136b88db3c5b5b718cdb43"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Story_BundledAssetGroupSchema.asset.meta",
+      "sha256": "b60c302802392caca0d43b16ac961f8c0805442aa37013618ea3578a8619315c"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Story_ContentUpdateGroupSchema.asset",
+      "sha256": "926e1cdd91b8af190250884d750fd111d4a557600af98cba0e82f84a7018b784"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Story_ContentUpdateGroupSchema.asset.meta",
+      "sha256": "759cae2d17077ff9219286b0881f4c0ecbfa27620dde9194b99fa2fb3c0052d7"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Title_BundledAssetGroupSchema.asset",
+      "sha256": "7632ee97bcd1a8ccbac0a8f23d276d70c67422a4e762753e1418f2ccdaf3b3a1"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Title_BundledAssetGroupSchema.asset.meta",
+      "sha256": "49d3e6d16f820d41daa351f7f4b37f58fdf4926760c2bc5fcb75e325eb71e4fa"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Title_ContentUpdateGroupSchema.asset",
+      "sha256": "e2e779eaad351178c460839483167b63f27b89a97af735ca3d559479c6d3c61a"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas/Title_ContentUpdateGroupSchema.asset.meta",
+      "sha256": "cd49665acf9242f4343e4eeb8476a30b7002a6ce276e3b52dc9a25577c93a1e5"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Schemas.meta",
+      "sha256": "3e983077874c280bbf9eb80228439f569862977f52c929c3a0c9bbd660d87ca4"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Story.asset",
+      "sha256": "7e2abca1e20d6a225c6ce3c3c1ba984e54fab9f166d3d70cdbff958143460d27"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Story.asset.meta",
+      "sha256": "ab2bc15af54774c2277a96ae190ef92031c0f8ffebd1dd6817ef5523ae67c857"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Title.asset",
+      "sha256": "362158c1d0273e72c73414d7d777c47d846b9e944823df1eb2a7140e7401a000"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups/Title.asset.meta",
+      "sha256": "eaf994f758ae77d3dd08e463163fa4729564661c5c05c1d5d1b6fcce81f26165"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/AssetGroups.meta",
+      "sha256": "ed06dbf1fd16907ba5ab894f339f1787dea02c69a426ae452f8798aeb3a6fb1d"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/DataBuilders/BuildScriptFastMode.asset",
+      "sha256": "f7ad7a99337b708101af1509e729f69a4a68d0fa2c4971735bcdcfef79031422"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/DataBuilders/BuildScriptFastMode.asset.meta",
+      "sha256": "db84eb06c7a91ec67ae5b0b3235faedb2c62b24c865222542c62aa676240e989"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedMode.asset",
+      "sha256": "e1724ade455e3a80c4dc00106bc91fe4216c6476e3abf96f8f8c39a630962bfc"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedMode.asset.meta",
+      "sha256": "0bfa0a4fe21a4c7f3e385bcd7e4320e3b7561c9a02edcce1bd6265d1ebdcb76a"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedPlayMode.asset",
+      "sha256": "cff7386b43348b7893b94ba8f9766cf3210227c69b1c9172f4a06259141b4c1b"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedPlayMode.asset.meta",
+      "sha256": "d57fbea58d7901f83ce134ca0cf5b4d70306044725ecd2279931e47612de04ec"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/DataBuilders/BuildScriptVirtualMode.asset",
+      "sha256": "3f4940c795a679ba52244b328444e7c55854a59c209979c2ca8310bd6a6bb85f"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/DataBuilders/BuildScriptVirtualMode.asset.meta",
+      "sha256": "af3ecd6383253bed64823bedc09ef46f14d551096c7581642b3545590abc92e3"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/DataBuilders.meta",
+      "sha256": "ee3981451a80b38071cc0462ba2b7a9cf9a15942407796d801a84abb0420c43f"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/DefaultObject.asset",
+      "sha256": "19d46b7f2dab4266f41ed8372ff78b4fb686af83ab26f5873be625f917efb5ec"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/DefaultObject.asset.meta",
+      "sha256": "195ba6cc45d2d1ea1af029abb10a395a83d6181981bcc0844e3a017683172e2e"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/ProfileDataSourceSettings.asset",
+      "sha256": "e56dfc1cf23f1a11c56bf46ce180d23893dd41514688bbf63f534b6fd3587cc6"
+    },
+    {
+      "path": "Assets/AddressableAssetsData/ProfileDataSourceSettings.asset.meta",
+      "sha256": "2ec488fa9424ee471f13d39ba3c86a8cd86aa56ddc0e3408fec0b10d7e422eab"
+    },
+    {
+      "path": "Packages/manifest.json",
+      "sha256": "0bfb0d1a9e1dc23ac99fc39bfee5b07fc25897fdb1c807d1777460db7c2c6611"
+    },
+    {
+      "path": "Packages/packages-lock.json",
+      "sha256": "0b4af8eb854310688f631fd81e71b5ee4677b0bbc0745ee8ba31e2fb57429736"
+    },
+    {
+      "path": "ProjectSettings/AudioManager.asset",
+      "sha256": "aeedeb3243f07b61dbbe854aa08b5ef6f0b5274dd9852ad9f6129dde3e105a31"
+    },
+    {
+      "path": "ProjectSettings/BurstAotSettings_Android.json",
+      "sha256": "c0fcaa71ba89287fe9de0d85d629b98cb6f91a658e5059d95dc370bbf4643819"
+    },
+    {
+      "path": "ProjectSettings/BurstAotSettings_StandaloneWindows.json",
+      "sha256": "597114876963d60c17acbc0200190301f47e9726bf9d35d617be05252648f636"
+    },
+    {
+      "path": "ProjectSettings/BurstAotSettings_WebGL.json",
+      "sha256": "c0fcaa71ba89287fe9de0d85d629b98cb6f91a658e5059d95dc370bbf4643819"
+    },
+    {
+      "path": "ProjectSettings/ClusterInputManager.asset",
+      "sha256": "40e65dd214bf254955d2c8829ca8ce2130fd3510485560ce012e9a1ddd93e623"
+    },
+    {
+      "path": "ProjectSettings/CommonBurstAotSettings.json",
+      "sha256": "daa868ab0ca828b0f90bea58a6258e3d32aa637fa9baa5fcad12701bc9c4e333"
+    },
+    {
+      "path": "ProjectSettings/DynamicsManager.asset",
+      "sha256": "b7c9a9dc08b98990109d4346f68745e15e238de400f96c583e53e1c83c743a78"
+    },
+    {
+      "path": "ProjectSettings/EditorBuildSettings.asset",
+      "sha256": "29c3b041fc26752a0f6c8ee01e8c584fdba740062ffbaf6bbbfc75a500e60e93"
+    },
+    {
+      "path": "ProjectSettings/EditorSettings.asset",
+      "sha256": "2f0a0db4bdf4c1f3b55a4617d5d16b3a8462926e706c3bca2655d293863615f4"
+    },
+    {
+      "path": "ProjectSettings/GraphicsSettings.asset",
+      "sha256": "f04964a56e65119e5a79ea92fc3a98dc53f91c8869d536ee4a4b3f7c7ff05f8b"
+    },
+    {
+      "path": "ProjectSettings/InputManager.asset",
+      "sha256": "60c83ae48e29a782141f99032eb38e803d18475124ff5224fbd1fd81b233f051"
+    },
+    {
+      "path": "ProjectSettings/MemorySettings.asset",
+      "sha256": "1e8379a461b10ae09f3f696911088c16875d63e87ed5f2d95df9e1892703f9fd"
+    },
+    {
+      "path": "ProjectSettings/NavMeshAreas.asset",
+      "sha256": "36a99a962fcacbe6a6e957a1039f86d45f5123d24831fef6ab6f9b86617fecb6"
+    },
+    {
+      "path": "ProjectSettings/PackageManagerSettings.asset",
+      "sha256": "9c4d407e7f474c73f87c22bf85581146b6389c9554aebb8334e84c8aab9d0b00"
+    },
+    {
+      "path": "ProjectSettings/Packages/com.unity.polybrush/Settings.json",
+      "sha256": "c7774d89230c596f2901b33d6c31b3e9e336c9fd4128a1fcddfb7cc49fb8aaf3"
+    },
+    {
+      "path": "ProjectSettings/Packages/com.unity.services.core/Settings.json",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json",
+      "sha256": "a40f81b0dcc795e422f5ca0881fe7dad4e26cb8fdb33244a70f110835c1a8d44"
+    },
+    {
+      "path": "ProjectSettings/Physics2DSettings.asset",
+      "sha256": "e3cbdbf0be15244b7b67d2f07bdb8e8981911c11a8c7fe8035f5261272fec658"
+    },
+    {
+      "path": "ProjectSettings/PresetManager.asset",
+      "sha256": "29c125923fe6e29f90190d4fce1c82d660e7051546e2c9d02908d18c9cf2436c"
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "sha256": "d200127b7a263be890fb2292fe7bf65f26bfaa7d014f812199aaaa7d09dfb1e9"
+    },
+    {
+      "path": "ProjectSettings/ProjectVersion.txt",
+      "sha256": "b51164d22c4d2716ba8aee7f0b59d6b7dd0efa8552fd1db2a8c3b123fae3a1ec"
+    },
+    {
+      "path": "ProjectSettings/QualitySettings.asset",
+      "sha256": "d0d8db7fa922a4722401147ee0a9e1084043b2b7111e5d6a1c07d3e22e50316c"
+    },
+    {
+      "path": "ProjectSettings/SceneTemplateSettings.json",
+      "sha256": "d983786fb35276642847feb98f87259be23343f2c3eccc001baa1b787f944615"
+    },
+    {
+      "path": "ProjectSettings/ScriptableBuildPipeline.json",
+      "sha256": "4532c5dc1530d7742b5625618bab6908074006d390a68f46a34183a11bbc7e0f"
+    },
+    {
+      "path": "ProjectSettings/ShaderGraphSettings.asset",
+      "sha256": "91b34076dbdb68e7ef980d06b89a53ee5e2afb72d3b60f5bd4041e6206395ed4"
+    },
+    {
+      "path": "ProjectSettings/TagManager.asset",
+      "sha256": "bef2bbbd674f0dc7e383f05146d0b02047a337c4184d57cb806eefa104d6d907"
+    },
+    {
+      "path": "ProjectSettings/TimeManager.asset",
+      "sha256": "1a83e54adbbda7c9f4851103a0c6ab7f6448a3343d4ea5b7620452fa08416ecd"
+    },
+    {
+      "path": "ProjectSettings/URPProjectSettings.asset",
+      "sha256": "3e9d9f824875297ef6b9315fa7a3ac7ec1b047042395404a23c368fc971a8f3e"
+    },
+    {
+      "path": "ProjectSettings/UnityConnectSettings.asset",
+      "sha256": "d6034acbef6c9e3179866486c31eab81fcbe5e7ed350ce71e0fa2b1449b77109"
+    },
+    {
+      "path": "ProjectSettings/VFXManager.asset",
+      "sha256": "f066c6483919961332415ee64204f74fe52f38c02e82892eb02b7a5b2e381f0e"
+    },
+    {
+      "path": "ProjectSettings/VersionControlSettings.asset",
+      "sha256": "e7bda45bf7a394745fee1316e6c71fa676004d591ad1f3aa247fd3e4ceb86071"
+    },
+    {
+      "path": "ProjectSettings/XRSettings.asset",
+      "sha256": "edd2beb4a2e388312b4b7da241aa51070434005d82c59363f1237dd2e567585f"
+    }
+  ]
+}

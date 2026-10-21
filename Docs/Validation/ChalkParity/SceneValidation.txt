@@ -1,0 +1,4 @@
+Scenes: 8
+Persistent calls: 10
+Failures: 0
+Professor_House lightmaps: 37 (validated)

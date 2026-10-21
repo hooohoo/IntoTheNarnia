@@ -1,5 +1,5 @@
 # Data
 
-DataManager가 Resources TextAsset을 IDialogueProvider에 전달하고 씬·단계에 맞는 대사를 제공합니다. 연결 JSON/배열 형식과 기존 외부 키를 지원합니다. 저장 데이터는 persistentDataPath로 분리합니다. ResourceManager는 이름으로 검색할 프리팹·스프라이트를 캐시합니다. 실제로 사용하는 Resources 계약을 유지하며 Addressables는 추후 별도 도입 사항입니다.
+DataManager.LoadDialogueAsync가 IDialogueProvider.LoadAsync에 데이터 취득을 위임한다. 기본 JsonDialogueProvider가 Story 라벨 TextAsset을 프리로드하고 파싱하며, 제공자 교체 시 데이터 소스 전체를 대체한다. SetDialogueProvider는 기존 캐시를 무효화한다. ReleaseDialogue와 씬 소유 라벨 해제를 구분한다. 저장은 persistentDataPath다. UI에서 파일·Addressables API를 직접 호출하지 않는다.
 
-[전체 구조](../../ARCHITECTURE.md)와 해당 [컨벤션](../Convention/UNITY_CODING_CONVENTION.md)을 함께 적용합니다.
+[전체 구조](../../ARCHITECTURE.md)를 함께 적용한다.

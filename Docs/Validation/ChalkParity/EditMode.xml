@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="17" result="Passed" total="17" passed="17" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.0346235">
+  <test-suite type="TestSuite" id="1000" name="IntoTheNarnia" fullname="IntoTheNarnia" runstate="Runnable" testcasecount="18" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.034624" total="17" passed="17" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1020" name="IntoTheNarnia.EditModeTests.dll" fullname="VERIFICATION_COPY/Library/ScriptAssemblies/IntoTheNarnia.EditModeTests.dll" runstate="Runnable" testcasecount="17" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.032737" total="17" passed="17" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="66677" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="ArchitectureTests" fullname="ArchitectureTests" classname="ArchitectureTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.026450" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties>
+          <property name="platform" value="EditMode" />
+        </properties>
+        <test-case id="1002" name="DependenciesInitializeFirstAndReleaseLast" fullname="ArchitectureTests.DependenciesInitializeFirstAndReleaseLast" methodname="DependenciesInitializeFirstAndReleaseLast" classname="ArchitectureTests" runstate="Runnable" seed="1393771138" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.007196" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1005" name="DependencyCycleFails" fullname="ArchitectureTests.DependencyCycleFails" methodname="DependencyCycleFails" classname="ArchitectureTests" runstate="Runnable" seed="1116697580" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.001187" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1010" name="DialogueArrayPreservesExternalKeys" fullname="ArchitectureTests.DialogueArrayPreservesExternalKeys" methodname="DialogueArrayPreservesExternalKeys" classname="ArchitectureTests" runstate="Runnable" seed="582306014" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.010671" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1003" name="DuplicateRegistrationFailsBeforeInitialization" fullname="ArchitectureTests.DuplicateRegistrationFailsBeforeInitialization" methodname="DuplicateRegistrationFailsBeforeInitialization" classname="ArchitectureTests" runstate="Runnable" seed="2141061923" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.000273" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1011" name="EmptyDialogueIsValid" fullname="ArchitectureTests.EmptyDialogueIsValid" methodname="EmptyDialogueIsValid" classname="ArchitectureTests" runstate="Runnable" seed="863291047" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.000068" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1006" name="FailedInitializationReleasesPartiallyInitializedService" fullname="ArchitectureTests.FailedInitializationReleasesPartiallyInitializedService" methodname="FailedInitializationReleasesPartiallyInitializedService" classname="ArchitectureTests" runstate="Runnable" seed="1235601735" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.000171" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1012" name="InvalidDialogueReportsMissingFields" fullname="ArchitectureTests.InvalidDialogueReportsMissingFields" methodname="InvalidDialogueReportsMissingFields" classname="ArchitectureTests" runstate="Runnable" seed="658876639" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.000183" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1009" name="LegacyDialogueCanContainClosingBraceInQuotedText" fullname="ArchitectureTests.LegacyDialogueCanContainClosingBraceInQuotedText" methodname="LegacyDialogueCanContainClosingBraceInQuotedText" classname="ArchitectureTests" runstate="Runnable" seed="1639811436" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.000094" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1007" name="ListenerMutationUsesSnapshotAndSkipsRemovedReceiver" fullname="ArchitectureTests.ListenerMutationUsesSnapshotAndSkipsRemovedReceiver" methodname="ListenerMutationUsesSnapshotAndSkipsRemovedReceiver" classname="ArchitectureTests" runstate="Runnable" seed="139910227" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.000585" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1004" name="MissingDependencyFails" fullname="ArchitectureTests.MissingDependencyFails" methodname="MissingDependencyFails" classname="ArchitectureTests" runstate="Runnable" seed="923651272" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.000084" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1008" name="NestedPublishUsesIndependentSnapshot" fullname="ArchitectureTests.NestedPublishUsesIndependentSnapshot" methodname="NestedPublishUsesIndependentSnapshot" classname="ArchitectureTests" runstate="Runnable" seed="1873001864" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.000082" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1013" name="QuestAdvancesOnlyForExpectedDoorAndOnce" fullname="ArchitectureTests.QuestAdvancesOnlyForExpectedDoorAndOnce" methodname="QuestAdvancesOnlyForExpectedDoorAndOnce" classname="ArchitectureTests" runstate="Runnable" seed="1228358115" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.000262" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1014" name="ReplacingDialogueDiscardsPreviousQueue" fullname="ArchitectureTests.ReplacingDialogueDiscardsPreviousQueue" methodname="ReplacingDialogueDiscardsPreviousQueue" classname="ArchitectureTests" runstate="Runnable" seed="1708214134" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.000185" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1015" name="ChalkContractTests" fullname="ChalkContractTests" classname="ChalkContractTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.005772" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties>
+          <property name="platform" value="EditMode" />
+        </properties>
+        <output><![CDATA[GfxDevice renderer is null. Unity cannot update the Ambient Probe and Reflection Probes that the SkyManager generates. Run the Editor without the -nographics argument or generate lighting for your scene.
+]]></output>
+        <test-case id="1016" name="ClosingCoveredOverlayDoesNotRestoreItLater" fullname="ChalkContractTests.ClosingCoveredOverlayDoesNotRestoreItLater" methodname="ClosingCoveredOverlayDoesNotRestoreItLater" classname="ChalkContractTests" runstate="Runnable" seed="144286221" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.002748" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1017" name="ReentrantStateChangePublishesInTransitionOrder" fullname="ChalkContractTests.ReentrantStateChangePublishesInTransitionOrder" methodname="ReentrantStateChangePublishesInTransitionOrder" classname="ChalkContractTests" runstate="Runnable" seed="1979013521" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.000432" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1019" name="ReplacingProviderInvalidatesCachedDialogue" fullname="ChalkContractTests.ReplacingProviderInvalidatesCachedDialogue" methodname="ReplacingProviderInvalidatesCachedDialogue" classname="ChalkContractTests" runstate="Runnable" seed="2038637901" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.001185" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1018" name="RollbackPreservesOriginalAndCleanupFailures" fullname="ChalkContractTests.RollbackPreservesOriginalAndCleanupFailures" methodname="RollbackPreservesOriginalAndCleanupFailures" classname="ChalkContractTests" runstate="Runnable" seed="1732854789" result="Passed" start-time="2026-10-21 07:54:23Z" end-time="2026-10-21 07:54:23Z" duration="0.000674" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+          <output><![CDATA[Saving results to: /Users/leejae/Library/Application Support/DefaultCompany/IntoTheNarnia/TestResults.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

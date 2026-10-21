@@ -1,0 +1,11 @@
+{
+  "name": "IntoTheNarnia.PlayerSmoke",
+  "references": [
+    "IntoTheNarnia.Runtime",
+    "UniTask"
+  ],
+  "defineConstraints": [
+    "DEVELOPMENT_BUILD"
+  ],
+  "autoReferenced": true
+}

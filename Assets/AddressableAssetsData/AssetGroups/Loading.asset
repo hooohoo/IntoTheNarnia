@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Loading
+  m_EditorClassIdentifier: 
+  m_GroupName: Loading
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4b42c0a53f94c4e9fb6e0777e2047c91
+  m_SerializeEntries:
+  - m_GUID: 04125639b82cdc143b958fe054c7a464
+    m_Address: NarniaLandscape
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Loading
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1ea62a562e164ba9a37f665b2600416
+    m_Address: UI_Loading
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Loading
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e72c94f45a4ba3342b1cd013e834d74c
+    m_Address: TheWhiteWitch
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Loading
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6a79534aa850044ebe530490447b544
+    m_Address: TheWardrobe
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Loading
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 37060570ec48b49aea17d0ea5d8bbbc4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6f3541157bb5c4b5e843bb859fe8364b, type: 2}
+    - {fileID: 11400000, guid: a7b8dd6c99d7844438c4054e2ffc0cd2, type: 2}

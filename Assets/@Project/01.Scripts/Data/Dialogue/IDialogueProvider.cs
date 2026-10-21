@@ -1,6 +1,8 @@
 using System.Collections.Generic;
+using System.Threading;
+using Cysharp.Threading.Tasks;
 
 public interface IDialogueProvider
 {
-    IReadOnlyList<CharacterLineClass> Load(string text);
+    UniTask<IReadOnlyList<CharacterLineClass>> LoadAsync(object owner, CancellationToken token);
 }

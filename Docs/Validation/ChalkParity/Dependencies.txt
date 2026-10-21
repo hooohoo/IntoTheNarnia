@@ -1,0 +1,6 @@
+Warning: Title:title_assets_all.bundle:Assets/@Project/03.Sprites/IMG/UI/setting.png
+Warning: Title:title_assets_all.bundle:Assets/@Project/03.Sprites/IMG/UI/setting.png
+Warning: ProfessorHouse:professorhouse_assets_all.bundle:Assets/@Project/03.Sprites/IMG/UI/setting.png
+Warning: ProfessorHouse:professorhouse_assets_all.bundle:Assets/@Project/03.Sprites/IMG/UI/setting.png
+After dependency isolation:
+None: No issues found

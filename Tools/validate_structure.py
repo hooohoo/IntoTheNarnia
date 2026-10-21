@@ -7,7 +7,7 @@ import sys
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--editor-version", default="2021.3.6f1")
+parser.add_argument("--editor-version", default="2022.3.62f3")
 args = parser.parse_args()
 
 root = Path(__file__).resolve().parents[1]
@@ -63,7 +63,7 @@ mesh_count = references = 0
 for asset in (assets / '@Project/00.Scenes/Professor_House/Meshes').glob('*.asset'):
     guid = re.search(r'guid: (\w+)', Path(str(asset) + '.meta').read_text())[1]
     ids = set(re.findall(r'^--- !u!\d+ &(-?\d+)', asset.read_text(), re.M))
-    refs = re.findall(r'fileID: (-?\d+), guid: ' + guid, scene)
+    refs = re.findall(r'fileID: (-?\d+),\s*guid: ' + guid, scene)
     check(not set(refs) - ids, 'Invalid mesh subasset reference: ' + str(asset))
     mesh_count += len(ids)
     references += len(refs)

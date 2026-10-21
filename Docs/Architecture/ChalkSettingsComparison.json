@@ -1,0 +1,970 @@
+{
+  "reference": "chalk_4_game working tree, 2026-10-21",
+  "settings": [
+    {
+      "file": "AudioManager.asset",
+      "comparison": "same",
+      "reason": "내용 동일.",
+      "narniaSha256": "aeedeb3243f07b61dbbe854aa08b5ef6f0b5274dd9852ad9f6129dde3e105a31",
+      "chalkSha256": "aeedeb3243f07b61dbbe854aa08b5ef6f0b5274dd9852ad9f6129dde3e105a31",
+      "changedFromBaseline": true
+    },
+    {
+      "file": "BurstAotSettings_Android.json",
+      "comparison": "narnia-only",
+      "reason": "Narnia가 기존에 보유한 Android Burst 타깃 직렬화 설정. 공통 Burst 컴파일 옵션은 CommonBurstAotSettings에서 통일.",
+      "narniaSha256": "c0fcaa71ba89287fe9de0d85d629b98cb6f91a658e5059d95dc370bbf4643819",
+      "chalkSha256": null,
+      "changedFromBaseline": false
+    },
+    {
+      "file": "BurstAotSettings_StandaloneWindows.json",
+      "comparison": "project-specific",
+      "reason": "컴파일·최적화·안전 검사·CPU 대상 값은 동일. Narnia 직렬화 버전 4에 기본 OptimizeFor=0 필드만 추가됨.",
+      "narniaSha256": "597114876963d60c17acbc0200190301f47e9726bf9d35d617be05252648f636",
+      "chalkSha256": "c99bbd84e7c1be66b09062803185998ec7c74594fa3b684c27a291c6da1c1e6b",
+      "changedFromBaseline": false
+    },
+    {
+      "file": "BurstAotSettings_WebGL.json",
+      "comparison": "narnia-only",
+      "reason": "Narnia가 기존에 보유한 WebGL Burst 타깃 직렬화 설정. 공통 Burst 컴파일 옵션은 CommonBurstAotSettings에서 통일.",
+      "narniaSha256": "c0fcaa71ba89287fe9de0d85d629b98cb6f91a658e5059d95dc370bbf4643819",
+      "chalkSha256": null,
+      "changedFromBaseline": false
+    },
+    {
+      "file": "ClusterInputManager.asset",
+      "comparison": "same",
+      "reason": "내용 동일.",
+      "narniaSha256": "40e65dd214bf254955d2c8829ca8ce2130fd3510485560ce012e9a1ddd93e623",
+      "chalkSha256": "40e65dd214bf254955d2c8829ca8ce2130fd3510485560ce012e9a1ddd93e623",
+      "changedFromBaseline": false
+    },
+    {
+      "file": "CommonBurstAotSettings.json",
+      "comparison": "same",
+      "reason": "내용 동일.",
+      "narniaSha256": "daa868ab0ca828b0f90bea58a6258e3d32aa637fa9baa5fcad12701bc9c4e333",
+      "chalkSha256": "daa868ab0ca828b0f90bea58a6258e3d32aa637fa9baa5fcad12701bc9c4e333",
+      "changedFromBaseline": true
+    },
+    {
+      "file": "DynamicsManager.asset",
+      "comparison": "same",
+      "reason": "내용 동일.",
+      "narniaSha256": "b7c9a9dc08b98990109d4346f68745e15e238de400f96c583e53e1c83c743a78",
+      "chalkSha256": "b7c9a9dc08b98990109d4346f68745e15e238de400f96c583e53e1c83c743a78",
+      "changedFromBaseline": true
+    },
+    {
+      "file": "EditorBuildSettings.asset",
+      "comparison": "project-specific",
+      "reason": "Narnia 게임 씬과 Narnia Addressables 설정 GUID를 보존. Chalk 튜터·서버 씬 목록은 제품 콘텐츠.",
+      "narniaSha256": "29c3b041fc26752a0f6c8ee01e8c584fdba740062ffbaf6bbbfc75a500e60e93",
+      "chalkSha256": "49277d19298c561c475f1813eb0aa268a9e023962d813bf72eaf8cf9af95fd80",
+      "changedFromBaseline": true
+    },
+    {
+      "file": "EditorSettings.asset",
+      "comparison": "same",
+      "reason": "내용 동일.",
+      "narniaSha256": "2f0a0db4bdf4c1f3b55a4617d5d16b3a8462926e706c3bca2655d293863615f4",
+      "chalkSha256": "2f0a0db4bdf4c1f3b55a4617d5d16b3a8462926e706c3bca2655d293863615f4",
+      "changedFromBaseline": true
+    },
+    {
+      "file": "GraphicsSettings.asset",
+      "comparison": "project-specific",
+      "reason": "선형 조명·색온도·기본 셰이더 및 SRP 공통 옵션 동일. Narnia 자체 URP Pipeline/GlobalSettings GUID만 사용.",
+      "narniaSha256": "f04964a56e65119e5a79ea92fc3a98dc53f91c8869d536ee4a4b3f7c7ff05f8b",
+      "chalkSha256": "3b8ed9eb67acb5e07f166d0c76cd08c9bced3858224a80f8552b892173e4c722",
+      "changedFromBaseline": true
+    },
+    {
+      "file": "InputManager.asset",
+      "comparison": "project-specific",
+      "reason": "축 목록 전체 동일. Narnia는 Unity 2022 물리 키 기본 동작 m_UsePhysicalKeys=1을 명시.",
+      "narniaSha256": "60c83ae48e29a782141f99032eb38e803d18475124ff5224fbd1fd81b233f051",
+      "chalkSha256": "7a1bb836a1008d26d0860d143e9d9df7ca41731d30a72901b518063819c62df2",
+      "changedFromBaseline": true
+    },
+    {
+      "file": "McpUnitySettings.json",
+      "comparison": "chalk-only",
+      "reason": "Chalk의 별도 gamelovers MCP 도구 연결 설정. Narnia는 공통 coplay MCP 10.1.2를 사용하므로 중복 연결 미설치.",
+      "narniaSha256": null,
+      "chalkSha256": "b14be658d168655c229aa3adc72623e604200d856461adf06f8d10812a324ab0",
+      "changedFromBaseline": false
+    },
+    {
+      "file": "MemorySettings.asset",
+      "comparison": "same",
+      "reason": "내용 동일.",
+      "narniaSha256": "1e8379a461b10ae09f3f696911088c16875d63e87ed5f2d95df9e1892703f9fd",
+      "chalkSha256": "1e8379a461b10ae09f3f696911088c16875d63e87ed5f2d95df9e1892703f9fd",
+      "changedFromBaseline": false
+    },
+    {
+      "file": "NavMeshAreas.asset",
+      "comparison": "project-specific",
+      "reason": "Narnia 문 잠금 Area와 agent 크기·계단 설정은 베이크 콘텐츠 계약.",
+      "narniaSha256": "36a99a962fcacbe6a6e957a1039f86d45f5123d24831fef6ab6f9b86617fecb6",
+      "chalkSha256": "80106cfa7e6181a1928b142c075f3e510d527441e3d79bc83590e4ac91e7cd66",
+      "changedFromBaseline": false
+    },
+    {
+      "file": "NetcodeForGameObjects.asset",
+      "comparison": "chalk-only",
+      "reason": "Chalk 멀티플레이 NGO 전용. Narnia에 서버/네트워크 플레이 요구 없음.",
+      "narniaSha256": null,
+      "chalkSha256": "361bce09d25b168055f616f3b0691fa9df29bc6988f911c21f399571e619f268",
+      "changedFromBaseline": false
+    },
+    {
+      "file": "PackageManagerSettings.asset",
+      "comparison": "project-specific",
+      "reason": "사용 레지스트리 동일. 버전별 Package Manager 창 직렬화 필드와 인스턴스 ID만 다름.",
+      "narniaSha256": "9c4d407e7f474c73f87c22bf85581146b6389c9554aebb8334e84c8aab9d0b00",
+      "chalkSha256": "a7dabba589abe7fc2b45bd3d3fba3fe9be97043492703f716da2d9131c13a807",
+      "changedFromBaseline": false
+    },
+    {
+      "file": "Packages/com.unity.polybrush/Settings.json",
+      "comparison": "narnia-only",
+      "reason": "Narnia 모델 편집에 사용 중인 Polybrush 1.1.3 프로젝트 설정.",
+      "narniaSha256": "c7774d89230c596f2901b33d6c31b3e9e336c9fd4128a1fcddfb7cc49fb8aaf3",
+      "chalkSha256": null,
+      "changedFromBaseline": false
+    },
+    {
+      "file": "Packages/com.unity.services.core/Settings.json",
+      "comparison": "narnia-only",
+      "reason": "Unity 패키지 초기화가 생성한 빈 설정 파일. 서비스 연결 정보 없음.",
+      "narniaSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "chalkSha256": null,
+      "changedFromBaseline": true
+    },
+    {
+      "file": "Packages/com.unity.testtools.codecoverage/Settings.json",
+      "comparison": "narnia-only",
+      "reason": "Narnia에 남아 있는 비활성 Code Coverage 편집 설정. 런타임 서비스 연결 없음.",
+      "narniaSha256": "a40f81b0dcc795e422f5ca0881fe7dad4e26cb8fdb33244a70f110835c1a8d44",
+      "chalkSha256": null,
+      "changedFromBaseline": false
+    },
+    {
+      "file": "Physics2DSettings.asset",
+      "comparison": "same",
+      "reason": "내용 동일.",
+      "narniaSha256": "e3cbdbf0be15244b7b67d2f07bdb8e8981911c11a8c7fe8035f5261272fec658",
+      "chalkSha256": "e3cbdbf0be15244b7b67d2f07bdb8e8981911c11a8c7fe8035f5261272fec658",
+      "changedFromBaseline": true
+    },
+    {
+      "file": "PresetManager.asset",
+      "comparison": "same",
+      "reason": "내용 동일.",
+      "narniaSha256": "29c125923fe6e29f90190d4fce1c82d660e7051546e2c9d02908d18c9cf2436c",
+      "chalkSha256": "29c125923fe6e29f90190d4fce1c82d660e7051546e2c9d02908d18c9cf2436c",
+      "changedFromBaseline": false
+    },
+    {
+      "file": "ProjectSettings.asset",
+      "comparison": "project-specific",
+      "reason": "Chalk의 2022 PlayerSettings 공통값을 적용. 제품 식별자·서명·해상도·독립 플레이어 투명도·서비스 예외는 playerSettingsExceptions에 필드별 기록.",
+      "narniaSha256": "d200127b7a263be890fb2292fe7bf65f26bfaa7d014f812199aaaa7d09dfb1e9",
+      "chalkSha256": "44b48d49c6214d40d0afbca005bdbd8fde3810f879247048d02b70c4ba09884e",
+      "changedFromBaseline": true
+    },
+    {
+      "file": "ProjectVersion.txt",
+      "comparison": "same",
+      "reason": "내용 동일.",
+      "narniaSha256": "b51164d22c4d2716ba8aee7f0b59d6b7dd0efa8552fd1db2a8c3b123fae3a1ec",
+      "chalkSha256": "b51164d22c4d2716ba8aee7f0b59d6b7dd0efa8552fd1db2a8c3b123fae3a1ec",
+      "changedFromBaseline": true
+    },
+    {
+      "file": "QualitySettings.asset",
+      "comparison": "project-specific",
+      "reason": "모든 품질 단계에 URP 지정. 기존 Narnia 품질 단계·그림자 거리 등 콘텐츠별 예산 보존. Chalk의 튜터용 3m 그림자/CDN 웹 프로필을 그대로 복제하지 않음.",
+      "narniaSha256": "d0d8db7fa922a4722401147ee0a9e1084043b2b7111e5d6a1c07d3e22e50316c",
+      "chalkSha256": "19ee99fe03861f606d4d5a838ecd5f8374c0d7c3beff82379784c9d974af9612",
+      "changedFromBaseline": true
+    },
+    {
+      "file": "SceneTemplateSettings.json",
+      "comparison": "same",
+      "reason": "내용 동일.",
+      "narniaSha256": "d983786fb35276642847feb98f87259be23343f2c3eccc001baa1b787f944615",
+      "chalkSha256": "d983786fb35276642847feb98f87259be23343f2c3eccc001baa1b787f944615",
+      "changedFromBaseline": false
+    },
+    {
+      "file": "ScriptableBuildPipeline.json",
+      "comparison": "same",
+      "reason": "내용 동일.",
+      "narniaSha256": "4532c5dc1530d7742b5625618bab6908074006d390a68f46a34183a11bbc7e0f",
+      "chalkSha256": "4532c5dc1530d7742b5625618bab6908074006d390a68f46a34183a11bbc7e0f",
+      "changedFromBaseline": true
+    },
+    {
+      "file": "ShaderGraphSettings.asset",
+      "comparison": "same",
+      "reason": "내용 동일.",
+      "narniaSha256": "91b34076dbdb68e7ef980d06b89a53ee5e2afb72d3b60f5bd4041e6206395ed4",
+      "chalkSha256": "91b34076dbdb68e7ef980d06b89a53ee5e2afb72d3b60f5bd4041e6206395ed4",
+      "changedFromBaseline": true
+    },
+    {
+      "file": "TagManager.asset",
+      "comparison": "project-specific",
+      "reason": "Player/Monster/Structure 및 레이어 인덱스는 씬·물리 콘텐츠 계약. Chalk Capture/Tutor/ScreenTutor로 덮어쓰면 기존 연결 파괴.",
+      "narniaSha256": "bef2bbbd674f0dc7e383f05146d0b02047a337c4184d57cb806eefa104d6d907",
+      "chalkSha256": "6430d89e05233b0ee18472855eb2cdddf7d621e139a7db8c9df263822a1c6a7d",
+      "changedFromBaseline": false
+    },
+    {
+      "file": "TimeManager.asset",
+      "comparison": "same",
+      "reason": "내용 동일.",
+      "narniaSha256": "1a83e54adbbda7c9f4851103a0c6ab7f6448a3343d4ea5b7620452fa08416ecd",
+      "chalkSha256": "1a83e54adbbda7c9f4851103a0c6ab7f6448a3343d4ea5b7620452fa08416ecd",
+      "changedFromBaseline": false
+    },
+    {
+      "file": "URPProjectSettings.asset",
+      "comparison": "same",
+      "reason": "내용 동일.",
+      "narniaSha256": "3e9d9f824875297ef6b9315fa7a3ac7ec1b047042395404a23c368fc971a8f3e",
+      "chalkSha256": "3e9d9f824875297ef6b9315fa7a3ac7ec1b047042395404a23c368fc971a8f3e",
+      "changedFromBaseline": true
+    },
+    {
+      "file": "UnityConnectSettings.asset",
+      "comparison": "same",
+      "reason": "내용 동일.",
+      "narniaSha256": "d6034acbef6c9e3179866486c31eab81fcbe5e7ed350ce71e0fa2b1449b77109",
+      "chalkSha256": "d6034acbef6c9e3179866486c31eab81fcbe5e7ed350ce71e0fa2b1449b77109",
+      "changedFromBaseline": true
+    },
+    {
+      "file": "VFXManager.asset",
+      "comparison": "same",
+      "reason": "내용 동일.",
+      "narniaSha256": "f066c6483919961332415ee64204f74fe52f38c02e82892eb02b7a5b2e381f0e",
+      "chalkSha256": "f066c6483919961332415ee64204f74fe52f38c02e82892eb02b7a5b2e381f0e",
+      "changedFromBaseline": false
+    },
+    {
+      "file": "VersionControlSettings.asset",
+      "comparison": "same",
+      "reason": "내용 동일.",
+      "narniaSha256": "e7bda45bf7a394745fee1316e6c71fa676004d591ad1f3aa247fd3e4ceb86071",
+      "chalkSha256": "e7bda45bf7a394745fee1316e6c71fa676004d591ad1f3aa247fd3e4ceb86071",
+      "changedFromBaseline": false
+    },
+    {
+      "file": "VisualScriptingSettings.asset",
+      "comparison": "removed",
+      "reason": "미사용 Visual Scripting 패키지와 생성 데이터베이스를 함께 제거.",
+      "narniaSha256": null,
+      "chalkSha256": null,
+      "changedFromBaseline": true
+    },
+    {
+      "file": "XRSettings.asset",
+      "comparison": "same",
+      "reason": "내용 동일.",
+      "narniaSha256": "edd2beb4a2e388312b4b7da241aa51070434005d82c59363f1237dd2e567585f",
+      "chalkSha256": "edd2beb4a2e388312b4b7da241aa51070434005d82c59363f1237dd2e567585f",
+      "changedFromBaseline": false
+    },
+    {
+      "file": "boot.config",
+      "comparison": "removed",
+      "reason": "기존 추적 목록에 있던 빈 설정 파일. Unity 재생성 대상으로 제거; 실제 플레이어 boot.config는 빌드 출력에 생성.",
+      "narniaSha256": null,
+      "chalkSha256": null,
+      "changedFromBaseline": true
+    }
+  ],
+  "playerSettingsExceptions": [
+    {
+      "field": "appleEnableAutomaticSigning",
+      "reason": "Narnia 서명 설정"
+    },
+    {
+      "field": "applicationIdentifier",
+      "reason": "Narnia 앱 식별자"
+    },
+    {
+      "field": "bundleVersion",
+      "reason": "Narnia 릴리스 버전"
+    },
+    {
+      "field": "clonedFromGUID",
+      "reason": "프로젝트 생성 이력"
+    },
+    {
+      "field": "cloudProjectId",
+      "reason": "Narnia Cloud 연결"
+    },
+    {
+      "field": "defaultScreenHeight",
+      "reason": "기존 16:9 UI 기준 해상도"
+    },
+    {
+      "field": "defaultScreenWidth",
+      "reason": "기존 16:9 UI 기준 해상도"
+    },
+    {
+      "field": "insecureHttpOption",
+      "reason": "Narnia는 외부 HTTP 서비스 미사용; Chalk의 서비스 연결용 허용값을 복제하지 않음"
+    },
+    {
+      "field": "metroApplicationDescription",
+      "reason": "Narnia 제품명"
+    },
+    {
+      "field": "metroPackageName",
+      "reason": "Narnia 제품명"
+    },
+    {
+      "field": "organizationId",
+      "reason": "Narnia Cloud 연결"
+    },
+    {
+      "field": "overrideDefaultApplicationIdentifier",
+      "reason": "Narnia 앱 식별자 정책"
+    },
+    {
+      "field": "preserveFramebufferAlpha",
+      "reason": "Flutter 투명 합성 없이 실행하는 독립 플레이어"
+    },
+    {
+      "field": "productGUID",
+      "reason": "Narnia 프로젝트 식별자"
+    },
+    {
+      "field": "productName",
+      "reason": "Narnia 제품명"
+    },
+    {
+      "field": "projectName",
+      "reason": "Narnia Cloud 연결"
+    },
+    {
+      "field": "scriptingDefineSymbols",
+      "reason": "설치되지 않은 DOTween/Server 심볼 제외; 사용하는 클라이언트 타깃 DEBUG_LOG 일치"
+    },
+    {
+      "field": "templatePackageId",
+      "reason": "프로젝트 생성 이력"
+    }
+  ],
+  "packages": [
+    {
+      "package": "com.coplaydev.unity-mcp",
+      "narnia": "https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity#v10.1.2",
+      "chalk": "https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity#v10.1.2",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.cysharp.unitask",
+      "narnia": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.5.10",
+      "chalk": null,
+      "reason": "Chalk Assets/Plugins/UniTask/package.json과 동일한 2.5.10. Narnia는 버전 고정 UPM 배포."
+    },
+    {
+      "package": "com.gamelovers.mcp-unity",
+      "narnia": null,
+      "chalk": "https://github.com/CoderGamester/mcp-unity.git",
+      "reason": "도구 연결은 현재 Narnia coplay MCP와 중복 설치하지 않음."
+    },
+    {
+      "package": "com.unity.2d.sprite",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.addressables",
+      "narnia": "1.22.3",
+      "chalk": "1.22.3",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.ai.navigation",
+      "narnia": "1.0.0-exp.4",
+      "chalk": null,
+      "reason": "Narnia 기존 콘텐츠/편집 기능 의존성."
+    },
+    {
+      "package": "com.unity.animation.rigging",
+      "narnia": "1.1.1",
+      "chalk": null,
+      "reason": "Narnia 기존 콘텐츠/편집 기능 의존성."
+    },
+    {
+      "package": "com.unity.cinemachine",
+      "narnia": "2.10.5",
+      "chalk": "2.10.5",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.collections",
+      "narnia": "2.2.1",
+      "chalk": null,
+      "reason": "Chalk의 간접 의존성과 같은 버전을 Narnia manifest에 고정."
+    },
+    {
+      "package": "com.unity.ide.rider",
+      "narnia": "3.0.36",
+      "chalk": "3.0.36",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.ide.visualstudio",
+      "narnia": "2.0.22",
+      "chalk": "2.0.22",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.ide.vscode",
+      "narnia": "1.2.5",
+      "chalk": "1.2.5",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.mathematics",
+      "narnia": "1.3.1",
+      "chalk": null,
+      "reason": "Chalk의 간접 의존성과 같은 버전을 Narnia manifest에 고정."
+    },
+    {
+      "package": "com.unity.memoryprofiler",
+      "narnia": "1.1.11",
+      "chalk": "1.1.11",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.ai",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.androidjni",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.animation",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.assetbundle",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.audio",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.cloth",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.director",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.imageconversion",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.imgui",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.jsonserialize",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.particlesystem",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.physics",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.physics2d",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.screencapture",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.terrain",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.terrainphysics",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.tilemap",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.ui",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.uielements",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.umbra",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.unityanalytics",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.unitywebrequest",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.unitywebrequestassetbundle",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.unitywebrequestaudio",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.unitywebrequesttexture",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.unitywebrequestwww",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.vehicles",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.video",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.vr",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.wind",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.modules.xr",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.netcode.gameobjects",
+      "narnia": null,
+      "chalk": "1.15.1",
+      "reason": "Chalk 멀티플레이·Linux 서버용; Narnia에 해당 서비스/타깃 없음."
+    },
+    {
+      "package": "com.unity.nuget.mono-cecil",
+      "narnia": "1.11.6",
+      "chalk": null,
+      "reason": "Chalk의 간접 의존성과 같은 버전을 Narnia manifest에 고정."
+    },
+    {
+      "package": "com.unity.nuget.newtonsoft-json",
+      "narnia": "3.2.2",
+      "chalk": "3.2.2",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.polybrush",
+      "narnia": "1.1.3",
+      "chalk": null,
+      "reason": "Narnia 기존 콘텐츠/편집 기능 의존성."
+    },
+    {
+      "package": "com.unity.recorder",
+      "narnia": "4.0.3",
+      "chalk": "4.0.3",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.render-pipelines.universal",
+      "narnia": "14.0.12",
+      "chalk": "14.0.12",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.test-framework",
+      "narnia": "1.3.3",
+      "chalk": null,
+      "reason": "Chalk의 간접 의존성과 같은 버전을 Narnia manifest에 고정."
+    },
+    {
+      "package": "com.unity.textmeshpro",
+      "narnia": "3.0.7",
+      "chalk": "3.0.7",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.timeline",
+      "narnia": "1.7.7",
+      "chalk": "1.7.7",
+      "reason": "동일 버전."
+    },
+    {
+      "package": "com.unity.toolchain.win-x86_64-linux-x86_64",
+      "narnia": null,
+      "chalk": "2.0.11",
+      "reason": "Chalk 멀티플레이·Linux 서버용; Narnia에 해당 서비스/타깃 없음."
+    },
+    {
+      "package": "com.unity.transport",
+      "narnia": null,
+      "chalk": "2.5.3",
+      "reason": "Chalk 멀티플레이·Linux 서버용; Narnia에 해당 서비스/타깃 없음."
+    },
+    {
+      "package": "com.unity.ugui",
+      "narnia": "1.0.0",
+      "chalk": "1.0.0",
+      "reason": "동일 버전."
+    }
+  ],
+  "sharedLockedPackages": [
+    {
+      "package": "com.coplaydev.unity-mcp",
+      "version": "https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity#v10.1.2"
+    },
+    {
+      "package": "com.unity.2d.sprite",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.addressables",
+      "version": "1.22.3"
+    },
+    {
+      "package": "com.unity.burst",
+      "version": "1.8.21"
+    },
+    {
+      "package": "com.unity.cinemachine",
+      "version": "2.10.5"
+    },
+    {
+      "package": "com.unity.collections",
+      "version": "2.2.1"
+    },
+    {
+      "package": "com.unity.editorcoroutines",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.ext.nunit",
+      "version": "2.0.3"
+    },
+    {
+      "package": "com.unity.ide.rider",
+      "version": "3.0.36"
+    },
+    {
+      "package": "com.unity.ide.visualstudio",
+      "version": "2.0.22"
+    },
+    {
+      "package": "com.unity.ide.vscode",
+      "version": "1.2.5"
+    },
+    {
+      "package": "com.unity.mathematics",
+      "version": "1.3.1"
+    },
+    {
+      "package": "com.unity.memoryprofiler",
+      "version": "1.1.11"
+    },
+    {
+      "package": "com.unity.modules.ai",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.androidjni",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.animation",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.assetbundle",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.audio",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.cloth",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.director",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.imageconversion",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.imgui",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.jsonserialize",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.particlesystem",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.physics",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.physics2d",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.screencapture",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.subsystems",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.terrain",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.terrainphysics",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.tilemap",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.ui",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.uielements",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.umbra",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.unityanalytics",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.unitywebrequest",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.unitywebrequestassetbundle",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.unitywebrequestaudio",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.unitywebrequesttexture",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.unitywebrequestwww",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.vehicles",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.video",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.vr",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.wind",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.modules.xr",
+      "version": "1.0.0"
+    },
+    {
+      "package": "com.unity.nuget.mono-cecil",
+      "version": "1.11.6"
+    },
+    {
+      "package": "com.unity.nuget.newtonsoft-json",
+      "version": "3.2.2"
+    },
+    {
+      "package": "com.unity.profiling.core",
+      "version": "1.0.2"
+    },
+    {
+      "package": "com.unity.recorder",
+      "version": "4.0.3"
+    },
+    {
+      "package": "com.unity.render-pipelines.core",
+      "version": "14.0.12"
+    },
+    {
+      "package": "com.unity.render-pipelines.universal",
+      "version": "14.0.12"
+    },
+    {
+      "package": "com.unity.render-pipelines.universal-config",
+      "version": "14.0.10"
+    },
+    {
+      "package": "com.unity.scriptablebuildpipeline",
+      "version": "1.21.25"
+    },
+    {
+      "package": "com.unity.searcher",
+      "version": "4.9.2"
+    },
+    {
+      "package": "com.unity.shadergraph",
+      "version": "14.0.12"
+    },
+    {
+      "package": "com.unity.test-framework",
+      "version": "1.3.3"
+    },
+    {
+      "package": "com.unity.test-framework.performance",
+      "version": "3.0.2"
+    },
+    {
+      "package": "com.unity.textmeshpro",
+      "version": "3.0.7"
+    },
+    {
+      "package": "com.unity.timeline",
+      "version": "1.7.7"
+    },
+    {
+      "package": "com.unity.ugui",
+      "version": "1.0.0"
+    }
+  ],
+  "sharedLockedPackageCount": 60,
+  "assetPlugins": [
+    {
+      "name": "UniTask",
+      "chalkVersion": "2.5.10",
+      "narniaVersion": "2.5.10",
+      "difference": "Assets 소스와 UPM 설치 경로 차이"
+    },
+    {
+      "name": "DOTween",
+      "difference": "Narnia 현재 UI는 기존 Animator 사용. DOTween 코드/플러그인/define은 필요 시 하나의 기능 변경으로 도입."
+    },
+    {
+      "name": "Flutter/Web/AWS/CDN",
+      "difference": "Chalk 앱 통합·서비스 전용. Narnia는 독립 플레이어와 로컬 Addressables 사용."
+    }
+  ]
+}

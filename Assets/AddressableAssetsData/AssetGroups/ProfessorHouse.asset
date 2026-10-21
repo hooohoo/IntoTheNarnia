@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ProfessorHouse
+  m_EditorClassIdentifier: 
+  m_GroupName: ProfessorHouse
+  m_Data:
+    m_SerializedData: []
+  m_GUID: bb2514f98508d4885b1dc67a72914b61
+  m_SerializeEntries:
+  - m_GUID: 5d95ce1dff8ef4e4e88e717287141586
+    m_Address: UI_Settings
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ProfessorHouse
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 643ef638b869f4729801e4a512164585
+    m_Address: UI_Field
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ProfessorHouse
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 725fc483c19af45dd8faa27fcf0dbb17
+    m_Address: UI_Dialogue
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ProfessorHouse
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3c1b8d88ec75d64191a68614a76a871
+    m_Address: Lucy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ProfessorHouse
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 37060570ec48b49aea17d0ea5d8bbbc4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1b893786dd67e41a08bd4a660b0906ed, type: 2}
+    - {fileID: 11400000, guid: 3a450e1757cd546c5a98f62563d0da8e, type: 2}

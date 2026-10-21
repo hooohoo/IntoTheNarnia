@@ -1,5 +1,5 @@
 # UI
 
-씬에 배치된 HUD를 FieldManager가 한 번 바인딩하여 UIManager에 제공합니다. 복합 대화 UI는 데이터/표시/진행 제어를 나눕니다. 화면은 이벤트 구독·해제를 책임지고 상태는 UI 계층을 검색하지 않습니다. 설정 창과 대화 창의 입력 정책은 GameStateManager를 통합니다. 기존 버튼 UnityEvent와 프리팹 GUID를 보존합니다.
+UI_Base/Scene/Popup/Sub 3계층을 사용한다. 씬 진입 프리로드 후 UIManager.ShowSceneUI/ShowPopupUI/ShowSubUI가 캐시를 동기 조회해 생성한다. Scene 캐시·Popup 순서·Sub 부모 소유와 OnSpawn/OnDespawn을 관리한다. 대화는 Model/Presenter/View, 씬 표시는 Screen이 조정한다. 이탈 시 자식 UI·인스턴스가 에셋보다 먼저 정리된다.
 
-[전체 구조](../../ARCHITECTURE.md)와 해당 [컨벤션](../Convention/UNITY_CODING_CONVENTION.md)을 함께 적용합니다.
+[전체 구조](../../ARCHITECTURE.md)를 함께 적용한다.
