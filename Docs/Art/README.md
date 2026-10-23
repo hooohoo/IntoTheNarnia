@@ -1,12 +1,16 @@
 # 아트 레퍼런스
 
+## 중앙 홀 마감 01 · 2026-10-23
+
+승인 시안에 맞춰 연결 씬 중앙 홀의 재질·난간 음영·가구·벽면 그림·천장·창빛을 구현했다. [제작과 재생성 방법](ProfessorHouseHallFinish.md) · [실제 Unity 화면](../Validation/ProfessorHouseHallFinish/index.html). 확정 계단·회랑 치수는 유지한다. 다른 구역의 마감과 제품 씬 통합은 후속 작업이다.
+
 ## 승인된 완성 분위기·연결 모형 · 2026-10-23
 
 사용자가 새 시안 7장의 프로젝트 반영과 후속 구현을 승인했다. [완성 분위기 이미지](ProfessorHouse_FinishedConcepts_v1/index.html)는 전체 저택·계단 홀·교수 서재·여자아이 침실·유물 전시실·후정·옷장방의 재질·가구·조명 기준이다. [승인 기록](ProfessorHouse_FinishedConcepts_v1/ProjectApproval.json)과 생성·보정 프롬프트를 함께 보존한다.
 
 [확인한 전체 연결 모형](../../ArtSource/ProfessorHouse/ConnectedLayout_v1/index.html)의 Blender/GLB·도면 데이터·재생성 도구는 `ArtSource/ProfessorHouse/ConnectedLayout_v1`에 보관한다. 확정 도면의 치수와 연결 관계를 우선하며, 컨셉 이미지의 세부 형태를 새로운 평면도로 해석하지 않는다.
 
-[Unity 전체 이동 검증 씬](ProfessorHouseConnected.md)을 구현했다. 공통 원본에서 구역별 FBX·충돌·NavMesh를 파생했으며 실제 입력·카메라·씬 수명주기 검증을 통과했다. [Unity 화면과 결과](../Validation/ProfessorHouseConnected/index.html)를 함께 확인한다. 완성 마감, 문 상호작용, 씬 전환 경계와 새 Lucy 모델은 후속 단계다.
+[Unity 전체 이동 검증 씬](ProfessorHouseConnected.md)을 구현했다. 공통 원본에서 구역별 FBX·충돌·NavMesh를 파생했으며 실제 입력·카메라·씬 수명주기 검증을 통과했다. [Unity 화면과 결과](../Validation/ProfessorHouseConnected/index.html)를 함께 확인한다. 중앙 홀 마감은 위 01 구현으로 이어졌다. 다른 구역의 마감, 문 상호작용, 씬 전환 경계와 새 Lucy 모델은 후속 단계다.
 
 ## 확정 공간 배치 · 2026-10-22
 

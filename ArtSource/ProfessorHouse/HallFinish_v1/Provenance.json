@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-23",
+  "stage": "Implemented central hall finish 01; reviewable Unity assets",
+  "generator": "Built-in imagegen",
+  "use_case": "stylized-concept",
+  "asset": "Four painting quarters in one original texture atlas",
+  "generation_id": "exec-40488029-dc8b-4ffd-855b-72a25895c7b1",
+  "prompt": "PaintingPrompt.txt",
+  "atlas_project_path": "Assets/@Project/03.Sprites/ProfessorHouseHallFinish/TEX_Hall_Paintings.png",
+  "atlas_sha256": "abd38fe2438c9570630a477ee115f027584c1d292db31c4c3a085cb7ed799ffc",
+  "image_bytes_modified": false,
+  "approved_layout_sha256": "c10cae9559129d7618d6f6971bfab6e8b615bec9ecafee22824a8c7b01bf7fd9",
+  "approved_reference_sha256": "783a51d85dbbf084eba28922562f6f1ab2de51b4b689f3566fcd1888eabbddda",
+  "coordinates": "Authoring X east, Y rear, Z up; Unity X east, Y up, Z rear; metres",
+  "model_generator": "Tools/Art/build_professor_house_hall_finish.py",
+  "structural_source_modified": false
+}

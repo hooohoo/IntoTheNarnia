@@ -9,9 +9,9 @@ using UnityEngine.Rendering.Universal;
 public static class ProfessorHouseConnectedPreview
 {
     private static readonly string LogTag = "[ProfessorHouseConnectedPreview]";
-    private static readonly string[] Names = {"01_Hall_Unity", "02_ChildrenRoom_Unity", "03_SecondaryStair_Unity", "04_Wardrobe_Unity"};
-    private static readonly Vector3[] Positions = {new Vector3(16.4f,1.05f,10.8f), new Vector3(34.25f,5.37f,28.8f), new Vector3(26.175f,5.37f,27), new Vector3(4,10.05f,22.5f)};
-    private static readonly Vector3[] Targets = {new Vector3(17,3.5f,20.9f), new Vector3(34.25f,5.6f,33.4f), new Vector3(26.175f,7,31.7f), new Vector3(4,10.9f,32)};
+    private static readonly string[] Names = {"01_Hall_Front", "02_Hall_Landing", "03_Hall_WestGallery", "04_Hall_Furnishings", "05_ChildrenRoom_Unity", "06_SecondaryStair_Unity", "07_Wardrobe_Unity"};
+    private static readonly Vector3[] Positions = {new Vector3(17,1.3f,10.55f), new Vector3(16.8f,3,19), new Vector3(11.3f,5.9f,18.4f), new Vector3(13.5f,1.3f,17.2f), new Vector3(34.25f,5.37f,28.8f), new Vector3(26.175f,5.37f,27), new Vector3(4,10.05f,22.5f)};
+    private static readonly Vector3[] Targets = {new Vector3(17,3.4f,20.9f), new Vector3(17,4.2f,22.1f), new Vector3(17,3.6f,19), new Vector3(12.7f,1.55f,20.8f), new Vector3(34.25f,5.6f,33.4f), new Vector3(26.175f,7,31.7f), new Vector3(4,10.9f,32)};
 
     [MenuItem("Narnia/Professor House/Connected Layout/Capture Unity Previews")]
     public static void Capture()
@@ -22,10 +22,10 @@ public static class ProfessorHouseConnectedPreview
         camera.enabled = false;
         camera.nearClipPlane = .05f;
         camera.farClipPlane = 100;
-        camera.fieldOfView = 75;
+        camera.fieldOfView = 70;
         camera.clearFlags = CameraClearFlags.SolidColor;
         camera.backgroundColor = new Color(.76f,.81f,.81f);
-        camera.GetUniversalAdditionalCameraData().renderPostProcessing = false;
+        ProfessorHouseHallFinishBuilder.ConfigureCamera(camera);
         try
         {
             for (int i = 0; i < Names.Length; i++)

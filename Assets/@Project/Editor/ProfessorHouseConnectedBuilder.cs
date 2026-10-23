@@ -16,7 +16,7 @@ public static class ProfessorHouseConnectedBuilder
     public static readonly string MaterialFolder = "Assets/@Project/04.Materials/ProfessorHouseConnected";
     public static readonly string PrefabFolder = "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected";
     public static readonly string DataFolder = "Assets/@Project/00.Scenes/Professor_House_Connected";
-    public static readonly string ReportFolder = "Docs/Validation/ProfessorHouseConnected";
+    public static readonly string ReportFolder = "Docs/Validation/ProfessorHouseHallFinish";
     private static readonly string LogTag = "[ProfessorHouseConnectedBuilder]";
 
     [Serializable] public sealed class ModelManifest
@@ -138,11 +138,14 @@ public static class ProfessorHouseConnectedBuilder
             PrefabUtility.SaveAsPrefabAssetAndConnect(instance, PrefabFolder + "/" + instance.name + ".prefab", InteractionMode.AutomatedAction);
         }
         File.WriteAllText(ReportFolder + "/ImportBounds.txt", string.Join("\n", checks) + "\n");
+        ProfessorHouseHallFinishBuilder.AddFurnishings(environment);
         BuildNavigation(environment);
         CreateLighting();
+        ProfessorHouseHallFinishBuilder.ConfigureLighting();
         var rootObject = new GameObject("ProfessorHouse_Walkthrough");
         rootObject.transform.position = manifest.Spawn;
         var camera = CreateCamera(manifest.Spawn, out var rig);
+        ProfessorHouseHallFinishBuilder.ConfigureCamera(camera);
         var miniMap = new GameObject("MiniMapBounds");
         miniMap.transform.position = new Vector3(21, -3, 15);
         var miniMapCollider = miniMap.AddComponent<BoxCollider>();
@@ -210,6 +213,13 @@ public static class ProfessorHouseConnectedBuilder
             importer.importAnimation = false;
             importer.isReadable = true;
             importer.generateSecondaryUV = false;
+            if (manifest.Chunks[i] == "Hall")
+            {
+                importer.importNormals = ModelImporterNormals.Calculate;
+                importer.normalSmoothingSource = ModelImporterNormalSmoothingSource.FromAngle;
+                importer.normalSmoothingAngle = 70;
+                importer.normalCalculationMode = ModelImporterNormalCalculationMode.AreaAndAngleWeighted;
+            }
             importer.materialImportMode = ModelImporterMaterialImportMode.ImportStandard;
             foreach (var pair in materials)
                 importer.AddRemap(new AssetImporter.SourceAssetIdentifier(typeof(Material), pair.Key), pair.Value);
