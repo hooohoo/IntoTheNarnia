@@ -49,4 +49,4 @@ Lucy와 교수의 집은 [아트 레퍼런스](Docs/Art/README.md)의 v2 시안�
 
 ## Git
 
-항상 새 작업 브랜치에서 수정한다. main은 병합 전용이며 작업 커밋 1개 → `git merge --no-ff` 1개 → `git push --atomic origin main <작업브랜치>` 1회로 통합한다. PR은 선택이다. 이력 재작성·force push를 하지 않는다.
+항상 최신 `origin/main`에서 새 작업 브랜치를 만들어 수정한다. main은 병합 전용이며 작업 커밋 1개 → `git merge --no-ff` 1개 → `git push --atomic origin main` 1회로 통합한다. 작업 브랜치는 기본적으로 로컬에만 두며, 기존 원격 브랜치가 병합 완료됐다면 같은 atomic push에 삭제 refspec을 포함한다. push와 원격 반영을 확인한 즉시 병합 완료 로컬 브랜치도 삭제한다. PR은 선택이며 이력을 재작성하거나 강제로 갱신하지 않는다. 자세한 삭제 조건은 [작업 지침](CLAUDE.md)의 검증 및 Git 규칙을 따른다.
