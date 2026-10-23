@@ -1,0 +1,9 @@
+2026-10-23 · IntoTheNarnia · feat/professor-house-connected-walkthrough
+python3 Tools/validate_structure.py
+Scripts mapped: 46; mesh assets: 820; mesh references: 0; failures: 0
+python3 Tools/validate_chalk_contracts.py
+Chalk contract checks: 0 failure(s)
+git diff --check
+No whitespace errors.
+Approved finished reference images: 7 / 7 byte hashes match.
+Reference/gallery links checked before finalization: 96 local targets, missing 0.

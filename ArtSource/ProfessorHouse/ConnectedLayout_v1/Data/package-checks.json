@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "approvedLayoutSha256": "c10cae9559129d7618d6f6971bfab6e8b615bec9ecafee22824a8c7b01bf7fd9",
+  "approvedSVGsByteIdentical": 6,
+  "htmlPagesLinksChecked": [
+    "index.html",
+    "Viewer.html"
+  ],
+  "pythonSyntaxChecked": 9,
+  "glbVersion": "2.0",
+  "glbGlassAlphaMode": "BLEND",
+  "renders": 11,
+  "scope": "Review package, preserved plan source, model format and file links. No Unity integration."
+}

@@ -45,6 +45,8 @@ Lucy와 교수의 집은 [아트 레퍼런스](Docs/Art/README.md)의 v2 시안�
 
 2026-10-22에 [저택 층별 도면 03](Docs/Art/ProfessorHouse_ApprovedLayout_v1/index.html)을 확정했다. [확정 기준](Docs/Art/ProfessorHouse_ApprovedLayout_v1/README.md)의 방 배치·계단·정원·장면별 동선을 이후 모델링에 적용한다. 현재 Unity v2 홀과 전체 확정 배치의 구현 상태는 구분한다.
 
+2026-10-23에 [완성 분위기 시안 7장](Docs/Art/ProfessorHouse_FinishedConcepts_v1/index.html)과 [전체 연결 모형](ArtSource/ProfessorHouse/ConnectedLayout_v1/index.html)을 제작 기준으로 등록했다. [전체 이동 검증 씬](Docs/Art/ProfessorHouseConnected.md)을 구현하고 네 이동 경로 및 재진입을 확인했다. 기존 게임 진입 흐름과 구분하며 [실제 Unity 화면](Docs/Validation/ProfessorHouseConnected/index.html)을 함께 기록한다.
+
 ## Git
 
 항상 새 작업 브랜치에서 수정한다. main은 병합 전용이며 작업 커밋 1개 → `git merge --no-ff` 1개 → `git push --atomic origin main <작업브랜치>` 1회로 통합한다. PR은 선택이다. 이력 재작성·force push를 하지 않는다.

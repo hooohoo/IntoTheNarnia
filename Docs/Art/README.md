@@ -1,14 +1,22 @@
 # 아트 레퍼런스
 
+## 승인된 완성 분위기·연결 모형 · 2026-10-23
+
+사용자가 새 시안 7장의 프로젝트 반영과 후속 구현을 승인했다. [완성 분위기 이미지](ProfessorHouse_FinishedConcepts_v1/index.html)는 전체 저택·계단 홀·교수 서재·여자아이 침실·유물 전시실·후정·옷장방의 재질·가구·조명 기준이다. [승인 기록](ProfessorHouse_FinishedConcepts_v1/ProjectApproval.json)과 생성·보정 프롬프트를 함께 보존한다.
+
+[확인한 전체 연결 모형](../../ArtSource/ProfessorHouse/ConnectedLayout_v1/index.html)의 Blender/GLB·도면 데이터·재생성 도구는 `ArtSource/ProfessorHouse/ConnectedLayout_v1`에 보관한다. 확정 도면의 치수와 연결 관계를 우선하며, 컨셉 이미지의 세부 형태를 새로운 평면도로 해석하지 않는다.
+
+[Unity 전체 이동 검증 씬](ProfessorHouseConnected.md)을 구현했다. 공통 원본에서 구역별 FBX·충돌·NavMesh를 파생했으며 실제 입력·카메라·씬 수명주기 검증을 통과했다. [Unity 화면과 결과](../Validation/ProfessorHouseConnected/index.html)를 함께 확인한다. 완성 마감, 문 상호작용, 씬 전환 경계와 새 Lucy 모델은 후속 단계다.
+
 ## 확정 공간 배치 · 2026-10-22
 
 사용자가 **층별 도면 03**을 최종 승인했다. 1층·2층·다락의 방 배치, 계단·정원 관계와 첫 안내·숨바꼭질·유물 사고 동선은 [확정 도면 v1](ProfessorHouse_ApprovedLayout_v1/index.html)을 따른다.
 
 - [확정 기준과 적용 범위](ProfessorHouse_ApprovedLayout_v1/README.md) · [6쪽 PDF](ProfessorHouse_ApprovedLayout_v1/ProfessorHouse_FloorPlans_03.pdf) · [승인 기록](ProfessorHouse_ApprovedLayout_v1/ProjectApproval.json)
 - 교수 전용 공간은 2층 서쪽, 아이들 침실은 2층 동쪽 끝, 옷장방은 다락 서쪽 끝이다. 창문·갑옷 사고는 서쪽 정원과 1층 유물 전시실에서 시작한다.
-- 이전 보드의 조형·재질 참고는 유지하며, 이전 평면도·층고·방 배치는 이번 확정안을 우선한다. 전체 새 배치의 모델·Unity 적용은 후속 제작 단계다.
+- 이전 보드의 조형·재질 참고는 유지하며, 이전 평면도·층고·방 배치는 이번 확정안을 우선한다. 전체 새 배치는 연결 모형과 Unity 이동 검증 씬에 반영했다. 제품 씬 통합과 최종 마감은 후속 제작 단계다.
 
-## 현재 스타일 기준: Lucy · Professor's House v2
+## 공통 형태·캐릭터 기준: Lucy · Professor's House v2
 
 2026-10-21 사용자 확인을 마친 모델링 참고 시안이다. Lucy, 교수의 집 메인 홀, 옷장방에 공통으로 적용할 둥글고 귀여운 로우폴리 스타일을 정의한다.
 

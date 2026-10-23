@@ -1,0 +1,273 @@
+{
+  "deliveredAt": "2026-10-23T02:41:28.820419+00:00",
+  "destination": "Studies/ConnectedLayout_01",
+  "newFiles": [
+    {
+      "path": "Data/Provenance/library-before-20261023-README.md",
+      "sha256": "6945f5cbc62ffe20fa2051efe79b9251f6d060b35147b0b4399454370583fbf9",
+      "bytes": 2053
+    },
+    {
+      "path": "Data/Provenance/library-before-20261023-index.html",
+      "sha256": "d1d9e4ea2a84b9755111cea2d92a98940d482bf54054165961e1371bfad5338a",
+      "bytes": 4244
+    },
+    {
+      "path": "Data/approved-validation.json",
+      "sha256": "2fcaf0a947982cacbbeb9c96624c7d4c16f55829b75a0b35b9391e97df14368f",
+      "bytes": 763
+    },
+    {
+      "path": "Data/browser-checks.json",
+      "sha256": "fa9ae398fcf7a1e27f727d86e530940a58f0b9a9cbe1f19163f3eaad44c8730d",
+      "bytes": 1287
+    },
+    {
+      "path": "Data/input-provenance.json",
+      "sha256": "efa2cfa100dd5a60c8f808faf264fddba5ecef9b5fbc660f9d065a0c581ad5d4",
+      "bytes": 869
+    },
+    {
+      "path": "Data/layout.json",
+      "sha256": "c10cae9559129d7618d6f6971bfab6e8b615bec9ecafee22824a8c7b01bf7fd9",
+      "bytes": 59297
+    },
+    {
+      "path": "Data/mesh-door-checks.json",
+      "sha256": "960e24a2fc95b5b5ffd257dab5783870149db437e54276d0a1e61fa567afe803",
+      "bytes": 213
+    },
+    {
+      "path": "Data/mesh-route-checks.json",
+      "sha256": "4853cc663e8d2d081dda326d6078a764a445eda9428714cc40010f891434ba5a",
+      "bytes": 340
+    },
+    {
+      "path": "Data/model-spec.json",
+      "sha256": "fad8e74ff5f9b98045a7d69722b29a12fc3bbf013d362186141cf8f443232a5b",
+      "bytes": 1528417
+    },
+    {
+      "path": "Data/model-stats.json",
+      "sha256": "25c8957f122a44a88e5a9d82d9d9f38c909fea944318cba6ddf494ab176d805e",
+      "bytes": 166
+    },
+    {
+      "path": "Data/package-checks.json",
+      "sha256": "1ad687548ed9e057b3eea9dc3433044d5fee2cd3f435505c89e472dbc02f97ed",
+      "bytes": 422
+    },
+    {
+      "path": "Data/palette.json",
+      "sha256": "d932e32c647cb2aa4c787d165d18d4e8f12ed1404aa9b506245fbcd00242688d",
+      "bytes": 1210
+    },
+    {
+      "path": "Data/validation.json",
+      "sha256": "2fcaf0a947982cacbbeb9c96624c7d4c16f55829b75a0b35b9391e97df14368f",
+      "bytes": 763
+    },
+    {
+      "path": "Data/viewer-model.js",
+      "sha256": "414df744e0d3d0aa673e11d5a048b67b15d83c55316554f34fda5e2501a1d01b",
+      "bytes": 51696237
+    },
+    {
+      "path": "Data/wardrobe-source.json",
+      "sha256": "8e9740749141b89145aad0ad83cac67a9acc73b66980943f9dcbafafa5da39af",
+      "bytes": 112771
+    },
+    {
+      "path": "Models/ProfessorHouse_ConnectedLayout_01.blend",
+      "sha256": "40e90da3ba865f69bd29099661af1718c1f4f0bd2d04477baa085aea281709b9",
+      "bytes": 3025325
+    },
+    {
+      "path": "Models/ProfessorHouse_ConnectedLayout_01.glb",
+      "sha256": "835383346c2c5bebd2c6842f2b8cbbff3f645a4f86e501adf759608dadad60a7",
+      "bytes": 21339260
+    },
+    {
+      "path": "Plans/attic.svg",
+      "sha256": "c0c5a9b76a66c8cf0a82faa2696d34bd2453028dca4293aa0230a860e20cc459",
+      "bytes": 26538
+    },
+    {
+      "path": "Plans/ground.svg",
+      "sha256": "7b6c9cd20cb40155a23be92e73665b815c5869c09a7e8dfa919b7f1ac04c2db9",
+      "bytes": 52266
+    },
+    {
+      "path": "Plans/hide_upper.svg",
+      "sha256": "6afdd2f7decc1cdc69fd049ce9534d85fed92ceca546a566f4811637b65403c4",
+      "bytes": 56687
+    },
+    {
+      "path": "Plans/section.svg",
+      "sha256": "e455e88795be08e5a04cc9787bd491474ed82fe736fa8b6e21f5b36cabbcab40",
+      "bytes": 6493
+    },
+    {
+      "path": "Plans/story.svg",
+      "sha256": "329ed0eb35f849a7371aee5695d758bac32f4ba11574c08266b243f43eb5a404",
+      "bytes": 9087
+    },
+    {
+      "path": "Plans/upper.svg",
+      "sha256": "5eb22f933353f0f85d166088559120a7e389ebe2f129b53c95e0e1ee7251a639",
+      "bytes": 56992
+    },
+    {
+      "path": "Previews/01_Whole_Exploded.png",
+      "sha256": "3914abc8738d0fd1be357e41753267cd21ecb30e6eaab5686d70298f1371b47a",
+      "bytes": 2111606
+    },
+    {
+      "path": "Previews/02_Ground.png",
+      "sha256": "42c948380338c7a75d5e199889c3f2a9b76ccf73f7f0905316b98fab93a4ee20",
+      "bytes": 2026725
+    },
+    {
+      "path": "Previews/03_Upper.png",
+      "sha256": "babcb8a312424d8af7adb0e03f2062b23445417650875edb98600223d5e73eb5",
+      "bytes": 2060782
+    },
+    {
+      "path": "Previews/04_Attic.png",
+      "sha256": "d4a2b110be6679204f51f109af274c575a63b96dad0dd8f4c29b510112932321",
+      "bytes": 1858142
+    },
+    {
+      "path": "Previews/05_HideRoute.png",
+      "sha256": "8e037a39f7f45175a2bd37441c05135547e547bf325796c88aaada6140f753b8",
+      "bytes": 2051104
+    },
+    {
+      "path": "Previews/06_Hall_Eye.png",
+      "sha256": "fdbbbbe56506293ed212305ad6bd19bae9afd4ffc0f2b9d37e82805e5bea591b",
+      "bytes": 2498290
+    },
+    {
+      "path": "Previews/07_Children_Wing.png",
+      "sha256": "821967f2838e14d25eeb04f9f0e7f65e2f312c985ca6a996b0499c5db1ab7899",
+      "bytes": 2149821
+    },
+    {
+      "path": "Previews/08_Wardrobe_Approach.png",
+      "sha256": "fb430e4d63e0d4ca0a2dd29ce2f65c3a0adc9514290f76045a3fb066091d23b9",
+      "bytes": 1932337
+    },
+    {
+      "path": "Previews/09_WestGarden_Incident.png",
+      "sha256": "7975b4a43a45e6838b8c48ae1c04df16c9ffcb5c15346ec3fe4213ed2796fb3c",
+      "bytes": 2100855
+    },
+    {
+      "path": "Previews/10_Secondary_Stairs.png",
+      "sha256": "c9d99b281072437cbcacd7c3f8a80458428c06aaca6ecd247f944ca0d6246681",
+      "bytes": 1879666
+    },
+    {
+      "path": "Previews/11_RearGarden.png",
+      "sha256": "4cc603ea96e18955cac878974c80109095928657358587965097e0e09aef8e23",
+      "bytes": 2221454
+    },
+    {
+      "path": "README.md",
+      "sha256": "2a661081de0bc4bb7872f5dcf69c58066060a6b250729f1ed522bc3d8e3e2e20",
+      "bytes": 5675
+    },
+    {
+      "path": "Source/build_blender.py",
+      "sha256": "ffef7cad26d6a554d12bdfc9b2cdd40dc9fb3fd22e0fca6ad75fb25edec4d614",
+      "bytes": 13949
+    },
+    {
+      "path": "Source/build_spec.py",
+      "sha256": "50467128a4085dd9d037ed02635f97f3f75d569fc3beca9b4d6f92fcccc62396",
+      "bytes": 17344
+    },
+    {
+      "path": "Source/check_browser.cjs",
+      "sha256": "dea70158f1557d686af0ed2ae594ee3298fa85398ea3116eb902bc88c872c1ae",
+      "bytes": 7270
+    },
+    {
+      "path": "Source/fix_glb_materials.py",
+      "sha256": "3087ecacb9b99d35589580244a1ac499d1807858638688d59b9cd52b896b9770",
+      "bytes": 1228
+    },
+    {
+      "path": "Source/geometry.py",
+      "sha256": "7c23b8f6b015b027aa5144a47adebf2581733b3d2c7b45c82ed784add3ee4a83",
+      "bytes": 3460
+    },
+    {
+      "path": "Source/hall_geometry.py",
+      "sha256": "d02fab0dc96db3b4a6c33c4c55ccfac6bb961586e3b94f81facd3912aeda516a",
+      "bytes": 11998
+    },
+    {
+      "path": "Source/mesh_helpers.py",
+      "sha256": "6069981f1171020203b9fc64f3d46f77a9a2559834e8babd15e430a1993c2950",
+      "bytes": 7892
+    },
+    {
+      "path": "Source/render_views.py",
+      "sha256": "84536287273be5757c2dd7b5e9aabc8c2580c74d194511a59579c28d7142b913",
+      "bytes": 5775
+    },
+    {
+      "path": "Source/validate_layout.py",
+      "sha256": "ae70ba7bbdd54107e347c2cd0dedb129cef158c3c4b565f69a190c947d02ac12",
+      "bytes": 8536
+    },
+    {
+      "path": "Source/validate_mesh.py",
+      "sha256": "273de2ee788ad8ef692c461e50e368b0db21a89ca69206b026fe88d8bb11b53f",
+      "bytes": 5694
+    },
+    {
+      "path": "Viewer.html",
+      "sha256": "26c2a5c0ab11eecb241aedc0d2cbec96540e7bc84f193d3c4c9817eda3d0049c",
+      "bytes": 3754
+    },
+    {
+      "path": "index.html",
+      "sha256": "ffc7138892a13474c1c0d4d7eac3b3e9821f562f8ca273eac8653eb42426a593",
+      "bytes": 12270
+    },
+    {
+      "path": "style.css",
+      "sha256": "ee350758f78c5c7a85be6d66b310eb7c0ebcd4277032bef154bdc2f3e3c3eda9",
+      "bytes": 4867
+    },
+    {
+      "path": "viewer.css",
+      "sha256": "d38308eedd0780e33867698fc533835b1a05e5f96e17dbc8d3b0905823b4b077",
+      "bytes": 3648
+    },
+    {
+      "path": "viewer.js",
+      "sha256": "f2d667511369c5ade959c3f23deac28d4f2e51e6ac8007d2c09dd9235756b7a5",
+      "bytes": 12394
+    }
+  ],
+  "rootFilesUpdated": [
+    {
+      "path": "index.html",
+      "oldSha256": "d1d9e4ea2a84b9755111cea2d92a98940d482bf54054165961e1371bfad5338a",
+      "newSha256": "6b67c28b0e2dfdbb82bc7ab49d5430a3a534b7bdd22d4d07bf0755cec2a9757a"
+    },
+    {
+      "path": "README.md",
+      "oldSha256": "6945f5cbc62ffe20fa2051efe79b9251f6d060b35147b0b4399454370583fbf9",
+      "newSha256": "128f4ec896d457a71f04cbf4fceeae9c88f59c1054648266375771df9f0dfbd5"
+    }
+  ],
+  "existingFilesPreserved": 352,
+  "existingFilesUnchanged": true,
+  "projectFilesModified": false,
+  "unityIntegrated": false,
+  "approved": false
+}

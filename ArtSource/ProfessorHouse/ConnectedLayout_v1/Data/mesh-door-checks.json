@@ -1,0 +1,8 @@
+{
+  "scope": "Door-centre mesh samples using the 1.20 m comparison proxy, not a full Unity capsule sweep.",
+  "doors": 54,
+  "intentionallyClosed": 1,
+  "checkedOpenDoors": 53,
+  "failures": [],
+  "passed": true
+}

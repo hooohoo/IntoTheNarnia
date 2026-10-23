@@ -1,0 +1,4 @@
+PASS arrival walked all 34 ordered waypoints; final=(34.257, 4.335, 28.880)
+PASS hide walked all 43 ordered waypoints; final=(4.000, 9.010, 29.480)
+PASS escape walked all 79 ordered waypoints; final=(4.000, 9.010, 29.480)
+PASS eastStair walked all 30 ordered waypoints; final=(23.347, 4.335, 19.120)

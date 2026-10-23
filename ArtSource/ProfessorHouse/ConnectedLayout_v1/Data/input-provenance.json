@@ -1,0 +1,18 @@
+{
+  "approvedLayoutSha256": "c10cae9559129d7618d6f6971bfab6e8b615bec9ecafee22824a8c7b01bf7fd9",
+  "approvedLayoutSource": "Docs/Art/ProfessorHouse_ApprovedLayout_v1/Data/layout.json",
+  "hallSource": "Studies/RearGarden_Connections/Source/hall_geometry.py",
+  "wardrobeSource": "Current/Data/model-spec.json",
+  "stage": "connected layout 01; download review, not Unity integration",
+  "projectBaselineMerge": "594771e05b8dd030dfff95bf44474fc15fe2b50a",
+  "reviewDate": "2026-10-23",
+  "hallAdaptations": [
+    "Professor boundary opening at x10/y19 on upper floor",
+    "Upper south-east doorway aligned to approved x23.35",
+    "Hall back ceiling supplied by approved attic corridor floor",
+    "Arch glass split for transparent offline display"
+  ],
+  "sourceCoordinates": "metres, X east / Y rear / Z up",
+  "exchangeCoordinates": "glTF Y up",
+  "approved": false
+}
