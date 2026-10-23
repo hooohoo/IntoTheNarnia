@@ -1,0 +1,3964 @@
+{
+  "version": "connected-walkthrough-01",
+  "units": "metres, Unity Y up; X east, Z rear",
+  "sourceLayoutSha256": "c10cae9559129d7618d6f6971bfab6e8b615bec9ecafee22824a8c7b01bf7fd9",
+  "sourceBlendSha256": "40e90da3ba865f69bd29099661af1718c1f4f0bd2d04477baa085aea281709b9",
+  "chunks": [
+    "AtticRooms",
+    "Gardens",
+    "GroundRooms",
+    "Hall",
+    "SecondaryStairs",
+    "UpperRooms"
+  ],
+  "meshes": [
+    {
+      "name": "C_AtticRooms_WalkSurfaces_Collision",
+      "chunk": "AtticRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.0,
+        "y": 8.819999694824219,
+        "z": 16.0
+      },
+      "boundsMax": {
+        "x": 30.0,
+        "y": 9.0,
+        "z": 34.0
+      },
+      "vertices": 48,
+      "triangles": 72
+    },
+    {
+      "name": "C_AtticRooms_attic_Collision",
+      "chunk": "AtticRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.20000000298023224,
+        "y": 9.0,
+        "z": 18.0
+      },
+      "boundsMax": {
+        "x": 27.899999618530273,
+        "y": 11.920000076293945,
+        "z": 34.20000076293945
+      },
+      "vertices": 2448,
+      "triangles": 4704
+    },
+    {
+      "name": "V_AtticRooms_attic_Glass",
+      "chunk": "AtticRooms",
+      "collision": false,
+      "glass": true,
+      "boundsMin": {
+        "x": -0.009999999776482582,
+        "y": 10.0,
+        "z": 25.0
+      },
+      "boundsMax": {
+        "x": 22.700000762939453,
+        "y": 11.799999237060547,
+        "z": 34.0099983215332
+      },
+      "vertices": 40,
+      "triangles": 60
+    },
+    {
+      "name": "V_AtticRooms_attic_Opaque",
+      "chunk": "AtticRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.20000000298023224,
+        "y": 9.0,
+        "z": 18.0
+      },
+      "boundsMax": {
+        "x": 27.899999618530273,
+        "y": 11.920000076293945,
+        "z": 34.20000076293945
+      },
+      "vertices": 2408,
+      "triangles": 4644
+    },
+    {
+      "name": "C_AtticRooms_attic_G1a_Collision",
+      "chunk": "AtticRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.11999988555908203,
+        "y": 9.0,
+        "z": 15.880000114440918
+      },
+      "boundsMax": {
+        "x": 8.119999885559082,
+        "y": 12.199999809265137,
+        "z": 22.119998931884766
+      },
+      "vertices": 784,
+      "triangles": 1512
+    },
+    {
+      "name": "V_AtticRooms_attic_G1a_Opaque",
+      "chunk": "AtticRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.11999988555908203,
+        "y": 8.84000015258789,
+        "z": 15.880000114440918
+      },
+      "boundsMax": {
+        "x": 8.119999885559082,
+        "y": 12.199999809265137,
+        "z": 22.119998931884766
+      },
+      "vertices": 792,
+      "triangles": 1524
+    },
+    {
+      "name": "C_AtticRooms_attic_G1b_Collision",
+      "chunk": "AtticRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 7.999999523162842,
+        "y": 9.0,
+        "z": 15.880000114440918
+      },
+      "boundsMax": {
+        "x": 30.1200008392334,
+        "y": 12.199999809265137,
+        "z": 22.119998931884766
+      },
+      "vertices": 1848,
+      "triangles": 3564
+    },
+    {
+      "name": "V_AtticRooms_attic_G1b_Opaque",
+      "chunk": "AtticRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 7.999999523162842,
+        "y": 8.84000015258789,
+        "z": 15.880000114440918
+      },
+      "boundsMax": {
+        "x": 30.1200008392334,
+        "y": 12.199999809265137,
+        "z": 22.119998931884766
+      },
+      "vertices": 1856,
+      "triangles": 3576
+    },
+    {
+      "name": "C_AtticRooms_attic_G1c_Collision",
+      "chunk": "AtticRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 23.8799991607666,
+        "y": 9.0,
+        "z": 22.0
+      },
+      "boundsMax": {
+        "x": 30.119998931884766,
+        "y": 12.199999809265137,
+        "z": 26.1200008392334
+      },
+      "vertices": 504,
+      "triangles": 972
+    },
+    {
+      "name": "V_AtticRooms_attic_G1c_Opaque",
+      "chunk": "AtticRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 23.8799991607666,
+        "y": 8.84000015258789,
+        "z": 22.0
+      },
+      "boundsMax": {
+        "x": 30.119998931884766,
+        "y": 12.199999809265137,
+        "z": 26.1200008392334
+      },
+      "vertices": 512,
+      "triangles": 984
+    },
+    {
+      "name": "C_AtticRooms_attic_G2_Collision",
+      "chunk": "AtticRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.12000000476837158,
+        "y": 9.0,
+        "z": 22.0
+      },
+      "boundsMax": {
+        "x": 8.119999885559082,
+        "y": 12.65121078491211,
+        "z": 34.119998931884766
+      },
+      "vertices": 5552,
+      "triangles": 10612
+    },
+    {
+      "name": "V_AtticRooms_attic_G2_Opaque",
+      "chunk": "AtticRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.12000000476837158,
+        "y": 8.84000015258789,
+        "z": 22.0
+      },
+      "boundsMax": {
+        "x": 8.119999885559082,
+        "y": 12.65121078491211,
+        "z": 34.119998931884766
+      },
+      "vertices": 5560,
+      "triangles": 10624
+    },
+    {
+      "name": "C_AtticRooms_attic_G3_Collision",
+      "chunk": "AtticRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 8.0,
+        "y": 9.0,
+        "z": 22.0
+      },
+      "boundsMax": {
+        "x": 12.519999504089355,
+        "y": 12.199999809265137,
+        "z": 34.119998931884766
+      },
+      "vertices": 784,
+      "triangles": 1512
+    },
+    {
+      "name": "V_AtticRooms_attic_G3_Opaque",
+      "chunk": "AtticRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 8.0,
+        "y": 8.84000015258789,
+        "z": 22.0
+      },
+      "boundsMax": {
+        "x": 12.519999504089355,
+        "y": 12.199999809265137,
+        "z": 34.119998931884766
+      },
+      "vertices": 792,
+      "triangles": 1524
+    },
+    {
+      "name": "C_AtticRooms_attic_G4_Collision",
+      "chunk": "AtticRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 20.17999839782715,
+        "y": 9.0,
+        "z": 22.0
+      },
+      "boundsMax": {
+        "x": 24.119998931884766,
+        "y": 12.199999809265137,
+        "z": 34.119998931884766
+      },
+      "vertices": 784,
+      "triangles": 1512
+    },
+    {
+      "name": "V_AtticRooms_attic_G4_Opaque",
+      "chunk": "AtticRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 20.17999839782715,
+        "y": 8.84000015258789,
+        "z": 22.0
+      },
+      "boundsMax": {
+        "x": 24.119998931884766,
+        "y": 12.199999809265137,
+        "z": 34.119998931884766
+      },
+      "vertices": 792,
+      "triangles": 1524
+    },
+    {
+      "name": "C_Gardens_OutdoorSupport_Collision",
+      "chunk": "Gardens",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": -10.0,
+        "y": -0.20000000298023224,
+        "z": -2.0
+      },
+      "boundsMax": {
+        "x": 44.0,
+        "y": 0.6200000047683716,
+        "z": 34.0
+      },
+      "vertices": 596,
+      "triangles": 1152
+    },
+    {
+      "name": "C_Gardens_WalkSurfaces_Collision",
+      "chunk": "Gardens",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": -10.0,
+        "y": -0.23000000417232513,
+        "z": -2.0
+      },
+      "boundsMax": {
+        "x": 44.0,
+        "y": 0.0,
+        "z": 34.0
+      },
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "name": "V_Gardens_outdoor_Opaque",
+      "chunk": "Gardens",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": -10.0,
+        "y": -0.20000000298023224,
+        "z": -2.0
+      },
+      "boundsMax": {
+        "x": 44.0,
+        "y": 0.6200000047683716,
+        "z": 34.0
+      },
+      "vertices": 596,
+      "triangles": 1152
+    },
+    {
+      "name": "C_GroundRooms_WalkSurfaces_Collision",
+      "chunk": "GroundRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.0,
+        "y": -0.18000000715255737,
+        "z": -0.0
+      },
+      "boundsMax": {
+        "x": 50.0,
+        "y": 0.0,
+        "z": 34.0
+      },
+      "vertices": 136,
+      "triangles": 204
+    },
+    {
+      "name": "C_GroundRooms_ground_Collision",
+      "chunk": "GroundRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.20000000298023224,
+        "y": 0.0,
+        "z": -0.20000000298023224
+      },
+      "boundsMax": {
+        "x": 50.20000076293945,
+        "y": 2.919999837875366,
+        "z": 34.20000076293945
+      },
+      "vertices": 13320,
+      "triangles": 25572
+    },
+    {
+      "name": "V_GroundRooms_ground_Glass",
+      "chunk": "GroundRooms",
+      "collision": false,
+      "glass": true,
+      "boundsMin": {
+        "x": -0.009999999776482582,
+        "y": 1.0,
+        "z": -0.009999999776482582
+      },
+      "boundsMax": {
+        "x": 50.0099983215332,
+        "y": 2.799999952316284,
+        "z": 34.0099983215332
+      },
+      "vertices": 272,
+      "triangles": 408
+    },
+    {
+      "name": "V_GroundRooms_ground_Opaque",
+      "chunk": "GroundRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.20000000298023224,
+        "y": 0.0,
+        "z": -0.20000000298023224
+      },
+      "boundsMax": {
+        "x": 50.20000076293945,
+        "y": 2.919999837875366,
+        "z": 34.20000076293945
+      },
+      "vertices": 13048,
+      "triangles": 25164
+    },
+    {
+      "name": "C_GroundRooms_ground_A_Collision",
+      "chunk": "GroundRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 9.880000114440918,
+        "y": 0.0,
+        "z": -0.11999999731779099
+      },
+      "boundsMax": {
+        "x": 24.119998931884766,
+        "y": 4.079999923706055,
+        "z": 10.0
+      },
+      "vertices": 1680,
+      "triangles": 3240
+    },
+    {
+      "name": "V_GroundRooms_ground_A_Opaque",
+      "chunk": "GroundRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 9.880000114440918,
+        "y": -0.23999999463558197,
+        "z": -0.11999999731779099
+      },
+      "boundsMax": {
+        "x": 24.119998931884766,
+        "y": 4.079999923706055,
+        "z": 10.0
+      },
+      "vertices": 1688,
+      "triangles": 3252
+    },
+    {
+      "name": "C_GroundRooms_ground_C1_Collision",
+      "chunk": "GroundRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.12000000476837158,
+        "y": 0.0,
+        "z": -0.11999999731779099
+      },
+      "boundsMax": {
+        "x": 10.0,
+        "y": 4.079999923706055,
+        "z": 10.119999885559082
+      },
+      "vertices": 1512,
+      "triangles": 2916
+    },
+    {
+      "name": "V_GroundRooms_ground_C1_Opaque",
+      "chunk": "GroundRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.12000000476837158,
+        "y": -0.23999999463558197,
+        "z": -0.11999999731779099
+      },
+      "boundsMax": {
+        "x": 10.0,
+        "y": 4.079999923706055,
+        "z": 10.119999885559082
+      },
+      "vertices": 1520,
+      "triangles": 2928
+    },
+    {
+      "name": "C_GroundRooms_ground_C2_Collision",
+      "chunk": "GroundRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 24.0,
+        "y": 0.0,
+        "z": -0.11999999731779099
+      },
+      "boundsMax": {
+        "x": 34.119998931884766,
+        "y": 4.079999923706055,
+        "z": 10.119999885559082
+      },
+      "vertices": 1456,
+      "triangles": 2808
+    },
+    {
+      "name": "V_GroundRooms_ground_C2_Opaque",
+      "chunk": "GroundRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 24.0,
+        "y": -0.23999999463558197,
+        "z": -0.11999999731779099
+      },
+      "boundsMax": {
+        "x": 34.119998931884766,
+        "y": 4.079999923706055,
+        "z": 10.119999885559082
+      },
+      "vertices": 1464,
+      "triangles": 2820
+    },
+    {
+      "name": "C_GroundRooms_ground_C3_Collision",
+      "chunk": "GroundRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 43.880001068115234,
+        "y": 0.0,
+        "z": -0.11999999731779099
+      },
+      "boundsMax": {
+        "x": 50.119998931884766,
+        "y": 4.079999923706055,
+        "z": 6.119999885559082
+      },
+      "vertices": 1064,
+      "triangles": 2052
+    },
+    {
+      "name": "V_GroundRooms_ground_C3_Opaque",
+      "chunk": "GroundRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 43.880001068115234,
+        "y": -0.23999999463558197,
+        "z": -0.11999999731779099
+      },
+      "boundsMax": {
+        "x": 50.119998931884766,
+        "y": 4.079999923706055,
+        "z": 6.119999885559082
+      },
+      "vertices": 1072,
+      "triangles": 2064
+    },
+    {
+      "name": "C_GroundRooms_ground_D1_Collision",
+      "chunk": "GroundRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.11999988555908203,
+        "y": 0.0,
+        "z": 10.0
+      },
+      "boundsMax": {
+        "x": 10.0,
+        "y": 4.079999923706055,
+        "z": 22.1200008392334
+      },
+      "vertices": 1372,
+      "triangles": 2640
+    },
+    {
+      "name": "V_GroundRooms_ground_D1_Opaque",
+      "chunk": "GroundRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.11999988555908203,
+        "y": -0.23999999463558197,
+        "z": 10.0
+      },
+      "boundsMax": {
+        "x": 10.0,
+        "y": 4.079999923706055,
+        "z": 22.1200008392334
+      },
+      "vertices": 1380,
+      "triangles": 2652
+    },
+    {
+      "name": "C_GroundRooms_ground_D2_Collision",
+      "chunk": "GroundRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.12000000476837158,
+        "y": 0.0,
+        "z": 22.0
+      },
+      "boundsMax": {
+        "x": 10.119999885559082,
+        "y": 4.079999923706055,
+        "z": 34.119998931884766
+      },
+      "vertices": 1624,
+      "triangles": 3132
+    },
+    {
+      "name": "V_GroundRooms_ground_D2_Opaque",
+      "chunk": "GroundRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.12000000476837158,
+        "y": -0.23999999463558197,
+        "z": 22.0
+      },
+      "boundsMax": {
+        "x": 10.119999885559082,
+        "y": 4.079999923706055,
+        "z": 34.119998931884766
+      },
+      "vertices": 1632,
+      "triangles": 3144
+    },
+    {
+      "name": "C_GroundRooms_ground_D3_Collision",
+      "chunk": "GroundRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 10.0,
+        "y": 0.0,
+        "z": 22.0
+      },
+      "boundsMax": {
+        "x": 12.519999504089355,
+        "y": 4.079999923706055,
+        "z": 34.119998931884766
+      },
+      "vertices": 1176,
+      "triangles": 2268
+    },
+    {
+      "name": "V_GroundRooms_ground_D3_Opaque",
+      "chunk": "GroundRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 10.0,
+        "y": -0.23999999463558197,
+        "z": 22.0
+      },
+      "boundsMax": {
+        "x": 12.519999504089355,
+        "y": 4.079999923706055,
+        "z": 34.119998931884766
+      },
+      "vertices": 1184,
+      "triangles": 2280
+    },
+    {
+      "name": "C_GroundRooms_ground_D4_Collision",
+      "chunk": "GroundRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 34.0,
+        "y": 0.0,
+        "z": -0.11999999731779099
+      },
+      "boundsMax": {
+        "x": 44.0,
+        "y": 4.079999923706055,
+        "z": 6.119999885559082
+      },
+      "vertices": 952,
+      "triangles": 1836
+    },
+    {
+      "name": "V_GroundRooms_ground_D4_Opaque",
+      "chunk": "GroundRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 34.0,
+        "y": -0.23999999463558197,
+        "z": -0.11999999731779099
+      },
+      "boundsMax": {
+        "x": 44.0,
+        "y": 4.079999923706055,
+        "z": 6.119999885559082
+      },
+      "vertices": 960,
+      "triangles": 1848
+    },
+    {
+      "name": "C_GroundRooms_ground_F0_Collision",
+      "chunk": "GroundRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 23.8799991607666,
+        "y": 0.0,
+        "z": 10.0
+      },
+      "boundsMax": {
+        "x": 30.119998931884766,
+        "y": 4.079999923706055,
+        "z": 26.1200008392334
+      },
+      "vertices": 1624,
+      "triangles": 3132
+    },
+    {
+      "name": "V_GroundRooms_ground_F0_Opaque",
+      "chunk": "GroundRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 23.8799991607666,
+        "y": -0.23999999463558197,
+        "z": 10.0
+      },
+      "boundsMax": {
+        "x": 30.119998931884766,
+        "y": 4.079999923706055,
+        "z": 26.1200008392334
+      },
+      "vertices": 1632,
+      "triangles": 3144
+    },
+    {
+      "name": "C_GroundRooms_ground_F1_Collision",
+      "chunk": "GroundRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 34.0,
+        "y": 0.0,
+        "z": 6.0
+      },
+      "boundsMax": {
+        "x": 50.119998931884766,
+        "y": 4.079999923706055,
+        "z": 10.119999885559082
+      },
+      "vertices": 672,
+      "triangles": 1296
+    },
+    {
+      "name": "V_GroundRooms_ground_F1_Opaque",
+      "chunk": "GroundRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 34.0,
+        "y": -0.23999999463558197,
+        "z": 6.0
+      },
+      "boundsMax": {
+        "x": 50.119998931884766,
+        "y": 4.079999923706055,
+        "z": 10.119999885559082
+      },
+      "vertices": 680,
+      "triangles": 1308
+    },
+    {
+      "name": "C_GroundRooms_ground_F2_Collision",
+      "chunk": "GroundRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 43.880001068115234,
+        "y": 0.0,
+        "z": 10.0
+      },
+      "boundsMax": {
+        "x": 50.119998931884766,
+        "y": 4.079999923706055,
+        "z": 26.1200008392334
+      },
+      "vertices": 2128,
+      "triangles": 4104
+    },
+    {
+      "name": "V_GroundRooms_ground_F2_Opaque",
+      "chunk": "GroundRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 43.880001068115234,
+        "y": -0.23999999463558197,
+        "z": 10.0
+      },
+      "boundsMax": {
+        "x": 50.119998931884766,
+        "y": 4.079999923706055,
+        "z": 26.1200008392334
+      },
+      "vertices": 2136,
+      "triangles": 4116
+    },
+    {
+      "name": "C_GroundRooms_ground_F3_Collision",
+      "chunk": "GroundRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 29.880001068115234,
+        "y": 0.0,
+        "z": 27.8799991607666
+      },
+      "boundsMax": {
+        "x": 40.119998931884766,
+        "y": 4.079999923706055,
+        "z": 34.119998931884766
+      },
+      "vertices": 896,
+      "triangles": 1728
+    },
+    {
+      "name": "V_GroundRooms_ground_F3_Opaque",
+      "chunk": "GroundRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 29.880001068115234,
+        "y": -0.23999999463558197,
+        "z": 27.8799991607666
+      },
+      "boundsMax": {
+        "x": 40.119998931884766,
+        "y": 4.079999923706055,
+        "z": 34.119998931884766
+      },
+      "vertices": 904,
+      "triangles": 1740
+    },
+    {
+      "name": "C_GroundRooms_ground_F4_Collision",
+      "chunk": "GroundRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 40.0,
+        "y": 0.0,
+        "z": 27.8799991607666
+      },
+      "boundsMax": {
+        "x": 45.119998931884766,
+        "y": 4.079999923706055,
+        "z": 34.119998931884766
+      },
+      "vertices": 784,
+      "triangles": 1512
+    },
+    {
+      "name": "V_GroundRooms_ground_F4_Opaque",
+      "chunk": "GroundRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 40.0,
+        "y": -0.23999999463558197,
+        "z": 27.8799991607666
+      },
+      "boundsMax": {
+        "x": 45.119998931884766,
+        "y": 4.079999923706055,
+        "z": 34.119998931884766
+      },
+      "vertices": 792,
+      "triangles": 1524
+    },
+    {
+      "name": "C_GroundRooms_ground_F5_Collision",
+      "chunk": "GroundRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 45.0,
+        "y": 0.0,
+        "z": 27.8799991607666
+      },
+      "boundsMax": {
+        "x": 50.119998931884766,
+        "y": 4.079999923706055,
+        "z": 34.119998931884766
+      },
+      "vertices": 1064,
+      "triangles": 2052
+    },
+    {
+      "name": "V_GroundRooms_ground_F5_Opaque",
+      "chunk": "GroundRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 45.0,
+        "y": -0.23999999463558197,
+        "z": 27.8799991607666
+      },
+      "boundsMax": {
+        "x": 50.119998931884766,
+        "y": 4.079999923706055,
+        "z": 34.119998931884766
+      },
+      "vertices": 1072,
+      "triangles": 2064
+    },
+    {
+      "name": "C_GroundRooms_ground_F6_Collision",
+      "chunk": "GroundRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 29.880001068115234,
+        "y": 0.0,
+        "z": 25.8799991607666
+      },
+      "boundsMax": {
+        "x": 50.119998931884766,
+        "y": 4.079999923706055,
+        "z": 28.0
+      },
+      "vertices": 504,
+      "triangles": 972
+    },
+    {
+      "name": "V_GroundRooms_ground_F6_Opaque",
+      "chunk": "GroundRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 29.880001068115234,
+        "y": -0.23999999463558197,
+        "z": 25.8799991607666
+      },
+      "boundsMax": {
+        "x": 50.119998931884766,
+        "y": 4.079999923706055,
+        "z": 28.0
+      },
+      "vertices": 512,
+      "triangles": 984
+    },
+    {
+      "name": "C_GroundRooms_ground_SE1_Collision",
+      "chunk": "GroundRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 20.17999839782715,
+        "y": 0.0,
+        "z": 22.0
+      },
+      "boundsMax": {
+        "x": 24.0,
+        "y": 4.079999923706055,
+        "z": 26.1200008392334
+      },
+      "vertices": 616,
+      "triangles": 1188
+    },
+    {
+      "name": "V_GroundRooms_ground_SE1_Opaque",
+      "chunk": "GroundRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 20.17999839782715,
+        "y": -0.23999999463558197,
+        "z": 22.0
+      },
+      "boundsMax": {
+        "x": 24.0,
+        "y": 4.079999923706055,
+        "z": 26.1200008392334
+      },
+      "vertices": 624,
+      "triangles": 1200
+    },
+    {
+      "name": "C_GroundRooms_ground_SE2_Collision",
+      "chunk": "GroundRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 20.17999839782715,
+        "y": 0.0,
+        "z": 26.0
+      },
+      "boundsMax": {
+        "x": 24.0,
+        "y": 4.079999923706055,
+        "z": 34.119998931884766
+      },
+      "vertices": 1232,
+      "triangles": 2376
+    },
+    {
+      "name": "V_GroundRooms_ground_SE2_Opaque",
+      "chunk": "GroundRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 20.17999839782715,
+        "y": -0.23999999463558197,
+        "z": 26.0
+      },
+      "boundsMax": {
+        "x": 24.0,
+        "y": 4.079999923706055,
+        "z": 34.119998931884766
+      },
+      "vertices": 1240,
+      "triangles": 2388
+    },
+    {
+      "name": "C_Hall_WalkSurfaces_Collision",
+      "chunk": "Hall",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 10.0,
+        "y": -0.18000000715255737,
+        "z": 10.0
+      },
+      "boundsMax": {
+        "x": 24.0,
+        "y": 4.335000038146973,
+        "z": 25.0
+      },
+      "vertices": 160,
+      "triangles": 236
+    },
+    {
+      "name": "C_Hall_hall_Collision",
+      "chunk": "Hall",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 9.649999618530273,
+        "y": 0.0,
+        "z": 9.779999732971191
+      },
+      "boundsMax": {
+        "x": 24.219999313354492,
+        "y": 9.0,
+        "z": 22.869998931884766
+      },
+      "vertices": 60750,
+      "triangles": 116658
+    },
+    {
+      "name": "V_Hall_hall_Glass",
+      "chunk": "Hall",
+      "collision": false,
+      "glass": true,
+      "boundsMin": {
+        "x": 15.9399995803833,
+        "y": 2.640000104904175,
+        "z": 21.922500610351562
+      },
+      "boundsMax": {
+        "x": 18.059999465942383,
+        "y": 7.960000038146973,
+        "z": 21.977500915527344
+      },
+      "vertices": 54,
+      "triangles": 96
+    },
+    {
+      "name": "V_Hall_hall_Opaque",
+      "chunk": "Hall",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 9.649999618530273,
+        "y": -0.25999999046325684,
+        "z": 9.779999732971191
+      },
+      "boundsMax": {
+        "x": 24.219999313354492,
+        "y": 9.0,
+        "z": 25.0
+      },
+      "vertices": 78904,
+      "triangles": 151330
+    },
+    {
+      "name": "C_SecondaryStairs_S2_Collision",
+      "chunk": "SecondaryStairs",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 25.19499969482422,
+        "y": 0.08913368731737137,
+        "z": 28.14499855041504
+      },
+      "boundsMax": {
+        "x": 29.875680923461914,
+        "y": 10.055000305175781,
+        "z": 33.87699890136719
+      },
+      "vertices": 6272,
+      "triangles": 11520
+    },
+    {
+      "name": "V_SecondaryStairs_S2_Opaque",
+      "chunk": "SecondaryStairs",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 25.19499969482422,
+        "y": -0.25999999046325684,
+        "z": 28.14499855041504
+      },
+      "boundsMax": {
+        "x": 29.875680923461914,
+        "y": 10.055000305175781,
+        "z": 33.87699890136719
+      },
+      "vertices": 6512,
+      "triangles": 11976
+    },
+    {
+      "name": "C_SecondaryStairs_WalkSurfaces_Collision",
+      "chunk": "SecondaryStairs",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 24.0,
+        "y": -0.18000000715255737,
+        "z": 26.0
+      },
+      "boundsMax": {
+        "x": 30.0,
+        "y": 9.015000343322754,
+        "z": 34.0
+      },
+      "vertices": 80,
+      "triangles": 116
+    },
+    {
+      "name": "C_SecondaryStairs_attic_S2_Collision",
+      "chunk": "SecondaryStairs",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 24.0,
+        "y": 9.0,
+        "z": 26.0
+      },
+      "boundsMax": {
+        "x": 30.119998931884766,
+        "y": 12.199999809265137,
+        "z": 34.119998931884766
+      },
+      "vertices": 224,
+      "triangles": 432
+    },
+    {
+      "name": "V_SecondaryStairs_attic_S2_Opaque",
+      "chunk": "SecondaryStairs",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 24.0,
+        "y": 8.760000228881836,
+        "z": 26.0
+      },
+      "boundsMax": {
+        "x": 30.119998931884766,
+        "y": 12.199999809265137,
+        "z": 34.119998931884766
+      },
+      "vertices": 240,
+      "triangles": 456
+    },
+    {
+      "name": "C_SecondaryStairs_ground_S2_Collision",
+      "chunk": "SecondaryStairs",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 23.880001068115234,
+        "y": 0.0,
+        "z": 26.0
+      },
+      "boundsMax": {
+        "x": 30.0,
+        "y": 4.079999923706055,
+        "z": 34.119998931884766
+      },
+      "vertices": 224,
+      "triangles": 432
+    },
+    {
+      "name": "V_SecondaryStairs_ground_S2_Opaque",
+      "chunk": "SecondaryStairs",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 23.880001068115234,
+        "y": -0.23999999463558197,
+        "z": 26.0
+      },
+      "boundsMax": {
+        "x": 30.0,
+        "y": 4.079999923706055,
+        "z": 34.119998931884766
+      },
+      "vertices": 232,
+      "triangles": 444
+    },
+    {
+      "name": "C_SecondaryStairs_upper_S2_Collision",
+      "chunk": "SecondaryStairs",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 24.0,
+        "y": 4.320000171661377,
+        "z": 33.880001068115234
+      },
+      "boundsMax": {
+        "x": 30.0,
+        "y": 8.84000015258789,
+        "z": 34.119998931884766
+      },
+      "vertices": 112,
+      "triangles": 216
+    },
+    {
+      "name": "V_SecondaryStairs_upper_S2_Opaque",
+      "chunk": "SecondaryStairs",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 24.0,
+        "y": 4.079999923706055,
+        "z": 26.0
+      },
+      "boundsMax": {
+        "x": 30.0,
+        "y": 8.84000015258789,
+        "z": 34.119998931884766
+      },
+      "vertices": 128,
+      "triangles": 240
+    },
+    {
+      "name": "C_UpperRooms_WalkSurfaces_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.0,
+        "y": 4.139999866485596,
+        "z": -0.0
+      },
+      "boundsMax": {
+        "x": 50.0,
+        "y": 4.320000171661377,
+        "z": 34.0
+      },
+      "vertices": 152,
+      "triangles": 228
+    },
+    {
+      "name": "C_UpperRooms_upper_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.20000000298023224,
+        "y": 4.320000171661377,
+        "z": -0.20000000298023224
+      },
+      "boundsMax": {
+        "x": 50.20000076293945,
+        "y": 7.239999771118164,
+        "z": 34.20000076293945
+      },
+      "vertices": 13152,
+      "triangles": 25248
+    },
+    {
+      "name": "V_UpperRooms_upper_Glass",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": true,
+      "boundsMin": {
+        "x": -0.009999999776482582,
+        "y": 5.319999694824219,
+        "z": -0.009999999776482582
+      },
+      "boundsMax": {
+        "x": 50.0099983215332,
+        "y": 7.119999885559082,
+        "z": 34.0099983215332
+      },
+      "vertices": 272,
+      "triangles": 408
+    },
+    {
+      "name": "V_UpperRooms_upper_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.20000000298023224,
+        "y": 4.320000171661377,
+        "z": -0.20000000298023224
+      },
+      "boundsMax": {
+        "x": 50.20000076293945,
+        "y": 7.239999771118164,
+        "z": 34.20000076293945
+      },
+      "vertices": 12880,
+      "triangles": 24840
+    },
+    {
+      "name": "C_UpperRooms_upper_B_NE_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 20.17999839782715,
+        "y": 4.320000171661377,
+        "z": 22.0
+      },
+      "boundsMax": {
+        "x": 24.119998931884766,
+        "y": 8.84000015258789,
+        "z": 25.1200008392334
+      },
+      "vertices": 896,
+      "triangles": 1728
+    },
+    {
+      "name": "V_UpperRooms_upper_B_NE_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 20.17999839782715,
+        "y": 4.320000171661377,
+        "z": 22.0
+      },
+      "boundsMax": {
+        "x": 24.119998931884766,
+        "y": 8.84000015258789,
+        "z": 25.1200008392334
+      },
+      "vertices": 896,
+      "triangles": 1728
+    },
+    {
+      "name": "C_UpperRooms_upper_B_NW_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 9.880000114440918,
+        "y": 4.320000171661377,
+        "z": 22.0
+      },
+      "boundsMax": {
+        "x": 12.519999504089355,
+        "y": 8.84000015258789,
+        "z": 25.1200008392334
+      },
+      "vertices": 840,
+      "triangles": 1620
+    },
+    {
+      "name": "V_UpperRooms_upper_B_NW_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 9.880000114440918,
+        "y": 4.320000171661377,
+        "z": 22.0
+      },
+      "boundsMax": {
+        "x": 12.519999504089355,
+        "y": 8.84000015258789,
+        "z": 25.1200008392334
+      },
+      "vertices": 840,
+      "triangles": 1620
+    },
+    {
+      "name": "C_UpperRooms_upper_E1_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 29.8799991607666,
+        "y": 4.319999694824219,
+        "z": 27.8799991607666
+      },
+      "boundsMax": {
+        "x": 38.619998931884766,
+        "y": 8.84000015258789,
+        "z": 34.119998931884766
+      },
+      "vertices": 1232,
+      "triangles": 2376
+    },
+    {
+      "name": "V_UpperRooms_upper_E1_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 29.8799991607666,
+        "y": 4.079999923706055,
+        "z": 27.8799991607666
+      },
+      "boundsMax": {
+        "x": 38.619998931884766,
+        "y": 8.84000015258789,
+        "z": 34.119998931884766
+      },
+      "vertices": 1240,
+      "triangles": 2388
+    },
+    {
+      "name": "C_UpperRooms_upper_E2_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 9.880000114440918,
+        "y": 4.320000171661377,
+        "z": -0.11999999731779099
+      },
+      "boundsMax": {
+        "x": 24.119998931884766,
+        "y": 8.84000015258789,
+        "z": 6.119999885559082
+      },
+      "vertices": 1680,
+      "triangles": 3240
+    },
+    {
+      "name": "V_UpperRooms_upper_E2_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 9.880000114440918,
+        "y": 4.079999923706055,
+        "z": -0.11999999731779099
+      },
+      "boundsMax": {
+        "x": 24.119998931884766,
+        "y": 8.84000015258789,
+        "z": 6.119999885559082
+      },
+      "vertices": 1688,
+      "triangles": 3252
+    },
+    {
+      "name": "C_UpperRooms_upper_E3_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 9.879999160766602,
+        "y": 4.320000171661377,
+        "z": 5.880000114440918
+      },
+      "boundsMax": {
+        "x": 34.119998931884766,
+        "y": 8.84000015258789,
+        "z": 10.119999885559082
+      },
+      "vertices": 1064,
+      "triangles": 2052
+    },
+    {
+      "name": "V_UpperRooms_upper_E3_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 9.879999160766602,
+        "y": 4.079999923706055,
+        "z": 5.880000114440918
+      },
+      "boundsMax": {
+        "x": 34.119998931884766,
+        "y": 8.84000015258789,
+        "z": 10.119999885559082
+      },
+      "vertices": 1072,
+      "triangles": 2064
+    },
+    {
+      "name": "C_UpperRooms_upper_E4_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 24.0,
+        "y": 4.320000171661377,
+        "z": -0.11999999731779099
+      },
+      "boundsMax": {
+        "x": 34.119998931884766,
+        "y": 8.84000015258789,
+        "z": 6.0
+      },
+      "vertices": 784,
+      "triangles": 1512
+    },
+    {
+      "name": "V_UpperRooms_upper_E4_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 24.0,
+        "y": 4.079999923706055,
+        "z": -0.11999999731779099
+      },
+      "boundsMax": {
+        "x": 34.119998931884766,
+        "y": 8.84000015258789,
+        "z": 6.0
+      },
+      "vertices": 792,
+      "triangles": 1524
+    },
+    {
+      "name": "C_UpperRooms_upper_ER_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 20.17999839782715,
+        "y": 4.320000171661377,
+        "z": 25.0
+      },
+      "boundsMax": {
+        "x": 24.119998931884766,
+        "y": 8.84000015258789,
+        "z": 34.119998931884766
+      },
+      "vertices": 1624,
+      "triangles": 3132
+    },
+    {
+      "name": "V_UpperRooms_upper_ER_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 20.17999839782715,
+        "y": 4.079999923706055,
+        "z": 25.0
+      },
+      "boundsMax": {
+        "x": 24.119998931884766,
+        "y": 8.84000015258789,
+        "z": 34.119998931884766
+      },
+      "vertices": 1632,
+      "triangles": 3144
+    },
+    {
+      "name": "C_UpperRooms_upper_F0_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 24.0,
+        "y": 4.320000171661377,
+        "z": 10.0
+      },
+      "boundsMax": {
+        "x": 30.119998931884766,
+        "y": 8.84000015258789,
+        "z": 26.1200008392334
+      },
+      "vertices": 1344,
+      "triangles": 2592
+    },
+    {
+      "name": "V_UpperRooms_upper_F0_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 24.0,
+        "y": 4.079999923706055,
+        "z": 10.0
+      },
+      "boundsMax": {
+        "x": 30.119998931884766,
+        "y": 8.84000015258789,
+        "z": 26.1200008392334
+      },
+      "vertices": 1352,
+      "triangles": 2604
+    },
+    {
+      "name": "C_UpperRooms_upper_F1_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 34.0,
+        "y": 4.320000171661377,
+        "z": 5.880000114440918
+      },
+      "boundsMax": {
+        "x": 50.119998931884766,
+        "y": 8.84000015258789,
+        "z": 10.119999885559082
+      },
+      "vertices": 1232,
+      "triangles": 2376
+    },
+    {
+      "name": "V_UpperRooms_upper_F1_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 34.0,
+        "y": 4.079999923706055,
+        "z": 5.880000114440918
+      },
+      "boundsMax": {
+        "x": 50.119998931884766,
+        "y": 8.84000015258789,
+        "z": 10.119999885559082
+      },
+      "vertices": 1240,
+      "triangles": 2388
+    },
+    {
+      "name": "C_UpperRooms_upper_F2_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 43.880001068115234,
+        "y": 4.320000171661377,
+        "z": 10.0
+      },
+      "boundsMax": {
+        "x": 50.119998931884766,
+        "y": 8.84000015258789,
+        "z": 26.1200008392334
+      },
+      "vertices": 2128,
+      "triangles": 4104
+    },
+    {
+      "name": "V_UpperRooms_upper_F2_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 43.880001068115234,
+        "y": 4.079999923706055,
+        "z": 10.0
+      },
+      "boundsMax": {
+        "x": 50.119998931884766,
+        "y": 8.84000015258789,
+        "z": 26.1200008392334
+      },
+      "vertices": 2136,
+      "triangles": 4116
+    },
+    {
+      "name": "C_UpperRooms_upper_F8_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 34.0,
+        "y": 4.320000171661377,
+        "z": -0.11999999731779099
+      },
+      "boundsMax": {
+        "x": 44.119998931884766,
+        "y": 8.84000015258789,
+        "z": 6.0
+      },
+      "vertices": 784,
+      "triangles": 1512
+    },
+    {
+      "name": "V_UpperRooms_upper_F8_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 34.0,
+        "y": 4.079999923706055,
+        "z": -0.11999999731779099
+      },
+      "boundsMax": {
+        "x": 44.119998931884766,
+        "y": 8.84000015258789,
+        "z": 6.0
+      },
+      "vertices": 792,
+      "triangles": 1524
+    },
+    {
+      "name": "C_UpperRooms_upper_F9_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 44.0,
+        "y": 4.320000171661377,
+        "z": -0.11999999731779099
+      },
+      "boundsMax": {
+        "x": 50.119998931884766,
+        "y": 8.84000015258789,
+        "z": 6.0
+      },
+      "vertices": 672,
+      "triangles": 1296
+    },
+    {
+      "name": "V_UpperRooms_upper_F9_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 44.0,
+        "y": 4.079999923706055,
+        "z": -0.11999999731779099
+      },
+      "boundsMax": {
+        "x": 50.119998931884766,
+        "y": 8.84000015258789,
+        "z": 6.0
+      },
+      "vertices": 680,
+      "triangles": 1308
+    },
+    {
+      "name": "C_UpperRooms_upper_K0_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 29.880001068115234,
+        "y": 4.320000171661377,
+        "z": 25.8799991607666
+      },
+      "boundsMax": {
+        "x": 50.119998931884766,
+        "y": 8.84000015258789,
+        "z": 28.0
+      },
+      "vertices": 392,
+      "triangles": 756
+    },
+    {
+      "name": "V_UpperRooms_upper_K0_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 29.880001068115234,
+        "y": 4.079999923706055,
+        "z": 25.8799991607666
+      },
+      "boundsMax": {
+        "x": 50.119998931884766,
+        "y": 8.84000015258789,
+        "z": 28.0
+      },
+      "vertices": 400,
+      "triangles": 768
+    },
+    {
+      "name": "C_UpperRooms_upper_K_BATH_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 46.880001068115234,
+        "y": 4.320000171661377,
+        "z": 27.8799991607666
+      },
+      "boundsMax": {
+        "x": 50.119998931884766,
+        "y": 8.84000015258789,
+        "z": 34.119998931884766
+      },
+      "vertices": 1064,
+      "triangles": 2052
+    },
+    {
+      "name": "V_UpperRooms_upper_K_BATH_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 46.880001068115234,
+        "y": 4.079999923706055,
+        "z": 27.8799991607666
+      },
+      "boundsMax": {
+        "x": 50.119998931884766,
+        "y": 8.84000015258789,
+        "z": 34.119998931884766
+      },
+      "vertices": 1072,
+      "triangles": 2064
+    },
+    {
+      "name": "C_UpperRooms_upper_K_BOYS_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 38.5,
+        "y": 4.319999694824219,
+        "z": 27.8799991607666
+      },
+      "boundsMax": {
+        "x": 47.0,
+        "y": 8.84000015258789,
+        "z": 34.119998931884766
+      },
+      "vertices": 1176,
+      "triangles": 2268
+    },
+    {
+      "name": "V_UpperRooms_upper_K_BOYS_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 38.5,
+        "y": 4.079999923706055,
+        "z": 27.8799991607666
+      },
+      "boundsMax": {
+        "x": 47.0,
+        "y": 8.84000015258789,
+        "z": 34.119998931884766
+      },
+      "vertices": 1184,
+      "triangles": 2280
+    },
+    {
+      "name": "C_UpperRooms_upper_P0_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 8.0,
+        "y": 4.319999694824219,
+        "z": 18.25
+      },
+      "boundsMax": {
+        "x": 10.045000076293945,
+        "y": 8.84000015258789,
+        "z": 34.119998931884766
+      },
+      "vertices": 168,
+      "triangles": 324
+    },
+    {
+      "name": "V_UpperRooms_upper_P0_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 8.0,
+        "y": 4.079999923706055,
+        "z": 10.0
+      },
+      "boundsMax": {
+        "x": 10.045000076293945,
+        "y": 8.84000015258789,
+        "z": 34.119998931884766
+      },
+      "vertices": 176,
+      "triangles": 336
+    },
+    {
+      "name": "C_UpperRooms_upper_P_BATH_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.11999988555908203,
+        "y": 4.320000171661377,
+        "z": 27.8799991607666
+      },
+      "boundsMax": {
+        "x": 8.119999885559082,
+        "y": 8.84000015258789,
+        "z": 34.119998931884766
+      },
+      "vertices": 1176,
+      "triangles": 2268
+    },
+    {
+      "name": "V_UpperRooms_upper_P_BATH_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.11999988555908203,
+        "y": 4.079999923706055,
+        "z": 27.8799991607666
+      },
+      "boundsMax": {
+        "x": 8.119999885559082,
+        "y": 8.84000015258789,
+        "z": 34.119998931884766
+      },
+      "vertices": 1184,
+      "triangles": 2280
+    },
+    {
+      "name": "C_UpperRooms_upper_P_BED_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.12000000476837158,
+        "y": 4.320000171661377,
+        "z": -0.11999999731779099
+      },
+      "boundsMax": {
+        "x": 10.0,
+        "y": 8.84000015258789,
+        "z": 10.119999885559082
+      },
+      "vertices": 1456,
+      "triangles": 2808
+    },
+    {
+      "name": "V_UpperRooms_upper_P_BED_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.12000000476837158,
+        "y": 4.079999923706055,
+        "z": -0.11999999731779099
+      },
+      "boundsMax": {
+        "x": 10.0,
+        "y": 8.84000015258789,
+        "z": 10.119999885559082
+      },
+      "vertices": 1464,
+      "triangles": 2820
+    },
+    {
+      "name": "C_UpperRooms_upper_P_LIB_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.11999988555908203,
+        "y": 4.320000171661377,
+        "z": 21.8799991607666
+      },
+      "boundsMax": {
+        "x": 8.119999885559082,
+        "y": 8.84000015258789,
+        "z": 28.0
+      },
+      "vertices": 784,
+      "triangles": 1512
+    },
+    {
+      "name": "V_UpperRooms_upper_P_LIB_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.11999988555908203,
+        "y": 4.079999923706055,
+        "z": 21.8799991607666
+      },
+      "boundsMax": {
+        "x": 8.119999885559082,
+        "y": 8.84000015258789,
+        "z": 28.0
+      },
+      "vertices": 792,
+      "triangles": 1524
+    },
+    {
+      "name": "C_UpperRooms_upper_P_STORE_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": 9.880000114440918,
+        "y": 4.320000171661377,
+        "z": 25.0
+      },
+      "boundsMax": {
+        "x": 12.519999504089355,
+        "y": 8.84000015258789,
+        "z": 34.119998931884766
+      },
+      "vertices": 1456,
+      "triangles": 2808
+    },
+    {
+      "name": "V_UpperRooms_upper_P_STORE_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": 9.880000114440918,
+        "y": 4.079999923706055,
+        "z": 25.0
+      },
+      "boundsMax": {
+        "x": 12.519999504089355,
+        "y": 8.84000015258789,
+        "z": 34.119998931884766
+      },
+      "vertices": 1464,
+      "triangles": 2820
+    },
+    {
+      "name": "C_UpperRooms_upper_P_STUDY_Collision",
+      "chunk": "UpperRooms",
+      "collision": true,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.11999999731779099,
+        "y": 4.319999694824219,
+        "z": 10.0
+      },
+      "boundsMax": {
+        "x": 8.119999885559082,
+        "y": 8.84000015258789,
+        "z": 22.0
+      },
+      "vertices": 1120,
+      "triangles": 2160
+    },
+    {
+      "name": "V_UpperRooms_upper_P_STUDY_Opaque",
+      "chunk": "UpperRooms",
+      "collision": false,
+      "glass": false,
+      "boundsMin": {
+        "x": -0.11999999731779099,
+        "y": 4.079999923706055,
+        "z": 10.0
+      },
+      "boundsMax": {
+        "x": 8.119999885559082,
+        "y": 8.84000015258789,
+        "z": 22.0
+      },
+      "vertices": 1128,
+      "triangles": 2172
+    }
+  ],
+  "palette": [
+    {
+      "name": "armor",
+      "hex": "737C80"
+    },
+    {
+      "name": "atticFloor",
+      "hex": "BF9F7F"
+    },
+    {
+      "name": "black",
+      "hex": "352B26"
+    },
+    {
+      "name": "blue",
+      "hex": "7C99A2"
+    },
+    {
+      "name": "brass",
+      "hex": "A88A51"
+    },
+    {
+      "name": "brown",
+      "hex": "544334"
+    },
+    {
+      "name": "chalk",
+      "hex": "F3E6CD"
+    },
+    {
+      "name": "childSkin",
+      "hex": "DBC3A0"
+    },
+    {
+      "name": "childrenFloor",
+      "hex": "D9BC86"
+    },
+    {
+      "name": "corridorFloor",
+      "hex": "A5BEB4"
+    },
+    {
+      "name": "cream",
+      "hex": "F1E7D2"
+    },
+    {
+      "name": "flame",
+      "hex": "FFC977"
+    },
+    {
+      "name": "floor",
+      "hex": "806044"
+    },
+    {
+      "name": "floorAlt",
+      "hex": "8B6B4F"
+    },
+    {
+      "name": "future",
+      "hex": "C8C4BB"
+    },
+    {
+      "name": "glass",
+      "hex": "ABC9C6"
+    },
+    {
+      "name": "green",
+      "hex": "78876A"
+    },
+    {
+      "name": "hub",
+      "hex": "8CADA4"
+    },
+    {
+      "name": "ink",
+      "hex": "443C34"
+    },
+    {
+      "name": "lawn",
+      "hex": "8EAA78"
+    },
+    {
+      "name": "linen",
+      "hex": "D6BE9D"
+    },
+    {
+      "name": "metal",
+      "hex": "A8894F"
+    },
+    {
+      "name": "plaster",
+      "hex": "E2D2B7"
+    },
+    {
+      "name": "portal",
+      "hex": "B76D43"
+    },
+    {
+      "name": "professorFloor",
+      "hex": "B8A9C6"
+    },
+    {
+      "name": "proxy",
+      "hex": "B4ABA0"
+    },
+    {
+      "name": "publicFloor",
+      "hex": "C8B99D"
+    },
+    {
+      "name": "reference",
+      "hex": "9C7980"
+    },
+    {
+      "name": "room",
+      "hex": "BA895E"
+    },
+    {
+      "name": "route",
+      "hex": "E4A53C"
+    },
+    {
+      "name": "routeAdult",
+      "hex": "AE534B"
+    },
+    {
+      "name": "routeArrival",
+      "hex": "328CBA"
+    },
+    {
+      "name": "routeEscape",
+      "hex": "CC7034"
+    },
+    {
+      "name": "routeHide",
+      "hex": "34835C"
+    },
+    {
+      "name": "rug",
+      "hex": "833F32"
+    },
+    {
+      "name": "rugGold",
+      "hex": "B79054"
+    },
+    {
+      "name": "serviceFloor",
+      "hex": "B9B7A9"
+    },
+    {
+      "name": "softGreen",
+      "hex": "718367"
+    },
+    {
+      "name": "stone",
+      "hex": "CABDA5"
+    },
+    {
+      "name": "stoneAlt",
+      "hex": "B9AC96"
+    },
+    {
+      "name": "wallGrey",
+      "hex": "C1BCB2"
+    },
+    {
+      "name": "wardrobeInset",
+      "hex": "44291E"
+    },
+    {
+      "name": "wardrobeWood",
+      "hex": "593827"
+    },
+    {
+      "name": "wood",
+      "hex": "3D281F"
+    },
+    {
+      "name": "woodEdge",
+      "hex": "755139"
+    },
+    {
+      "name": "woodInset",
+      "hex": "4B3023"
+    },
+    {
+      "name": "woodLight",
+      "hex": "60402D"
+    }
+  ],
+  "routes": [
+    {
+      "key": "arrival",
+      "title": "첫 안내",
+      "points": [
+        {
+          "x": 17,
+          "y": 0,
+          "z": 11
+        },
+        {
+          "x": 17,
+          "y": 0,
+          "z": 16.15
+        },
+        {
+          "x": 17.0,
+          "y": 0.18,
+          "z": 16.5
+        },
+        {
+          "x": 17.0,
+          "y": 0.36,
+          "z": 16.8
+        },
+        {
+          "x": 17.0,
+          "y": 0.54,
+          "z": 17.1
+        },
+        {
+          "x": 17.0,
+          "y": 0.72,
+          "z": 17.4
+        },
+        {
+          "x": 17.0,
+          "y": 0.9,
+          "z": 17.7
+        },
+        {
+          "x": 17.0,
+          "y": 1.08,
+          "z": 18.0
+        },
+        {
+          "x": 17.0,
+          "y": 1.26,
+          "z": 18.3
+        },
+        {
+          "x": 17.0,
+          "y": 1.44,
+          "z": 18.6
+        },
+        {
+          "x": 17.0,
+          "y": 1.62,
+          "z": 18.9
+        },
+        {
+          "x": 17.0,
+          "y": 1.8,
+          "z": 19.2
+        },
+        {
+          "x": 17,
+          "y": 1.8,
+          "z": 20.6
+        },
+        {
+          "x": 15.26,
+          "y": 1.98,
+          "z": 20.6
+        },
+        {
+          "x": 14.98,
+          "y": 2.16,
+          "z": 20.6
+        },
+        {
+          "x": 14.7,
+          "y": 2.34,
+          "z": 20.6
+        },
+        {
+          "x": 14.42,
+          "y": 2.52,
+          "z": 20.6
+        },
+        {
+          "x": 14.14,
+          "y": 2.7,
+          "z": 20.6
+        },
+        {
+          "x": 13.86,
+          "y": 2.88,
+          "z": 20.6
+        },
+        {
+          "x": 13.58,
+          "y": 3.06,
+          "z": 20.6
+        },
+        {
+          "x": 13.3,
+          "y": 3.24,
+          "z": 20.6
+        },
+        {
+          "x": 13.02,
+          "y": 3.42,
+          "z": 20.6
+        },
+        {
+          "x": 12.74,
+          "y": 3.6,
+          "z": 20.6
+        },
+        {
+          "x": 12.46,
+          "y": 3.78,
+          "z": 20.6
+        },
+        {
+          "x": 12.18,
+          "y": 3.96,
+          "z": 20.6
+        },
+        {
+          "x": 11.9,
+          "y": 4.14,
+          "z": 20.6
+        },
+        {
+          "x": 11.62,
+          "y": 4.32,
+          "z": 20.6
+        },
+        {
+          "x": 11,
+          "y": 4.32,
+          "z": 20.6
+        },
+        {
+          "x": 11,
+          "y": 4.32,
+          "z": 19
+        },
+        {
+          "x": 11,
+          "y": 4.32,
+          "z": 8
+        },
+        {
+          "x": 47,
+          "y": 4.32,
+          "z": 8
+        },
+        {
+          "x": 47,
+          "y": 4.32,
+          "z": 27
+        },
+        {
+          "x": 34.25,
+          "y": 4.32,
+          "z": 27
+        },
+        {
+          "x": 34.25,
+          "y": 4.32,
+          "z": 29
+        }
+      ]
+    },
+    {
+      "key": "hide",
+      "title": "숨바꼭질",
+      "points": [
+        {
+          "x": 39,
+          "y": 4.32,
+          "z": 3
+        },
+        {
+          "x": 39,
+          "y": 4.32,
+          "z": 8
+        },
+        {
+          "x": 23.35,
+          "y": 4.32,
+          "z": 8
+        },
+        {
+          "x": 23.35,
+          "y": 4.32,
+          "z": 23.5
+        },
+        {
+          "x": 27,
+          "y": 4.32,
+          "z": 23.5
+        },
+        {
+          "x": 27,
+          "y": 4.32,
+          "z": 27
+        },
+        {
+          "x": 26.175,
+          "y": 4.32,
+          "z": 27
+        },
+        {
+          "x": 26.175,
+          "y": 4.32,
+          "z": 28.1
+        },
+        {
+          "x": 26.175,
+          "y": 4.5,
+          "z": 28.34
+        },
+        {
+          "x": 26.175,
+          "y": 4.68,
+          "z": 28.62
+        },
+        {
+          "x": 26.175,
+          "y": 4.86,
+          "z": 28.9
+        },
+        {
+          "x": 26.175,
+          "y": 5.04,
+          "z": 29.18
+        },
+        {
+          "x": 26.175,
+          "y": 5.22,
+          "z": 29.46
+        },
+        {
+          "x": 26.175,
+          "y": 5.4,
+          "z": 29.74
+        },
+        {
+          "x": 26.175,
+          "y": 5.58,
+          "z": 30.02
+        },
+        {
+          "x": 26.175,
+          "y": 5.76,
+          "z": 30.3
+        },
+        {
+          "x": 26.175,
+          "y": 5.94,
+          "z": 30.58
+        },
+        {
+          "x": 26.175,
+          "y": 6.12,
+          "z": 30.86
+        },
+        {
+          "x": 26.175,
+          "y": 6.3,
+          "z": 31.14
+        },
+        {
+          "x": 26.175,
+          "y": 6.48,
+          "z": 31.42
+        },
+        {
+          "x": 26.175,
+          "y": 6.66,
+          "z": 31.7
+        },
+        {
+          "x": 26.175,
+          "y": 6.66,
+          "z": 32.65
+        },
+        {
+          "x": 28.625,
+          "y": 6.66,
+          "z": 32.65
+        },
+        {
+          "x": 28.625,
+          "y": 6.84,
+          "z": 31.7
+        },
+        {
+          "x": 28.625,
+          "y": 7.02,
+          "z": 31.42
+        },
+        {
+          "x": 28.625,
+          "y": 7.2,
+          "z": 31.14
+        },
+        {
+          "x": 28.625,
+          "y": 7.38,
+          "z": 30.86
+        },
+        {
+          "x": 28.625,
+          "y": 7.56,
+          "z": 30.58
+        },
+        {
+          "x": 28.625,
+          "y": 7.74,
+          "z": 30.3
+        },
+        {
+          "x": 28.625,
+          "y": 7.92,
+          "z": 30.02
+        },
+        {
+          "x": 28.625,
+          "y": 8.1,
+          "z": 29.74
+        },
+        {
+          "x": 28.625,
+          "y": 8.28,
+          "z": 29.46
+        },
+        {
+          "x": 28.625,
+          "y": 8.46,
+          "z": 29.18
+        },
+        {
+          "x": 28.625,
+          "y": 8.64,
+          "z": 28.9
+        },
+        {
+          "x": 28.625,
+          "y": 8.82,
+          "z": 28.62
+        },
+        {
+          "x": 28.625,
+          "y": 9.0,
+          "z": 28.34
+        },
+        {
+          "x": 28.625,
+          "y": 9.0,
+          "z": 27.2
+        },
+        {
+          "x": 27,
+          "y": 9.0,
+          "z": 27
+        },
+        {
+          "x": 27,
+          "y": 9,
+          "z": 24
+        },
+        {
+          "x": 27,
+          "y": 9,
+          "z": 19
+        },
+        {
+          "x": 4,
+          "y": 9,
+          "z": 19
+        },
+        {
+          "x": 4,
+          "y": 9,
+          "z": 24
+        },
+        {
+          "x": 4,
+          "y": 9,
+          "z": 29.6
+        }
+      ]
+    },
+    {
+      "key": "escape",
+      "title": "창문·유물 사고 후 피신",
+      "points": [
+        {
+          "x": -6,
+          "y": 0,
+          "z": 10
+        },
+        {
+          "x": -6,
+          "y": 0,
+          "z": 7.5
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "z": 7.5
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "z": 12
+        },
+        {
+          "x": 2.5,
+          "y": 0,
+          "z": 12
+        },
+        {
+          "x": 2.5,
+          "y": 0,
+          "z": 17
+        },
+        {
+          "x": 5.7,
+          "y": 0,
+          "z": 17
+        },
+        {
+          "x": 5.7,
+          "y": 0,
+          "z": 14
+        },
+        {
+          "x": 22,
+          "y": 0,
+          "z": 14
+        },
+        {
+          "x": 22,
+          "y": 0,
+          "z": 16
+        },
+        {
+          "x": 27,
+          "y": 0,
+          "z": 16
+        },
+        {
+          "x": 27,
+          "y": 0,
+          "z": 27
+        },
+        {
+          "x": 26.175,
+          "y": 0,
+          "z": 27
+        },
+        {
+          "x": 26.175,
+          "y": 0,
+          "z": 28.1
+        },
+        {
+          "x": 26.175,
+          "y": 0.18,
+          "z": 28.351667
+        },
+        {
+          "x": 26.175,
+          "y": 0.36,
+          "z": 28.655
+        },
+        {
+          "x": 26.175,
+          "y": 0.54,
+          "z": 28.958333
+        },
+        {
+          "x": 26.175,
+          "y": 0.72,
+          "z": 29.261667
+        },
+        {
+          "x": 26.175,
+          "y": 0.9,
+          "z": 29.565
+        },
+        {
+          "x": 26.175,
+          "y": 1.08,
+          "z": 29.868333
+        },
+        {
+          "x": 26.175,
+          "y": 1.26,
+          "z": 30.171667
+        },
+        {
+          "x": 26.175,
+          "y": 1.44,
+          "z": 30.475
+        },
+        {
+          "x": 26.175,
+          "y": 1.62,
+          "z": 30.778333
+        },
+        {
+          "x": 26.175,
+          "y": 1.8,
+          "z": 31.081667
+        },
+        {
+          "x": 26.175,
+          "y": 1.98,
+          "z": 31.385
+        },
+        {
+          "x": 26.175,
+          "y": 2.16,
+          "z": 31.688333
+        },
+        {
+          "x": 26.175,
+          "y": 2.16,
+          "z": 32.65
+        },
+        {
+          "x": 28.625,
+          "y": 2.16,
+          "z": 32.65
+        },
+        {
+          "x": 28.625,
+          "y": 2.34,
+          "z": 31.688333
+        },
+        {
+          "x": 28.625,
+          "y": 2.52,
+          "z": 31.385
+        },
+        {
+          "x": 28.625,
+          "y": 2.7,
+          "z": 31.081667
+        },
+        {
+          "x": 28.625,
+          "y": 2.88,
+          "z": 30.778333
+        },
+        {
+          "x": 28.625,
+          "y": 3.06,
+          "z": 30.475
+        },
+        {
+          "x": 28.625,
+          "y": 3.24,
+          "z": 30.171667
+        },
+        {
+          "x": 28.625,
+          "y": 3.42,
+          "z": 29.868333
+        },
+        {
+          "x": 28.625,
+          "y": 3.6,
+          "z": 29.565
+        },
+        {
+          "x": 28.625,
+          "y": 3.78,
+          "z": 29.261667
+        },
+        {
+          "x": 28.625,
+          "y": 3.96,
+          "z": 28.958333
+        },
+        {
+          "x": 28.625,
+          "y": 4.14,
+          "z": 28.655
+        },
+        {
+          "x": 28.625,
+          "y": 4.32,
+          "z": 28.351667
+        },
+        {
+          "x": 28.625,
+          "y": 4.32,
+          "z": 27.2
+        },
+        {
+          "x": 27,
+          "y": 4.32,
+          "z": 27
+        },
+        {
+          "x": 26.175,
+          "y": 4.32,
+          "z": 27
+        },
+        {
+          "x": 26.175,
+          "y": 4.32,
+          "z": 28.1
+        },
+        {
+          "x": 26.175,
+          "y": 4.5,
+          "z": 28.34
+        },
+        {
+          "x": 26.175,
+          "y": 4.68,
+          "z": 28.62
+        },
+        {
+          "x": 26.175,
+          "y": 4.86,
+          "z": 28.9
+        },
+        {
+          "x": 26.175,
+          "y": 5.04,
+          "z": 29.18
+        },
+        {
+          "x": 26.175,
+          "y": 5.22,
+          "z": 29.46
+        },
+        {
+          "x": 26.175,
+          "y": 5.4,
+          "z": 29.74
+        },
+        {
+          "x": 26.175,
+          "y": 5.58,
+          "z": 30.02
+        },
+        {
+          "x": 26.175,
+          "y": 5.76,
+          "z": 30.3
+        },
+        {
+          "x": 26.175,
+          "y": 5.94,
+          "z": 30.58
+        },
+        {
+          "x": 26.175,
+          "y": 6.12,
+          "z": 30.86
+        },
+        {
+          "x": 26.175,
+          "y": 6.3,
+          "z": 31.14
+        },
+        {
+          "x": 26.175,
+          "y": 6.48,
+          "z": 31.42
+        },
+        {
+          "x": 26.175,
+          "y": 6.66,
+          "z": 31.7
+        },
+        {
+          "x": 26.175,
+          "y": 6.66,
+          "z": 32.65
+        },
+        {
+          "x": 28.625,
+          "y": 6.66,
+          "z": 32.65
+        },
+        {
+          "x": 28.625,
+          "y": 6.84,
+          "z": 31.7
+        },
+        {
+          "x": 28.625,
+          "y": 7.02,
+          "z": 31.42
+        },
+        {
+          "x": 28.625,
+          "y": 7.2,
+          "z": 31.14
+        },
+        {
+          "x": 28.625,
+          "y": 7.38,
+          "z": 30.86
+        },
+        {
+          "x": 28.625,
+          "y": 7.56,
+          "z": 30.58
+        },
+        {
+          "x": 28.625,
+          "y": 7.74,
+          "z": 30.3
+        },
+        {
+          "x": 28.625,
+          "y": 7.92,
+          "z": 30.02
+        },
+        {
+          "x": 28.625,
+          "y": 8.1,
+          "z": 29.74
+        },
+        {
+          "x": 28.625,
+          "y": 8.28,
+          "z": 29.46
+        },
+        {
+          "x": 28.625,
+          "y": 8.46,
+          "z": 29.18
+        },
+        {
+          "x": 28.625,
+          "y": 8.64,
+          "z": 28.9
+        },
+        {
+          "x": 28.625,
+          "y": 8.82,
+          "z": 28.62
+        },
+        {
+          "x": 28.625,
+          "y": 9.0,
+          "z": 28.34
+        },
+        {
+          "x": 28.625,
+          "y": 9.0,
+          "z": 27.2
+        },
+        {
+          "x": 27,
+          "y": 9.0,
+          "z": 27
+        },
+        {
+          "x": 27,
+          "y": 9,
+          "z": 24
+        },
+        {
+          "x": 27,
+          "y": 9,
+          "z": 19
+        },
+        {
+          "x": 4,
+          "y": 9,
+          "z": 19
+        },
+        {
+          "x": 4,
+          "y": 9,
+          "z": 24
+        },
+        {
+          "x": 4,
+          "y": 9,
+          "z": 29.6
+        }
+      ]
+    },
+    {
+      "key": "eastStair",
+      "title": "eastStair",
+      "points": [
+        {
+          "x": 17,
+          "y": 0,
+          "z": 16.15
+        },
+        {
+          "x": 17.0,
+          "y": 0.18,
+          "z": 16.5
+        },
+        {
+          "x": 17.0,
+          "y": 0.36,
+          "z": 16.8
+        },
+        {
+          "x": 17.0,
+          "y": 0.54,
+          "z": 17.1
+        },
+        {
+          "x": 17.0,
+          "y": 0.72,
+          "z": 17.4
+        },
+        {
+          "x": 17.0,
+          "y": 0.9,
+          "z": 17.7
+        },
+        {
+          "x": 17.0,
+          "y": 1.08,
+          "z": 18.0
+        },
+        {
+          "x": 17.0,
+          "y": 1.26,
+          "z": 18.3
+        },
+        {
+          "x": 17.0,
+          "y": 1.44,
+          "z": 18.6
+        },
+        {
+          "x": 17.0,
+          "y": 1.62,
+          "z": 18.9
+        },
+        {
+          "x": 17.0,
+          "y": 1.8,
+          "z": 19.2
+        },
+        {
+          "x": 17,
+          "y": 1.8,
+          "z": 20.15
+        },
+        {
+          "x": 18.74,
+          "y": 1.98,
+          "z": 20.15
+        },
+        {
+          "x": 19.02,
+          "y": 2.16,
+          "z": 20.15
+        },
+        {
+          "x": 19.3,
+          "y": 2.34,
+          "z": 20.15
+        },
+        {
+          "x": 19.58,
+          "y": 2.52,
+          "z": 20.15
+        },
+        {
+          "x": 19.86,
+          "y": 2.7,
+          "z": 20.15
+        },
+        {
+          "x": 20.14,
+          "y": 2.88,
+          "z": 20.15
+        },
+        {
+          "x": 20.42,
+          "y": 3.06,
+          "z": 20.15
+        },
+        {
+          "x": 20.7,
+          "y": 3.24,
+          "z": 20.15
+        },
+        {
+          "x": 21.64,
+          "y": 3.24,
+          "z": 20.15
+        },
+        {
+          "x": 21.64,
+          "y": 3.42,
+          "z": 21.09
+        },
+        {
+          "x": 21.64,
+          "y": 3.6,
+          "z": 21.37
+        },
+        {
+          "x": 21.64,
+          "y": 3.78,
+          "z": 21.65
+        },
+        {
+          "x": 21.64,
+          "y": 3.96,
+          "z": 21.93
+        },
+        {
+          "x": 21.64,
+          "y": 4.14,
+          "z": 22.21
+        },
+        {
+          "x": 21.64,
+          "y": 4.32,
+          "z": 22.49
+        },
+        {
+          "x": 21.64,
+          "y": 4.32,
+          "z": 23.4
+        },
+        {
+          "x": 23.35,
+          "y": 4.32,
+          "z": 23.4
+        },
+        {
+          "x": 23.35,
+          "y": 4.32,
+          "z": 19
+        }
+      ]
+    }
+  ],
+  "doors": [
+    {
+      "floor": "ground",
+      "a": "OUT",
+      "b": "A",
+      "axis": "h",
+      "point": [
+        17,
+        0
+      ],
+      "width": 2.4,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_0"
+    },
+    {
+      "floor": "ground",
+      "a": "F1",
+      "b": "D4",
+      "axis": "h",
+      "point": [
+        39,
+        6
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_9"
+    },
+    {
+      "floor": "ground",
+      "a": "F1",
+      "b": "C3",
+      "axis": "h",
+      "point": [
+        47,
+        6
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_10"
+    },
+    {
+      "floor": "ground",
+      "a": "A",
+      "b": "B",
+      "axis": "h",
+      "point": [
+        17,
+        10
+      ],
+      "width": 3,
+      "kind": "door",
+      "frameOwner": "hall source"
+    },
+    {
+      "floor": "ground",
+      "a": "C1",
+      "b": "D1",
+      "axis": "h",
+      "point": [
+        5,
+        10
+      ],
+      "width": 1.6,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_4"
+    },
+    {
+      "floor": "ground",
+      "a": "C2",
+      "b": "F0",
+      "axis": "h",
+      "point": [
+        27,
+        10
+      ],
+      "width": 1.6,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_7"
+    },
+    {
+      "floor": "ground",
+      "a": "F1",
+      "b": "F2",
+      "axis": "h",
+      "point": [
+        47,
+        10
+      ],
+      "width": 1.6,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_11"
+    },
+    {
+      "floor": "ground",
+      "a": "D1",
+      "b": "D2",
+      "axis": "h",
+      "point": [
+        5,
+        22
+      ],
+      "width": 1.6,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_18"
+    },
+    {
+      "floor": "ground",
+      "a": "F2",
+      "b": "F6",
+      "axis": "h",
+      "point": [
+        47,
+        26
+      ],
+      "width": 1.6,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_12"
+    },
+    {
+      "floor": "ground",
+      "a": "F0",
+      "b": "S2",
+      "axis": "h",
+      "point": [
+        27,
+        26
+      ],
+      "width": 1.8,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_13"
+    },
+    {
+      "floor": "ground",
+      "a": "SE1",
+      "b": "SE2",
+      "axis": "h",
+      "point": [
+        22,
+        26
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_21"
+    },
+    {
+      "floor": "ground",
+      "a": "F6",
+      "b": "F3",
+      "axis": "h",
+      "point": [
+        35,
+        28
+      ],
+      "width": 1.6,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_15"
+    },
+    {
+      "floor": "ground",
+      "a": "F6",
+      "b": "F4",
+      "axis": "h",
+      "point": [
+        42.5,
+        28
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_16"
+    },
+    {
+      "floor": "ground",
+      "a": "F6",
+      "b": "F5",
+      "axis": "h",
+      "point": [
+        47.5,
+        28
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_17"
+    },
+    {
+      "floor": "ground",
+      "a": "OUT",
+      "b": "C1",
+      "axis": "v",
+      "point": [
+        0,
+        7.5
+      ],
+      "width": 1.6,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_23"
+    },
+    {
+      "floor": "ground",
+      "a": "A",
+      "b": "C1",
+      "axis": "v",
+      "point": [
+        10,
+        6
+      ],
+      "width": 1.6,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_2"
+    },
+    {
+      "floor": "ground",
+      "a": "B",
+      "b": "D1",
+      "axis": "v",
+      "point": [
+        10,
+        14
+      ],
+      "width": 3.6,
+      "kind": "arch",
+      "frameOwner": "hall source"
+    },
+    {
+      "floor": "ground",
+      "a": "D2",
+      "b": "D3",
+      "axis": "v",
+      "point": [
+        10,
+        28
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_19"
+    },
+    {
+      "floor": "ground",
+      "a": "SE1",
+      "b": "GARDEN",
+      "axis": "v",
+      "point": [
+        20.3,
+        24
+      ],
+      "width": 1.5,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_22"
+    },
+    {
+      "floor": "ground",
+      "a": "A",
+      "b": "C2",
+      "axis": "v",
+      "point": [
+        24,
+        6
+      ],
+      "width": 1.6,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_3"
+    },
+    {
+      "floor": "ground",
+      "a": "B",
+      "b": "F0",
+      "axis": "v",
+      "point": [
+        24,
+        16
+      ],
+      "width": 2.2,
+      "kind": "door",
+      "frameOwner": "hall source"
+    },
+    {
+      "floor": "ground",
+      "a": "F0",
+      "b": "SE1",
+      "axis": "v",
+      "point": [
+        24,
+        24
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_20"
+    },
+    {
+      "floor": "ground",
+      "a": "F6",
+      "b": "S2",
+      "axis": "v",
+      "point": [
+        30,
+        27
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_14"
+    },
+    {
+      "floor": "ground",
+      "a": "C2",
+      "b": "F1",
+      "axis": "v",
+      "point": [
+        34,
+        8
+      ],
+      "width": 1.6,
+      "kind": "door",
+      "frameOwner": "Frame_ground_door_8"
+    },
+    {
+      "floor": "upper",
+      "a": "E3",
+      "b": "E2",
+      "axis": "h",
+      "point": [
+        17,
+        6
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_upper_door_6"
+    },
+    {
+      "floor": "upper",
+      "a": "E3",
+      "b": "E4",
+      "axis": "h",
+      "point": [
+        29,
+        6
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_upper_door_7"
+    },
+    {
+      "floor": "upper",
+      "a": "F1",
+      "b": "F8",
+      "axis": "h",
+      "point": [
+        39,
+        6
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_upper_door_17"
+    },
+    {
+      "floor": "upper",
+      "a": "F1",
+      "b": "F9",
+      "axis": "h",
+      "point": [
+        47,
+        6
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_upper_door_18"
+    },
+    {
+      "floor": "upper",
+      "a": "P0",
+      "b": "P-BED",
+      "axis": "h",
+      "point": [
+        9,
+        10
+      ],
+      "width": 1.3,
+      "kind": "door",
+      "frameOwner": "Frame_upper_door_1"
+    },
+    {
+      "floor": "upper",
+      "a": "E3",
+      "b": "B-W",
+      "axis": "h",
+      "point": [
+        11,
+        10
+      ],
+      "width": 1.5,
+      "kind": "door",
+      "frameOwner": "hall source"
+    },
+    {
+      "floor": "upper",
+      "a": "E3",
+      "b": "B-E",
+      "axis": "h",
+      "point": [
+        23.35,
+        10
+      ],
+      "width": 1.2,
+      "kind": "door",
+      "frameOwner": "hall source"
+    },
+    {
+      "floor": "upper",
+      "a": "E3",
+      "b": "F0",
+      "axis": "h",
+      "point": [
+        27,
+        10
+      ],
+      "width": 1.8,
+      "kind": "door",
+      "frameOwner": "Frame_upper_door_10"
+    },
+    {
+      "floor": "upper",
+      "a": "F1",
+      "b": "F2",
+      "axis": "h",
+      "point": [
+        47,
+        10
+      ],
+      "width": 1.6,
+      "kind": "door",
+      "frameOwner": "Frame_upper_door_19"
+    },
+    {
+      "floor": "upper",
+      "a": "B-W",
+      "b": "B-NW",
+      "axis": "h",
+      "point": [
+        11,
+        22
+      ],
+      "width": 1.6,
+      "kind": "door",
+      "frameOwner": "hall source"
+    },
+    {
+      "floor": "upper",
+      "a": "B-E",
+      "b": "B-NE",
+      "axis": "h",
+      "point": [
+        23.35,
+        22
+      ],
+      "width": 1.02,
+      "kind": "door",
+      "frameOwner": "hall source"
+    },
+    {
+      "floor": "upper",
+      "a": "F0",
+      "b": "S2",
+      "axis": "h",
+      "point": [
+        27,
+        26
+      ],
+      "width": 2,
+      "kind": "door",
+      "frameOwner": "Frame_upper_door_16"
+    },
+    {
+      "floor": "upper",
+      "a": "F2",
+      "b": "K0",
+      "axis": "h",
+      "point": [
+        47,
+        26
+      ],
+      "width": 1.5,
+      "kind": "door",
+      "frameOwner": "Frame_upper_door_20"
+    },
+    {
+      "floor": "upper",
+      "a": "K0",
+      "b": "E1",
+      "axis": "h",
+      "point": [
+        34.25,
+        28
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_upper_door_21"
+    },
+    {
+      "floor": "upper",
+      "a": "K0",
+      "b": "K-BOYS",
+      "axis": "h",
+      "point": [
+        42.75,
+        28
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_upper_door_22"
+    },
+    {
+      "floor": "upper",
+      "a": "K0",
+      "b": "K-BATH",
+      "axis": "h",
+      "point": [
+        48.5,
+        28
+      ],
+      "width": 1.2,
+      "kind": "door",
+      "frameOwner": "Frame_upper_door_23"
+    },
+    {
+      "floor": "upper",
+      "a": "P0",
+      "b": "P-STUDY",
+      "axis": "v",
+      "point": [
+        8,
+        18
+      ],
+      "width": 1.6,
+      "kind": "door",
+      "frameOwner": "Frame_upper_door_2"
+    },
+    {
+      "floor": "upper",
+      "a": "P0",
+      "b": "P-LIB",
+      "axis": "v",
+      "point": [
+        8,
+        25
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_upper_door_3"
+    },
+    {
+      "floor": "upper",
+      "a": "P0",
+      "b": "P-BATH",
+      "axis": "v",
+      "point": [
+        8,
+        31
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_upper_door_4"
+    },
+    {
+      "floor": "upper",
+      "a": "B-W",
+      "b": "P0",
+      "axis": "v",
+      "point": [
+        10,
+        19
+      ],
+      "width": 1.5,
+      "kind": "door",
+      "restriction": "professor",
+      "frameOwner": "Frame_upper_door_0"
+    },
+    {
+      "floor": "upper",
+      "a": "P0",
+      "b": "P-STORE",
+      "axis": "v",
+      "point": [
+        10,
+        29
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_upper_door_5"
+    },
+    {
+      "floor": "upper",
+      "a": "B-NE",
+      "b": "F0",
+      "axis": "v",
+      "point": [
+        24,
+        23.5
+      ],
+      "width": 1.7,
+      "kind": "door",
+      "frameOwner": "Frame_upper_door_14"
+    },
+    {
+      "floor": "upper",
+      "a": "ER",
+      "b": "S2",
+      "axis": "v",
+      "point": [
+        24,
+        33
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_upper_door_15"
+    },
+    {
+      "floor": "upper",
+      "a": "E3",
+      "b": "F1",
+      "axis": "v",
+      "point": [
+        34,
+        8
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_upper_door_11"
+    },
+    {
+      "floor": "attic",
+      "a": "G1c",
+      "b": "G1b",
+      "axis": "h",
+      "point": [
+        27,
+        22
+      ],
+      "width": 1.6,
+      "kind": "door",
+      "frameOwner": "Frame_attic_door_1"
+    },
+    {
+      "floor": "attic",
+      "a": "G1a",
+      "b": "G2",
+      "axis": "h",
+      "point": [
+        4,
+        22
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_attic_door_3"
+    },
+    {
+      "floor": "attic",
+      "a": "G1b",
+      "b": "G3",
+      "axis": "h",
+      "point": [
+        10,
+        22
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_attic_door_4"
+    },
+    {
+      "floor": "attic",
+      "a": "G1b",
+      "b": "G4",
+      "axis": "h",
+      "point": [
+        22,
+        22
+      ],
+      "width": 1.4,
+      "kind": "door",
+      "frameOwner": "Frame_attic_door_5"
+    },
+    {
+      "floor": "attic",
+      "a": "S2",
+      "b": "G1c",
+      "axis": "h",
+      "point": [
+        27,
+        26
+      ],
+      "width": 1.6,
+      "kind": "door",
+      "frameOwner": "Frame_attic_door_0"
+    },
+    {
+      "floor": "attic",
+      "a": "G1b",
+      "b": "G1a",
+      "axis": "v",
+      "point": [
+        8,
+        19
+      ],
+      "width": 1.8,
+      "kind": "door",
+      "frameOwner": "Frame_attic_door_2"
+    }
+  ],
+  "spawn": {
+    "x": 17,
+    "y": 0,
+    "z": 11
+  },
+  "characterHeight": 1.2,
+  "characterRadius": 0.22,
+  "roomCount": 50,
+  "doorCount": 54
+}

@@ -1,0 +1,77 @@
+{
+  "selected": [
+    {
+      "key": "whole_selected",
+      "file": "01_Whole_Manor_Finished.png",
+      "title": "전체 저택 · 층별 마감 개요",
+      "source": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-41e428dc-dd85-4461-a718-56702e1df3d5.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6a8cb1c89382507d29e8e0a811d0fb8465167b9ab7a01c844ee7537805dd6a0a",
+      "relative_path": "Images/01_Whole_Manor_Finished.png"
+    },
+    {
+      "key": "hall",
+      "file": "02_Stair_Hall_Finished.png",
+      "title": "중앙 계단 홀",
+      "source": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-415ba7f0-48cc-417b-a193-290743174d64.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "783a51d85dbbf084eba28922562f6f1ab2de51b4b689f3566fcd1888eabbddda",
+      "relative_path": "Images/02_Stair_Hall_Finished.png"
+    },
+    {
+      "key": "study_corrected",
+      "file": "03_Professor_Study_Finished.png",
+      "title": "교수의 서재",
+      "source": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-72590117-1f42-4276-b3ca-0f8f145e2265.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d5001233b9dd39ff5ea2bd78f012968473dedfa2865bd86163631f9e7e43a785",
+      "relative_path": "Images/03_Professor_Study_Finished.png"
+    },
+    {
+      "key": "children",
+      "file": "04_Children_Bedroom_Finished.png",
+      "title": "아이들 침실 · 여자아이방",
+      "source": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-f8dd443e-5f34-4f8e-a5b4-814457074b9c.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e74cc295f10a37b857884131b3a3b2a1872925b2cadf3197f2b496f819bc709f",
+      "relative_path": "Images/04_Children_Bedroom_Finished.png"
+    },
+    {
+      "key": "artifacts",
+      "file": "05_Artifact_Gallery_Finished.png",
+      "title": "유물 전시실",
+      "source": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-de307ed6-f70e-4146-9f69-4baca388250f.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "526f4916ccbf50cd12aa06d786c21c9414f6fb4c970e5d989b2cc1cc830a0c6c",
+      "relative_path": "Images/05_Artifact_Gallery_Finished.png"
+    },
+    {
+      "key": "garden_corrected",
+      "file": "06_Rear_Garden_Finished.png",
+      "title": "아치창 뒤 후정",
+      "source": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-cd8a1a99-8a5a-4451-856f-a0dc881f1bfd.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f5d2eecbc0110e455fa1d40fe9373bbd2c40c884ad3dfaf1bcfcab7880fd606f",
+      "relative_path": "Images/06_Rear_Garden_Finished.png"
+    },
+    {
+      "key": "wardrobe",
+      "file": "07_Wardrobe_Room_Finished.png",
+      "title": "다락 끝 옷장방",
+      "source": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-955a678f-cb15-4edd-b12d-9a8b25451f10.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "08d24ea4952a90c6531bcd39e22fc73eeb103c8a15dcb22dbeccb58a32572f69",
+      "relative_path": "Images/07_Wardrobe_Room_Finished.png"
+    }
+  ],
+  "source_layout": "/Users/leejae/Downloads/IntoTheNarnia_ProfessorHouse/Studies/ConnectedLayout_01/Data/layout.json",
+  "layout_sha256": "c10cae9559129d7618d6f6971bfab6e8b615bec9ecafee22824a8c7b01bf7fd9",
+  "discarded_images_included": false
+}

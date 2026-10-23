@@ -1,0 +1,26 @@
+{
+  "rooms": 50,
+  "doors": 54,
+  "accessibleRoomGraph": true,
+  "routeSamples": 3137,
+  "storyRoutesChecked": 12,
+  "doorCrossingsChecked": 29,
+  "professorHasSinglePublicGateway": true,
+  "publicRoutesAvoidProfessorWing": true,
+  "childrenAccessibleOnlyViaEastGallery": true,
+  "noUpperStairBedroomShortcut": true,
+  "ballAndPeopleUseDifferentOpenings": true,
+  "roomOverlaps": 0,
+  "roomsAcrossOutdoorAreas": 0,
+  "secondaryStairAligned": true,
+  "riserHeightsAgree": true,
+  "levels": {
+    "ground": 0,
+    "splitLanding": 1.8,
+    "rightTurn": 3.24,
+    "upper": 4.32,
+    "hallCeiling": 8.84,
+    "attic": 9
+  },
+  "scope": "Diagram geometry, doorway adjacency and room-graph checks. No Unity traversal, collision, structural or historical verification."
+}

@@ -1,0 +1,16 @@
+{
+  "scope": "Actual Blender mesh ray samples, not Unity capsule/NavMesh/physics verification.",
+  "routes": [
+    "arrival",
+    "hide",
+    "escape",
+    "eastStair"
+  ],
+  "samples": 2580,
+  "proxyHeight": 1.2,
+  "proxyRadius": 0.22,
+  "minimumHeadroom": 2.7,
+  "maxFootPathToTreadDifference": 0.164,
+  "failures": [],
+  "passed": true
+}

@@ -1,0 +1,218 @@
+{
+  "date": "2026-10-23",
+  "generator": "Built-in imagegen",
+  "cli_used": false,
+  "status": "Finished-look concept review; not Unity screenshots or dimensioned construction drawings",
+  "layout_basis": "Studies/FloorPlans_03 and Studies/ConnectedLayout_01, reviewed by the user",
+  "delivery": "Approved project reference on 2026-10-23; see ../ProjectApproval.json",
+  "selected": [
+    {
+      "key": "whole_selected",
+      "file": "01_Whole_Manor_Finished.png",
+      "title": "전체 저택 · 층별 마감 개요",
+      "source": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-41e428dc-dd85-4461-a718-56702e1df3d5.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6a8cb1c89382507d29e8e0a811d0fb8465167b9ab7a01c844ee7537805dd6a0a",
+      "relative_path": "Images/01_Whole_Manor_Finished.png"
+    },
+    {
+      "key": "hall",
+      "file": "02_Stair_Hall_Finished.png",
+      "title": "중앙 계단 홀",
+      "source": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-415ba7f0-48cc-417b-a193-290743174d64.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "783a51d85dbbf084eba28922562f6f1ab2de51b4b689f3566fcd1888eabbddda",
+      "relative_path": "Images/02_Stair_Hall_Finished.png"
+    },
+    {
+      "key": "study_corrected",
+      "file": "03_Professor_Study_Finished.png",
+      "title": "교수의 서재",
+      "source": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-72590117-1f42-4276-b3ca-0f8f145e2265.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d5001233b9dd39ff5ea2bd78f012968473dedfa2865bd86163631f9e7e43a785",
+      "relative_path": "Images/03_Professor_Study_Finished.png"
+    },
+    {
+      "key": "children",
+      "file": "04_Children_Bedroom_Finished.png",
+      "title": "아이들 침실 · 여자아이방",
+      "source": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-f8dd443e-5f34-4f8e-a5b4-814457074b9c.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e74cc295f10a37b857884131b3a3b2a1872925b2cadf3197f2b496f819bc709f",
+      "relative_path": "Images/04_Children_Bedroom_Finished.png"
+    },
+    {
+      "key": "artifacts",
+      "file": "05_Artifact_Gallery_Finished.png",
+      "title": "유물 전시실",
+      "source": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-de307ed6-f70e-4146-9f69-4baca388250f.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "526f4916ccbf50cd12aa06d786c21c9414f6fb4c970e5d989b2cc1cc830a0c6c",
+      "relative_path": "Images/05_Artifact_Gallery_Finished.png"
+    },
+    {
+      "key": "garden_corrected",
+      "file": "06_Rear_Garden_Finished.png",
+      "title": "아치창 뒤 후정",
+      "source": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-cd8a1a99-8a5a-4451-856f-a0dc881f1bfd.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f5d2eecbc0110e455fa1d40fe9373bbd2c40c884ad3dfaf1bcfcab7880fd606f",
+      "relative_path": "Images/06_Rear_Garden_Finished.png"
+    },
+    {
+      "key": "wardrobe",
+      "file": "07_Wardrobe_Room_Finished.png",
+      "title": "다락 끝 옷장방",
+      "source": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-955a678f-cb15-4edd-b12d-9a8b25451f10.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "08d24ea4952a90c6531bcd39e22fc73eeb103c8a15dcb22dbeccb58a32572f69",
+      "relative_path": "Images/07_Wardrobe_Room_Finished.png"
+    }
+  ],
+  "requests": [
+    {
+      "key": "hall",
+      "selected": true,
+      "prompt": "Use case: style-transfer / stylized-concept.\nAsset: one polished finished-game environment concept image, landscape 3:2, full bleed, no layout panels, no text.\nImage 1 is the STRICT geometry and camera source: the newly approved hall blockout. Image 2 is ONLY the approved rounded low-poly material, mood, and Lucy character reference. Image 3 supplies decorative mood only, never its older geometry.\nTransform image 1 into the fully finished professor's manor stair hall for a warm, mysterious children's adventure game inspired by The Chronicles of Narnia.\nPRESERVE image 1's framing, very high ceiling, exact scale, central tall pointed arch window, short common landing, gallery levels, and asymmetric staircase: central 10 steps to a small landing; long left flight along the rear wall; right flight reaches a turn and climbs away to the upper east arrival. Keep the landing physically against the window wall. No bridge or rear gallery crossing the window, no symmetry substitution, no extra staircase, no blocked doorway. Keep continuous rounded railings on all exposed edges.\nFinish with dark chocolate-walnut integrated wood panels, gently rounded chunky beams and stair parts, cream warm plaster, warm pale stone floor, a muted russet-red runner and rug with simplified woven pattern, aged brass, dark wood portraits in restrained frames. Add a few cohesive antique props at walls: a stone bust on a plinth, a deep moss-green cushioned chair, a narrow console with small flowers and books. Keep all walking routes clear. Soft sunny light through the large arch window, calm green garden glimpse beyond, warm amber wall sconces. Deep wood remains visibly dark, daylight remains soft and readable. Subtle satin highlights, no plastic or mirror gloss.\nReplace only the mannequin at its exact location and scale with the rounded stylized Lucy from image 2: chestnut bob, silver side hair clip, olive cardigan, cream collar, rust-brown skirt, white socks and brown shoes; a small 1.20 m child, not enlarged to adult height. Character is incidental scale, architecture is the subject.\nStrongly stylized low-poly 3D game art with broad clean surfaces, soft bevels, gentle faceting, storybook warmth, restrained detail. Match the approachable cuteness of image 2 rather than realism. Finished cohesive environment, not a greybox or catalogue of separate assets. No HUD, captions, text, arrows, modern objects, visible game engines or diagram annotations.",
+      "referenced_image_paths": [
+        "/Users/leejae/Downloads/IntoTheNarnia_ProfessorHouse/Studies/ConnectedLayout_01/Previews/06_Hall_Eye.png",
+        "/Users/leejae/Hoo/WorkSpace/IntoTheNarnia/Docs/Art/References/Lucy_ProfessorHouse_Reference_v2.png",
+        "/Users/leejae/Downloads/IntoTheNarnia_ProfessorHouse/References/Approved_Design_v1/Boards/03_B_Stair_Hall_v1.png"
+      ],
+      "transparent_background": false,
+      "output_path": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-415ba7f0-48cc-417b-a193-290743174d64.png"
+    },
+    {
+      "key": "wardrobe",
+      "selected": true,
+      "prompt": "Use case: stylized-concept. Asset: one immersive finished room image, landscape 3:2, no montage.\nImage 1 is the approved wardrobe-room layout and scale; image 2 is the earlier mood and wardrobe design reference only; image 3 is the approved character/material style.\nShow the finished version of this SAME 8 m wide by 12 m deep attic wardrobe room, from its south entrance looking north toward the solitary wardrobe. Preserve the long open floor, the wardrobe centered at the distant north end, the south entrance reached after the bent attic passage, the two tall WEST windows on the viewer's LEFT. The east wall has no shortcut door or stair. The wardrobe faces the entrance. A small rear window may be concealed behind the tall cabinet, do not turn it into a side entrance. Do not shorten the room to a tiny closet.\nKeep the chunky dark-walnut wardrobe with two vertical tree-relief doors, modest curved crown and two round brass handles from the approved design. Give just the wardrobe a subtle refined satin sheen catching the window light; not glossy lacquer. Other beams and floor are more matte. Exposed thick rounded dark roof trusses, cream plaster between timber, warmly worn broad floorboards, little other furniture, a folded cream dust sheet near the wardrobe to one side. Afternoon sun through the two left leaded-glass windows casts soft geometric light across the floor, dust motes and quiet anticipation. No portal or snow yet: this is the house before the wardrobe is opened.\nLucy, only one small character, is seen from behind in the near-middle foreground, the same chestnut bob and silver side hairclip, olive cardigan, brown skirt, white socks, brown shoes as image 3. Keep her a clear 1.20 m child with cute rounded proportions and a believable scale against the roughly 3 m cabinet, not a tiny doll in a warehouse. Architecture and gentle mystery are the subject. Polished softly rounded low-poly 3D game art for a Narnia-inspired English professor's manor. Cozy, mysterious, welcoming and child-friendly. Dark chocolate walnut, warm cream plaster, aged brass, muted russet textiles, gentle bevels, simplified carved shapes, soft faceting. Clear readable handmade game assets, not photorealism, not hyper-detailed baroque decor, not plastic. Soft warm sunlight balanced with amber sconces. No text, lettering, arrows, HUD, dimension labels, watermarks, or modern appliances.",
+      "referenced_image_paths": [
+        "/Users/leejae/Downloads/IntoTheNarnia_ProfessorHouse/Studies/ConnectedLayout_01/Previews/08_Wardrobe_Approach.png",
+        "/Users/leejae/Downloads/IntoTheNarnia_ProfessorHouse/References/Approved_Design_v1/Boards/06_G_Wardrobe_Room_v1.png",
+        "/Users/leejae/Hoo/WorkSpace/IntoTheNarnia/Docs/Art/References/Lucy_ProfessorHouse_Reference_v2.png"
+      ],
+      "transparent_background": false,
+      "output_path": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-955a678f-cb15-4edd-b12d-9a8b25451f10.png"
+    },
+    {
+      "key": "study",
+      "selected": false,
+      "prompt": "Use case: stylized-concept. Asset: one immersive finished professor's study, landscape 3:2, no montage.\nImage 1 is the approved upper-storey layout: use ONLY the large west-side room labelled P-STUDY, not any old layout. Image 2 is decorative inspiration, not room connectivity. Image 3 is the target rounded low-poly finish.\nThe professor's study is a quiet private room on the SECOND floor, approximately 8 by 12 metres, with a generous 4.5 m ceiling. Its only public approach is via the private corridor on the room's east side, not directly from the central hall. Frame an atmospheric three-quarter interior view from near the eastern doorway looking west into the room. West-facing leaded windows show upper-level tree foliage and the garden below, conveying that this is upstairs. Keep it a rectangular room and preserve the east doorway. No view or direct doorway into children's bedrooms, no staircase inside, no first-floor garden exit.\nA solid dark walnut writing desk toward the western half, a rounded leather chair, closed and open books, a paper map and brass reading lamp; tall integrated bookcases on uninterrupted wall portions, a small reading armchair, a globe, and a restrained moss-and-russet rug. Warm cream plaster and dark timber panels form one integrated architectural finish. Calm, tidy, lived-in scholarly atmosphere; compelling depth with softly rounded book spines, chunky furniture legs, broad clean surfaces. No armor in this study: the important suit of armor belongs to the ground-floor artifact gallery. No computer, no text legible in books or maps, no person in the private room. Morning/afternoon natural light on the desk, amber lamps further inside, warm shadows. Polished softly rounded low-poly 3D game art for a Narnia-inspired English professor's manor. Cozy, mysterious, welcoming and child-friendly. Dark chocolate walnut, warm cream plaster, aged brass, muted russet textiles, gentle bevels, simplified carved shapes, soft faceting. Clear readable handmade game assets, not photorealism, not hyper-detailed baroque decor, not plastic. Soft warm sunlight balanced with amber sconces. No text, lettering, arrows, HUD, dimension labels, watermarks, or modern appliances.",
+      "referenced_image_paths": [
+        "/Users/leejae/Downloads/IntoTheNarnia_ProfessorHouse/Studies/ConnectedLayout_01/Previews/03_Upper.png",
+        "/Users/leejae/Downloads/IntoTheNarnia_ProfessorHouse/References/Approved_Design_v1/Boards/04_CD_Living_Study_v1.png",
+        "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-415ba7f0-48cc-417b-a193-290743174d64.png"
+      ],
+      "transparent_background": false,
+      "output_path": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-5c09fdb9-00c1-4198-ba9b-1254c6f4dc3b.png"
+    },
+    {
+      "key": "whole",
+      "selected": false,
+      "prompt": "Use case: style-transfer / stylized-concept. Asset: one full-bleed landscape 3:2 furnished architectural cutaway, the finished manor on three floating storey slices.\nImage 1 is the strict approved geometry and exact composition. Image 2 is the finished hall's material and lighting style. Image 3 is the earlier approved rounded game art style only.\nPaint the FULLY FINISHED VERSION directly onto image 1, preserving precisely the three storey slabs, every exterior contour, corridor route, room partition, door gap, floor void, staircase connection and their relative positions. Keep the camera, separation distances and composition. Do not redesign the footprint or merge rooms. Do not add towers, bridges or rooms. Keep both green outdoor voids open all the way up: narrow rear garden behind the hall and large east courtyard. Floors are ground +0, upper +4.32, attic +9.00; the image is an exploded display, not a building with enormous storey gaps.\nMake the cut walls look like finished dark wood panelled walls with cream plaster above, cut low enough to see furniture. Replace color-coded placeholder floors with believable walnut planks, limestone tiles, moss/rust rugs. The ground floor has welcoming reception rooms in front, an artifact gallery at the west of the central stair hall with its armor by the garden window, dining to the front-right and simple service rooms at far-right rear. The upper west rooms are the professor's private study and bedroom with books, maps, an antique desk and muted fabrics; the two children's twin bedrooms remain together at the remote northeast end, reached by the same long eastern gallery and short bedroom corridor. Furnish both twin bedrooms with small rounded wooden beds and cream quilts. The upper central hall remains open with its same split staircase and continuous railings. The attic retains its long bent passage and wardrobe room at the left rear; the carved wardrobe stays at the far end of that same room. Sparse storage in other attic rooms. Do not roof over the model.\nUse miniature scale furniture appropriate to room size, cohesive object groupings and warm pools of light. Keep all passages and stairs visibly usable. Finish gardens with low rounded hedges, grass and a restrained path, no structures across them. Remove all source letters, route lines and color coding. Clean warm ivory studio background, soft shadow, very high legibility of the whole approved layout. Polished softly rounded low-poly 3D game art for a Narnia-inspired English professor's manor. Cozy, mysterious, welcoming and child-friendly. Dark chocolate walnut, warm cream plaster, aged brass, muted russet textiles, gentle bevels, simplified carved shapes, soft faceting. Clear readable handmade game assets, not photorealism, not hyper-detailed baroque decor, not plastic. Soft warm sunlight balanced with amber sconces. No text, lettering, arrows, HUD, dimension labels, watermarks, or modern appliances.",
+      "referenced_image_paths": [
+        "/Users/leejae/Downloads/IntoTheNarnia_ProfessorHouse/Studies/ConnectedLayout_01/Previews/01_Whole_Exploded.png",
+        "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-415ba7f0-48cc-417b-a193-290743174d64.png",
+        "/Users/leejae/Hoo/WorkSpace/IntoTheNarnia/Docs/Art/References/Lucy_ProfessorHouse_Reference_v2.png"
+      ],
+      "transparent_background": false,
+      "output_path": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-2ed124bd-cc2a-404b-9245-8ef296761b4c.png"
+    },
+    {
+      "key": "whole_corrected",
+      "selected": false,
+      "prompt": "Use case: precise-object-edit. Correct the layout mistakes in the FURNISHED EXPLODED MANOR in image 1, using image 2 as the strictly authoritative geometry and room-use reference. Keep image 1's beautiful dark-walnut finish, warm miniature lighting, ivory background, camera and three floating storeys. This is an architectural fidelity correction, not a redesign.\n1. ATTIC: the small room immediately in front of the wardrobe room on the top-left tier is an INDOOR wooden passage G1a. REMOVE its grass, shrubs and flowerbed completely and give it bare wooden flooring and open circulation. The long connecting top-floor passage must stay indoors and clear. The wardrobe room itself has broad bare planks and the solitary wardrobe; remove extra sitting-room furniture and rug there, preserving the quiet empty-room feeling.\n2. OUTDOOR VOIDS: inspect image 2 carefully. Its garden surfaces are ALL at ground level. There are absolutely NO garden terraces or planted beds on the floating upper/attic slabs. Keep the large east courtyard as the SAME LARGE RECTANGULAR VOID cut out of each upper level, exposing only the ground-level garden beneath. Restore its exact contour from image 2; do not split it into narrow garden strips or add connecting floor bridges. The narrow rear garden behind the main hall likewise remains empty through all storeys. No bridge behind the hall window.\n3. CHILDREN: the two adjacent rooms at the distant upper right are TWO TWIN BEDROOMS. Put exactly TWO small single beds in EACH of those two rooms, in image 2's four bed positions, with cream quilts. Keep their short corridor and closed west end as in image 2.\n4. PROFESSOR WING: the LARGE FRONT-LEFT room of the middle tier is the professor's BEDROOM; give that room one adult bed and a small dresser. The LONG MIDDLE-LEFT room is his STUDY with desk and books. The rear-left rooms are private library, bath and storage; remove the misplaced bed from the rear-left library and add bookshelves. Do not move walls or door gaps.\n5. Preserve ALL stair flights, room partitions and circulation geometry from image 2. The front main staircase is asymmetric, with a long left flight and turned right flight, not a generic symmetrical staircase. Do not invent walls across passages or roofs on this cutaway.\nRemove source labels, arrows and route lines. Keep furniture sparse enough to read the approved plan. No added storeys or rooms. Finished warm rounded low-poly 3D game dollhouse rendering, same high visual polish as image 1.",
+      "referenced_image_paths": [
+        "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-2ed124bd-cc2a-404b-9245-8ef296761b4c.png",
+        "/Users/leejae/Downloads/IntoTheNarnia_ProfessorHouse/Studies/ConnectedLayout_01/Previews/01_Whole_Exploded.png"
+      ],
+      "transparent_background": false,
+      "output_path": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-1baddb97-1e18-4d09-bb34-deff99a5baa5.png"
+    },
+    {
+      "key": "children",
+      "selected": true,
+      "prompt": "Use case: stylized-concept. Image 1 supplies the newly approved remote children's wing layout; image 2 supplies bedding and decorative mood ONLY, NOT its obsolete placement by the hall; image 3 supplies the final material style.\nRender a finished interior of the GIRLS' TWIN BEDROOM at the remote northeast end of the second floor. The room is rectangular, 8.5 m wide and 6 m deep, with two single beds in the two positions shown in image 1, headboards toward the north rear wall. Exactly two separate child-size single beds, not a double bed. A single tall leaded-glass north window is centered approximately between them, soft cream curtains with a restrained floral edge. Floors broad dark planks, cream plaster or very subtle small floral wallpaper above dark low wood panelling. Rounded walnut bedposts, thick soft cream floral quilts, modest rust/sage accents, small bedside chests, a shared rug, a few old books and one small suitcase by a wall. Keep the middle aisle and southern entrance clear.\nCamera from just inside the south doorway looking north across the room, comfortable child-adventure game scale and a high airy ceiling. The bedroom entrance is through a QUIET CLOSED CORRIDOR along the south side. No visible grand hall, no balcony railing outside the bedroom door, no internal stair or shortcut into S2. The boys have a separate neighboring room, not extra beds in this room. Gentle late-afternoon daylight, warm safe refuge within a large unfamiliar house. No people needed. Polished softly rounded low-poly 3D game environment for a Narnia-inspired English country manor. Cohesive dark walnut panels and chunky softened timber, warm cream plaster, muted russet and moss fabrics, aged brass, soft natural daylight and amber lamps, gentle faceting and simplified crafted shapes. Warm, cozy, child-friendly and quietly mysterious. Match the supplied finished hall reference. No photorealism, modern appliances, UI, lettering, arrows, labels or watermarks. Landscape 3:2, one immersive full-bleed image.",
+      "referenced_image_paths": [
+        "/Users/leejae/Downloads/IntoTheNarnia_ProfessorHouse/Studies/ConnectedLayout_01/Previews/07_Children_Wing.png",
+        "/Users/leejae/Downloads/IntoTheNarnia_ProfessorHouse/References/Approved_Design_v1/Boards/05_E_Family_Floor_v1.png",
+        "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-415ba7f0-48cc-417b-a193-290743174d64.png"
+      ],
+      "transparent_background": false,
+      "output_path": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-f8dd443e-5f34-4f8e-a5b4-814457074b9c.png"
+    },
+    {
+      "key": "artifacts",
+      "selected": true,
+      "prompt": "Use case: stylized-concept. Image 1 is the approved ground-floor artifact gallery layout, Image 2 the finished manor's style.\nShow the fully furnished artifact exhibition room D1 on the WEST ground-floor side of the main stair hall. It is a 10 by 12 m rectangular gallery. Camera near its southwest approach looking diagonally northeast so the garden-facing WEST wall is on the LEFT and the large stone arch into the central hall is on the RIGHT. Preserve that adjacency. The north doorway leads to the public library; the south doorway connects the reception room. Two west windows, a smaller one further south and a broader one further north, face the lawn at ground level. A handsome gently rounded antique suit of armor stands on a low stone plinth immediately inside the broader west window, offset enough to leave the window visible. This is the intact gallery before the ball accident.\nWarm dark-wood wainscoting and integrated exhibition cabinetry, cream plaster, broad limestone floor tiles, simplified framed portraits and maps, a few stone busts, old ceramics, compact glass display cabinets and bronze curios at the room edges. A modest russet carpet guides an open walking path between the southern entrance and the east arch. Through the east arch, a glimpse of the familiar main stair hall in the same material style. Outside the left window, lush short grass of the western garden at the same ground elevation, clipped rounded shrubs and warm sunshine. No desk dominating the room, no musical instruments, no bedroom objects. Keep the armor physically beside the window, not in the hall or study. The atmosphere is charming and valuable enough that children would worry about damaging it. No debris, no action sequence, no people needed. Polished softly rounded low-poly 3D game environment for a Narnia-inspired English country manor. Cohesive dark walnut panels and chunky softened timber, warm cream plaster, muted russet and moss fabrics, aged brass, soft natural daylight and amber lamps, gentle faceting and simplified crafted shapes. Warm, cozy, child-friendly and quietly mysterious. Match the supplied finished hall reference. No photorealism, modern appliances, UI, lettering, arrows, labels or watermarks. Landscape 3:2, one immersive full-bleed image.",
+      "referenced_image_paths": [
+        "/Users/leejae/Downloads/IntoTheNarnia_ProfessorHouse/Studies/ConnectedLayout_01/Previews/09_WestGarden_Incident.png",
+        "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-415ba7f0-48cc-417b-a193-290743174d64.png"
+      ],
+      "transparent_background": false,
+      "output_path": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-de307ed6-f70e-4146-9f69-4baca388250f.png"
+    },
+    {
+      "key": "garden",
+      "selected": false,
+      "prompt": "Use case: stylized-concept. Image 1 is the exact approved rear-garden spatial relationship. Image 2 is the hall's interior and window design. Do not import the hall interior into the garden.\nShow the completed OUTDOOR REAR GARDEN of the same manor, looking south toward the tall central hall arch window, with the narrow rear garden between the west private wing and east service/arrival wing. Use image 1's footprint and adjacency: the garden occupies the empty ground-level rectangle directly behind the arch-window wall. It remains outdoors, open to the sky and toward the rear. The west upper window-seat vestibule and east stair-arrival space remain separate indoors, inside their respective wings. Make the surrounding building walls finished, with warm muted red brick, pale rounded stone window surrounds and restrained dark timber accents consistent with an old English manor. Show the generous two-storey height of the hall wall and the tall leaded arch window; the interior landing can be faintly seen behind the glass.\nUse an elevated garden viewpoint close enough to read the arch window and separated wings. The wings stay at the exact positions in image 1; suggest their roofs only at the high edge of frame, without changing footprint. The garden has soft lawn, a short pale stone path, a modest wooden/stone bench tucked beside a planted edge, rounded low hedges and a few restrained flowering shrubs. Quiet green sunlight outside contrasts with amber interior light behind the window.\nCRITICAL: no rear corridor bridge at ANY level, no room, balcony, upper floor, glass roof or canopy covering the garden. The arch is a WINDOW, never a doorway or outside staircase. The secondary stair remains inside the east wing; do not expose it as a garden staircase. Avoid a castle courtyard, grand fountain or extra buildings. Preserve the narrow open rear-garden rectangle from image 1. Polished softly rounded low-poly 3D game environment for a Narnia-inspired English country manor. Cohesive dark walnut panels and chunky softened timber, warm cream plaster, muted russet and moss fabrics, aged brass, soft natural daylight and amber lamps, gentle faceting and simplified crafted shapes. Warm, cozy, child-friendly and quietly mysterious. Match the supplied finished hall reference. No photorealism, modern appliances, UI, lettering, arrows, labels or watermarks. Landscape 3:2, one immersive full-bleed image.",
+      "referenced_image_paths": [
+        "/Users/leejae/Downloads/IntoTheNarnia_ProfessorHouse/Studies/ConnectedLayout_01/Previews/11_RearGarden.png",
+        "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-415ba7f0-48cc-417b-a193-290743174d64.png"
+      ],
+      "transparent_background": false,
+      "output_path": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-bda955b7-96ce-4297-abe7-11cef9432503.png"
+    },
+    {
+      "key": "study_corrected",
+      "selected": true,
+      "prompt": "Make ONE precise architectural correction to this finished professor's study concept. Preserve the composition, camera, all desk/chair/books/furniture positions, dark walnut and cream palette, warm sunlight, cosy rounded game-art feeling and every other detail. Replace the large combined bay-window assembly across the rear-left wall with EXACTLY TWO SEPARATE tall rectangular leaded-glass windows in a SINGLE STRAIGHT FLAT wall. Each window is about 1.5 metres wide, with a substantial cream plaster and dark timber wall pier separating them (roughly 2.5 metres between their edges). No projecting or angled bay, no third window or glazed side panels, no change to exterior footprint. The windows are in the west wall of this upper-storey 8 by 12 metre room; keep the view of garden treetops and light direction. Keep low dark wood paneling beneath the windows and a simple low bench under one window. Adapt curtains to the two distinct openings. Do not move the desk, add doors, enlarge the room, alter shelves or introduce text. Full-bleed landscape 3:2 image.",
+      "referenced_image_paths": [
+        "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-5c09fdb9-00c1-4198-ba9b-1254c6f4dc3b.png"
+      ],
+      "transparent_background": false,
+      "output_path": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-72590117-1f42-4276-b3ca-0f8f145e2265.png"
+    },
+    {
+      "key": "garden_corrected",
+      "selected": true,
+      "prompt": "Make ONE precise architectural correction to this rear garden concept. This is a finished exterior, not a cutaway. The two upper side wings, left and right of the central tall arched hall window, are ENCLOSED INTERIOR ROOMS. Replace the entire open balcony/porch facade on each upper wing with a complete solid red-brick and dark-timber exterior wall containing CLOSED tall leaded-glass rectangular windows in pale stone surrounds. No exterior balcony, open veranda, exposed upstairs floor, open railing or exposed staircase on either side. Carry the enclosing wall continuously from the existing lower brick facade up to the existing roof/eave, following the existing footprint; interiors are only dimly visible through glass. Preserve the main central arched window exactly, the distinct wings, camera, roofs, garden lawn, bench, paved path, climbing flowers and all lighting/material/style details. The garden is open-air and the two wings are not connected by any bridge, roof, walkway or terrace across the central window. Keep the warm, softly rounded stylized 3D game art look. Full-bleed landscape 3:2 image, no text.",
+      "referenced_image_paths": [
+        "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-bda955b7-96ce-4297-abe7-11cef9432503.png"
+      ],
+      "transparent_background": false,
+      "output_path": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-cd8a1a99-8a5a-4451-856f-a0dc881f1bfd.png"
+    },
+    {
+      "key": "whole_final",
+      "selected": false,
+      "prompt": "Architectural material-and-furniture PAINTOVER. Image 1 is the actual approved three-level exploded model. Keep its geometry and exact camera composition pixel-aligned: every slab outline, partition, door gap, grey void, step, railing and all empty background must remain in precisely the same position and shape. Do not redesign, extend, add storeys or change the plan. The TOP slice is ONLY the long narrow bent attic corridor with wardrobe room at the upper-left and a SMALL staircase bay at its right end. Its far-right ends at that small staircase bay: there are NO bedrooms or additional wing on the top slice. The four existing bed blocks are ONLY on the MIDDLE slice far-right. The MIDDLE slice's big grey rectangular courtyard hole and smaller grey rear garden hole are EMPTY see-through voids, not grass terraces or floors. Only the BOTTOM slice and ground around it have grass. All partitions must stay where they are. Remove the printed model labels.\nApply the polished rounded low-poly dark-walnut/cream/aged-brass finish and soft warm light from image 2, using image 2 for MATERIAL STYLE ONLY. Turn every placeholder indoor floor into warm wood boards or limestone; walls cream plaster above dark wood paneling. Keep walls low as cutaway walls, without tall towers, roofs or obscuring rooms. Add SMALL understated furniture that fits completely within the EXISTING rooms: four beds on the four existing middle-floor bed blocks; one professor's bed in the middle floor front-left room; desk and bookcases around the existing desk block immediately behind that bedroom; bookshelves in the next room behind; seating in ground-floor front-left room, dining table in ground-floor front-right room. Other rooms may remain sparsely furnished rather than changing their geometry. Preserve the existing wardrobe in the top-left attic room and its long clear floor, with no carpet and no other major furniture. Do not duplicate any bed on the attic slice. Keep indoor corridors entirely wooden, never planted. Preserve all stairs, openings, landing shapes, rail positions and the exact three original slabs. Plain warm ivory background and soft shadows. The strict original structure matters more than decoration. No lettering, labels, dimension marks or text. One landscape 3:2 image.",
+      "referenced_image_paths": [
+        "/Users/leejae/Downloads/IntoTheNarnia_ProfessorHouse/Studies/ConnectedLayout_01/Previews/01_Whole_Exploded.png",
+        "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-415ba7f0-48cc-417b-a193-290743174d64.png"
+      ],
+      "transparent_background": false,
+      "output_path": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-50dc4c70-c288-4870-9715-9f8f9bf0d3cc.png"
+    },
+    {
+      "key": "whole_selected",
+      "selected": true,
+      "prompt": "Edit ONLY the furniture inside the THREE ROOMS on the LEFT/WEST side of the MIDDLE floating storey in this exact exploded manor image. Their furnishing was shifted one room backward. Fix as follows, leaving every architectural edge unchanged: (1) The large EMPTY room at the FRONT-LEFT corner of the MIDDLE storey, directly above the small ground-floor sitting room, is the professor's BEDROOM: put ONE comfortable double bed with dark walnut frame and green quilt, two bedside tables and a rug INSIDE that front-left empty room. (2) The room directly behind it on that SAME middle storey currently contains the double bed: REMOVE that bed completely and replace it with a professor's writing DESK, green desk chair, rug and bookcases. This is the STUDY. (3) The room immediately behind the study, farthest rear-left on that same middle storey and below the attic wardrobe room, currently contains a writing desk: replace that desk with a reading chair and bookcases; it is the private LIBRARY. These three ordered rooms are BEDROOM in front, STUDY in the middle, LIBRARY at rear. Do not move, add, remove or resize any wall, floor, doorway, staircase or railing. Do not change any other room or area, especially the four small children's beds on the middle far-right and the narrow attic footprint on top. Preserve the exact camera, scale, composition, courtyard holes, lighting, shadows, wood finishes and cream background. No labels or text. Keep every other pixel as close to the input as possible.",
+      "referenced_image_paths": [
+        "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-50dc4c70-c288-4870-9715-9f8f9bf0d3cc.png"
+      ],
+      "transparent_background": false,
+      "output_path": "/Users/leejae/.codex/generated_images/01a15c8c-65e8-7fb3-95fc-72e15876fa45/exec-41e428dc-dd85-4461-a718-56702e1df3d5.png"
+    }
+  ],
+  "original_delivery": "Downloads only; final finishes not yet approved for project integration",
+  "project_reference": "Docs/Art/ProfessorHouse_FinishedConcepts_v1"
+}

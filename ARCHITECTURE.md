@@ -79,3 +79,5 @@ Runtime, Editor, Samples, EditModeTests, PlayModeTests를 나눈다. 프로덕�
 Chalk 통합 당시 메시 820개·참조 2663개·라이트맵 37개 보존 검사는 이전 환경을 유지하기 위한 전환 기준이었다. 교수의 집 v2 재구성부터는 새 환경 프리팹·FBX의 참조, 라이트맵 UV·베이크 데이터, 계단 이동과 문별 NavMesh Area 연결을 검사한다. 씬 GUID와 `FieldManager`·`ProfessorHouseMapManager`·두 문 이름·`State` 애니메이션 파라미터는 유지한다. [교수의 집 제작 계약](Docs/Art/ProfessorHouseV2.md)과 [검증 결과](Docs/Validation/ProfessorHouseV2.md)가 현재 근거다.
 
 후속 저택 공간 제작의 기준은 2026-10-22 승인된 [확정 도면 v1](Docs/Art/ProfessorHouse_ApprovedLayout_v1/README.md)이다. 전체 방 배치·계단·정원·문 연결·서사 동선을 정의하며 현재 v2 씬 구현과 구분한다. 씬 분할·로딩 경계는 이 접속 관계를 유지하며 후속 구현에서 결정한다.
+
+연결 구조 검증 씬 `Professor_House_Connected`는 `ProfessorHouseWalkthroughRoot : SceneRoot`에서 기존 Addressables 프리로드, Factory/ObjectManager, 입력, CameraManager, UIManager를 사용한다. 원본 구조와 새 마감 참고자료의 등록 및 검증 상태는 [구현 기록](Docs/Art/ProfessorHouseConnected.md)을 따른다. 이 저작용 씬은 제품 Build Settings에 추가하지 않으며 기존 Title → Professor_House 흐름을 유지한다.

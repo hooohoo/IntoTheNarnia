@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-23",
+  "status": "approved-reference",
+  "user_confirmation": "아주 좋고 프로젝트에 자료 넣은 뒤에 다음 작업 시작해줘",
+  "generator": "Built-in imagegen",
+  "scope": "7 final PNG images and generation/edit records; style and finish reference, dimensions governed by ApprovedLayout_v1",
+  "files": [
+    {
+      "path": "Images/01_Whole_Manor_Finished.png",
+      "sha256": "6a8cb1c89382507d29e8e0a811d0fb8465167b9ab7a01c844ee7537805dd6a0a"
+    },
+    {
+      "path": "Images/02_Stair_Hall_Finished.png",
+      "sha256": "783a51d85dbbf084eba28922562f6f1ab2de51b4b689f3566fcd1888eabbddda"
+    },
+    {
+      "path": "Images/03_Professor_Study_Finished.png",
+      "sha256": "d5001233b9dd39ff5ea2bd78f012968473dedfa2865bd86163631f9e7e43a785"
+    },
+    {
+      "path": "Images/04_Children_Bedroom_Finished.png",
+      "sha256": "e74cc295f10a37b857884131b3a3b2a1872925b2cadf3197f2b496f819bc709f"
+    },
+    {
+      "path": "Images/05_Artifact_Gallery_Finished.png",
+      "sha256": "526f4916ccbf50cd12aa06d786c21c9414f6fb4c970e5d989b2cc1cc830a0c6c"
+    },
+    {
+      "path": "Images/06_Rear_Garden_Finished.png",
+      "sha256": "f5d2eecbc0110e455fa1d40fe9373bbd2c40c884ad3dfaf1bcfcab7880fd606f"
+    },
+    {
+      "path": "Images/07_Wardrobe_Room_Finished.png",
+      "sha256": "08d24ea4952a90c6531bcd39e22fc73eeb103c8a15dcb22dbeccb58a32572f69"
+    }
+  ]
+}

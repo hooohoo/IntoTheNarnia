@@ -1,0 +1,10 @@
+{
+  "parts": 464,
+  "triangles": 358366,
+  "units": "metres",
+  "sourceUpAxis": "Z",
+  "glbUpAxis": "Y",
+  "rooms": 50,
+  "doors": 54,
+  "notRuntimeOptimized": true
+}

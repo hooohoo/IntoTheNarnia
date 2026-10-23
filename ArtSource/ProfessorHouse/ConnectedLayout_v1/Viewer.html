@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>교수의 집 · 전체 연결 모형 01</title><link rel="stylesheet" href="viewer.css"></head>
+<body>
+<header><div><a class="back" href="index.html">← 검토 자료</a><h1>교수의 집 · 세 층의 연결</h1><p>확정 도면 03 → 전체 연결 모형 01</p></div><a class="plan-link" href="../../../Docs/Art/ProfessorHouse_ApprovedLayout_v1/index.html">확정 도면 열기 ↗</a></header>
+<main>
+<div class="viewport"><canvas id="view" aria-label="회전하고 확대할 수 있는 저택 3D 모형"></canvas><div class="view-status"><span class="dot"></span><span id="status" aria-live="polite">모형을 준비하고 있습니다.</span></div><div id="legend">층별 분리 · 실제 층 높이 +4.32 m / +9.00 m</div><div class="hint" id="hint">드래그 회전 · 오른쪽 드래그 이동 · 휠 확대</div><div id="error" hidden></div></div>
+<aside>
+<section><div class="step">01 · 층의 관계</div><div class="floor-buttons"><button data-mode="exploded" class="active">층별 분리</button><button data-mode="stacked">전체 조립</button><button data-mode="ground">1층</button><button data-mode="upper">2층</button><button data-mode="attic">다락</button></div></section>
+<section><div class="step">02 · 이야기의 동선</div><label class="sr-only" for="route">장면 선택</label><select id="route"><option value="">전체 구조</option><option value="arrival">첫 안내 · 교수 구역 → 아이들 침실</option><option value="hide">숨바꼭질 · 2층 → 다락 옷장방</option><option value="escape">창문·유물 사고 · 서쪽 정원 → 옷장방</option></select><p id="routeText">후정과 중정은 하늘이 열린 바깥 공간입니다. 분리 보기에서 층별 문과 연결 위치를 비교하세요.</p><div id="walkControls" hidden><div class="walk-buttons"><button id="follow">아이 눈높이로 보기</button><button id="play" aria-label="동선 재생">재생</button></div><label class="progress-label" for="progress"><span>경로 위치</span><output id="progressText">0%</output></label><input id="progress" type="range" min="0" max="1" step=".001" value="0"><p class="small">비교 인형 1.20 m · 눈높이 1.05 m.<br>Unity 이동 검증 전, 모형의 경로 미리보기입니다.</p></div></section>
+<section><div class="step">03 · 주요 구역</div><div class="presets"><button data-preset="hall">계단 홀</button><button data-preset="professor">교수 구역</button><button data-preset="children">아이들 침실</button><button data-preset="wardrobe">옷장방 접근</button><button data-preset="garden">유물 사고</button><button data-preset="stairs">보조 계단</button></div><label class="sr-only" for="room">방으로 이동</label><select id="room"><option value="">방 이름으로 찾기</option></select></section>
+<section class="options"><label><input id="cutaway" type="checkbox" checked> 벽을 낮춰 내부 보기</label><label><input id="labels" type="checkbox" checked> 방 이름 표시</label><label><input id="proxy" type="checkbox" checked> 크기 비교 인형 표시</label><div class="walk-buttons"><button id="top">위에서 보기</button><button id="reset">전체 시점</button></div></section>
+<section class="download"><a href="Models/ProfessorHouse_ConnectedLayout_01.blend">Blender 원본</a><a href="Models/ProfessorHouse_ConnectedLayout_01.glb">3D 교환 파일 · GLB</a><p class="small">공간과 동선 검토용 모형입니다.<br>최종 벽 두께·문·가구·재질은 후속 제작합니다.</p></section>
+</aside>
+</main>
+<script src="Data/viewer-model.js"></script><script src="viewer.js"></script>
+</body></html>

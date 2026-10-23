@@ -1,0 +1,17 @@
+{
+  "chunks": [
+    "AtticRooms",
+    "Gardens",
+    "GroundRooms",
+    "Hall",
+    "SecondaryStairs",
+    "UpperRooms"
+  ],
+  "visual_meshes": 57,
+  "visual_triangles": 325154,
+  "collision_meshes": 59,
+  "collision_triangles": 290270,
+  "read_write_enabled": true,
+  "lightmap_uv_generated": false,
+  "scope": "Whole-layout traversal review, not final runtime performance budget"
+}

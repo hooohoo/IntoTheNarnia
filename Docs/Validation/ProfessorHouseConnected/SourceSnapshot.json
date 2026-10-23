@@ -1,0 +1,698 @@
+{
+  "branch": "feat/professor-house-connected-walkthrough",
+  "scope": "Validated generated scene and source; hash snapshot excludes this report itself",
+  "files": [
+    {
+      "path": "ArtSource/ProfessorHouse/ConnectedLayout_v1/Data/model-spec.json",
+      "sha256": "fad8e74ff5f9b98045a7d69722b29a12fc3bbf013d362186141cf8f443232a5b"
+    },
+    {
+      "path": "ArtSource/ProfessorHouse/ConnectedLayout_v1/Models/ProfessorHouse_ConnectedLayout_01.blend",
+      "sha256": "40e90da3ba865f69bd29099661af1718c1f4f0bd2d04477baa085aea281709b9"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House_Connected/Connected_NavMesh.asset",
+      "sha256": "f314dfe7305c0c0449af47d5796196843db2e77327ae1e8d2ae891edecfd5b7e"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House_Connected/Connected_NavMesh.asset.meta",
+      "sha256": "52fd2926b45b41a862bb67b5a209aac33769a6266c9c64b952253aeb37753a4e",
+      "validated_sha256": "0c63daf8c6576406006f65b5766036c38b101eb5809159b9cc3d443783b12874"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House_Connected.unity",
+      "sha256": "4595d1451dcafa61834c972be6385cb83e8eba881faac60115d75c4e35ba9c80",
+      "validated_sha256": "5f15b17f3f49039c6a0ab2d8072add7bb452681e5ecd0729f6a3cdd5d89e909b"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House_Connected.unity.meta",
+      "sha256": "ee5189f266348b9c4a8ae12393a7a45c4d3305b1295d919632fda569552bcfd5",
+      "validated_sha256": "59060223f763cb184363a7a9526b25c57950e0099188fdb5f85f29d80f6e40b0"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/ProfessorHouseWalkthroughRoot.cs",
+      "sha256": "76126e1582bfaa0ea2ec4f38b110f41aae4232517ede11b50db375351a2d0413"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/ProfessorHouseWalkthroughRoot.cs.meta",
+      "sha256": "723e4e26f41ebe7bf03bacb8e5fe6f3e772d24b9797749b86d59c06cc37e658a",
+      "validated_sha256": "1ce2529c4271512c6d9281901aed2150a38c2a31dd5a3daec2ec20af962b6544"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_AtticRooms.prefab",
+      "sha256": "c321bb4ea7b733ac8fcb6af3f7b3ff1031ddbd32f10ee35fc1979674b1830b3d"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_AtticRooms.prefab.meta",
+      "sha256": "924a1cb2dc61174b89a5cbc0f8d612ac8d0b26ab9d1a2d403a451d12c154e601",
+      "validated_sha256": "11a77deb892a009e9f5593b2008d0b3c132d2f2bd0ec1c75c9979abe4ec8bf0f"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_Gardens.prefab",
+      "sha256": "0287dcc91db077dfc5af8e85c15b4a6cf3dfd100c6c7cd545d4b6a00a2a1e3de"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_Gardens.prefab.meta",
+      "sha256": "837fbb731b6ac0ae8dc477b2208987cffc50666cb22badfd965cf0eed99a8bbe",
+      "validated_sha256": "4f044537dd2519a85e1be18e4753e8740600bd7026ea84a871cfc66e37a1cb33"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_GroundRooms.prefab",
+      "sha256": "b127e8ce4eb4baac329fec5263c77b03a52471edb943fb32560d434f7e828781"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_GroundRooms.prefab.meta",
+      "sha256": "97d6028ca2425ae884c6b101d2ac889c3540cd76dc3af6cf0dc512705d0f78b7",
+      "validated_sha256": "56ec1dfeaf370cf72d45b8c9b1dd9b6b45631eddafc51ed8ea3a8c78923c4350"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_Hall.prefab",
+      "sha256": "0a63dea2b4fa30ad8f5c9b14828edd585f64320e9522f77496fa56aad9aaaf3e"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_Hall.prefab.meta",
+      "sha256": "34e8f336523709a4100230e82fee5beb8139aedce28fc58e4b5f0ef3d0b06f2d",
+      "validated_sha256": "4430e4a19e263307af658ee4b3a35edef6e8b83a05699ff5b86466c859b65030"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_SecondaryStairs.prefab",
+      "sha256": "78c83898aa790bef500b12832b1abaf3445eaaaa4f5a4da14c4d3156e7bd163e"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_SecondaryStairs.prefab.meta",
+      "sha256": "b8e28e3a0ec4362a6259891f0a18204bc8ceb52b2ab275bfc2e274f32e208be1",
+      "validated_sha256": "e6077217209b083f63710332cd488911d6ec1dda664c9c783c3535b0cfe4dc6a"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_UpperRooms.prefab",
+      "sha256": "8a3013ac7e22a7771df74fab5a5ff43bc6bbc3a2f08c35cbf7c9d2c6ad56a503"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_UpperRooms.prefab.meta",
+      "sha256": "978e98aba1cc2cdb5d47a5879ff08987a1693e333d1a1cc2bd77b130806c3e63",
+      "validated_sha256": "3301995fbcd6e2c279f95ffcfd5003e20d4c989231672a2bcdf0bb113ddf14e4"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_armor.mat",
+      "sha256": "82b60a4ca421c518b51bd99a6f18692221735b501118008033ebfdc08a5da823",
+      "validated_sha256": "252b2c92a61d7290fb97f4f45e9e68d8b253c29b8178eee0cda0a76592cb342f"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_armor.mat.meta",
+      "sha256": "bbff40a945ea5db5719b5b34d3f8229a3327d8e7805835db24551faf52822b6d",
+      "validated_sha256": "314b89bdb44e4596f842abbec33291b1b8b72a3989297faa194642f26e1e14f3"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_atticFloor.mat",
+      "sha256": "0c7b4ce9c5c474f3ce1b0c75fa1debe4e35748974ae28c2af69f5b7018682577",
+      "validated_sha256": "00d4a6443888860691590147dcedf47802180813ff3024776462f0105c3bf2e0"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_atticFloor.mat.meta",
+      "sha256": "d3b67528a256929d4c836e12a93338dc5782a36508002bf67480a6069a63dfa6",
+      "validated_sha256": "32caab33787e54061d4fb491481e58215619c6c25b010c973ae64c2fc5f16c56"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_black.mat",
+      "sha256": "903094f962fefdbc3a2687a2c5f6b6d71405a6050e56becdb58b45cfb6d377d5",
+      "validated_sha256": "11ccc0f3737e9a6fcb4627727be6d06036eb41cdd4b634beb47e9216cd2258ea"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_black.mat.meta",
+      "sha256": "e680ebbebec10dfa473157dc05b8d2de0b149242fb34cc282cdcfc8eebcbf3ab",
+      "validated_sha256": "acda1de855143ca2b300ca803d0c35a4c441743254fca2b7e630f0ffcd81b2ae"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_blue.mat",
+      "sha256": "da4995f1313db46334f22e8be9442ee55bc8ccda950ea2711b7ec14577af2dfd",
+      "validated_sha256": "80d8d2f89ca1ba155f35e34b250a30bf14e96d1a316a53bffe832c05a5bbdf9b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_blue.mat.meta",
+      "sha256": "702996edfab42e760f18dd05e52fbf124e287a062a93ee06e4d0c901b4252d31",
+      "validated_sha256": "4a85bf5d7e00645f2255d9ac72738ff8acf1b13277a171a8e37828f9b8d5072c"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_brass.mat",
+      "sha256": "1626d15587a86baf6def35b95b5c199016d53be5bc6784f634e0d3f8c348eeb0",
+      "validated_sha256": "29343c33afff241dafea24a46bfa9f627bae7d631f749248bd66eadb8362ed29"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_brass.mat.meta",
+      "sha256": "54ace4ec3418eb875e433b0db9883c9b3e57d7bbdad26cff65355327f9254902",
+      "validated_sha256": "afca7d06c9b76f79605615dbbae166eb938cff5dfb81a21a0ea4f5e61f059c31"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_brown.mat",
+      "sha256": "7900f230cec2d160d52b702e0076e58fd3c3d2ad2466adc2225a3473f24e4da4",
+      "validated_sha256": "8e14b5e49124915db8c57152bc9fcfc91c70f5b54c4de678ebc10da5d3e476f1"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_brown.mat.meta",
+      "sha256": "28c8f9cc8099ecda065b59beac3193d4589cdc5d83322505dee170deb9c39f5d",
+      "validated_sha256": "140d167af5cdd9ffbefa894fba77388fd292357fd57bf13f0526f3df294ce753"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_chalk.mat",
+      "sha256": "b01103ab93a300d3631d718e1ebb42f7b661802ec5d3909e0b534db39d492fe7",
+      "validated_sha256": "b6a414f50332a5f4bca193b05c3cdf1ced725b7105914f2c06798a5dd1e65f92"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_chalk.mat.meta",
+      "sha256": "337a7d948d8ba0804946d9d6fcfcf45a14e4e65a267a41ce00ef2acb3e1b6b06",
+      "validated_sha256": "dce307fa3b862247756e29cc4471ab33b4b4b7bba5e8387ebcb3057e01278442"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_childSkin.mat",
+      "sha256": "d947fd7091aabeb3c470358cbd61c94005c5c4bb3eea60df539e73a0ee123294",
+      "validated_sha256": "af9878d0b9631f04fb350cc0fd739e8050606dfa38d62b92fcf90a348d68f776"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_childSkin.mat.meta",
+      "sha256": "abe2b184f6d3b2be4f99b7eb7e06763fd648296e376437b2f6a9e629879ec64c",
+      "validated_sha256": "58c2005b5095616f47924d53e5a364e23852b34bfeabb9e5f10621d23dc443d1"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_childrenFloor.mat",
+      "sha256": "5d306cfaa4f18240e13c8306792e4a09de359f871c20d7ab03fcccbc03a3c610",
+      "validated_sha256": "d9d05fd88f9afc8d0a49ffb7fbd238c4dd806ce3686b01a5ed5cd80d60911c09"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_childrenFloor.mat.meta",
+      "sha256": "06e141fb8ae0c1ffe615a8ea9bf4c506913426dea0d1a73c44e3cf45fd3f8c82",
+      "validated_sha256": "918a9305abf4b2d7552d8af62a9b16aa3d676ee2e830b66a8eb603319da8aef3"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_corridorFloor.mat",
+      "sha256": "787dc941622919dcf0df16ddd554af213244051615194e8bd3979437a9a2b2f8",
+      "validated_sha256": "9ee1d53e5731a8615cfcd14490425396208657b2f15445a87d73c50b2fbc5725"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_corridorFloor.mat.meta",
+      "sha256": "fde2038ca83405fe615e21c3e73d3ceccb78f5d6eb4d709f139edfcd7950eff0",
+      "validated_sha256": "df45e16007c66307cbbae4980d16cd06b9e54fec7095130d5ace279ebb6c7a90"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_cream.mat",
+      "sha256": "d9d9e5913b029dce296d7c5632623844bd6eb63364bf589288aed01ad9f5e189",
+      "validated_sha256": "f7796407b63862070b9d7c64e94c31d307293de52f602925c1d70fcf4a0677d4"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_cream.mat.meta",
+      "sha256": "5d4233f8b93a2ecbc989effcc127bbdf4b7d3a34c4c03ead8431dd9bc98a7768",
+      "validated_sha256": "fbd4032dbaf9bb2c3d046a196969dce4623fd0f95536df0ac9413801a450479b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_flame.mat",
+      "sha256": "777179134e459d3aa47ca2f1ed2dd41a857e4a3061f54da5358ebafd5e817999",
+      "validated_sha256": "f6dedb38f68b23abff25f16632a8636c545963fba457d91df0db7febde9dfd83"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_flame.mat.meta",
+      "sha256": "bef7abbde749e93169c40a8bdd027d576c7f093e9d47546bdf0698d788ed7f95",
+      "validated_sha256": "aeb3772c5ea1e7539dd6d9ae1c55aacda1c0533c6dcb79d6b2123e87e1820c4c"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_floor.mat",
+      "sha256": "bb0992c370c3a2a3adb58e3dba677290221467de7409da0c98d8e919fd951f01",
+      "validated_sha256": "de8ae071aa1b195773b982120c7b8773d45faae9b9b50a3d211f943bcb134f05"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_floor.mat.meta",
+      "sha256": "332d47707724df146aeab90716ef845689edac5c54d254aac6dc4f23943bedc4",
+      "validated_sha256": "99eea22a5ef0f3f6547df50aac9127d8f24facf92d76385f26acd69e64c51f1d"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_floorAlt.mat",
+      "sha256": "0d26d46b984a8afcaa379a6fe2569680ce722ebc2b2dbc6795b2986b5a162dd3",
+      "validated_sha256": "4a58d0a97f4728997f51614b0ec1d50a827d8c0611008095a1bbd3fef8f51e7c"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_floorAlt.mat.meta",
+      "sha256": "b509a8cb0a656dd2675020bc8bd937e5ed00367ebef57c629d37aaee16674ee0",
+      "validated_sha256": "cc0e5766f681e49d28bcc44b36c7a4420e34576fc246889ef8597f58a7bb08c4"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_future.mat",
+      "sha256": "7c1de54d58c0b5c8935bd65e3030b33231bf4ac04097ff1415d7ddd7954a43ac",
+      "validated_sha256": "7116ea64f6f7fc62916cda21646558240d742ee01e0ee50f198861af662f7f81"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_future.mat.meta",
+      "sha256": "fb985161739dca1aa904c7e1be985250348d9aaceb33e4d8ebeb9b3560aa1f51",
+      "validated_sha256": "ec237a79c95904ec1a82e8530e58fcff012807d8476c0c85f1d6ece6e70d92c6"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_glass.mat",
+      "sha256": "73dbe9ffc2c77dd91d87f18817bf6cd53b8e03ba3d18eb52f54865fbb9af34a7",
+      "validated_sha256": "7e64fbbe74b4d4c86eeb37e9842ee0c3c237283125905a187df547a4e72c9b8b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_glass.mat.meta",
+      "sha256": "f7f7d0f559b9c8db73e8690f1aa938c2664fc4cb1315ebf4fbff79350b124116",
+      "validated_sha256": "67c4ab4daaf44f2e2e0b5151b63081ae0c4dbb392ccdab07dd2990f1ea9bb229"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_green.mat",
+      "sha256": "49895fc8c14278040f0361dc790edb3f975e0dbe1bad034e440716ab6b8aec34",
+      "validated_sha256": "aa7b0709406ea93a61ef8d98cf46913e25a816b01448fca2ea875d3324c399f4"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_green.mat.meta",
+      "sha256": "67ce36b4cc8af92fae2fe72416e5683f0e05ab4e0063648897eeda219faa3268",
+      "validated_sha256": "530f9a5946e457269750ae50c7e12d02e6a77cfebd2974f0c01797582d7f57f7"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_hub.mat",
+      "sha256": "4259a55bb6bcfce251995dfd301e90ecd4625bd121ed9403e67bcb0c7bb1b9bf",
+      "validated_sha256": "695277ab4ae58510a980088c91b45e570c65aaa31c759d52f332c8a89164be25"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_hub.mat.meta",
+      "sha256": "ca9310979d1116fa2036512a04a980466bf0c3ec4f95929525c8f87105403f59",
+      "validated_sha256": "7e4f14d284b978a2d78b681720e5feb996f68e9f6e251e2fee6da7b43435d71b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_ink.mat",
+      "sha256": "f84bf61f39230ecaaf329842089f88e50f42dbe0dead569831157c849392464a",
+      "validated_sha256": "1c20bbd13cdb6ca814a2f30c4533f9b002935884658b2aa8f38296fb0d875fd7"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_ink.mat.meta",
+      "sha256": "dda24b4ec5b234dc2738253ecbcbbf9ef8cde5e920aa25ffa0a663a3ce620349",
+      "validated_sha256": "af744e20abda08486cd4e5d83ecb0c24c5ce3e793330c1237f82ff374b78617a"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_lawn.mat",
+      "sha256": "e3544419c1cc3f8d300113bda8557b97117d98f4214dbe18064029c60e477572",
+      "validated_sha256": "0da6ccd85bfe7e1467f5317100a86316a9ca57e3f81700ec24439cf6e87c7edc"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_lawn.mat.meta",
+      "sha256": "bc0aa11f6bca89a58fdac50e6cae245eb578f5a9d8d2bb5a3b37ad814f253519",
+      "validated_sha256": "5298b19b1dce003fef85464cde0ebd9e51d4e2c0d95003399ffca73078670348"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_linen.mat",
+      "sha256": "551686c252d8a03b2d9fac9bfee1848815881676dc2a6aa8012f202418dc713a",
+      "validated_sha256": "9969caced4e7de71df51ed1df17afe16576053ada3bf950f76be183bca06b493"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_linen.mat.meta",
+      "sha256": "ef447537de3ccdde9360ce1d5215bdceba6d8df16cd574bcbaf353879425f02c",
+      "validated_sha256": "8a4fa9c1106790449a63dd1616a5cda36ef47af19350c588c386a2d216e68a39"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_metal.mat",
+      "sha256": "05f47b33a85f1388123dcbeb40f2a8d4a4be8bf44faadcb5c70febe48470b1fe",
+      "validated_sha256": "6ef6e9b276db41957de00b04716e559a7556eab257536a77bcba1772e4c6c6bb"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_metal.mat.meta",
+      "sha256": "f082b1715f65c00202b56c3353b52cdfc7aa92b3bbdea3380c6ee94239e4cab9",
+      "validated_sha256": "3da9193b15ebdb99b846ec0905f45eb00ce4679f79d1714a225ccb4709240695"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_plaster.mat",
+      "sha256": "20cafc52851eb3e122c4800809826f4a4191cd2d77e1bbb64c5dddcc30367d4b",
+      "validated_sha256": "1e1a593faa37a73e14889ffd0a856813ca18fd2f5ef60e2573f0c0c5d0dbf8e5"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_plaster.mat.meta",
+      "sha256": "028eb61552fd6e3c30026609c4fd9a0095fb711e5fb48c7049c44d4939f22bc9",
+      "validated_sha256": "5f5021f74ef629b8e2bb5915d4c2eef98d17a0e6a27aed2fbd14a7f628928850"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_portal.mat",
+      "sha256": "fd4a062c5a756277cf6d3c84847b2afb87dc6654340bb9b823299e72ec83c059",
+      "validated_sha256": "95d66c8100d8d98df3569658e00604c33ba19dd319c5993ecbd5d7de4abe9360"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_portal.mat.meta",
+      "sha256": "c5c716a7c9f0f0b5cc943213a36a409530c820ec668d2c421f0967009fabedea",
+      "validated_sha256": "deb54842afd32512df599d73cd3ba0925969ba808ef7db89dd1957027f7fefcf"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_professorFloor.mat",
+      "sha256": "1e6412182ac4b0c873a09e42e29aabd715aa54c9addd9e137d23bc7cc0aa211a",
+      "validated_sha256": "a164da278d9f446e201d7911dbe12df2023ee91c8877de9cd3cca7553337fdc7"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_professorFloor.mat.meta",
+      "sha256": "6a4edb448e45381fcfe337052621d17269723a53911600deb4a2f824b2cf44fb",
+      "validated_sha256": "861ddcb68c58c647d0238e50d3e233801a44f85632a7bf67b3eb677606235338"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_proxy.mat",
+      "sha256": "f7de2306f83f6e547e2a87e8c367617813f9fd1db0a6effed247430afd0324a4",
+      "validated_sha256": "29c9bfc898b89ddaf883828402a86bcda7c87706470db25ed5de838384f9eec8"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_proxy.mat.meta",
+      "sha256": "3f5590275087d266b55fe7430ab6c1313417ef5395134837bc0e1c35f066ce7b",
+      "validated_sha256": "b394b7c224c27aee2b70b79e2947bd88ade76e81faddfb7a19df03f4a61c534c"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_publicFloor.mat",
+      "sha256": "3874ccde7d58fe97e5527950ab189bff0e003d68c675029c133b512eeed3ec9b",
+      "validated_sha256": "8c77442d2e47d880923dbf2b8356b2a4dba0e6c400f54b4759dc920a98eff64c"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_publicFloor.mat.meta",
+      "sha256": "c4f28262aaeec11dd79f66d82c115a2a4668ec829a71e742e5e205d30219f447",
+      "validated_sha256": "b72b4c870d27aec81aea6133d0d92f9a8e69e7f9b4e66e72755206ee1e8cef95"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_reference.mat",
+      "sha256": "8119b01a92f3d35f73284c214ff52fc9157e244b822152c589a1f7f4b24a4ea6",
+      "validated_sha256": "166c26e2f1770db84fb23f28dbd61782f8e9a93891afa74169409b52478207a5"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_reference.mat.meta",
+      "sha256": "32e48e5f8e14537a356a9e505723b104e18946055fbbb06369b9cbc0c068610e",
+      "validated_sha256": "ab0c92698b4c74b4f112f2b3f7319e3281c94e7226309cccd229d6e187ec1f28"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_room.mat",
+      "sha256": "5613edf9fcbb720ab509d1b03c150da43b284eb9f36ad258a2cad735bdda3981",
+      "validated_sha256": "532ea0cbbc019cfab5047c5149e81b16274ea3c0daf5391420daffbbeb5324d9"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_room.mat.meta",
+      "sha256": "9b36c637c184c84eb3a662104cd64c8658e0e8ee5229c45204409c875dfd6ab1",
+      "validated_sha256": "3245b8b0d7410ffed3c59cf94fc0c31410a08751bf9bd1efbf585048031bb14a"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_route.mat",
+      "sha256": "e2e9589dc291d97778501cbb4cfdaa0679129fa377983d26ce590bc0925c6c19",
+      "validated_sha256": "71057fb8b46949ccdf05aa71b2061fbcf31ed95a72fd6d896f0ea18f1d2d1b89"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_route.mat.meta",
+      "sha256": "e913766305e6eebeccb23cde26dc2dcf3d226e85613815259fc5f9491a789b6e",
+      "validated_sha256": "e1b52b5b7f14c6ed269be2ae80e96207c2cb7be3c35841949a269a8b706d637a"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_routeAdult.mat",
+      "sha256": "2c240008531c00f82bebe665166b5d4b60736b9f9b8b899fd1f3ba224e793e0a",
+      "validated_sha256": "0f91cc7ab95125156f8a8badd942740e118e72dd4910468299b6671b641fc74e"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_routeAdult.mat.meta",
+      "sha256": "1b8b8ed10a995d49afecbbd5716aa8646db77fef4c17683fe66771ca9d1aeee5",
+      "validated_sha256": "cb970eec41d9883cd9103f999eeb63a927c151f1db8e2a74201d87a3a30cef96"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_routeArrival.mat",
+      "sha256": "07bd2089271ee10df26ced93232d7df7bfa3350ff82680293fa492856d8373ef",
+      "validated_sha256": "50f0907ba1df73d309d899f0a0acdac6b957612b97985a266ab4127801d77a9c"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_routeArrival.mat.meta",
+      "sha256": "ee1dc03afcb5632d9a49f08b4ff8197c60aac6c58bf396d620948791ea133ba5",
+      "validated_sha256": "d3a7b51999092601359933c8c2ca0e9eb90a86370210575fa260d6f8a1f41371"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_routeEscape.mat",
+      "sha256": "d3923bbca61c9cb713cbd8ea030d23c378afd25e49a9d110d28d5087457fa9ba",
+      "validated_sha256": "0556a655800aebf39011ec18de942a639a08dae060b3c0fe9dcfa5f0dc1139a7"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_routeEscape.mat.meta",
+      "sha256": "15df35d8ae44cb373c29567df58f5210421b9b9e0bc6eb29b29f0b18fb59053f",
+      "validated_sha256": "ced5d068de5a236d7cef8dd18bfacb9a8572b29584bdf34c5e0c1e8d785c8dcc"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_routeHide.mat",
+      "sha256": "86981e4864d741e667ae3615c7abde0f19573b3713614007134775d266f587eb",
+      "validated_sha256": "1b5287e5873652cf861bdac39cca2c2048bd6f8f9eda07e3011eefdb27eaaca5"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_routeHide.mat.meta",
+      "sha256": "7d75ddf758fe08aa534e1bb58ee74a0e6a9279f6f471b9dbcef0637662dc5424",
+      "validated_sha256": "ae025a5860a1b25af235a61e99f4e1f7d725c04ea85e71a0dc6717d1f86ee9c5"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_rug.mat",
+      "sha256": "70add30f295235f42b180408ba2a2ad44d1aa3e7fff05bee0f4765bc5b4c998e",
+      "validated_sha256": "9e21b5033be8492de7521e7dd0961319c5796576214e7a6cdfcee70d96c5561f"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_rug.mat.meta",
+      "sha256": "869a9b0cd89e5ca8a161b7f8b456b09ebe9b6d23ccbbb07802efbaf4a40c61f3",
+      "validated_sha256": "9c179419fa483646097d184085d727ee9104bcf6557fb1979a6675451fc6af4f"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_rugGold.mat",
+      "sha256": "e622859390659d5e52cb719f7ea6c3df4bee1682b5b173bf1e88d6559688b986",
+      "validated_sha256": "efe30c6284e6e578b785a563415d626832ee94b443c437e70ee590a705dc3854"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_rugGold.mat.meta",
+      "sha256": "4d6e2d0f1b595849596f9344d85f5957f3e3193ee0654548afa61435d98ed3c1",
+      "validated_sha256": "7031d9426ab0b6c2cd978b63afade352412dc4c52e9857975b75380dabf19033"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_serviceFloor.mat",
+      "sha256": "18a131782b5dcf66d7e41e34a8212cd72575c6869e3c2e881ff31188556366a8",
+      "validated_sha256": "81310100b43a6a051930031e9cb46f80aa08abc44dfd0e375403c5b927e5e413"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_serviceFloor.mat.meta",
+      "sha256": "dbfdbeba50d9283f1a1d72dac6c69f6deee572fdb851295bd7d267d27db2cba9",
+      "validated_sha256": "42800fd3b12421f2f3939c0eb2a4e453109a58e41fe60195690128069f4678ef"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_softGreen.mat",
+      "sha256": "58bb19f9b88f801fc2fdaf5752f1a5b2846af37d3ac0671a8fc4e8e28887b7d9",
+      "validated_sha256": "8121efd90c424c03658cb3808fc53b17d498a711e58b8c9f46b3768c887d6814"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_softGreen.mat.meta",
+      "sha256": "ede23d381fb6ec6c950206f7e484de7e9b448e65c4af30d4a135a3447ee64b2f",
+      "validated_sha256": "fdffa2d774fa4fb04347394fdf85426c08984293eec1ecf340cc36a6a04baa4f"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_stone.mat",
+      "sha256": "cfed222dbf8d25a15969e91a45de2cfc8dfc7c9ff7f218482864be6b5a635555",
+      "validated_sha256": "5d3da90fc1adcc8d2e03aea793c33ba54652b1f824c786c2c4116ac88fb4378b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_stone.mat.meta",
+      "sha256": "f9957eb640e2e2c6edea0b39295d46a924b3db45fc5087a4deabd508b63bc010",
+      "validated_sha256": "f96b230b880e7272a5e77be8cd4d3b55b02ca4a12003c7def5845ae4a75098aa"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_stoneAlt.mat",
+      "sha256": "7d3085986e789eb71226df570f798462f70ac5a1e6024495f6fd66096f4434d9",
+      "validated_sha256": "400a28b9b007963e802caf0b58356316ac8c84e580d43c4c1451906889b6e231"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_stoneAlt.mat.meta",
+      "sha256": "351ba8b357cb4f67fba61b0d8f602ee760e12b2c883181f6fcf47a7225bfb4f1",
+      "validated_sha256": "fc6c002ab44cc7d75dca433ee46449cc6770cc0d280e213fccf045c4499d5404"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_wallGrey.mat",
+      "sha256": "209bbb71d1607db1f018459710fc27d49821b2474b90db2f8d42892861fd7ebc",
+      "validated_sha256": "4789514df238ff9ccc1f0482324e92329a858da0fe755f1b5a8a73999094c71f"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_wallGrey.mat.meta",
+      "sha256": "57415414acebc0c3c35af7a4d00d116944abe3c305aa11d20b87e3d853a60843",
+      "validated_sha256": "462055fec22020649ec8e344ac5407fa7d91e0848c42ce05de81b91c222f0048"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_wardrobeInset.mat",
+      "sha256": "baf2f1cc49f404bfea74528435ffc51339d688602a28a0b1e0ea1697b7c9c06f",
+      "validated_sha256": "ccaca47b48e24a79bd6c12cbd91afb6edbd6af170f7b2dd8bf755843c0fca97c"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_wardrobeInset.mat.meta",
+      "sha256": "d581c7b1e0a64920aa41253faf96f39af464717d7b742f9178847ec21e9ab58c",
+      "validated_sha256": "0e621bb3b9e6ef9abd520812fed1c05cbcce63ddf0b4db96ba1430971cc68673"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_wardrobeWood.mat",
+      "sha256": "4a614d2ad2e668d1ea8634e572fd0440f2497481d7ec045686446995b3fb2b4e",
+      "validated_sha256": "66959710184c9a23317a0de226937fcbb05d9c62575ac656bb55882a4c7a2912"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_wardrobeWood.mat.meta",
+      "sha256": "14c773ce22ffe8b8f48d54129b9b4fdf8ab4cffb05f6309fff2432baf66c021e",
+      "validated_sha256": "817303eab205b1c4e6567628df273e933b4c2936103c1f2b5c2768f2e4259288"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_wood.mat",
+      "sha256": "0d3ada9ff391b3ac68c3b4e1423bbd55ef545665f600a3acc9143a48c1e4f71d",
+      "validated_sha256": "dd28493395215ed0bc1a19e1ac28eb925f53c995181d066fc63b68c139ef3b9a"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_wood.mat.meta",
+      "sha256": "cd994b849eb22f5c75c7d7f2bad53de0b9b39cb15319e0863f1324c3b9d1d148",
+      "validated_sha256": "5ae690d37a035efdca2f8145930347f276417595a97dbcdc968fd5faf6222ed1"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_woodEdge.mat",
+      "sha256": "5a32e4244331f63a466babcff8b39395dd2642c5f688ad32985d35d82c2d7d67",
+      "validated_sha256": "de4d5af382dc5a9c343721606de58418bab5fa0f9432b9b7da4bad17244134e3"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_woodEdge.mat.meta",
+      "sha256": "7900ea76af073eddd9f136264f390a2b9cb1312ca79a0f12b6fec07e69045385",
+      "validated_sha256": "93eb1798a421efda72f231b4e3834671d9d3bfc6522ceab3f30707f172d5f123"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_woodInset.mat",
+      "sha256": "53f3f3488bf4386aad3680ab902a94ba8c78f6aae34cfdb27922504d4d711735",
+      "validated_sha256": "80a324fd4625304c1b8a91ad2f3355c17eb52d9931c6c9173b7567c19a387857"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_woodInset.mat.meta",
+      "sha256": "bbc5acb0bb692fc24a27ac5f42e286c4443e111a990242150b256822f3e06a7e",
+      "validated_sha256": "451841c08e8d6d99e83de78c9eb64c7c4e9bfe980294890acc775bcd58c2d85e"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_woodLight.mat",
+      "sha256": "7a9242cfcc978e50a28f8e94eae3c63285707b9055955b42ce9e9f7ee50e6e08",
+      "validated_sha256": "ca8f5e889c54ace746c67134969e85572d38d23447e2b1258dda71345ffd6eb4"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_woodLight.mat.meta",
+      "sha256": "8fc1a076a1fb2d31991f0bce678ef8d8c641cde2bed3070902f4cfd33e3d99e1",
+      "validated_sha256": "2570a2c6b70a25529a24f9d026daf5e31b2ecdce7df03988c008bec4d45d0672"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_AtticRooms.fbx",
+      "sha256": "9a4b6f0629e7604c8900293e31516a0d91908322f1ac4cbc931df435f912b986"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_AtticRooms.fbx.meta",
+      "sha256": "e009127cb169343572725010d87ecc24bc57b45d6e9ecdc8dbd5a4a0e41e9110",
+      "validated_sha256": "1fcf1e5a8586891dddd14424c077a5e9d80dd9557344a1d0fbcbdec7e67505c1"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_Gardens.fbx",
+      "sha256": "f44597ac9521729821d9705d76a2a849af2a076cc0598f175601e5cce9b2c728"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_Gardens.fbx.meta",
+      "sha256": "0e034ab4713f61c24a79d4fd6330479132e28bc13314cdd6ef10f073070c8f5a",
+      "validated_sha256": "02364b78afe0aefaba1d7c23d7232cc72a3f9d3cd8f371a84128da3b98c3731e"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_GroundRooms.fbx",
+      "sha256": "a6410749523d60dfb3dd472e753daa9925c77677216af779adfd458b1e56214c"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_GroundRooms.fbx.meta",
+      "sha256": "f9da6594df484e105e62c566099651dd66d2c3062fe6cc9e7b6f7bd7ae40be84",
+      "validated_sha256": "ecec715a755b5d2a40654bf7cacc9c57417631a5672998a117c09e407e1fee85"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_Hall.fbx",
+      "sha256": "e26b00111c37bb3e17fae1326f0e002171d497bd83354624e9aa600eb879f8f8"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_Hall.fbx.meta",
+      "sha256": "2d3ec6a95bb5af68894ff68658a7f52fb1c457c920ae4a6c964cf683640b6ae7",
+      "validated_sha256": "cd7b64f8f5495051f82abf8447488fc59f8e63d721638b8561617aea424894a0"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_SecondaryStairs.fbx",
+      "sha256": "f23fe1dbaec5b0b1e991aac30c941b8b75fe1518dd694786c0f500977312a9d8"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_SecondaryStairs.fbx.meta",
+      "sha256": "d0b29c370c3c8ec817041d14237f623cb8f55086046372d0782bfadf7b33c3f2",
+      "validated_sha256": "54c7deab3d3254b23794c7a51902d4bdc51d8e896eb13af6be28b5bfaa471926"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_UpperRooms.fbx",
+      "sha256": "ef2409caf180de340f4b18504543e7254cf956cf116d125bb91064c840ffec5b"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_UpperRooms.fbx.meta",
+      "sha256": "27981855b640e7379932544d00c3817f3be0ce5666a686440177651a68dc03c9",
+      "validated_sha256": "e54ce3849a31b1145c9e5d098365816397bb5ace19e1145fafd95d370fd524e9"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/ProfessorHouse_Connected.json",
+      "sha256": "d264161f97c8913580dd0743de70e380a58954c5e029877a6a0d9fedaa1ac376"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/ProfessorHouse_Connected.json.meta",
+      "sha256": "7a2dfd6c44f6e6cbeeb4243a56e0654fd9b0824c75bbede0186daae2b14678fd",
+      "validated_sha256": "17310c67ae0df61a83877302d2c92f75f9a97bbc34e9605e88067a5c92f405c8"
+    },
+    {
+      "path": "Assets/@Project/Editor/ProfessorHouseConnectedBuilder.cs",
+      "sha256": "b4927bf3b7b32a76e5f3987843b71cb574c3ac65bbf07aac818422007d1bd6df"
+    },
+    {
+      "path": "Assets/@Project/Editor/ProfessorHouseConnectedBuilder.cs.meta",
+      "sha256": "c3d432aa68a173c07cdd6dda461899513162fe3d8b0dddfefc7b38c59e1d71ef",
+      "validated_sha256": "8dbfd68bdf226c431870040fde6d851af7b86adc21ea278d1c8ecf8799aa873b"
+    },
+    {
+      "path": "Assets/@Project/Editor/ProfessorHouseConnectedPreview.cs",
+      "sha256": "576c70ff2437b809b9e1cb89473160f9a235fe277ae36f520fb3b940be280d4d"
+    },
+    {
+      "path": "Assets/@Project/Editor/ProfessorHouseConnectedPreview.cs.meta",
+      "sha256": "c2bb7bb2c3f9c79d119b1b69be9b5687420b2b4efe91082ca4252aea3f21f745",
+      "validated_sha256": "ca43784b325c05b87e755f486e902832cee6ba9a08ebb6a2b0beae938ba6af2b"
+    },
+    {
+      "path": "Assets/@Project/Editor/ProfessorHouseConnectedValidation.cs",
+      "sha256": "2254d5306403a3173094d00bf5f84887a244ec4391b57e01ded11a9b3d533601"
+    },
+    {
+      "path": "Assets/@Project/Editor/ProfessorHouseConnectedValidation.cs.meta",
+      "sha256": "79768f215b3805c26e92fa24603d71d02210c632105423b2ffea328178a64ba5",
+      "validated_sha256": "b4afc81305014977712c096e98760ed9f65b98fe22634c97cc88ab78bfa6791d"
+    },
+    {
+      "path": "Assets/@Project/Tests/PlayMode/ProfessorHouseConnectedTraversalTests.cs",
+      "sha256": "abc692144c063cb6b8ed6b205eb2adf3220c6e61a5aa5e791a59ff69299071cb"
+    },
+    {
+      "path": "Assets/@Project/Tests/PlayMode/ProfessorHouseConnectedTraversalTests.cs.meta",
+      "sha256": "bffe5650d9530b50d792212137995a5a627220b30821856b6dc3c4123c8bed23",
+      "validated_sha256": "cf308efff8b18f0dda5d8d74ab770d18be1ea01bc619587721df0b262c510217"
+    },
+    {
+      "path": "Docs/Art/ProfessorHouse_ApprovedLayout_v1/Data/layout.json",
+      "sha256": "c10cae9559129d7618d6f6971bfab6e8b615bec9ecafee22824a8c7b01bf7fd9"
+    },
+    {
+      "path": "ProjectSettings/EditorBuildSettings.asset",
+      "sha256": "29c3b041fc26752a0f6c8ee01e8c584fdba740062ffbaf6bbbfc75a500e60e93"
+    },
+    {
+      "path": "ProjectSettings/NavMeshAreas.asset",
+      "sha256": "36a99a962fcacbe6a6e957a1039f86d45f5123d24831fef6ab6f9b86617fecb6"
+    },
+    {
+      "path": "Tools/Art/export_professor_house_connected.py",
+      "sha256": "e9568771d63160574e8f4cde4569c52dbd59e0ff8d4b2f42f663d51963bca5a4"
+    }
+  ],
+  "test_runs": {
+    "EditMode.xml": {
+      "total": "18",
+      "passed": "18",
+      "failed": "0",
+      "start-time": "2026-10-23 03:47:16Z",
+      "end-time": "2026-10-23 03:47:16Z"
+    },
+    "PlayMode.xml": {
+      "total": "8",
+      "passed": "8",
+      "failed": "0",
+      "start-time": "2026-10-23 03:38:58Z",
+      "end-time": "2026-10-23 03:40:56Z"
+    }
+  },
+  "post_test_formatting": "Trailing horizontal whitespace and extra final blank lines removed before commit. Serialized values, GUIDs and code tokens are unchanged. validated_sha256 records bytes tested before formatting where applicable."
+}

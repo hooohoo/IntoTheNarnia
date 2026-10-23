@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="8" result="Passed" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-23 03:38:58Z" end-time="2026-10-23 03:40:56Z" duration="118.4865683">
+  <test-suite type="TestSuite" id="1000" name="IntoTheNarnia" fullname="IntoTheNarnia" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-23 03:38:58Z" end-time="2026-10-23 03:40:56Z" duration="118.486568" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1013" name="IntoTheNarnia.PlayModeTests.dll" fullname="/Users/leejae/Hoo/WorkSpace/IntoTheNarnia/Library/ScriptAssemblies/IntoTheNarnia.PlayModeTests.dll" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-23 03:38:58Z" end-time="2026-10-23 03:40:56Z" duration="118.483705" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="89962" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="AddressableLifecycleTests" fullname="AddressableLifecycleTests" classname="AddressableLifecycleTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-23 03:38:58Z" end-time="2026-10-23 03:38:58Z" duration="0.320407" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties>
+          <property name="platform" value="PlayMode" />
+        </properties>
+        <test-case id="1003" name="LeavingDuringPreloadDoesNotOverwriteReentry" fullname="AddressableLifecycleTests.LeavingDuringPreloadDoesNotOverwriteReentry" methodname="LeavingDuringPreloadDoesNotOverwriteReentry" classname="AddressableLifecycleTests" runstate="Runnable" seed="395786983" result="Passed" start-time="2026-10-23 03:38:58Z" end-time="2026-10-23 03:38:58Z" duration="0.113662" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="platform" value="PlayMode" />
+          </properties>
+        </test-case>
+        <test-case id="1004" name="MissingLabelReleasesItsHandleAndAllowsRecovery" fullname="AddressableLifecycleTests.MissingLabelReleasesItsHandleAndAllowsRecovery" methodname="MissingLabelReleasesItsHandleAndAllowsRecovery" classname="AddressableLifecycleTests" runstate="Runnable" seed="1844330507" result="Passed" start-time="2026-10-23 03:38:58Z" end-time="2026-10-23 03:38:58Z" duration="0.100634" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="platform" value="PlayMode" />
+          </properties>
+          <output><![CDATA[
+IgnoreFailingMessages:true
+UnityEngine.AddressableAssets.InvalidKeyException: Exception of type 'UnityEngine.AddressableAssets.InvalidKeyException' was thrown. No Location found for Key=MissingFeatureForFailureTest
+[AddressableManager] System.InvalidOperationException: Required label failed or is empty: MissingFeatureForFailureTest ---> UnityEngine.AddressableAssets.InvalidKeyException: Exception of type 'UnityEngine.AddressableAssets.InvalidKeyException' was thrown. No Location found for Key=MissingFeatureForFailureTest
+   --- End of inner exception stack trace ---
+  at AddressableManager.LoadBatchAsync[T] (AddressableManager+Batch batch) [0x00102] in /Users/leejae/Hoo/WorkSpace/IntoTheNarnia/Assets/@Project/01.Scripts/Manager/Manager/AddressableManager.cs:63
+
+IgnoreFailingMessages:false
+]]></output>
+        </test-case>
+        <test-case id="1002" name="SharedLabelSurvivesUntilItsLastOwnerLeaves" fullname="AddressableLifecycleTests.SharedLabelSurvivesUntilItsLastOwnerLeaves" methodname="SharedLabelSurvivesUntilItsLastOwnerLeaves" classname="AddressableLifecycleTests" runstate="Runnable" seed="377863750" result="Passed" start-time="2026-10-23 03:38:58Z" end-time="2026-10-23 03:38:58Z" duration="0.100693" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="platform" value="PlayMode" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1005" name="NarniaPlayModeTests" fullname="NarniaPlayModeTests" classname="NarniaPlayModeTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-23 03:38:58Z" end-time="2026-10-23 03:39:01Z" duration="2.997537" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties>
+          <property name="platform" value="PlayMode" />
+        </properties>
+        <test-case id="1007" name="DirectHouseEntryDoesNotRequireTitle" fullname="NarniaPlayModeTests.DirectHouseEntryDoesNotRequireTitle" methodname="DirectHouseEntryDoesNotRequireTitle" classname="NarniaPlayModeTests" runstate="Runnable" seed="1327972871" result="Passed" start-time="2026-10-23 03:38:58Z" end-time="2026-10-23 03:38:59Z" duration="1.061564" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="platform" value="PlayMode" />
+          </properties>
+        </test-case>
+        <test-case id="1006" name="TitleToHouseSupportsDialogueSettingsDoorsAndReentry" fullname="NarniaPlayModeTests.TitleToHouseSupportsDialogueSettingsDoorsAndReentry" methodname="TitleToHouseSupportsDialogueSettingsDoorsAndReentry" classname="NarniaPlayModeTests" runstate="Runnable" seed="1133897122" result="Passed" start-time="2026-10-23 03:38:59Z" end-time="2026-10-23 03:39:01Z" duration="1.935436" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="platform" value="PlayMode" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1008" name="ProfessorHouseConnectedTraversalTests" fullname="ProfessorHouseConnectedTraversalTests" classname="ProfessorHouseConnectedTraversalTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-23 03:39:01Z" end-time="2026-10-23 03:40:49Z" duration="107.959307" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties>
+          <property name="platform" value="PlayMode" />
+        </properties>
+        <test-case id="1009" name="ApprovedRoutesSupportRealPlayerInputAcrossThreeFloors" fullname="ProfessorHouseConnectedTraversalTests.ApprovedRoutesSupportRealPlayerInputAcrossThreeFloors" methodname="ApprovedRoutesSupportRealPlayerInputAcrossThreeFloors" classname="ProfessorHouseConnectedTraversalTests" runstate="Runnable" seed="760284362" result="Passed" start-time="2026-10-23 03:39:01Z" end-time="2026-10-23 03:40:48Z" duration="107.063195" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="Timeout" value="360000" />
+            <property name="platform" value="PlayMode" />
+          </properties>
+        </test-case>
+        <test-case id="1010" name="LeavingAndReenteringRestoresCameraAndAssetOwnership" fullname="ProfessorHouseConnectedTraversalTests.LeavingAndReenteringRestoresCameraAndAssetOwnership" methodname="LeavingAndReenteringRestoresCameraAndAssetOwnership" classname="ProfessorHouseConnectedTraversalTests" runstate="Runnable" seed="622257926" result="Passed" start-time="2026-10-23 03:40:48Z" end-time="2026-10-23 03:40:49Z" duration="0.894102" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="platform" value="PlayMode" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1011" name="ProfessorHouseTraversalTests" fullname="ProfessorHouseTraversalTests" classname="ProfessorHouseTraversalTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-23 03:40:49Z" end-time="2026-10-23 03:40:56Z" duration="7.205618" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties>
+          <property name="platform" value="PlayMode" />
+        </properties>
+        <test-case id="1012" name="PlayerCanClimbTheStairsAndReachBothDoors" fullname="ProfessorHouseTraversalTests.PlayerCanClimbTheStairsAndReachBothDoors" methodname="PlayerCanClimbTheStairsAndReachBothDoors" classname="ProfessorHouseTraversalTests" runstate="Runnable" seed="754697062" result="Passed" start-time="2026-10-23 03:40:49Z" end-time="2026-10-23 03:40:56Z" duration="7.204379" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="platform" value="PlayMode" />
+          </properties>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
