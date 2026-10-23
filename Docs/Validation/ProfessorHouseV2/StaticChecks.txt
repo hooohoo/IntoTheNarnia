@@ -1,0 +1,5 @@
+$ python3 Tools/validate_structure.py
+Scripts mapped: 46; mesh assets: 820; mesh references: 0; failures: 0
+
+$ python3 Tools/validate_chalk_contracts.py
+Chalk contract checks: 0 failure(s)

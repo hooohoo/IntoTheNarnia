@@ -10,7 +10,8 @@
     "Unity.RenderPipelines.Core.Runtime",
     "Unity.RenderPipelines.Core.Editor",
     "Cinemachine",
-    "IntoTheNarnia.Samples"
+    "IntoTheNarnia.Samples",
+    "Unity.AI.Navigation"
   ],
   "includePlatforms": [
     "Editor"

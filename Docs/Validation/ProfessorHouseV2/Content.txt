@@ -1,0 +1,3 @@
+Renderers: 34
+Persistent calls: 7
+Failures: 0

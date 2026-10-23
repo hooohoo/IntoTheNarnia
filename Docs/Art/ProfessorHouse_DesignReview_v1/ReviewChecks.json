@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-22",
+  "scope": "Review artifacts only; no Unity compile or gameplay tests required or claimed.",
+  "boards": 7,
+  "floor_plans": 3,
+  "selected_external_references": 24,
+  "pdf_pages": 15,
+  "raster_files_verified": 37,
+  "local_html_links": "all resolved",
+  "floor_room_overlap_checks": "passed",
+  "door_graph_reachability": {
+    "ground": 16,
+    "upper": 16,
+    "attic": 7
+  },
+  "visual_checks": [
+    "HTML gallery",
+    "PDF floor-plan page",
+    "PDF references page",
+    "all seven concept boards"
+  ],
+  "limitations": [
+    "Generated concept boards are not measured construction drawings.",
+    "Vertical clearance, collision, camera and character scale require implementation-stage testing.",
+    "Whole-house dimensions and connections are proposals, not authenticated film-set plans."
+  ]
+}

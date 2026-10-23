@@ -33,11 +33,17 @@ Git LFS를 설치한 뒤 `git lfs install`과 `git lfs pull`로 바이너리 에
 - `Narnia/Build/Addressable Content`: 활성 타깃의 로컬 콘텐츠 빌드.
 - `Narnia/Build/macOS Player`: 등록된 게임 씬과 Addressables 콘텐츠를 함께 빌드. CLI 진입점은 `NarniaBuild.BuildMac`이며 기본 출력은 `Builds/macOS/IntoTheNarnia.app`이다.
 
-검증 결과는 [Chalk 통합 검증](Docs/Validation/ChalkParity.md)에 기록한다. 이전 [2021 기준 검증](Docs/Validation/2026-10-21.md)은 과거 이력이다.
+교수의 집 현재 기준점의 재검증은 [2026-10-23 검증](Docs/Validation/ProfessorHouseBaseline.md), 초기 재구성 결과는 [v2 검증](Docs/Validation/ProfessorHouseV2.md)에 기록한다. [Chalk 통합 검증](Docs/Validation/ChalkParity.md)과 [2021 기준 검증](Docs/Validation/2026-10-21.md)은 각 전환 당시의 이력이다.
 
 ## 콘텐츠 현황
 
 플레이 흐름은 Title → LoadingScene → Professor_House다. TheSiblingsRoom/TheWardrobeRoom은 기존 콘텐츠 자리표시 씬이다. Title의 Continue/Settings는 원본의 미구현 진입점을 보존한다. Main/Test/WinterForest는 빌드에서 제외한다. 이 콘텐츠 상태를 공통 프레임워크 통합 완료와 혼동하지 않는다.
+
+## 아트 레퍼런스
+
+Lucy와 교수의 집은 [아트 레퍼런스](Docs/Art/README.md)의 v2 시안을 따른다. 교수의 집 메인 홀·계단·2층 회랑은 다크 월넛, 둥근 난간과 밝은 석재 바닥으로 교체했다. [제작 원본과 재구성 도구](Docs/Art/ProfessorHouseV2.md)를 함께 관리한다. Lucy 모델과 별도 옷장방의 교체는 후속 범위다.
+
+2026-10-22에 [저택 층별 도면 03](Docs/Art/ProfessorHouse_ApprovedLayout_v1/index.html)을 확정했다. [확정 기준](Docs/Art/ProfessorHouse_ApprovedLayout_v1/README.md)의 방 배치·계단·정원·장면별 동선을 이후 모델링에 적용한다. 현재 Unity v2 홀과 전체 확정 배치의 구현 상태는 구분한다.
 
 ## Git
 

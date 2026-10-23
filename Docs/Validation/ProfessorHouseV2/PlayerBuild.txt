@@ -1,0 +1,5 @@
+Result: Succeeded
+Total size: 292135584
+Errors: 0
+Warnings: 4
+Duration: 00:00:13.1505104

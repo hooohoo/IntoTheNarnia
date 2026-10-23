@@ -1,0 +1,7 @@
+PASS Ground to gallery (PathComplete)
+PASS TheSiblingsRoomDoor approach (PathComplete)
+PASS TheSiblingsRoomDoor locked gate (PathPartial)
+PASS TheSiblingsRoomDoor open gate (PathComplete)
+PASS TheWardrobeRoomDoor approach (PathComplete)
+PASS TheWardrobeRoomDoor locked gate (PathPartial)
+PASS TheWardrobeRoomDoor open gate (PathComplete)
