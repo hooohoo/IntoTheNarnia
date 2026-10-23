@@ -1,0 +1,21 @@
+{
+  "groupPairs": [
+    [
+      "StudyFurniture",
+      "StudyWindows"
+    ],
+    [
+      "PrivateBedroom",
+      "BedroomWindows"
+    ],
+    [
+      "E1_Furniture",
+      "E1_Windows"
+    ],
+    [
+      "K-BOYS_Furniture",
+      "K-BOYS_Windows"
+    ]
+  ],
+  "failures": []
+}

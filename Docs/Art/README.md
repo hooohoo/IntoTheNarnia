@@ -1,5 +1,10 @@
 # 아트 레퍼런스
 
+## 홀 교차 수정·2층 마감 01 · 2026-10-23
+
+액자와 계단·난간의 교차를 수정하고, 서재·개인 서고·교수 침실·두 아이들 침실에 가구·벽·천장·커튼·조명을 구현했다. [제작과 남은 범위](ProfessorHouseUpperFinish.md) · [최신 Unity 화면](../Validation/ProfessorHouseUpperFinish/index.html) · [검증](../Validation/ProfessorHouseUpperFinish.md). 저택 전체의 아트 배치와 조명 베이크는 진행 중이다.
+
+
 ## 중앙 홀 마감 01 · 2026-10-23
 
 승인 시안에 맞춰 연결 씬 중앙 홀의 재질·난간 음영·가구·벽면 그림·천장·창빛을 구현했다. [제작과 재생성 방법](ProfessorHouseHallFinish.md) · [실제 Unity 화면](../Validation/ProfessorHouseHallFinish/index.html). 확정 계단·회랑 치수는 유지한다. 다른 구역의 마감과 제품 씬 통합은 후속 작업이다.

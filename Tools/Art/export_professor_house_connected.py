@@ -18,6 +18,7 @@ from mathutils import Matrix, Vector
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--project', required=True)
+parser.add_argument('--chunks', nargs='+', help='Export only selected FBX files; manifest always covers all chunks.')
 options = parser.parse_args(sys.argv[sys.argv.index('--') + 1:])
 project = Path(options.project).resolve()
 source = project / 'ArtSource/ProfessorHouse/ConnectedLayout_v1'
@@ -50,6 +51,9 @@ groups = defaultdict(list)
 objects = list(scene.objects)
 for obj in objects:
     if obj.type != 'MESH' or 'part_id' not in obj:
+        continue
+    # Replaced by UpperFinish; keep the immutable authoring source for comparison.
+    if obj.get('part_id') in ['ProfessorDesk', 'Beds_E1', 'Beds_K-BOYS']:
         continue
     role = obj.get('role', '')
     if role in ['route', 'label', 'proxy']:
@@ -142,6 +146,8 @@ for (region, zone, kind), members in sorted(groups.items()):
         vertices=len(vertices), triangles=sum(len(face)-2 for face in faces)))
 
 for region, members in sorted(export_objects.items()):
+    if options.chunks and region not in options.chunks:
+        continue
     bpy.ops.object.select_all(action='DESELECT')
     for obj in members:
         obj.select_set(True)
@@ -153,7 +159,7 @@ for region, members in sorted(export_objects.items()):
 
 routes = [dict(key=k,title=r['title'],points=[point(p) for p in r['points']]) for k,r in spec['routes'].items()]
 routes += [dict(key=k,title=k,points=[point(p) for p in points]) for k,points in spec['extraValidationRoutes'].items()]
-manifest = dict(version='connected-walkthrough-01',units='metres, Unity Y up; X east, Z rear',
+manifest = dict(version='connected-walkthrough-02',replacedBlockoutParts=['ProfessorDesk','Beds_E1','Beds_K-BOYS'],units='metres, Unity Y up; X east, Z rear',
     sourceLayoutSha256=spec['approvedLayoutSha256'], sourceBlendSha256=hashlib.sha256((source/'Models/ProfessorHouse_ConnectedLayout_01.blend').read_bytes()).hexdigest(),
     chunks=sorted(export_objects), meshes=entries,
     palette=[dict(name=name,hex=color) for name,color in sorted(spec['palette'].items())],

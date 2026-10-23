@@ -1,0 +1,63 @@
+Connected walkthrough: 50 spaces, 54 doorways.
+PASS arrival ordered path and character clearance
+PASS hide ordered path and character clearance
+PASS escape ordered path and character clearance
+PASS eastStair ordered path and character clearance
+PASS ground OUT / A open doorway
+PASS ground F1 / D4 open doorway
+PASS ground F1 / C3 open doorway
+PASS ground A / B open doorway
+PASS ground C1 / D1 open doorway
+PASS ground C2 / F0 open doorway
+PASS ground F1 / F2 open doorway
+PASS ground D1 / D2 open doorway
+PASS ground F2 / F6 open doorway
+PASS ground F0 / S2 open doorway
+PASS ground SE1 / SE2 open doorway
+PASS ground F6 / F3 open doorway
+PASS ground F6 / F4 open doorway
+PASS ground F6 / F5 open doorway
+PASS ground OUT / C1 open doorway
+PASS ground A / C1 open doorway
+PASS ground B / D1 open doorway
+PASS ground D2 / D3 open doorway
+PASS ground SE1 / GARDEN open doorway
+PASS ground A / C2 open doorway
+PASS ground B / F0 open doorway
+PASS ground F0 / SE1 open doorway
+PASS ground F6 / S2 open doorway
+PASS ground C2 / F1 open doorway
+PASS upper E3 / E2 open doorway
+PASS upper E3 / E4 open doorway
+PASS upper F1 / F8 open doorway
+PASS upper F1 / F9 open doorway
+PASS upper P0 / P-BED open doorway
+PASS upper E3 / B-W open doorway
+PASS upper E3 / B-E open doorway
+PASS upper E3 / F0 open doorway
+PASS upper F1 / F2 open doorway
+PASS upper B-W / B-NW open doorway
+PASS upper B-E / B-NE open doorway
+PASS upper F0 / S2 open doorway
+PASS upper F2 / K0 open doorway
+PASS upper K0 / E1 open doorway
+PASS upper K0 / K-BOYS open doorway
+PASS upper K0 / K-BATH open doorway
+PASS upper P0 / P-STUDY open doorway
+PASS upper P0 / P-LIB open doorway
+PASS upper P0 / P-BATH open doorway
+PASS upper B-W / P0 closed boundary
+PASS upper P0 / P-STORE open doorway
+PASS upper B-NE / F0 open doorway
+PASS upper ER / S2 open doorway
+PASS upper E3 / F1 open doorway
+PASS attic G1c / G1b open doorway
+PASS attic G1a / G2 open doorway
+PASS attic G1b / G3 open doorway
+PASS attic G1b / G4 open doorway
+PASS attic S2 / G1c open doorway
+PASS attic G1b / G1a open doorway
+Ordered route segments: 182; capsule samples: 1599; open doors: 53; closed boundaries: 1
+Agent: height=1.20 m, radius=0.22 m, climb=0.22 m, slope=40 degrees. Comparison profile, not final Lucy proportions.
+Source layout SHA-256: c10cae9559129d7618d6f6971bfab6e8b615bec9ecafee22824a8c7b01bf7fd9
+Failures: 0

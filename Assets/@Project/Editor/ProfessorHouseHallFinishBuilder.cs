@@ -13,7 +13,6 @@ public static class ProfessorHouseHallFinishBuilder
     public static readonly string TexturePath = "Assets/@Project/03.Sprites/ProfessorHouseHallFinish/TEX_Hall_Paintings.png";
     public static readonly string RendererPath = "Assets/@Project/Settings/Rendering/ProfessorHouseHallRenderer.asset";
     private static readonly string LogTag = "[ProfessorHouseHallFinishBuilder]";
-    private static readonly string PrefabPath = "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_HallFinish.prefab";
     private static readonly string ProfilePath = "Assets/@Project/Settings/Lighting/ProfessorHouseHallVolume.asset";
 
     [Serializable] private sealed class FinishManifest
@@ -44,8 +43,14 @@ public static class ProfessorHouseHallFinishBuilder
 
     public static void AddFurnishings(GameObject environment)
     {
-        var manifest = JsonUtility.FromJson<FinishManifest>(File.ReadAllText(ModelFolder + "/HallFinish.json"));
-        Directory.CreateDirectory(MaterialFolder);
+        AddLayer(environment, ModelFolder, MaterialFolder, "HallFinish");
+        ApplyHallPalette(environment.transform.Find("OBJ_ProfessorHouse_Hall"));
+    }
+
+    public static void AddLayer(GameObject environment, string modelFolder, string materialFolder, string stem)
+    {
+        var manifest = JsonUtility.FromJson<FinishManifest>(File.ReadAllText(modelFolder + "/" + stem + ".json"));
+        Directory.CreateDirectory(materialFolder);
         AssetDatabase.Refresh();
         var textureImporter = (TextureImporter)AssetImporter.GetAtPath(TexturePath);
         if (textureImporter == null) throw new FileNotFoundException("Missing painting atlas.", TexturePath);
@@ -60,7 +65,7 @@ public static class ProfessorHouseHallFinishBuilder
         for (int i = 0; i < manifest.Palette.Length; i++)
         {
             var entry = manifest.Palette[i];
-            var material = MakeMaterial(entry.Name, entry.Hex, .25f);
+            var material = MakeMaterial(entry.Name, entry.Hex, .25f, entry.Name.StartsWith("Hall") ? MaterialFolder : materialFolder);
             if (entry.Name == "HallGold") { material.SetFloat("_Metallic", .45f); material.SetFloat("_Smoothness", .42f); }
             if (entry.Name == "HallPainting") { material.SetTexture("_BaseMap", texture); material.SetFloat("_Smoothness", .08f); }
             if (entry.Name == "HallSage") material.SetFloat("_Smoothness", .10f);
@@ -72,7 +77,7 @@ public static class ProfessorHouseHallFinishBuilder
             EditorUtility.SetDirty(material);
             materials.Add(entry.Name, material);
         }
-        string modelPath = ModelFolder + "/FBX_ProfessorHouse_HallFinish.fbx";
+        string modelPath = modelFolder + "/FBX_ProfessorHouse_" + stem + ".fbx";
         var importer = (ModelImporter)AssetImporter.GetAtPath(modelPath);
         if (importer == null) throw new FileNotFoundException("Run the hall finish Blender generator first.", modelPath);
         importer.importCameras = false;
@@ -88,7 +93,7 @@ public static class ProfessorHouseHallFinishBuilder
         var model = AssetDatabase.LoadAssetAtPath<GameObject>(modelPath);
         var instance = (GameObject)PrefabUtility.InstantiatePrefab(model);
         PrefabUtility.UnpackPrefabInstance(instance, PrefabUnpackMode.Completely, InteractionMode.AutomatedAction);
-        instance.name = "OBJ_ProfessorHouse_HallFinish";
+        instance.name = "OBJ_ProfessorHouse_" + stem;
         instance.transform.SetParent(environment.transform, false);
         var renderers = instance.GetComponentsInChildren<MeshRenderer>();
         if (renderers.Length != manifest.Meshes.Length) throw new InvalidOperationException("Hall finish mesh count mismatch.");
@@ -113,18 +118,17 @@ public static class ProfessorHouseHallFinishBuilder
             obj.transform.position = entry.Center;
             obj.AddComponent<BoxCollider>().size = entry.Size;
         }
-        PrefabUtility.SaveAsPrefabAssetAndConnect(instance, PrefabPath, InteractionMode.AutomatedAction);
-        ApplyHallPalette(environment.transform.Find("OBJ_ProfessorHouse_Hall"));
+        PrefabUtility.SaveAsPrefabAssetAndConnect(instance, ProfessorHouseConnectedBuilder.PrefabFolder + "/OBJ_ProfessorHouse_" + stem + ".prefab", InteractionMode.AutomatedAction);
         report.Add("Furniture and garden trunk box colliders: " + manifest.Colliders.Length);
         report.Add("Painting atlas uses four UV quarters without modifying source pixels.");
         Directory.CreateDirectory(ProfessorHouseConnectedBuilder.ReportFolder);
-        File.WriteAllLines(ProfessorHouseConnectedBuilder.ReportFolder + "/HallFinishImport.txt", report);
-        LogUtil.Log(LogTag + " HALL_FINISH_IMPORTED");
+        File.WriteAllLines(ProfessorHouseConnectedBuilder.ReportFolder + "/" + stem + "Import.txt", report);
+        LogUtil.Log(LogTag + " " + stem + "_IMPORTED");
     }
 
-    private static Material MakeMaterial(string name, string hex, float smoothness)
+    private static Material MakeMaterial(string name, string hex, float smoothness, string folder = null)
     {
-        string path = MaterialFolder + "/MAT_" + name + ".mat";
+        string path = (folder ?? MaterialFolder) + "/MAT_" + name + ".mat";
         var material = AssetDatabase.LoadAssetAtPath<Material>(path);
         if (material == null)
         {

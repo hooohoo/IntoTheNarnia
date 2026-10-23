@@ -1,0 +1,5 @@
+validate_structure.py
+Scripts mapped: 46; mesh assets: 820; mesh references: 0; failures: 0
+
+validate_chalk_contracts.py
+Chalk contract checks: 0 failure(s)

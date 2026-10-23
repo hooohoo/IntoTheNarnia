@@ -1,0 +1,32 @@
+[
+  {
+    "object": "Gentleman portrait backing",
+    "structure": "B08S",
+    "role": "rails",
+    "intersections": 12
+  },
+  {
+    "object": "Manor landscape backing",
+    "structure": "B14",
+    "role": "stairs-trim",
+    "intersections": 15
+  },
+  {
+    "object": "Manor landscape backing",
+    "structure": "B05",
+    "role": "stairs",
+    "intersections": 12
+  },
+  {
+    "object": "Frame upright.019",
+    "structure": "B05",
+    "role": "stairs",
+    "intersections": 12
+  },
+  {
+    "object": "Frame rail.019",
+    "structure": "B05",
+    "role": "stairs",
+    "intersections": 12
+  }
+]

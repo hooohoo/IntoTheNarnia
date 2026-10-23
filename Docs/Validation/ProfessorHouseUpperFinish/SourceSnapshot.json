@@ -1,0 +1,1309 @@
+{
+  "branch": "art/professor-house-upper-finish",
+  "base_merge": "0e961ad548ec8acf45408a38a18b724377a1c041",
+  "scope": "Final hall and upper room art, inherited traversal inputs, Unity screenshots and final test evidence. Excludes this snapshot.",
+  "files": [
+    {
+      "path": "ARCHITECTURE.md",
+      "sha256": "7b0b97e5521ca799475d087e01e59ba4236b26290b7c25ed9e9bdafe00c9c6ea"
+    },
+    {
+      "path": "ArtSource/ProfessorHouse/ConnectedLayout_v1/Data/model-spec.json",
+      "sha256": "fad8e74ff5f9b98045a7d69722b29a12fc3bbf013d362186141cf8f443232a5b"
+    },
+    {
+      "path": "ArtSource/ProfessorHouse/ConnectedLayout_v1/Models/ProfessorHouse_ConnectedLayout_01.blend",
+      "sha256": "40e90da3ba865f69bd29099661af1718c1f4f0bd2d04477baa085aea281709b9"
+    },
+    {
+      "path": "ArtSource/ProfessorHouse/HallFinish_v1/PaintingPrompt.txt",
+      "sha256": "737d4e6586d808b9f1fba0cddef13319c6520571bd623f1ae00f97c25e5912b6"
+    },
+    {
+      "path": "ArtSource/ProfessorHouse/HallFinish_v1/ProfessorHouse_HallFinish_v1.blend",
+      "sha256": "afa73d895a1e5307a7ff1014153ae27c103d8074e11b4013e044009064e5a85d"
+    },
+    {
+      "path": "ArtSource/ProfessorHouse/HallFinish_v1/Provenance.json",
+      "sha256": "baa7164ab3c2652bfa2f043d05f518f672f03c76486919659c7115de68c7f4f9"
+    },
+    {
+      "path": "ArtSource/ProfessorHouse/HallFinish_v1/README.md",
+      "sha256": "f37195f5e56a1622f8bc9e00f54d1ebd234c42809ebf1631e5562c591b649d1f"
+    },
+    {
+      "path": "ArtSource/ProfessorHouse/UpperFinish_v1/ProfessorHouse_UpperFinish_v1.blend",
+      "sha256": "db6b9ad6ef2dab9e2a3ae968f61f6a8d0a194e4e827f8aa7a00aaa7f87d90678"
+    },
+    {
+      "path": "ArtSource/ProfessorHouse/UpperFinish_v1/README.md",
+      "sha256": "0b6a3fc3c6d22d333ffa0de713473a340ccd06a5a2d38319f4f1e63300b53b8c"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House_Connected.unity",
+      "sha256": "b3c10f50f549fadaccb067125bc6139360725f5f2761b81fa247e0a41f3ddbf8",
+      "validated_sha256": "bfa639ed8d6ca55e8b464ca1b12089ae4ce3677747a1f29af8d48c2449c50a7f"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House_Connected.unity.meta",
+      "sha256": "ee5189f266348b9c4a8ae12393a7a45c4d3305b1295d919632fda569552bcfd5"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House_Connected/Connected_NavMesh.asset",
+      "sha256": "3cd8feba6c89e1c9fb784944cd1eaf2d236fce33804276a60c5bf4f1b87adc98"
+    },
+    {
+      "path": "Assets/@Project/00.Scenes/Professor_House_Connected/Connected_NavMesh.asset.meta",
+      "sha256": "52fd2926b45b41a862bb67b5a209aac33769a6266c9c64b952253aeb37753a4e"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/ProfessorHouseWalkthroughRoot.cs",
+      "sha256": "76126e1582bfaa0ea2ec4f38b110f41aae4232517ede11b50db375351a2d0413"
+    },
+    {
+      "path": "Assets/@Project/01.Scripts/Scene/ProfessorHouseWalkthroughRoot.cs.meta",
+      "sha256": "723e4e26f41ebe7bf03bacb8e5fe6f3e772d24b9797749b86d59c06cc37e658a"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_AtticRooms.prefab",
+      "sha256": "c321bb4ea7b733ac8fcb6af3f7b3ff1031ddbd32f10ee35fc1979674b1830b3d"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_AtticRooms.prefab.meta",
+      "sha256": "924a1cb2dc61174b89a5cbc0f8d612ac8d0b26ab9d1a2d403a451d12c154e601"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_Gardens.prefab",
+      "sha256": "0287dcc91db077dfc5af8e85c15b4a6cf3dfd100c6c7cd545d4b6a00a2a1e3de"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_Gardens.prefab.meta",
+      "sha256": "837fbb731b6ac0ae8dc477b2208987cffc50666cb22badfd965cf0eed99a8bbe"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_GroundRooms.prefab",
+      "sha256": "b127e8ce4eb4baac329fec5263c77b03a52471edb943fb32560d434f7e828781"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_GroundRooms.prefab.meta",
+      "sha256": "97d6028ca2425ae884c6b101d2ac889c3540cd76dc3af6cf0dc512705d0f78b7"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_Hall.prefab",
+      "sha256": "882189ea9dffba77768db2f68cc35da8467ec173018fb1e7a87acacccdd404a2"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_Hall.prefab.meta",
+      "sha256": "34e8f336523709a4100230e82fee5beb8139aedce28fc58e4b5f0ef3d0b06f2d"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_HallFinish.prefab",
+      "sha256": "65c6d207fa6f17aad405fdf1d9e14004bf3539c868a78d91b310797577948853"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_HallFinish.prefab.meta",
+      "sha256": "586c3b16a95b70e05110526e39f93edc4579273717746655321cf3f09121bbe6"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_SecondaryStairs.prefab",
+      "sha256": "78c83898aa790bef500b12832b1abaf3445eaaaa4f5a4da14c4d3156e7bd163e"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_SecondaryStairs.prefab.meta",
+      "sha256": "b8e28e3a0ec4362a6259891f0a18204bc8ceb52b2ab275bfc2e274f32e208be1"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_UpperFinish.prefab",
+      "sha256": "3f2ff7f4238610f4a3eaee34ec8c0599f446cb01dd6cac6bf34e9f31dafbd51d"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_UpperFinish.prefab.meta",
+      "sha256": "7fbb3b16c202c989b390006f7a1ee91f1f725b1a4c971977e16b45fe134eda70",
+      "validated_sha256": "96c562646c8bbbbdfa02a2bac78a5f26080249b322c5e677192a6f2bb963d217"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_UpperRooms.prefab",
+      "sha256": "3ec7cc1707e847b9619c4c518cfe1089dd204492a58483d650c0fa8675645859"
+    },
+    {
+      "path": "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected/OBJ_ProfessorHouse_UpperRooms.prefab.meta",
+      "sha256": "978e98aba1cc2cdb5d47a5879ff08987a1693e333d1a1cc2bd77b130806c3e63"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/ProfessorHouseHallFinish.meta",
+      "sha256": "d23b64649229635086e94fb758468706a3fda143bef5b0e562fddf4958af4a02"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/ProfessorHouseHallFinish/TEX_Hall_Paintings.png",
+      "sha256": "abd38fe2438c9570630a477ee115f027584c1d292db31c4c3a085cb7ed799ffc"
+    },
+    {
+      "path": "Assets/@Project/03.Sprites/ProfessorHouseHallFinish/TEX_Hall_Paintings.png.meta",
+      "sha256": "f5374c5abafd2780c86c57cea948f9e153df3f4ae5d810b1ed1a9f94ffd85310",
+      "validated_sha256": "c00d99b56a6e7bb3a4a7eaf9c4514225e8860e1a37da25bf12aaf0e5951fc12b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_armor.mat",
+      "sha256": "82b60a4ca421c518b51bd99a6f18692221735b501118008033ebfdc08a5da823",
+      "validated_sha256": "252b2c92a61d7290fb97f4f45e9e68d8b253c29b8178eee0cda0a76592cb342f"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_armor.mat.meta",
+      "sha256": "bbff40a945ea5db5719b5b34d3f8229a3327d8e7805835db24551faf52822b6d"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_atticFloor.mat",
+      "sha256": "0c7b4ce9c5c474f3ce1b0c75fa1debe4e35748974ae28c2af69f5b7018682577",
+      "validated_sha256": "00d4a6443888860691590147dcedf47802180813ff3024776462f0105c3bf2e0"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_atticFloor.mat.meta",
+      "sha256": "d3b67528a256929d4c836e12a93338dc5782a36508002bf67480a6069a63dfa6"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_black.mat",
+      "sha256": "903094f962fefdbc3a2687a2c5f6b6d71405a6050e56becdb58b45cfb6d377d5",
+      "validated_sha256": "11ccc0f3737e9a6fcb4627727be6d06036eb41cdd4b634beb47e9216cd2258ea"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_black.mat.meta",
+      "sha256": "e680ebbebec10dfa473157dc05b8d2de0b149242fb34cc282cdcfc8eebcbf3ab"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_blue.mat",
+      "sha256": "da4995f1313db46334f22e8be9442ee55bc8ccda950ea2711b7ec14577af2dfd",
+      "validated_sha256": "80d8d2f89ca1ba155f35e34b250a30bf14e96d1a316a53bffe832c05a5bbdf9b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_blue.mat.meta",
+      "sha256": "702996edfab42e760f18dd05e52fbf124e287a062a93ee06e4d0c901b4252d31"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_brass.mat",
+      "sha256": "1626d15587a86baf6def35b95b5c199016d53be5bc6784f634e0d3f8c348eeb0",
+      "validated_sha256": "29343c33afff241dafea24a46bfa9f627bae7d631f749248bd66eadb8362ed29"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_brass.mat.meta",
+      "sha256": "54ace4ec3418eb875e433b0db9883c9b3e57d7bbdad26cff65355327f9254902"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_brown.mat",
+      "sha256": "7900f230cec2d160d52b702e0076e58fd3c3d2ad2466adc2225a3473f24e4da4",
+      "validated_sha256": "8e14b5e49124915db8c57152bc9fcfc91c70f5b54c4de678ebc10da5d3e476f1"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_brown.mat.meta",
+      "sha256": "28c8f9cc8099ecda065b59beac3193d4589cdc5d83322505dee170deb9c39f5d"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_chalk.mat",
+      "sha256": "b01103ab93a300d3631d718e1ebb42f7b661802ec5d3909e0b534db39d492fe7",
+      "validated_sha256": "b6a414f50332a5f4bca193b05c3cdf1ced725b7105914f2c06798a5dd1e65f92"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_chalk.mat.meta",
+      "sha256": "337a7d948d8ba0804946d9d6fcfcf45a14e4e65a267a41ce00ef2acb3e1b6b06"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_childSkin.mat",
+      "sha256": "d947fd7091aabeb3c470358cbd61c94005c5c4bb3eea60df539e73a0ee123294",
+      "validated_sha256": "af9878d0b9631f04fb350cc0fd739e8050606dfa38d62b92fcf90a348d68f776"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_childSkin.mat.meta",
+      "sha256": "abe2b184f6d3b2be4f99b7eb7e06763fd648296e376437b2f6a9e629879ec64c"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_childrenFloor.mat",
+      "sha256": "5d306cfaa4f18240e13c8306792e4a09de359f871c20d7ab03fcccbc03a3c610",
+      "validated_sha256": "d9d05fd88f9afc8d0a49ffb7fbd238c4dd806ce3686b01a5ed5cd80d60911c09"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_childrenFloor.mat.meta",
+      "sha256": "06e141fb8ae0c1ffe615a8ea9bf4c506913426dea0d1a73c44e3cf45fd3f8c82"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_corridorFloor.mat",
+      "sha256": "787dc941622919dcf0df16ddd554af213244051615194e8bd3979437a9a2b2f8",
+      "validated_sha256": "9ee1d53e5731a8615cfcd14490425396208657b2f15445a87d73c50b2fbc5725"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_corridorFloor.mat.meta",
+      "sha256": "fde2038ca83405fe615e21c3e73d3ceccb78f5d6eb4d709f139edfcd7950eff0"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_cream.mat",
+      "sha256": "d9d9e5913b029dce296d7c5632623844bd6eb63364bf589288aed01ad9f5e189",
+      "validated_sha256": "f7796407b63862070b9d7c64e94c31d307293de52f602925c1d70fcf4a0677d4"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_cream.mat.meta",
+      "sha256": "5d4233f8b93a2ecbc989effcc127bbdf4b7d3a34c4c03ead8431dd9bc98a7768"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_flame.mat",
+      "sha256": "777179134e459d3aa47ca2f1ed2dd41a857e4a3061f54da5358ebafd5e817999",
+      "validated_sha256": "f6dedb38f68b23abff25f16632a8636c545963fba457d91df0db7febde9dfd83"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_flame.mat.meta",
+      "sha256": "bef7abbde749e93169c40a8bdd027d576c7f093e9d47546bdf0698d788ed7f95"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_floor.mat",
+      "sha256": "bb0992c370c3a2a3adb58e3dba677290221467de7409da0c98d8e919fd951f01",
+      "validated_sha256": "de8ae071aa1b195773b982120c7b8773d45faae9b9b50a3d211f943bcb134f05"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_floor.mat.meta",
+      "sha256": "332d47707724df146aeab90716ef845689edac5c54d254aac6dc4f23943bedc4"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_floorAlt.mat",
+      "sha256": "0d26d46b984a8afcaa379a6fe2569680ce722ebc2b2dbc6795b2986b5a162dd3",
+      "validated_sha256": "4a58d0a97f4728997f51614b0ec1d50a827d8c0611008095a1bbd3fef8f51e7c"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_floorAlt.mat.meta",
+      "sha256": "b509a8cb0a656dd2675020bc8bd937e5ed00367ebef57c629d37aaee16674ee0"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_future.mat",
+      "sha256": "7c1de54d58c0b5c8935bd65e3030b33231bf4ac04097ff1415d7ddd7954a43ac",
+      "validated_sha256": "7116ea64f6f7fc62916cda21646558240d742ee01e0ee50f198861af662f7f81"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_future.mat.meta",
+      "sha256": "fb985161739dca1aa904c7e1be985250348d9aaceb33e4d8ebeb9b3560aa1f51"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_glass.mat",
+      "sha256": "73dbe9ffc2c77dd91d87f18817bf6cd53b8e03ba3d18eb52f54865fbb9af34a7",
+      "validated_sha256": "7e64fbbe74b4d4c86eeb37e9842ee0c3c237283125905a187df547a4e72c9b8b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_glass.mat.meta",
+      "sha256": "f7f7d0f559b9c8db73e8690f1aa938c2664fc4cb1315ebf4fbff79350b124116"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_green.mat",
+      "sha256": "49895fc8c14278040f0361dc790edb3f975e0dbe1bad034e440716ab6b8aec34",
+      "validated_sha256": "aa7b0709406ea93a61ef8d98cf46913e25a816b01448fca2ea875d3324c399f4"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_green.mat.meta",
+      "sha256": "67ce36b4cc8af92fae2fe72416e5683f0e05ab4e0063648897eeda219faa3268"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_hub.mat",
+      "sha256": "4259a55bb6bcfce251995dfd301e90ecd4625bd121ed9403e67bcb0c7bb1b9bf",
+      "validated_sha256": "695277ab4ae58510a980088c91b45e570c65aaa31c759d52f332c8a89164be25"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_hub.mat.meta",
+      "sha256": "ca9310979d1116fa2036512a04a980466bf0c3ec4f95929525c8f87105403f59"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_ink.mat",
+      "sha256": "f84bf61f39230ecaaf329842089f88e50f42dbe0dead569831157c849392464a",
+      "validated_sha256": "1c20bbd13cdb6ca814a2f30c4533f9b002935884658b2aa8f38296fb0d875fd7"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_ink.mat.meta",
+      "sha256": "dda24b4ec5b234dc2738253ecbcbbf9ef8cde5e920aa25ffa0a663a3ce620349"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_lawn.mat",
+      "sha256": "e3544419c1cc3f8d300113bda8557b97117d98f4214dbe18064029c60e477572",
+      "validated_sha256": "0da6ccd85bfe7e1467f5317100a86316a9ca57e3f81700ec24439cf6e87c7edc"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_lawn.mat.meta",
+      "sha256": "bc0aa11f6bca89a58fdac50e6cae245eb578f5a9d8d2bb5a3b37ad814f253519"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_linen.mat",
+      "sha256": "551686c252d8a03b2d9fac9bfee1848815881676dc2a6aa8012f202418dc713a",
+      "validated_sha256": "9969caced4e7de71df51ed1df17afe16576053ada3bf950f76be183bca06b493"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_linen.mat.meta",
+      "sha256": "ef447537de3ccdde9360ce1d5215bdceba6d8df16cd574bcbaf353879425f02c"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_metal.mat",
+      "sha256": "05f47b33a85f1388123dcbeb40f2a8d4a4be8bf44faadcb5c70febe48470b1fe",
+      "validated_sha256": "6ef6e9b276db41957de00b04716e559a7556eab257536a77bcba1772e4c6c6bb"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_metal.mat.meta",
+      "sha256": "f082b1715f65c00202b56c3353b52cdfc7aa92b3bbdea3380c6ee94239e4cab9"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_plaster.mat",
+      "sha256": "20cafc52851eb3e122c4800809826f4a4191cd2d77e1bbb64c5dddcc30367d4b",
+      "validated_sha256": "1e1a593faa37a73e14889ffd0a856813ca18fd2f5ef60e2573f0c0c5d0dbf8e5"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_plaster.mat.meta",
+      "sha256": "028eb61552fd6e3c30026609c4fd9a0095fb711e5fb48c7049c44d4939f22bc9"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_portal.mat",
+      "sha256": "fd4a062c5a756277cf6d3c84847b2afb87dc6654340bb9b823299e72ec83c059",
+      "validated_sha256": "95d66c8100d8d98df3569658e00604c33ba19dd319c5993ecbd5d7de4abe9360"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_portal.mat.meta",
+      "sha256": "c5c716a7c9f0f0b5cc943213a36a409530c820ec668d2c421f0967009fabedea"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_professorFloor.mat",
+      "sha256": "1e6412182ac4b0c873a09e42e29aabd715aa54c9addd9e137d23bc7cc0aa211a",
+      "validated_sha256": "a164da278d9f446e201d7911dbe12df2023ee91c8877de9cd3cca7553337fdc7"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_professorFloor.mat.meta",
+      "sha256": "6a4edb448e45381fcfe337052621d17269723a53911600deb4a2f824b2cf44fb"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_proxy.mat",
+      "sha256": "f7de2306f83f6e547e2a87e8c367617813f9fd1db0a6effed247430afd0324a4",
+      "validated_sha256": "29c9bfc898b89ddaf883828402a86bcda7c87706470db25ed5de838384f9eec8"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_proxy.mat.meta",
+      "sha256": "3f5590275087d266b55fe7430ab6c1313417ef5395134837bc0e1c35f066ce7b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_publicFloor.mat",
+      "sha256": "3874ccde7d58fe97e5527950ab189bff0e003d68c675029c133b512eeed3ec9b",
+      "validated_sha256": "8c77442d2e47d880923dbf2b8356b2a4dba0e6c400f54b4759dc920a98eff64c"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_publicFloor.mat.meta",
+      "sha256": "c4f28262aaeec11dd79f66d82c115a2a4668ec829a71e742e5e205d30219f447"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_reference.mat",
+      "sha256": "8119b01a92f3d35f73284c214ff52fc9157e244b822152c589a1f7f4b24a4ea6",
+      "validated_sha256": "166c26e2f1770db84fb23f28dbd61782f8e9a93891afa74169409b52478207a5"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_reference.mat.meta",
+      "sha256": "32e48e5f8e14537a356a9e505723b104e18946055fbbb06369b9cbc0c068610e"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_room.mat",
+      "sha256": "5613edf9fcbb720ab509d1b03c150da43b284eb9f36ad258a2cad735bdda3981",
+      "validated_sha256": "532ea0cbbc019cfab5047c5149e81b16274ea3c0daf5391420daffbbeb5324d9"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_room.mat.meta",
+      "sha256": "9b36c637c184c84eb3a662104cd64c8658e0e8ee5229c45204409c875dfd6ab1"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_route.mat",
+      "sha256": "e2e9589dc291d97778501cbb4cfdaa0679129fa377983d26ce590bc0925c6c19",
+      "validated_sha256": "71057fb8b46949ccdf05aa71b2061fbcf31ed95a72fd6d896f0ea18f1d2d1b89"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_route.mat.meta",
+      "sha256": "e913766305e6eebeccb23cde26dc2dcf3d226e85613815259fc5f9491a789b6e"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_routeAdult.mat",
+      "sha256": "2c240008531c00f82bebe665166b5d4b60736b9f9b8b899fd1f3ba224e793e0a",
+      "validated_sha256": "0f91cc7ab95125156f8a8badd942740e118e72dd4910468299b6671b641fc74e"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_routeAdult.mat.meta",
+      "sha256": "1b8b8ed10a995d49afecbbd5716aa8646db77fef4c17683fe66771ca9d1aeee5"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_routeArrival.mat",
+      "sha256": "07bd2089271ee10df26ced93232d7df7bfa3350ff82680293fa492856d8373ef",
+      "validated_sha256": "50f0907ba1df73d309d899f0a0acdac6b957612b97985a266ab4127801d77a9c"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_routeArrival.mat.meta",
+      "sha256": "ee1dc03afcb5632d9a49f08b4ff8197c60aac6c58bf396d620948791ea133ba5"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_routeEscape.mat",
+      "sha256": "d3923bbca61c9cb713cbd8ea030d23c378afd25e49a9d110d28d5087457fa9ba",
+      "validated_sha256": "0556a655800aebf39011ec18de942a639a08dae060b3c0fe9dcfa5f0dc1139a7"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_routeEscape.mat.meta",
+      "sha256": "15df35d8ae44cb373c29567df58f5210421b9b9e0bc6eb29b29f0b18fb59053f"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_routeHide.mat",
+      "sha256": "86981e4864d741e667ae3615c7abde0f19573b3713614007134775d266f587eb",
+      "validated_sha256": "1b5287e5873652cf861bdac39cca2c2048bd6f8f9eda07e3011eefdb27eaaca5"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_routeHide.mat.meta",
+      "sha256": "7d75ddf758fe08aa534e1bb58ee74a0e6a9279f6f471b9dbcef0637662dc5424"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_rug.mat",
+      "sha256": "70add30f295235f42b180408ba2a2ad44d1aa3e7fff05bee0f4765bc5b4c998e",
+      "validated_sha256": "9e21b5033be8492de7521e7dd0961319c5796576214e7a6cdfcee70d96c5561f"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_rug.mat.meta",
+      "sha256": "869a9b0cd89e5ca8a161b7f8b456b09ebe9b6d23ccbbb07802efbaf4a40c61f3"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_rugGold.mat",
+      "sha256": "e622859390659d5e52cb719f7ea6c3df4bee1682b5b173bf1e88d6559688b986",
+      "validated_sha256": "efe30c6284e6e578b785a563415d626832ee94b443c437e70ee590a705dc3854"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_rugGold.mat.meta",
+      "sha256": "4d6e2d0f1b595849596f9344d85f5957f3e3193ee0654548afa61435d98ed3c1"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_serviceFloor.mat",
+      "sha256": "18a131782b5dcf66d7e41e34a8212cd72575c6869e3c2e881ff31188556366a8",
+      "validated_sha256": "81310100b43a6a051930031e9cb46f80aa08abc44dfd0e375403c5b927e5e413"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_serviceFloor.mat.meta",
+      "sha256": "dbfdbeba50d9283f1a1d72dac6c69f6deee572fdb851295bd7d267d27db2cba9"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_softGreen.mat",
+      "sha256": "58bb19f9b88f801fc2fdaf5752f1a5b2846af37d3ac0671a8fc4e8e28887b7d9",
+      "validated_sha256": "8121efd90c424c03658cb3808fc53b17d498a711e58b8c9f46b3768c887d6814"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_softGreen.mat.meta",
+      "sha256": "ede23d381fb6ec6c950206f7e484de7e9b448e65c4af30d4a135a3447ee64b2f"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_stone.mat",
+      "sha256": "cfed222dbf8d25a15969e91a45de2cfc8dfc7c9ff7f218482864be6b5a635555",
+      "validated_sha256": "5d3da90fc1adcc8d2e03aea793c33ba54652b1f824c786c2c4116ac88fb4378b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_stone.mat.meta",
+      "sha256": "f9957eb640e2e2c6edea0b39295d46a924b3db45fc5087a4deabd508b63bc010"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_stoneAlt.mat",
+      "sha256": "7d3085986e789eb71226df570f798462f70ac5a1e6024495f6fd66096f4434d9",
+      "validated_sha256": "400a28b9b007963e802caf0b58356316ac8c84e580d43c4c1451906889b6e231"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_stoneAlt.mat.meta",
+      "sha256": "351ba8b357cb4f67fba61b0d8f602ee760e12b2c883181f6fcf47a7225bfb4f1"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_wallGrey.mat",
+      "sha256": "209bbb71d1607db1f018459710fc27d49821b2474b90db2f8d42892861fd7ebc",
+      "validated_sha256": "4789514df238ff9ccc1f0482324e92329a858da0fe755f1b5a8a73999094c71f"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_wallGrey.mat.meta",
+      "sha256": "57415414acebc0c3c35af7a4d00d116944abe3c305aa11d20b87e3d853a60843"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_wardrobeInset.mat",
+      "sha256": "baf2f1cc49f404bfea74528435ffc51339d688602a28a0b1e0ea1697b7c9c06f",
+      "validated_sha256": "ccaca47b48e24a79bd6c12cbd91afb6edbd6af170f7b2dd8bf755843c0fca97c"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_wardrobeInset.mat.meta",
+      "sha256": "d581c7b1e0a64920aa41253faf96f39af464717d7b742f9178847ec21e9ab58c"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_wardrobeWood.mat",
+      "sha256": "4a614d2ad2e668d1ea8634e572fd0440f2497481d7ec045686446995b3fb2b4e",
+      "validated_sha256": "66959710184c9a23317a0de226937fcbb05d9c62575ac656bb55882a4c7a2912"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_wardrobeWood.mat.meta",
+      "sha256": "14c773ce22ffe8b8f48d54129b9b4fdf8ab4cffb05f6309fff2432baf66c021e"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_wood.mat",
+      "sha256": "0d3ada9ff391b3ac68c3b4e1423bbd55ef545665f600a3acc9143a48c1e4f71d",
+      "validated_sha256": "dd28493395215ed0bc1a19e1ac28eb925f53c995181d066fc63b68c139ef3b9a"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_wood.mat.meta",
+      "sha256": "cd994b849eb22f5c75c7d7f2bad53de0b9b39cb15319e0863f1324c3b9d1d148"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_woodEdge.mat",
+      "sha256": "5a32e4244331f63a466babcff8b39395dd2642c5f688ad32985d35d82c2d7d67",
+      "validated_sha256": "de4d5af382dc5a9c343721606de58418bab5fa0f9432b9b7da4bad17244134e3"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_woodEdge.mat.meta",
+      "sha256": "7900ea76af073eddd9f136264f390a2b9cb1312ca79a0f12b6fec07e69045385"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_woodInset.mat",
+      "sha256": "53f3f3488bf4386aad3680ab902a94ba8c78f6aae34cfdb27922504d4d711735",
+      "validated_sha256": "80a324fd4625304c1b8a91ad2f3355c17eb52d9931c6c9173b7567c19a387857"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_woodInset.mat.meta",
+      "sha256": "bbc5acb0bb692fc24a27ac5f42e286c4443e111a990242150b256822f3e06a7e"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_woodLight.mat",
+      "sha256": "7a9242cfcc978e50a28f8e94eae3c63285707b9055955b42ce9e9f7ee50e6e08",
+      "validated_sha256": "ca8f5e889c54ace746c67134969e85572d38d23447e2b1258dda71345ffd6eb4"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseConnected/MAT_Connected_woodLight.mat.meta",
+      "sha256": "8fc1a076a1fb2d31991f0bce678ef8d8c641cde2bed3070902f4cfd33e3d99e1"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish.meta",
+      "sha256": "e22b50ee32a30b820e456fe8436b190c57b940b65cbc5d1c6c59cba057df86ab"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_brass.mat",
+      "sha256": "af9e8754357f92d60cf57207552c51ef1725440e2badc9740853508072306014",
+      "validated_sha256": "4acd4a85690e1bd9e9c81b79b373fdb4cffc353b5a3490f9dd25394273905f75"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_brass.mat.meta",
+      "sha256": "c16badc6f7c8d51489e43af5ac9e57fabbdeb2a3f7d6eb687b33006150db8ed5"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_flame.mat",
+      "sha256": "958d1b9313ecb570d41dd74af8fc6f3050bfde4356224b909c4f9700be90b0e2",
+      "validated_sha256": "70defd6f577245cc3cef249a4a804e6495459f299e6ac40cf8c6666b944dc646"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_flame.mat.meta",
+      "sha256": "b10406009385c59c8879d555e865d30a5de5f2db05439a9d142c86d93f8adf1b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_floor.mat",
+      "sha256": "30479312ebc670e5b4168d5b9b692b45959caadd793499ceb5c52fec96dbace7",
+      "validated_sha256": "57b12b663112f3232c422e7c35253122b66749eda0a6d44347223d06187df8b9"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_floor.mat.meta",
+      "sha256": "fb2e249f4873be2cee44620bdfe2fe87c20c32070427964ecdf102e93a704434"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_plaster.mat",
+      "sha256": "eb4857a551bf2d17fb47ee9731f070408f087ca299375b03e9a819b088f35b9e",
+      "validated_sha256": "1e0d4be26bfe532d1221e4d64012deae1b1a9ea4c33fc5a70c0f62a1d9720623"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_plaster.mat.meta",
+      "sha256": "2d30deedfc3a7532307a0c457bd8104d6bc8bcedf2d0f7dfa230c1238fbfbb3c"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_rug.mat",
+      "sha256": "99831f2717137ae6fcc15620bb891c471043e47de9e0a8bc86942b36db6a9391",
+      "validated_sha256": "f941d688361fda60eaa011ba687f0ac26f266c0e555b82bbdfc03e04816b47dc"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_rug.mat.meta",
+      "sha256": "81cfda631d60f9e4324e22cce53cfc7c92209fe08b9e1713124e54419408fa06"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_rugGold.mat",
+      "sha256": "b32ffa577d9dad8b694cee05514a5040ff97ece3e31a261af9d43381dbcd9c63",
+      "validated_sha256": "4a4751562fba1c1e15976c931996d957505a09e05a8974cd9924f08d6411b7b1"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_rugGold.mat.meta",
+      "sha256": "cfc1708cdd316d3c508f3e70e65dd009a6665ee03a282ef3945ef8320d673c4a"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_stone.mat",
+      "sha256": "af78697a8aea09c655dca08bc010ea4b4000a40329b4ee47e976489d7d27a252",
+      "validated_sha256": "d5d42b02d0212bf28dd61298ffc60eb7c2088538d346db8d929ba281a6647c73"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_stone.mat.meta",
+      "sha256": "d2f3ecb9a21745aae3db9231d2f044b8b6e84f1003d07039690173e0ff440fe2"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_stoneAlt.mat",
+      "sha256": "313594c9be435c598ecc6c5820e1a90372407f20341bebd750bcd6b9930c3a1d",
+      "validated_sha256": "3d7c26267a727da5cbbf4b9eda039aa29b324a702d577fb4cffd7e51b6d07dc7"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_stoneAlt.mat.meta",
+      "sha256": "8b1e7245f02bd7d5dbd91f48c1b37a7e267875d175f70382b9025be7987c4d21"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_wood.mat",
+      "sha256": "06ca14b1ea6d92e7173dc3cba1eaae426e6edfdb038bb73fd99d3202a0d8bd1a",
+      "validated_sha256": "584a1f719b4c726e952d93aa743ce2c661a719822c2c8088f4d5d6e6a27f1818"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_wood.mat.meta",
+      "sha256": "95bb06bc7a425822a4f0cc3c4340b04bca2eaab43c2fa84464f74c3faf189f95"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_woodEdge.mat",
+      "sha256": "177ffe05f66dcad672cf872cdb79620eede83cb8bf14d47f45b98bb06d9d5504",
+      "validated_sha256": "c8625e34cde3c0ed1a74be670763fef53068110c00c82af0e3bc2e6126eca04b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_woodEdge.mat.meta",
+      "sha256": "8f7e7563eb678a379d7f30c8ac3923123071752448f439476ffec39f1f568e32"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_woodLight.mat",
+      "sha256": "609281807a3321b092b30c264184facd0d8b3487c7b9eec66a95cad248d5625b",
+      "validated_sha256": "55c344720b50baa494f5099b4f6a93429544dc38687ed46b50d7a6e7a546a776"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBase_woodLight.mat.meta",
+      "sha256": "1d22b075b80ddc8ba8deb51087650aeac9ca766ca48b3d4403c6e9c6797af412"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBook.mat",
+      "sha256": "8a61df15bff22b4274a625fb5243c6647985e8d07fde6797ba4caea7f4cfc614",
+      "validated_sha256": "0611903ad75666de0cb5d24b422edd849f3e64f1260c0270a36fe995281927e0"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallBook.mat.meta",
+      "sha256": "a30f0afb8159981ec336e0b8ae5a6f0bf89463cbecd3c7ecec78ea408f90ceb4"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallFlame.mat",
+      "sha256": "58a7828510ceb54eaaa2bcf3ecf3b2d4636190fa4b363fb8e94f94c9a99bf5cb",
+      "validated_sha256": "427c3641f6ce6ea49ac2471fe41fee033b59bc74440c1cb890fadbd5c0cb610f"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallFlame.mat.meta",
+      "sha256": "59eff77e3d138d2e3df65ae6608d4cab5b7e699910dc3c9c7f2f1cf0996b5d42"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallGold.mat",
+      "sha256": "fe0a855c6122b5ea89131d0c33e2dad693e3bd61641e1ea123c9232ac1a1b111",
+      "validated_sha256": "f8a0d64cc6c3c14cabf9fa9504034803dff65b7ed7a52bcd4b71c9cfb419e6d6"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallGold.mat.meta",
+      "sha256": "308e7ab2a829456e3ec53299298babc1596adaa664bae40140db05abe9f97d6d"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallIvory.mat",
+      "sha256": "45705c1864cc620c175c0b8ce37112a7887de96db7e74f982b9ee788cc8d561e",
+      "validated_sha256": "54e30720d60b457ecbb027a6a40f5e3cd1fbb4d01ecc67623b6b1beecbba90f9"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallIvory.mat.meta",
+      "sha256": "f1bd2e2c31bf01047f0f83267db5f7b177c87876057d36692807c6dfdccf1c75"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallLeaf.mat",
+      "sha256": "5182b8f50e0dfe8e5b01a7d75a61eaf7527eb53725a1a76ce2324f19c21fd85d",
+      "validated_sha256": "312064d718410913dea0faecdd9f21493cd1022c609eacbbaa8bc75f9b384b43"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallLeaf.mat.meta",
+      "sha256": "fd0b61734c1b5944c9488036612d17c77d9df2e6c8337fb10ea3a101cd44a61c"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallLeafLight.mat",
+      "sha256": "89c146416ff34b43475db979721e5a11f9b3e0d8c9ca0882dc9d9e91d6fc64e5",
+      "validated_sha256": "abd0d774a783ac4529f46e8c34ac7ca83edef09b2d80a3e1064031771916ed7c"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallLeafLight.mat.meta",
+      "sha256": "92c4c5a1040733bf9386da80c97883c8a2e4b101b30681c0f28e3b323b05953e"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallPainting.mat",
+      "sha256": "10e0590abdc9b6a8ff76df70547304b43eb6b70e6ea78b08252b00bba8e9f347",
+      "validated_sha256": "3c2152115d6bef296cb8283580d238fba61122c506ffce31ccc7bf784960a1d5"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallPainting.mat.meta",
+      "sha256": "24b1ca49dea9953047cc1c13e794792a534d6b0546eba9c3e7635a9beaf429ac"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallPetal.mat",
+      "sha256": "394102edc057514ba68380e39fe39dd7261ebd82628cd7b64122be5e3baf8bd3",
+      "validated_sha256": "51bc7cd234a346dac02eb8cc2a2a209856e7522179335dd45ebe2be0125511b4"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallPetal.mat.meta",
+      "sha256": "f28607c60d8859598fd3829c0e66c6dd00158949b7f07f65dc07da3e660ddc0b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallPlaster.mat",
+      "sha256": "b91803ffeff7c566ca33672307ccb2330e835fc27878b211b6996a5f9a976f11",
+      "validated_sha256": "018696ebc93c540ef2d09171a5e5bef550a2d85b3738aaa1c9ca22ec03915f67"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallPlaster.mat.meta",
+      "sha256": "8045a117071c380db5817a8daab81546f9c38dc2acc9f6b9a3a5ab94aaaf8c1f"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallRugDark.mat",
+      "sha256": "62dad2460341610abce89953409f19714ec699ceceb71c4aa76050101c0f77c4",
+      "validated_sha256": "0ce1807d9d7082ffbc7d46ed9fbeaa19032bcb8227d4c011259493121ef216f0"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallRugDark.mat.meta",
+      "sha256": "3c508571afbcee5652e2e4737ef3bceeee756d1801c4b707c30272fd706ba231"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallRugGold.mat",
+      "sha256": "de684f2302543bb211bdda8360ac4342ef238cc078a3dc5ee574d7b2a035a158",
+      "validated_sha256": "5ce6235619859c8a21c208d7dcf91854df09ee37ca1dc570133193240d177a24"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallRugGold.mat.meta",
+      "sha256": "7f0f5a6256825975a0707b4b3140910ec0311bee73397ead76415f65671ed580"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallRugLight.mat",
+      "sha256": "bf33a8358de9856e47c20cc69d9cfec08163372b46ec2e7f7b5e02cd4b7fa89e",
+      "validated_sha256": "0ee8ba316eb37c0230e72039176eac8446620a300ffc060f93704cc0ed4adff6"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallRugLight.mat.meta",
+      "sha256": "cf22d182dc3a11967f4134a21afea4ac744fdcd7f9788b3e3e49add7f63af4a7"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallSage.mat",
+      "sha256": "7455895cd2bc6b86d776d27ccdb4e828920c06b484425ea681062b264695135a",
+      "validated_sha256": "ccc05bdf8947ed505ef3fcc11f3fa227ce5cb9e3369792bf576be896b23d945e"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallSage.mat.meta",
+      "sha256": "de5e84747a6d360a1eb54d4496c2f41872796c1cb77cc0142ab0aac84fd81360"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallStone.mat",
+      "sha256": "6a5cc2cd2b067dbc29a0ed149d713e0f07a491b05a61c8c881793ca02d6777de",
+      "validated_sha256": "75d0eec58ff04a2934e45c6eb1327e395228d5b5ba3b83b33a80d2f4753a72f0"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallStone.mat.meta",
+      "sha256": "c451505ab36fa8c3171dab5a9537b08122d57cdeeb54a56f19b6f8673102d55f"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallWalnut.mat",
+      "sha256": "aadd22a2705b700bbae95004643670094fabf737a75bae9b00d236c3b00878a6",
+      "validated_sha256": "abc0ee41b3ffe1647c9fc6b11d17d6f372c1d9a03e481bab2f90c851f248e8bb"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallWalnut.mat.meta",
+      "sha256": "d28f40ce03546b4969e299c812a3511b7f19c77eb2394dc49ce8c1422f91b2f6"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallWalnutEdge.mat",
+      "sha256": "b92f9db6bacc3ae2ec5a3a74fd9e42aa418edb734c485ea0f6e55cf6a875d4a0",
+      "validated_sha256": "95ec6c0f8e0e413d74ebaec8d5e36960d59695df4c7f3c67dcfdefb9f174a5d7"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseHallFinish/MAT_HallWalnutEdge.mat.meta",
+      "sha256": "6fa7ccb558816511d01eb64ebfe50b812c1efc4a00abc31b083a92d53ce2b97b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish.meta",
+      "sha256": "24f7d12bf58e99d7344b50ea15b0200f64d326b7f140f1dae9293ff6a4e7de68",
+      "validated_sha256": "70d579088a1424955070444a681cddeebc25f1fc25d85c9babefc8b56bfe2d6b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperBlue.mat",
+      "sha256": "e321418b1d01cfe7b60e6c04120fcf665e06297f22849c2572191c0617551cf6",
+      "validated_sha256": "e0e33ac96d6a7c400d3ac2771d638cddb31078389add958221ce4ef83ade4b81"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperBlue.mat.meta",
+      "sha256": "b4988ebdeaa47c833ae3b8474a8be5b7cf53f93d6d92c16066ab64334d98df77",
+      "validated_sha256": "c51e9d3081a29bb8e94e32a8add121374cb899c9f57de6856afdbb32d431d948"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperBookGreen.mat",
+      "sha256": "9b657de7f28af4deb0eba67a25df4435d5f53fddeb69500bf6bcf4f14b32e720",
+      "validated_sha256": "cbd76ce3fb3be46fe3be0e90ba500f3c0f4ee8e45d78abd5fccb16e25cda1912"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperBookGreen.mat.meta",
+      "sha256": "c65c4481f690d653466803d94079370eda5ddd224fb7e1634f8ce2623d359212",
+      "validated_sha256": "8bd79b2e79d1c521c17829e10ad81ac4f6ba199977dc6013cc3723eb2cda354a"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperBookRed.mat",
+      "sha256": "5364c59313c7a7e29eb95721f18dd1ba2f83455530122792b313946252a8ae77",
+      "validated_sha256": "09855d59bc44a02e77fd57d18b5d9ffa46d74a7218962c62399c29090a163275"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperBookRed.mat.meta",
+      "sha256": "59942da67fd8a68cd718f96ae320a8108afd13491c57c02179031cbf23d0110d",
+      "validated_sha256": "cfd29365992700923a0382c56ada146dcfcc257a115edaf691bd006582fdacdf"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperFloor.mat",
+      "sha256": "f0301f383706eaff4bfb660d0c7da797f325e78e30ba0f372b9f402a6f1c562d",
+      "validated_sha256": "6750accc622e5a8f07c9b02c5fdd998260daa04dbb2c2b5d6f738c7ac9a8327b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperFloor.mat.meta",
+      "sha256": "38cffe5b4c79680d65f2b437311a1491aea7387a586f633f22b9a351cf4ccfe1",
+      "validated_sha256": "015985d370ecd426adc768c7bcfc6e6366f6bd13ea23e1d38a3cf85de398aaf1"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperFloorAlt.mat",
+      "sha256": "32b6409d9dce0e4c28d9c30877a7548e0afeb9d27d72671355c3c03bd3c6039b",
+      "validated_sha256": "c67d2676f2ccc922089bf2dd15c34e6fdf78247c6d3d2a61673193da7866ba0b"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperFloorAlt.mat.meta",
+      "sha256": "207d53abd34dc80c848108566cfaa31e870fdbd73c5cd3e9f40038233d4a8f82",
+      "validated_sha256": "69ae530ab5a37b19c742cb5c2249661d96be058badd39d1c58c28216c5aa72b3"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperGreen.mat",
+      "sha256": "8ae282d07ca74ac8aa9e92b6cec69cc224d005dbfc9bc123bd1bc0000d20a8af",
+      "validated_sha256": "fcb9378c143d2287e3bd9046d61325aafa07caee32dea1f6c2ad5f141e0c2bb2"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperGreen.mat.meta",
+      "sha256": "ede005c5d244271c148f06d78defa82554a8d8fd7d8341efdc60cc0853415328",
+      "validated_sha256": "966c19a80e0af0a2cacad6d41911469d2505ac345872609e275aac5bb9ef6aff"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperLeather.mat",
+      "sha256": "f7dbe462ed0e7af32b7fa784f49b70e7b41f1e7a7638a20f9089a1ed236f79df",
+      "validated_sha256": "6769b63e56aa791760c90ae9f79a675019fd84d3351c2c7701c3ad2a57b7a941"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperLeather.mat.meta",
+      "sha256": "dd8d8aefcd93dd994a85fe0e1f78817ad3ce26b0ccdea98b630d94bce0e534c2",
+      "validated_sha256": "69f7032edb1d928356851f1afc1ee176f40e968f7c1e2fe6c78ce54c0e07a472"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperLinen.mat",
+      "sha256": "76d3e0a4585aa7f292f703cd95fdb24a4efce55d3d97075c349db527f351493d",
+      "validated_sha256": "6132f23721fe8da598895f22f895a338634bc0da070e826762e856dcb4f8f024"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperLinen.mat.meta",
+      "sha256": "62524d4b4bc9f84ba6d2f4494a88742e636b07674af6618db1e4ed33fbe98716",
+      "validated_sha256": "6e7a929b3e1094b9e4aed8f00ea39930fad146bea970931ac05d15f83ad800eb"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperPaper.mat",
+      "sha256": "7484b9ccc97332bcd54fefa3415447a4628621aee61e9436892257a54e628324",
+      "validated_sha256": "6965fe5e1b16ff91f73c3762f57576399b5dd1dd7b2577a71ee59d2d34b915b5"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperPaper.mat.meta",
+      "sha256": "d5e1b75453ce8fb30ea95a4de605833ca804fc6d74816e98229da1b06818cc8b",
+      "validated_sha256": "cf73cf898129c4f5192d1e753f7d7eda7f3c041b23fbfa05185993cc0d9b6e7c"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperPlaster.mat",
+      "sha256": "290a088085709fa200851acc98f76103b2e0162ae2d4a0c182b95f1deddc4ae7",
+      "validated_sha256": "363231e64a42974f46f85e848a892564ede322abc0257cab363159e68d05af97"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperPlaster.mat.meta",
+      "sha256": "8eed5087f1a9b97866c067049ede71ca14a56436e9c97f1cfd8e476f354feb1b",
+      "validated_sha256": "5c5c9e8df5ba985393770b49903fd34176113069436895a97e069a9a6f969e4f"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperRose.mat",
+      "sha256": "4111f6b3b842bcf3d086e611c3f9a74add2da37fed955b538519cd69da32ba4f",
+      "validated_sha256": "b0133fa82ca00362c8ca8ff37ff47347805d8745969e98ac74b48384fc454aca"
+    },
+    {
+      "path": "Assets/@Project/04.Materials/ProfessorHouseUpperFinish/MAT_UpperRose.mat.meta",
+      "sha256": "ff3f7f236f773585f62251705bfcff8ec08bfe23a4dbdcd15a28822c9a043148",
+      "validated_sha256": "d8d22b2e20a49045fc6145ccedef4624f235c02cf9b3e2ea72cd6273f8b699aa"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_AtticRooms.fbx",
+      "sha256": "9a4b6f0629e7604c8900293e31516a0d91908322f1ac4cbc931df435f912b986"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_AtticRooms.fbx.meta",
+      "sha256": "e009127cb169343572725010d87ecc24bc57b45d6e9ecdc8dbd5a4a0e41e9110",
+      "validated_sha256": "1fcf1e5a8586891dddd14424c077a5e9d80dd9557344a1d0fbcbdec7e67505c1"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_Gardens.fbx",
+      "sha256": "f44597ac9521729821d9705d76a2a849af2a076cc0598f175601e5cce9b2c728"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_Gardens.fbx.meta",
+      "sha256": "0e034ab4713f61c24a79d4fd6330479132e28bc13314cdd6ef10f073070c8f5a",
+      "validated_sha256": "02364b78afe0aefaba1d7c23d7232cc72a3f9d3cd8f371a84128da3b98c3731e"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_GroundRooms.fbx",
+      "sha256": "a6410749523d60dfb3dd472e753daa9925c77677216af779adfd458b1e56214c"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_GroundRooms.fbx.meta",
+      "sha256": "f9da6594df484e105e62c566099651dd66d2c3062fe6cc9e7b6f7bd7ae40be84",
+      "validated_sha256": "ecec715a755b5d2a40654bf7cacc9c57417631a5672998a117c09e407e1fee85"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_Hall.fbx",
+      "sha256": "e26b00111c37bb3e17fae1326f0e002171d497bd83354624e9aa600eb879f8f8"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_Hall.fbx.meta",
+      "sha256": "34ac8fea0222c9b4240a52432c2864456dbc6524a2e1e84886991b9150aa40fe",
+      "validated_sha256": "c4f30fe10819fc24cd65e4df06662b91836e7e18207d87f0a7625d8bfdba8240"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_SecondaryStairs.fbx",
+      "sha256": "f23fe1dbaec5b0b1e991aac30c941b8b75fe1518dd694786c0f500977312a9d8"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_SecondaryStairs.fbx.meta",
+      "sha256": "d0b29c370c3c8ec817041d14237f623cb8f55086046372d0782bfadf7b33c3f2",
+      "validated_sha256": "54c7deab3d3254b23794c7a51902d4bdc51d8e896eb13af6be28b5bfaa471926"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_UpperRooms.fbx",
+      "sha256": "30605cb29cd6176af818431c5bbf115344b42cd4cae393539e702366690af8e0"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/FBX_ProfessorHouse_UpperRooms.fbx.meta",
+      "sha256": "27981855b640e7379932544d00c3817f3be0ce5666a686440177651a68dc03c9",
+      "validated_sha256": "e54ce3849a31b1145c9e5d098365816397bb5ace19e1145fafd95d370fd524e9"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/ProfessorHouse_Connected.json",
+      "sha256": "f9f1c99ede3cb24c4d7cc696f36d50d54bceffac9a8007a69c487198ef127d25"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseConnected/ProfessorHouse_Connected.json.meta",
+      "sha256": "7a2dfd6c44f6e6cbeeb4243a56e0654fd9b0824c75bbede0186daae2b14678fd"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseHallFinish.meta",
+      "sha256": "503fd93df60be25cd7c84ed2d9155d7a5206c3a34360e12a48192da8c181e686"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseHallFinish/FBX_ProfessorHouse_HallFinish.fbx",
+      "sha256": "b05af55fda047004d082329474064cf04e7eb94debf02f3971afe0671d0e0de4"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseHallFinish/FBX_ProfessorHouse_HallFinish.fbx.meta",
+      "sha256": "d1f97001138967752eb056b49e067c23d41424ff0ae379ab1e3bc0ba48faba0b",
+      "validated_sha256": "6d5bb2e1a13b6eee8902a01cd2506834a6992468b9a7aebabbba2dcd43f2b0d1"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseHallFinish/HallFinish.json",
+      "sha256": "9a983bf3a4430761d28035cae8d82dbcea9350a96defd1a46c5697c2b1c3b685"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseHallFinish/HallFinish.json.meta",
+      "sha256": "3fb53901b46079473d06c70d39f7282f6b3f6fb31bbad41e2f27b1c7029167e1"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseHallFinish/PlacementValidation.json",
+      "sha256": "bda07ba7c82141dcefca04d00f863f223a47b4cb7acd7e57ee003fb3240b2b9b"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseHallFinish/PlacementValidation.json.meta",
+      "sha256": "dd40b220b34b3e979e7c59a9d8ebd1b00a149fb57dd6d6d7094fc9d8260159bd",
+      "validated_sha256": "64604b800ce00dfe76ae2f6b2db97ce04d4644eaaf5e0f01304a806de4609ad1"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseUpperFinish.meta",
+      "sha256": "eaee6548d85f5bf52581ef5b77145840743486bbdce3d060ab71e16f55896f17",
+      "validated_sha256": "cfeee7baf6908a7cf5c1de003a508a0d2349f1bd8cff6338ddf8bdbae0d5a218"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseUpperFinish/DecorationClearance.json",
+      "sha256": "d902faa3a3e3429085988ccb2035f331326adaf4912ba49faab1c4070b048fad"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseUpperFinish/DecorationClearance.json.meta",
+      "sha256": "74572661f3b57e2b94e3c19d8756204a09f00b897029fc7acb8920e9771f9bda",
+      "validated_sha256": "7b434c7e06b02444aa24f07c485343a3a35adbbd2b7ffa98041a4df192a4c5de"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseUpperFinish/FBX_ProfessorHouse_UpperFinish.fbx",
+      "sha256": "1f4498a95b942271c25143eefc08dd16c3ac9a81d468b8cfd9e88640f5fffc58"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseUpperFinish/FBX_ProfessorHouse_UpperFinish.fbx.meta",
+      "sha256": "4b2d0762e88f0fc1a6b6b70d635637b8df5b7349173c2eafe75d0918f5ce5eb7",
+      "validated_sha256": "02a7231fca0f799c144ddc4769a9ab6d4760ea14fdb7bf9d68c7b81f8abfcfb5"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseUpperFinish/PlacementValidation.json",
+      "sha256": "237421f7bf18ea1053a5a9553c80de05b4a634ec1152578cd3a4f9bc83d262ed"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseUpperFinish/PlacementValidation.json.meta",
+      "sha256": "456e18329bfd2489d52e282f5c6d80bc64154ad08381ded12f0ad2f8c4bc336c",
+      "validated_sha256": "61bdf0666c098d5e7e9ccbf8c9d18a9c8bd506ba3391c3d30e5811b4ccd459d5"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseUpperFinish/UpperFinish.json",
+      "sha256": "7a15dca1e7a04b3ebcf3486056e0b0e15495ab4219a98daa7d1604046a5d6485"
+    },
+    {
+      "path": "Assets/@Project/10.Models/ProfessorHouseUpperFinish/UpperFinish.json.meta",
+      "sha256": "0f57304ec9c79d252be5d14bab9a8a0cb9a517a342be8b7f4b1648e4a177a36a",
+      "validated_sha256": "3e8d5549412634b6a5ee74a794dbf918e66bb38e5192c59db6a5532d2c8e6f06"
+    },
+    {
+      "path": "Assets/@Project/Editor/ProfessorHouseConnectedBuilder.cs",
+      "sha256": "59012fd8bafebb527e7e9457d16d74855462158aeedd7ae5db1e0e9796dca2a8"
+    },
+    {
+      "path": "Assets/@Project/Editor/ProfessorHouseConnectedBuilder.cs.meta",
+      "sha256": "c3d432aa68a173c07cdd6dda461899513162fe3d8b0dddfefc7b38c59e1d71ef"
+    },
+    {
+      "path": "Assets/@Project/Editor/ProfessorHouseConnectedPreview.cs",
+      "sha256": "a7121de4c8f7c21114c736268a600418e354bff1ccd49f4025cc823eb521890c"
+    },
+    {
+      "path": "Assets/@Project/Editor/ProfessorHouseConnectedPreview.cs.meta",
+      "sha256": "c2bb7bb2c3f9c79d119b1b69be9b5687420b2b4efe91082ca4252aea3f21f745"
+    },
+    {
+      "path": "Assets/@Project/Editor/ProfessorHouseConnectedValidation.cs",
+      "sha256": "2254d5306403a3173094d00bf5f84887a244ec4391b57e01ded11a9b3d533601"
+    },
+    {
+      "path": "Assets/@Project/Editor/ProfessorHouseConnectedValidation.cs.meta",
+      "sha256": "79768f215b3805c26e92fa24603d71d02210c632105423b2ffea328178a64ba5"
+    },
+    {
+      "path": "Assets/@Project/Editor/ProfessorHouseHallFinishBuilder.cs",
+      "sha256": "78149c2c91532c8d2d7034795ceaa4adf057ba50d18efb2b02233aa13b7eb83f"
+    },
+    {
+      "path": "Assets/@Project/Editor/ProfessorHouseHallFinishBuilder.cs.meta",
+      "sha256": "bb1dde00584bff1dc0b2a75e279fcfcecef0c05f0ffd97f3167e0d1c1e8cc775"
+    },
+    {
+      "path": "Assets/@Project/Editor/ProfessorHouseUpperFinishBuilder.cs",
+      "sha256": "bf77714cfb155a66937c6b4bd5abcf7275e203ee1919e0e4d73fef522ebb7201"
+    },
+    {
+      "path": "Assets/@Project/Editor/ProfessorHouseUpperFinishBuilder.cs.meta",
+      "sha256": "743b80b00acdca8afc7c861fbae634282e006594dea9360950675d39352a0a50",
+      "validated_sha256": "9042c40b9b4d22244cb673b88bf7af77445f5a93b12a2c173418c9c061b2c906"
+    },
+    {
+      "path": "Assets/@Project/Settings/Lighting/ProfessorHouseHallVolume.asset",
+      "sha256": "8a868342954219e7cc11d3d281a08928181a45eb9d30f8db3f7dce61bb5921aa",
+      "validated_sha256": "703289faa6789eaccf2969d888645c3eddff115ff86ac312209c39fe40ec5b65"
+    },
+    {
+      "path": "Assets/@Project/Settings/Lighting/ProfessorHouseHallVolume.asset.meta",
+      "sha256": "cf30ab9d4b3a2455c9069e5e5896baf22139ef74a2f355e55ab1dcfb8059b1a0"
+    },
+    {
+      "path": "Assets/@Project/Settings/Rendering/NarniaURP.asset",
+      "sha256": "04ba56f8e4e01b39442a4afb4e9aec05079e9c6874bc0dcd3611f6cad47f3ff0"
+    },
+    {
+      "path": "Assets/@Project/Settings/Rendering/ProfessorHouseHallRenderer.asset",
+      "sha256": "1d277bdb1f5d4950f315b1db0eebcbd7bf80af84ba2b0f11a5cae48c5f538d0c"
+    },
+    {
+      "path": "Assets/@Project/Settings/Rendering/ProfessorHouseHallRenderer.asset.meta",
+      "sha256": "f051e8fb138144ad18e09374cbe7012fcb9c809f11b894e1d4d76b9d9e94da90"
+    },
+    {
+      "path": "Assets/@Project/Tests/PlayMode/ProfessorHouseConnectedTraversalTests.cs",
+      "sha256": "7323298001d711e101cb21e4db5a2fb8575139038bd499befbd44a69d052d9e5"
+    },
+    {
+      "path": "Assets/@Project/Tests/PlayMode/ProfessorHouseConnectedTraversalTests.cs.meta",
+      "sha256": "bffe5650d9530b50d792212137995a5a627220b30821856b6dc3c4123c8bed23"
+    },
+    {
+      "path": "Docs/Art/ProfessorHouseConnected.md",
+      "sha256": "bfff1e00681735ec6bcb0779550b70aa01e3d11cf117db715dffa235cd800d9e"
+    },
+    {
+      "path": "Docs/Art/ProfessorHouseHallFinish.md",
+      "sha256": "f4316f297e5017410463e8da7775da189e440437a126c62012f5ea907102a269"
+    },
+    {
+      "path": "Docs/Art/ProfessorHouseUpperFinish.md",
+      "sha256": "1662f44ef4bf3a7adb9c3284a9ef9a078257055fb3bc1e73aec292c5e6ca5497"
+    },
+    {
+      "path": "Docs/Art/ProfessorHouse_ApprovedLayout_v1/Data/layout.json",
+      "sha256": "c10cae9559129d7618d6f6971bfab6e8b615bec9ecafee22824a8c7b01bf7fd9"
+    },
+    {
+      "path": "Docs/Art/README.md",
+      "sha256": "8b7b19b8ce2b1e749d51eea099d26a660254484a1084ad4e964d4bb9597faab1"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish.md",
+      "sha256": "8b9dbd1d71c41934e7f61c640758dd8bc4d680ac9bb7de2edddfddbf6a6ea22f"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/01_Hall_Front.png",
+      "sha256": "fae18ddc6aba625b3ec78f338aade92fa341c9721cad9ff0d3e4cb990f939230"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/02_Hall_UnderStair.png",
+      "sha256": "b9ef5d37b50afb529f31368c32add585fb014c531f376a9342ed6f31d0f27e73"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/03_Hall_PortraitClearance.png",
+      "sha256": "9ab60611dde30edd7fa089bbc01e7f117a6cac4d445ef3252c11c0300c29fbcd"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/04_Professor_Study.png",
+      "sha256": "9b97565112310b17b08ffc02a85bf66e6a8c097c30b7262f4c08622f3a5fee6b"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/05_Study_Desk.png",
+      "sha256": "8dd7fd9731cb04b06845e1ce342941324a0f92a0cc835ceb7f185d893bad99aa"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/06_Private_Library.png",
+      "sha256": "89916dce0f25bcf1e2119a2ca0ef2dffbd5e0ec7d7628e84e01981e6635c196d"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/07_Professor_Bedroom.png",
+      "sha256": "d90746f2c50f06da33ee627c423c417193203a26aa1149b97aede76f2388fcfc"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/08_Girls_Bedroom.png",
+      "sha256": "e1da0250ccb1bc98de764ad1c1813aa8cf6010ecbe06478abc9a3e92153b4adb"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/09_Boys_Bedroom.png",
+      "sha256": "e79b54c52520502863335e15b793ee769ac20ff56998f3880d6af7d8bce01cc2"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/10_Girls_Reverse.png",
+      "sha256": "d4f6395ccbc40e78b492d6883874248b93251e20b59a3bcd087e88717739250e"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/11_Hall_EastUnderStair.png",
+      "sha256": "509d84a02b4f34c67498873c3b666f67c400a6bba99e835f0b90cd86f417c134"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/DecorationClearance.json",
+      "sha256": "d902faa3a3e3429085988ccb2035f331326adaf4912ba49faab1c4070b048fad"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/EditMode.xml",
+      "sha256": "852e578430c976bbc6e68b4045d5b85c1b12f98eafd3eea0ad56597d49eaeafd"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/HallFinishImport.txt",
+      "sha256": "479bd4eb06609bb720bc18aea95d0c5f6e9eaf35129262a8bb831362d781b504"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/HallIntersectionsBefore.json",
+      "sha256": "43bab1ade53320c0553865b7ff5d81db0c1fb9fd071ace0756c2af7bbe69f6eb"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/HallPlacement.json",
+      "sha256": "bda07ba7c82141dcefca04d00f863f223a47b4cb7acd7e57ee003fb3240b2b9b"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/ImportBounds.txt",
+      "sha256": "446c3045186782d3bfd180c666bc5ae60614cbde85ce11e0c1be109e20d6c1af"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/Navigation.txt",
+      "sha256": "468675b26c1698e98cdf800ac119fef9e5f773f8c563ed7faa57145cfa5fc18d"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/PlayMode.xml",
+      "sha256": "e8495d5d3458867de54d0d6f526fdbf3e8222e3b6658777fec4eb042fbc6e7e5",
+      "validated_sha256": "bb116322c26428b36eaf4a10637825f609454da69ff277d0043f6788a9a194cf"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/PlayerTraversal.txt",
+      "sha256": "ee9c1a07dfd36a709f639de681e1d4ebbb5a327bd20bc0e0d8eb735355ef3b4c"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/RoomAccess.txt",
+      "sha256": "24910a0d51497c7a8540f66e1fbe4bb1ce1eabb3f889b44baafa34e5125de6cf"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/StaticChecks.txt",
+      "sha256": "75c6ece3a7a44744ee53d7dbf06949022c11da3ab4c8f5a3cc884709dfb33997"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/UpperFinishImport.txt",
+      "sha256": "d1e664087eb65789166655bf610708f7e7d265f47d47e53a589930196f9f6fc9"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/UpperPlacement.json",
+      "sha256": "237421f7bf18ea1053a5a9553c80de05b4a634ec1152578cd3a4f9bc83d262ed"
+    },
+    {
+      "path": "Docs/Validation/ProfessorHouseUpperFinish/index.html",
+      "sha256": "976cfc933401d36b315f322d7fa21609e8751bfc33fd2cdf1439a4b38da14c24"
+    },
+    {
+      "path": "ProjectSettings/EditorBuildSettings.asset",
+      "sha256": "29c3b041fc26752a0f6c8ee01e8c584fdba740062ffbaf6bbbfc75a500e60e93"
+    },
+    {
+      "path": "ProjectSettings/NavMeshAreas.asset",
+      "sha256": "36a99a962fcacbe6a6e957a1039f86d45f5123d24831fef6ab6f9b86617fecb6"
+    },
+    {
+      "path": "README.md",
+      "sha256": "2e6e795aca42718d60fd64f66b7ae2dfd3eb827a0e9ce77ce5078d6084ac51e5"
+    },
+    {
+      "path": "Tools/Art/build_professor_house_hall_finish.py",
+      "sha256": "db1d32c8453c6d5aa67944be3b2c23881c545c7e65aa1fcd0972e8bcaf5bd96b"
+    },
+    {
+      "path": "Tools/Art/build_professor_house_upper_finish.py",
+      "sha256": "2ecba1836352c0b5307b2f15c24bed84290375da27dc71b50a2f1b688a45c795"
+    },
+    {
+      "path": "Tools/Art/export_professor_house_connected.py",
+      "sha256": "58dbf791acab50bf3bb4c8694c706ac2fd58c53c8f206aad0d49befe0f5bf8e6"
+    },
+    {
+      "path": "Tools/Art/professor_house_finish_kit.py",
+      "sha256": "8e27ddeeed27c1d700bfbe1ae8c91a2546aa6c3687c7493608f0cf6ca4dc4c78"
+    }
+  ],
+  "tests": {
+    "PlayMode": {
+      "result": "Passed",
+      "total": "8",
+      "passed": "8",
+      "failed": "0",
+      "start-time": "2026-10-23 07:44:58Z",
+      "end-time": "2026-10-23 07:46:56Z",
+      "duration": "117.7716587"
+    },
+    "EditMode": {
+      "result": "Passed",
+      "total": "18",
+      "passed": "18",
+      "failed": "0",
+      "start-time": "2026-10-23 07:47:38Z",
+      "end-time": "2026-10-23 07:47:38Z",
+      "duration": "0.0417614"
+    }
+  },
+  "post_test_formatting": "Trailing whitespace only in Unity YAML and a generated XML stack-trace line; validated_sha256 preserves the execution/raw evidence bytes before formatting.",
+  "editor_cleanup": "Restored task-created VSCode changes and QualitySettings antiAliasing drift; default shared renderer and product settings unchanged."
+}
