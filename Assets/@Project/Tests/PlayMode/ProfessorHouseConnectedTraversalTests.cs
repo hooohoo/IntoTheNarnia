@@ -48,8 +48,8 @@ public sealed class ProfessorHouseConnectedTraversalTests
                 Assert.IsFalse(Physics.CheckSphere(camera.transform.position,.04f,~0,QueryTriggerInteraction.Ignore),route.Key + " camera inside solid geometry");
                 lines.Add("PASS " + route.Key + " walked all " + route.Points.Length + " ordered waypoints; final=" + objects.Player.transform.position.ToString("F3"));
             }
-            Directory.CreateDirectory("Docs/Validation/ProfessorHouseConnected");
-            File.WriteAllText("Docs/Validation/ProfessorHouseConnected/PlayerTraversal.txt",string.Join("\n",lines)+"\n");
+            Directory.CreateDirectory("Docs/Validation/ProfessorHouseHallFinish");
+            File.WriteAllText("Docs/Validation/ProfessorHouseHallFinish/PlayerTraversal.txt",string.Join("\n",lines)+"\n");
         }
         finally
         {
