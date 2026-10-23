@@ -28,7 +28,8 @@ FacadeManager와 위상 정렬 DI, 명시적 Init/Release, SceneRoot Ready, 씬�
 - **main은 병합 전용**: `main`에서 파일을 수정하거나 일반 작업 커밋을 만들지 않습니다. 작업 브랜치의 변경은 두 부모를 가진 merge commit으로만 통합하며, 이 병합 결과를 원격 `main`에 push하는 것은 허용합니다.
 - **1 push · 1 merge**: 문서·코드 정리와 관련 검증을 끝낸 뒤 **작업 브랜치 커밋 1개 → main에서 merge commit 1개 → push 1회**로 마무리합니다. 기본은 PR 없이 로컬에서 병합하는 흐름이며, 중간 상태를 나누어 push하지 않습니다.
 - **병합 방식**: `git merge --no-ff <작업브랜치>`를 사용합니다. 작업 반영을 fast-forward, squash, rebase merge로 대체하지 않습니다. 병합 전 fetch하고 원격 `main`과 동기화합니다. 원격에 이미 있는 이력을 로컬 `main`에 가져오는 `--ff-only` 동기화는 허용합니다.
-- **push 방식**: 로컬 병합을 확인한 뒤 `git push --atomic origin main <작업브랜치>`로 merge commit과 작업 브랜치를 한 번에 올립니다. 작업 커밋을 병합 없이 `main`에 직접 push하지 않습니다.
+- **push 방식**: 로컬 병합을 확인한 뒤 `git push --atomic origin main`으로 merge commit을 올립니다. 작업 브랜치는 기본적으로 로컬에서만 만들며 작업 커밋은 merge 이력에 보존합니다. 이미 원격에 있는 병합 완료 브랜치는 같은 atomic push에 `:<원격브랜치>` 삭제 refspec을 함께 넣어 정리합니다. 원격 삭제는 확인한 SHA를 명시한 lease로 보호하며 `main` 이력을 강제 갱신하지 않습니다. 작업 커밋을 병합 없이 `main`에 직접 push하지 않습니다.
+- **브랜치 즉시 정리**: push 성공과 원격 `main`의 반영을 확인한 직후, 이번 작업 브랜치를 포함한 병합 완료 로컬 브랜치를 `git branch -d`로 삭제합니다. 원격 브랜치를 올렸다가 별도 push로 지우는 흐름은 사용하지 않습니다. `main`, 미병합 브랜치, 다른 worktree에서 사용하는 브랜치, 사용자가 보관을 지정한 브랜치는 삭제하지 않습니다. 다음 작업은 최신 `origin/main`에서 새 브랜치로 시작합니다.
 - **PR은 선택 사항**: 별도로 요청받지 않았다면 PR 생성·승인·GitHub 앱 쓰기 권한을 필수 조건으로 요구하지 않습니다. 사용자가 승인한 Git 병합과 push를 다시 확인하지 않습니다. 저장소 보호 규칙이 병합 결과의 push를 거부하면 실제 차단 사유를 보고하며 우회하지 않습니다.
 - **커밋 형식**: 작업 커밋과 merge commit 모두 `type : 한글 설명` 형식을 사용합니다. 생성 도구 광고/Co-Authored-By를 추가하지 않으며 force push하지 않습니다.
 
