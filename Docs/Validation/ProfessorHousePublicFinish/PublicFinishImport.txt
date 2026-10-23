@@ -1,0 +1,27 @@
+PASS V_PublicFinish_A_Shell import bounds; triangles=27864
+PASS V_PublicFinish_C1_Shell import bounds; triangles=12012
+PASS V_PublicFinish_C2_Shell import bounds; triangles=11904
+PASS V_PublicFinish_D2_Shell import bounds; triangles=12900
+PASS V_PublicFinish_DiningCabinets import bounds; triangles=12788
+PASS V_PublicFinish_DiningChairs import bounds; triangles=13480
+PASS V_PublicFinish_DiningPictures import bounds; triangles=3740
+PASS V_PublicFinish_DiningTable import bounds; triangles=16004
+PASS V_PublicFinish_DiningWindows import bounds; triangles=3000
+PASS V_PublicFinish_FoyerFurniture import bounds; triangles=13708
+PASS V_PublicFinish_FoyerPictures import bounds; triangles=4204
+PASS V_PublicFinish_FoyerWindows import bounds; triangles=3000
+PASS V_PublicFinish_LibraryNook import bounds; triangles=12848
+PASS V_PublicFinish_LibraryPictures import bounds; triangles=2334
+PASS V_PublicFinish_LibrarySeats import bounds; triangles=8880
+PASS V_PublicFinish_LibraryShelves import bounds; triangles=74448
+PASS V_PublicFinish_LibraryTable import bounds; triangles=2032
+PASS V_PublicFinish_LibraryWindows import bounds; triangles=5004
+PASS V_PublicFinish_PublicChandeliers import bounds; triangles=10736
+PASS V_PublicFinish_PublicRugs import bounds; triangles=1104
+PASS V_PublicFinish_ReceptionDecor import bounds; triangles=15318
+PASS V_PublicFinish_ReceptionFireplace import bounds; triangles=4278
+PASS V_PublicFinish_ReceptionSeats import bounds; triangles=5008
+PASS V_PublicFinish_ReceptionTable import bounds; triangles=13064
+PASS V_PublicFinish_ReceptionWindows import bounds; triangles=4500
+Furniture and garden trunk box colliders: 36
+Painting atlas uses four UV quarters without modifying source pixels.

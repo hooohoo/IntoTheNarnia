@@ -1,0 +1,13 @@
+PASS Reception seating
+PASS Reception fireplace
+PASS Dining west aisle
+PASS Dining east aisle
+PASS Dining north aisle
+PASS Library reading table
+PASS Library window nook
+PASS Library north books
+PASS Library collection gallery door
+PASS Foyer arrival bench
+PASS Foyer console
+PASS four direct story approach segments
+Capsule samples: 515; failures: 0

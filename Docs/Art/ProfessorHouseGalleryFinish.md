@@ -2,6 +2,8 @@
 
 2026-10-23. `Professor_House_Connected`에 유물 전시실과 1·2층 주요 복도 마감을 추가했다. [실제 Unity 화면·서재 전후 비교](../Validation/ProfessorHouseGalleryFinish/index.html) · [검증 결과](../Validation/ProfessorHouseGalleryFinish.md).
 
+후속 [1층 공용 공간 01](ProfessorHousePublicFinish.md)에서 응접실·현관·식당·공용 도서실을 마감했다. 아래 화면·검증은 전시실 작업 당시 기록이며, 현재 촬영 도구와 최신 결과는 후속 문서를 따른다.
+
 ## 교수 서재 높이 재확인
 
 완성 시안과 실제 화면의 차이를 층고·창 높이·책장 높이·카메라로 나누어 확인했다. 생성 메시를 수직 BVH 광선으로 측정한 결과는 다음과 같다.
