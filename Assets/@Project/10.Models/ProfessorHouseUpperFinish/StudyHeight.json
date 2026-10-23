@@ -1,0 +1,42 @@
+{
+  "method": "world-space BVH vertical rays against generated finish surfaces",
+  "units": "metres",
+  "room": "P-STUDY",
+  "approvedFloor": 4.32,
+  "atticFloor": 9,
+  "openingSill": 5.32,
+  "openingHead": 7.12,
+  "samples": [
+    {
+      "surface": "clear ceiling",
+      "xy": [
+        2,
+        15
+      ],
+      "floorZ": 4.337,
+      "undersideZ": 8.76,
+      "clearHeight": 4.423
+    },
+    {
+      "surface": "longitudinal beam",
+      "xy": [
+        4,
+        15
+      ],
+      "floorZ": 4.337,
+      "undersideZ": 8.515,
+      "clearHeight": 4.178
+    },
+    {
+      "surface": "crossbeam",
+      "xy": [
+        2,
+        16
+      ],
+      "floorZ": 4.337,
+      "undersideZ": 8.495,
+      "clearHeight": 4.158
+    }
+  ],
+  "decision": "Keep floor, ceiling and window openings; add taller shelving, cornice and chandelier only."
+}

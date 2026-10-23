@@ -5,3 +5,5 @@
 `Tools/Art/build_professor_house_upper_finish.py`와 `professor_house_finish_kit.py`로 재생성한다. 상세 배치·메시/충돌 예산·검증·남은 작업은 [제작 문서](../../../Docs/Art/ProfessorHouseUpperFinish.md)에 있다. 그림은 기존 HallFinish 아틀라스만 재사용하며 새 생성 이미지는 없다.
 
 원본 연결 모델의 임시 책상·침대는 보존되지만 Unity 파생 구조 FBX에서는 제외한다. 최종 가구는 `OBJ_ProfessorHouse_UpperFinish`가 소유한다.
+
+서재 상부 보완판은 층고를 유지하며 책장 높이·몰딩·천장등을 조정한다. 현재 메시 수·검증·높이 측정은 [전시실·연결 복도 제작 기록](../../../Docs/Art/ProfessorHouseGalleryFinish.md)을 따른다.

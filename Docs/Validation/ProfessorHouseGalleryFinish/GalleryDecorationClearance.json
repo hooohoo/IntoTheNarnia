@@ -1,0 +1,21 @@
+{
+  "groupPairs": [
+    [
+      "GalleryCases",
+      "GalleryPictures"
+    ],
+    [
+      "GalleryCases",
+      "GalleryPedestals"
+    ],
+    [
+      "GalleryCases",
+      "ArmorBody"
+    ],
+    [
+      "CorridorSeats",
+      "CorridorPictures"
+    ]
+  ],
+  "failures": []
+}

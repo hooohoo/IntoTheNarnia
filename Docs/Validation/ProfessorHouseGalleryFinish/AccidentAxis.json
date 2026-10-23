@@ -1,0 +1,33 @@
+{
+  "method": "actual mesh BVH ray from inside the accident pane; not a runtime break simulation",
+  "origin": [
+    0.23000000417232513,
+    18.1200008392334,
+    2.0399999618530273
+  ],
+  "direction": [
+    1,
+    0,
+    0
+  ],
+  "firstHit": [
+    1.8885457515716553,
+    "ArmorHelmet",
+    "Detachable rounded helmet",
+    [
+      2.1185457706451416,
+      18.1200008392334,
+      2.0399999618530273
+    ]
+  ],
+  "armorCenter": [
+    2.3,
+    18
+  ],
+  "windowCenter": [
+    0,
+    18
+  ],
+  "windowWidth": 2.3,
+  "escapeRouteUnchanged": true
+}

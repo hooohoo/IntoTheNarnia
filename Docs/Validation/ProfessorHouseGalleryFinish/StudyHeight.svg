@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">교수 서재의 실제 높이</title><desc id="desc">마감 바닥에서 천장까지 4.423미터, 가장 낮은 보 아래까지 4.158미터. 확정 층고는 유지하고 책장을 높였습니다.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto-start-reverse"><path d="M0,0 L7,3.5 L0,7" fill="#52695b"/></marker></defs>
+<rect width="1200" height="650" rx="20" fill="#f4eee1"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" fill="#41382f">
+<text x="52" y="55" font-size="27" font-weight="700">서재 높이 점검</text><text x="52" y="86" font-size="16">실제 생성 메시의 수직 교차 측정 · 미터 단위 · 폭 배치는 설명용</text>
+<rect x="150" y="128" width="700" height="398" fill="#e0d2b5" stroke="#8c7a63"/>
+<rect x="150" y="128" width="700" height="24" fill="#69452f"/>
+<rect x="150" y="526" width="700" height="16" fill="#896347"/>
+<rect x="150" y="426" width="700" height="100" fill="#624231"/>
+<rect x="227" y="274" width="136" height="162" fill="#b5c9c8" stroke="#735440" stroke-width="8"/>
+<path d="M295 275 V435 M229 355 H361" stroke="#735440" stroke-width="5"/>
+<rect x="497" y="168" width="210" height="358" fill="#6d4b35" stroke="#4d3326" stroke-width="6"/>
+<path d="M497 218 H707 M497 268 H707 M497 318 H707 M497 368 H707 M497 418 H707 M497 468 H707" stroke="#a47b53" stroke-width="8"/>
+<rect x="497" y="256" width="210" height="270" fill="none" stroke="#f0d89c" stroke-dasharray="8 6" stroke-width="3"/>
+<path d="M90 128 V526 M905 152 V526" stroke="#52695b" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<path d="M80 128 H150 M80 526 H150 M850 152 H920 M850 526 H920" stroke="#52695b" stroke-width="1.5"/>
+<text x="70" y="345" font-size="22" transform="rotate(-90 70 345)" fill="#52695b">천장까지 4.423 m</text>
+<text x="935" y="325" font-size="21" fill="#52695b">보 아래</text><text x="935" y="356" font-size="26" font-weight="700" fill="#52695b">4.158 m</text>
+<text x="195" y="472" font-size="16" fill="#f4eee1">창 하단 +1.00 m</text><text x="195" y="496" font-size="16" fill="#f4eee1">창 상단 +2.80 m</text>
+<text x="506" y="194" font-size="17" fill="#f4eee1">책장 상단 약 3.98 m</text>
+<text x="506" y="292" font-size="16" fill="#f0d89c">점선: 이전 책장</text>
+<text x="150" y="580" font-size="18">구조: 2층 +4.32 m / 다락 +9.00 m → 층간 높이 4.68 m 유지</text>
+<text x="150" y="612" font-size="16">완성 시안은 분위기 참고이며 한 장의 원근 이미지에서 절대 층고를 역산하지 않습니다.</text>
+</g></svg>

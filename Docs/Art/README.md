@@ -1,8 +1,12 @@
 # 아트 레퍼런스
 
+## 전시실·연결 복도 마감 01 · 2026-10-23
+
+유물 전시실과 주요 복도 8곳을 마감했다. 서재는 천장 4.423 m·보 아래 4.158 m를 확인하고 층고를 유지한 채 책장·상부 몰딩·천장등을 보완했다. [제작과 남은 범위](ProfessorHouseGalleryFinish.md) · [최신 Unity 화면·서재 비교](../Validation/ProfessorHouseGalleryFinish/index.html) · [검증](../Validation/ProfessorHouseGalleryFinish.md).
+
 ## 홀 교차 수정·2층 마감 01 · 2026-10-23
 
-액자와 계단·난간의 교차를 수정하고, 서재·개인 서고·교수 침실·두 아이들 침실에 가구·벽·천장·커튼·조명을 구현했다. [제작과 남은 범위](ProfessorHouseUpperFinish.md) · [최신 Unity 화면](../Validation/ProfessorHouseUpperFinish/index.html) · [검증](../Validation/ProfessorHouseUpperFinish.md). 저택 전체의 아트 배치와 조명 베이크는 진행 중이다.
+액자와 계단·난간의 교차를 수정하고, 서재·개인 서고·교수 침실·두 아이들 침실에 가구·벽·천장·커튼·조명을 구현했다. [제작과 남은 범위](ProfessorHouseUpperFinish.md) · [당시 Unity 화면](../Validation/ProfessorHouseUpperFinish/index.html) · [검증](../Validation/ProfessorHouseUpperFinish.md). 저택 전체의 아트 배치와 조명 베이크는 진행 중이다.
 
 
 ## 중앙 홀 마감 01 · 2026-10-23

@@ -1,0 +1,18 @@
+PASS V_UpperFinish_BedroomRug import bounds; triangles=2652
+PASS V_UpperFinish_BedroomWindows import bounds; triangles=4500
+PASS V_UpperFinish_E1_Furniture import bounds; triangles=30720
+PASS V_UpperFinish_E1_Rug import bounds; triangles=2676
+PASS V_UpperFinish_E1_Windows import bounds; triangles=1500
+PASS V_UpperFinish_K-BOYS_Furniture import bounds; triangles=30720
+PASS V_UpperFinish_K-BOYS_Rug import bounds; triangles=2676
+PASS V_UpperFinish_K-BOYS_Windows import bounds; triangles=3504
+PASS V_UpperFinish_PrivateBedroom import bounds; triangles=12386
+PASS V_UpperFinish_PrivateLibrary import bounds; triangles=43832
+PASS V_UpperFinish_RoomShell import bounds; triangles=47964
+PASS V_UpperFinish_StudyChandelier import bounds; triangles=3360
+PASS V_UpperFinish_StudyFurniture import bounds; triangles=84638
+PASS V_UpperFinish_StudyRug import bounds; triangles=2652
+PASS V_UpperFinish_StudyUpperTrim import bounds; triangles=1080
+PASS V_UpperFinish_StudyWindows import bounds; triangles=3000
+Furniture and garden trunk box colliders: 39
+Painting atlas uses four UV quarters without modifying source pixels.

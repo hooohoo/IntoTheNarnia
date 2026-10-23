@@ -49,7 +49,9 @@ Lucy와 교수의 집은 [아트 레퍼런스](Docs/Art/README.md)의 v2 시안�
 
 [중앙 홀 마감 01](Docs/Art/ProfessorHouseHallFinish.md)을 연결 씬에 적용했다. 홀 전용 재질, 부드러운 난간 음영, 액자·가구·화병·천장과 창빛을 추가했으며 [실제 화면](Docs/Validation/ProfessorHouseHallFinish/index.html)에서 확인할 수 있다.
 
-[홀 교차 수정·2층 마감 01](Docs/Art/ProfessorHouseUpperFinish.md)에서는 액자와 계단·난간의 겹침을 수정하고 서재·개인 서고·교수 침실·아이들 두 침실의 가구와 벽·천장 마감을 추가했다. [최신 Unity 화면](Docs/Validation/ProfessorHouseUpperFinish/index.html)과 [검증 결과](Docs/Validation/ProfessorHouseUpperFinish.md)를 기준으로 검토한다. 나머지 구역·소품·정원·조명 베이크와 제품 씬 통합은 후속 범위다.
+[홀 교차 수정·2층 마감 01](Docs/Art/ProfessorHouseUpperFinish.md)에서는 액자와 계단·난간의 겹침을 수정하고 서재·개인 서고·교수 침실·아이들 두 침실의 가구와 벽·천장 마감을 추가했다. [당시 Unity 화면](Docs/Validation/ProfessorHouseUpperFinish/index.html)과 [검증 결과](Docs/Validation/ProfessorHouseUpperFinish.md)를 기준으로 검토한다. 나머지 구역·소품·정원·조명 베이크와 제품 씬 통합은 후속 범위다.
+
+[전시실·연결 복도 마감 01](Docs/Art/ProfessorHouseGalleryFinish.md)에서는 유물 전시실과 주요 복도 8곳을 마감하고 서재의 층고를 측정해 상부 책장·몰딩·천장등을 보완했다. [최신 Unity 화면과 서재 비교](Docs/Validation/ProfessorHouseGalleryFinish/index.html) · [검증](Docs/Validation/ProfessorHouseGalleryFinish.md).
 
 ## Git
 

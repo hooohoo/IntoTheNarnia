@@ -52,8 +52,8 @@ objects = list(scene.objects)
 for obj in objects:
     if obj.type != 'MESH' or 'part_id' not in obj:
         continue
-    # Replaced by UpperFinish; keep the immutable authoring source for comparison.
-    if obj.get('part_id') in ['ProfessorDesk', 'Beds_E1', 'Beds_K-BOYS']:
+    # Replaced by finish layers; keep the immutable authoring source for comparison.
+    if obj.get('part_id') in ['ProfessorDesk', 'Beds_E1', 'Beds_K-BOYS', 'ArtifactArmor', 'ArtifactCases']:
         continue
     role = obj.get('role', '')
     if role in ['route', 'label', 'proxy']:
@@ -159,7 +159,7 @@ for region, members in sorted(export_objects.items()):
 
 routes = [dict(key=k,title=r['title'],points=[point(p) for p in r['points']]) for k,r in spec['routes'].items()]
 routes += [dict(key=k,title=k,points=[point(p) for p in points]) for k,points in spec['extraValidationRoutes'].items()]
-manifest = dict(version='connected-walkthrough-02',replacedBlockoutParts=['ProfessorDesk','Beds_E1','Beds_K-BOYS'],units='metres, Unity Y up; X east, Z rear',
+manifest = dict(version='connected-walkthrough-03',replacedBlockoutParts=['ProfessorDesk','Beds_E1','Beds_K-BOYS','ArtifactArmor','ArtifactCases'],units='metres, Unity Y up; X east, Z rear',
     sourceLayoutSha256=spec['approvedLayoutSha256'], sourceBlendSha256=hashlib.sha256((source/'Models/ProfessorHouse_ConnectedLayout_01.blend').read_bytes()).hexdigest(),
     chunks=sorted(export_objects), meshes=entries,
     palette=[dict(name=name,hex=color) for name,color in sorted(spec['palette'].items())],

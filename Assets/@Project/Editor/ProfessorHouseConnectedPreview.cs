@@ -9,9 +9,9 @@ using UnityEngine.Rendering.Universal;
 public static class ProfessorHouseConnectedPreview
 {
     private static readonly string LogTag = "[ProfessorHouseConnectedPreview]";
-    private static readonly string[] Names = {"01_Hall_Front", "02_Hall_UnderStair", "03_Hall_PortraitClearance", "04_Professor_Study", "05_Study_Desk", "06_Private_Library", "07_Professor_Bedroom", "08_Girls_Bedroom", "09_Boys_Bedroom", "10_Girls_Reverse", "11_Hall_EastUnderStair"};
-    private static readonly Vector3[] Positions = {new Vector3(17f,1.3f,10.55f), new Vector3(13.5f,1.3f,17.2f), new Vector3(15.6f,4f,19.5f), new Vector3(7f,5.9f,18.5f), new Vector3(4.9f,5.6f,14.5f), new Vector3(6.8f,5.7f,23.1f), new Vector3(8.5f,5.7f,2f), new Vector3(34.25f,5.7f,28.55f), new Vector3(42.75f,5.7f,28.55f), new Vector3(34.25f,5.7f,33.1f), new Vector3(22f,1.25f,18.1f)};
-    private static readonly Vector3[] Targets = {new Vector3(17f,3.4f,20.9f), new Vector3(12.7f,1.8f,21f), new Vector3(13.45f,5.6f,21.7f), new Vector3(2.7f,5.65f,17f), new Vector3(3.8f,5.5f,18.1f), new Vector3(3.7f,5.8f,26.4f), new Vector3(4.5f,5.5f,7.5f), new Vector3(34.25f,5.7f,33f), new Vector3(42.75f,5.7f,33f), new Vector3(34.25f,5.7f,28.6f), new Vector3(20.5f,1.9f,21.6f)};
+    private static readonly string[] Names = {"01_Professor_Study", "02_Study_Ceiling", "03_Artifact_Gallery", "04_Armor_Window", "05_Gallery_Hall_Exit", "06_Gallery_Collections", "07_Escape_Corridor", "08_Family_Corridor", "09_East_Corridor", "10_Children_Corridor", "11_Front_Gallery"};
+    private static readonly Vector3[] Positions = {new Vector3(7f,5.9f,18.5f), new Vector3(6.8f,5.8f,13.1f), new Vector3(8.7f,1.5f,12f), new Vector3(5.1f,1.4f,16f), new Vector3(2.2f,1.5f,20.1f), new Vector3(5.1f,1.4f,17.7f), new Vector3(27f,1.35f,11.5f), new Vector3(11.6f,5.7f,8f), new Vector3(47f,5.7f,10.9f), new Vector3(48.5f,5.65f,27f), new Vector3(35f,1.4f,8f)};
+    private static readonly Vector3[] Targets = {new Vector3(2.7f,5.65f,17f), new Vector3(3.3f,7.1f,17.5f), new Vector3(3.8f,1.7f,18.8f), new Vector3(2.2f,1.4f,18f), new Vector3(9.6f,1.85f,14f), new Vector3(5.1f,1.8f,21.8f), new Vector3(27f,1.8f,25.5f), new Vector3(32.5f,6.0f,8f), new Vector3(47f,6.05f,25f), new Vector3(31f,5.8f,27f), new Vector3(49f,1.7f,8f)};
 
     [MenuItem("Narnia/Professor House/Connected Layout/Capture Unity Previews")]
     public static void Capture()
