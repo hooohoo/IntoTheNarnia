@@ -9,9 +9,9 @@ using UnityEngine.Rendering.Universal;
 public static class ProfessorHouseConnectedPreview
 {
     private static readonly string LogTag = "[ProfessorHouseConnectedPreview]";
-    private static readonly string[] Names = {"01_Hall_Front", "02_Hall_Landing", "03_Hall_WestGallery", "04_Hall_Furnishings", "05_ChildrenRoom_Unity", "06_SecondaryStair_Unity", "07_Wardrobe_Unity"};
-    private static readonly Vector3[] Positions = {new Vector3(17,1.3f,10.55f), new Vector3(16.8f,3,19), new Vector3(11.3f,5.9f,18.4f), new Vector3(13.5f,1.3f,17.2f), new Vector3(34.25f,5.37f,28.8f), new Vector3(26.175f,5.37f,27), new Vector3(4,10.05f,22.5f)};
-    private static readonly Vector3[] Targets = {new Vector3(17,3.4f,20.9f), new Vector3(17,4.2f,22.1f), new Vector3(17,3.6f,19), new Vector3(12.7f,1.55f,20.8f), new Vector3(34.25f,5.6f,33.4f), new Vector3(26.175f,7,31.7f), new Vector3(4,10.9f,32)};
+    private static readonly string[] Names = {"01_Hall_Front", "02_Hall_UnderStair", "03_Hall_PortraitClearance", "04_Professor_Study", "05_Study_Desk", "06_Private_Library", "07_Professor_Bedroom", "08_Girls_Bedroom", "09_Boys_Bedroom", "10_Girls_Reverse", "11_Hall_EastUnderStair"};
+    private static readonly Vector3[] Positions = {new Vector3(17f,1.3f,10.55f), new Vector3(13.5f,1.3f,17.2f), new Vector3(15.6f,4f,19.5f), new Vector3(7f,5.9f,18.5f), new Vector3(4.9f,5.6f,14.5f), new Vector3(6.8f,5.7f,23.1f), new Vector3(8.5f,5.7f,2f), new Vector3(34.25f,5.7f,28.55f), new Vector3(42.75f,5.7f,28.55f), new Vector3(34.25f,5.7f,33.1f), new Vector3(22f,1.25f,18.1f)};
+    private static readonly Vector3[] Targets = {new Vector3(17f,3.4f,20.9f), new Vector3(12.7f,1.8f,21f), new Vector3(13.45f,5.6f,21.7f), new Vector3(2.7f,5.65f,17f), new Vector3(3.8f,5.5f,18.1f), new Vector3(3.7f,5.8f,26.4f), new Vector3(4.5f,5.5f,7.5f), new Vector3(34.25f,5.7f,33f), new Vector3(42.75f,5.7f,33f), new Vector3(34.25f,5.7f,28.6f), new Vector3(20.5f,1.9f,21.6f)};
 
     [MenuItem("Narnia/Professor House/Connected Layout/Capture Unity Previews")]
     public static void Capture()

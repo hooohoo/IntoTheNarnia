@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="18" result="Passed" total="18" passed="18" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.0417614">
+  <test-suite type="TestSuite" id="1000" name="IntoTheNarnia" fullname="IntoTheNarnia" runstate="Runnable" testcasecount="18" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.041761" total="18" passed="18" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1020" name="IntoTheNarnia.EditModeTests.dll" fullname="/Users/leejae/Hoo/WorkSpace/IntoTheNarnia/Library/ScriptAssemblies/IntoTheNarnia.EditModeTests.dll" runstate="Runnable" testcasecount="17" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.032247" total="17" passed="17" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="51406" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="ArchitectureTests" fullname="ArchitectureTests" classname="ArchitectureTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.026040" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties>
+          <property name="platform" value="EditMode" />
+        </properties>
+        <test-case id="1002" name="DependenciesInitializeFirstAndReleaseLast" fullname="ArchitectureTests.DependenciesInitializeFirstAndReleaseLast" methodname="DependenciesInitializeFirstAndReleaseLast" classname="ArchitectureTests" runstate="Runnable" seed="536333283" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.006953" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1005" name="DependencyCycleFails" fullname="ArchitectureTests.DependencyCycleFails" methodname="DependencyCycleFails" classname="ArchitectureTests" runstate="Runnable" seed="1811777409" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.001170" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1010" name="DialogueArrayPreservesExternalKeys" fullname="ArchitectureTests.DialogueArrayPreservesExternalKeys" methodname="DialogueArrayPreservesExternalKeys" classname="ArchitectureTests" runstate="Runnable" seed="1500930578" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.010506" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1003" name="DuplicateRegistrationFailsBeforeInitialization" fullname="ArchitectureTests.DuplicateRegistrationFailsBeforeInitialization" methodname="DuplicateRegistrationFailsBeforeInitialization" classname="ArchitectureTests" runstate="Runnable" seed="106485315" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.000258" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1011" name="EmptyDialogueIsValid" fullname="ArchitectureTests.EmptyDialogueIsValid" methodname="EmptyDialogueIsValid" classname="ArchitectureTests" runstate="Runnable" seed="879879606" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.000073" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1006" name="FailedInitializationReleasesPartiallyInitializedService" fullname="ArchitectureTests.FailedInitializationReleasesPartiallyInitializedService" methodname="FailedInitializationReleasesPartiallyInitializedService" classname="ArchitectureTests" runstate="Runnable" seed="1096727947" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.000172" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1012" name="InvalidDialogueReportsMissingFields" fullname="ArchitectureTests.InvalidDialogueReportsMissingFields" methodname="InvalidDialogueReportsMissingFields" classname="ArchitectureTests" runstate="Runnable" seed="1064984499" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.000167" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1009" name="LegacyDialogueCanContainClosingBraceInQuotedText" fullname="ArchitectureTests.LegacyDialogueCanContainClosingBraceInQuotedText" methodname="LegacyDialogueCanContainClosingBraceInQuotedText" classname="ArchitectureTests" runstate="Runnable" seed="1132958994" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.000100" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1007" name="ListenerMutationUsesSnapshotAndSkipsRemovedReceiver" fullname="ArchitectureTests.ListenerMutationUsesSnapshotAndSkipsRemovedReceiver" methodname="ListenerMutationUsesSnapshotAndSkipsRemovedReceiver" classname="ArchitectureTests" runstate="Runnable" seed="1858383448" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.000572" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1004" name="MissingDependencyFails" fullname="ArchitectureTests.MissingDependencyFails" methodname="MissingDependencyFails" classname="ArchitectureTests" runstate="Runnable" seed="1580093209" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.000080" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1008" name="NestedPublishUsesIndependentSnapshot" fullname="ArchitectureTests.NestedPublishUsesIndependentSnapshot" methodname="NestedPublishUsesIndependentSnapshot" classname="ArchitectureTests" runstate="Runnable" seed="830209458" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.000089" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1013" name="QuestAdvancesOnlyForExpectedDoorAndOnce" fullname="ArchitectureTests.QuestAdvancesOnlyForExpectedDoorAndOnce" methodname="QuestAdvancesOnlyForExpectedDoorAndOnce" classname="ArchitectureTests" runstate="Runnable" seed="2122152471" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.000259" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1014" name="ReplacingDialogueDiscardsPreviousQueue" fullname="ArchitectureTests.ReplacingDialogueDiscardsPreviousQueue" methodname="ReplacingDialogueDiscardsPreviousQueue" classname="ArchitectureTests" runstate="Runnable" seed="1285633363" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.000187" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1015" name="ChalkContractTests" fullname="ChalkContractTests" classname="ChalkContractTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.005668" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties>
+          <property name="platform" value="EditMode" />
+        </properties>
+        <test-case id="1016" name="ClosingCoveredOverlayDoesNotRestoreItLater" fullname="ChalkContractTests.ClosingCoveredOverlayDoesNotRestoreItLater" methodname="ClosingCoveredOverlayDoesNotRestoreItLater" classname="ChalkContractTests" runstate="Runnable" seed="748217174" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.002847" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1017" name="ReentrantStateChangePublishesInTransitionOrder" fullname="ChalkContractTests.ReentrantStateChangePublishesInTransitionOrder" methodname="ReentrantStateChangePublishesInTransitionOrder" classname="ChalkContractTests" runstate="Runnable" seed="1342852537" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.000432" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1019" name="ReplacingProviderInvalidatesCachedDialogue" fullname="ChalkContractTests.ReplacingProviderInvalidatesCachedDialogue" methodname="ReplacingProviderInvalidatesCachedDialogue" classname="ChalkContractTests" runstate="Runnable" seed="1978578696" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.001222" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+        <test-case id="1018" name="RollbackPreservesOriginalAndCleanupFailures" fullname="ChalkContractTests.RollbackPreservesOriginalAndCleanupFailures" methodname="RollbackPreservesOriginalAndCleanupFailures" classname="ChalkContractTests" runstate="Runnable" seed="50444654" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.000694" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+        </test-case>
+      </test-suite>
+    </test-suite>
+    <test-suite type="Assembly" id="1025" name="Unity.Addressables.Editor.Tests.DocExampleCode.dll" fullname="/Users/leejae/Hoo/WorkSpace/IntoTheNarnia/Library/ScriptAssemblies/Unity.Addressables.Editor.Tests.DocExampleCode.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.000545" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="51406" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <test-suite type="TestSuite" id="1026" name="AddressableAssets" fullname="AddressableAssets" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.000477" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties>
+          <property name="platform" value="EditMode" />
+        </properties>
+        <test-suite type="TestSuite" id="1027" name="DocExampleCode" fullname="AddressableAssets.DocExampleCode" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.000421" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties>
+            <property name="platform" value="EditMode" />
+          </properties>
+          <test-suite type="TestFixture" id="1023" name="TestStub" fullname="AddressableAssets.DocExampleCode.TestStub" classname="AddressableAssets.DocExampleCode.TestStub" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.000357" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="platform" value="EditMode" />
+            </properties>
+            <test-case id="1024" name="RequiredTest" fullname="AddressableAssets.DocExampleCode.TestStub.RequiredTest" methodname="RequiredTest" classname="AddressableAssets.DocExampleCode.TestStub" runstate="Runnable" seed="330362012" result="Passed" start-time="2026-10-23 07:47:38Z" end-time="2026-10-23 07:47:38Z" duration="0.000112" asserts="0">
+              <properties>
+                <property name="platform" value="EditMode" />
+              </properties>
+              <output><![CDATA[Saving results to: /Users/leejae/Library/Application Support/DefaultCompany/IntoTheNarnia/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -83,3 +83,5 @@ Chalk 통합 당시 메시 820개·참조 2663개·라이트맵 37개 보존 검
 연결 구조 검증 씬 `Professor_House_Connected`는 `ProfessorHouseWalkthroughRoot : SceneRoot`에서 기존 Addressables 프리로드, Factory/ObjectManager, 입력, CameraManager, UIManager를 사용한다. 원본 구조와 새 마감 참고자료의 등록 및 검증 상태는 [구현 기록](Docs/Art/ProfessorHouseConnected.md)을 따른다. 이 저작용 씬은 제품 Build Settings에 추가하지 않으며 기존 Title → Professor_House 흐름을 유지한다.
 
 중앙 홀 마감은 `OBJ_ProfessorHouse_HallFinish`와 홀 전용 머티리얼을 기존 연결 씬에 추가한다. 가구의 단순 충돌체도 같은 NavMesh 베이크에 포함한다. 연결 씬 카메라가 선택하는 `ProfessorHouseHallRenderer`를 URP 목록에 추가하며 기본 렌더러 인덱스 0은 유지한다. 고정 환경과 그림 텍스처는 직렬화 참조가 소유한다. [중앙 홀 제작 기록](Docs/Art/ProfessorHouseHallFinish.md)을 따른다.
+
+2층 마감은 `OBJ_ProfessorHouse_UpperFinish`를 추가하며, 기존 구조 FBX에서 위치 확인용 침대·책상만 제외한다. `ProfessorHouseHallFinishBuilder.AddLayer`가 홀과 2층의 재질 매핑·축/경계 검증·단순 충돌체 생성을 공유하고, `ProfessorHouseUpperFinishBuilder`가 방별 조명과 내부 접근 검사를 담당한다. 공통 Blender 부품·교차 검사는 `Tools/Art/professor_house_finish_kit.py`에 둔다. [2층 제작 기록](Docs/Art/ProfessorHouseUpperFinish.md)을 따른다.
