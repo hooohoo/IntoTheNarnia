@@ -16,7 +16,7 @@ public static class ProfessorHouseConnectedBuilder
     public static readonly string MaterialFolder = "Assets/@Project/04.Materials/ProfessorHouseConnected";
     public static readonly string PrefabFolder = "Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouseConnected";
     public static readonly string DataFolder = "Assets/@Project/00.Scenes/Professor_House_Connected";
-    public static readonly string ReportFolder = "Docs/Validation/ProfessorHouseUpperFinish";
+    public static readonly string ReportFolder = "Docs/Validation/ProfessorHouseGalleryFinish";
     private static readonly string LogTag = "[ProfessorHouseConnectedBuilder]";
 
     [Serializable] public sealed class ModelManifest
@@ -140,10 +140,12 @@ public static class ProfessorHouseConnectedBuilder
         File.WriteAllText(ReportFolder + "/ImportBounds.txt", string.Join("\n", checks) + "\n");
         ProfessorHouseHallFinishBuilder.AddFurnishings(environment);
         ProfessorHouseUpperFinishBuilder.AddFurnishings(environment);
+        ProfessorHouseGalleryFinishBuilder.AddFurnishings(environment);
         BuildNavigation(environment);
         CreateLighting();
         ProfessorHouseHallFinishBuilder.ConfigureLighting();
         ProfessorHouseUpperFinishBuilder.ConfigureLighting();
+        ProfessorHouseGalleryFinishBuilder.ConfigureLighting();
         var rootObject = new GameObject("ProfessorHouse_Walkthrough");
         rootObject.transform.position = manifest.Spawn;
         var camera = CreateCamera(manifest.Spawn, out var rig);
@@ -158,6 +160,7 @@ public static class ProfessorHouseConnectedBuilder
         AssetDatabase.SaveAssets();
         ProfessorHouseConnectedValidation.Run();
         ProfessorHouseUpperFinishBuilder.ValidateRoomAccess();
+        ProfessorHouseGalleryFinishBuilder.ValidateGalleryAccess();
         FrameHall();
         LogUtil.Log(LogTag + " CONNECTED_WALKTHROUGH_BUILD_COMPLETE");
     }

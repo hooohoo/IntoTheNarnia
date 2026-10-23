@@ -1,0 +1,9 @@
+PASS Study to reading chair
+PASS Study behind desk
+PASS Library reading area
+PASS Professor bedside
+PASS Girls left bed
+PASS Girls right bed
+PASS Boys left bed
+PASS Boys right bed
+Capsule samples: 144; failures: 0

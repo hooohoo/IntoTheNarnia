@@ -1,5 +1,5 @@
 {
-  "version": "upper-finish-01",
+  "version": "upper-finish-02",
   "sourceLayoutSha256": "c10cae9559129d7618d6f6971bfab6e8b615bec9ecafee22824a8c7b01bf7fd9",
   "palette": [
     {
@@ -122,7 +122,7 @@
         "y": 7.470000267028809,
         "z": 6.300000190734863
       },
-      "triangles": 4068
+      "triangles": 4500
     },
     {
       "name": "V_UpperFinish_E1_Furniture",
@@ -164,7 +164,7 @@
         "y": 7.470000267028809,
         "z": 33.95399856567383
       },
-      "triangles": 1356
+      "triangles": 1500
     },
     {
       "name": "V_UpperFinish_K-BOYS_Furniture",
@@ -206,7 +206,7 @@
         "y": 7.470000267028809,
         "z": 33.95399856567383
       },
-      "triangles": 3360
+      "triangles": 3504
     },
     {
       "name": "V_UpperFinish_PrivateBedroom",
@@ -248,7 +248,21 @@
         "y": 8.84000015258789,
         "z": 34.0
       },
-      "triangles": 49044
+      "triangles": 47964
+    },
+    {
+      "name": "V_UpperFinish_StudyChandelier",
+      "boundsMin": {
+        "x": 3.315000057220459,
+        "y": 7.429999828338623,
+        "z": 15.675299644470215
+      },
+      "boundsMax": {
+        "x": 4.684999942779541,
+        "y": 8.539999961853027,
+        "z": 16.924699783325195
+      },
+      "triangles": 3360
     },
     {
       "name": "V_UpperFinish_StudyFurniture",
@@ -259,10 +273,10 @@
       },
       "boundsMax": {
         "x": 7.570000171661377,
-        "y": 8.510000228881836,
-        "z": 21.84000015258789
+        "y": 8.300000190734863,
+        "z": 21.83500099182129
       },
-      "triangles": 64814
+      "triangles": 84638
     },
     {
       "name": "V_UpperFinish_StudyRug",
@@ -279,6 +293,20 @@
       "triangles": 2652
     },
     {
+      "name": "V_UpperFinish_StudyUpperTrim",
+      "boundsMin": {
+        "x": 0.12999999523162842,
+        "y": 5.440000057220459,
+        "z": 10.130000114440918
+      },
+      "boundsMax": {
+        "x": 7.87000036239624,
+        "y": 8.72499942779541,
+        "z": 21.8700008392334
+      },
+      "triangles": 1080
+    },
+    {
       "name": "V_UpperFinish_StudyWindows",
       "boundsMin": {
         "x": 0.0459991879761219,
@@ -290,7 +318,7 @@
         "y": 7.470000267028809,
         "z": 19.30000114440918
       },
-      "triangles": 2712
+      "triangles": 3000
     }
   ],
   "colliders": [
@@ -298,12 +326,12 @@
       "name": "Bookcase",
       "center": {
         "x": 1.6,
-        "y": 5.82,
+        "y": 6.32,
         "z": 21.54
       },
       "size": {
         "x": 2.16,
-        "y": 3.0,
+        "y": 4.0,
         "z": 0.62
       }
     },
@@ -311,12 +339,12 @@
       "name": "Bookcase",
       "center": {
         "x": 4.1,
-        "y": 5.82,
+        "y": 6.32,
         "z": 21.54
       },
       "size": {
         "x": 2.16,
-        "y": 3.0,
+        "y": 4.0,
         "z": 0.62
       }
     },
@@ -324,12 +352,12 @@
       "name": "Bookcase",
       "center": {
         "x": 6.5,
-        "y": 5.82,
+        "y": 6.32,
         "z": 21.54
       },
       "size": {
         "x": 2.16,
-        "y": 3.0,
+        "y": 4.0,
         "z": 0.62
       }
     },
@@ -337,12 +365,12 @@
       "name": "Bookcase",
       "center": {
         "x": 0.48,
-        "y": 5.82,
+        "y": 6.32,
         "z": 11.5
       },
       "size": {
         "x": 0.62,
-        "y": 3.0,
+        "y": 4.0,
         "z": 1.91
       }
     },
@@ -350,12 +378,12 @@
       "name": "Bookcase",
       "center": {
         "x": 0.48,
-        "y": 5.82,
+        "y": 6.32,
         "z": 20.3
       },
       "size": {
         "x": 0.62,
-        "y": 3.0,
+        "y": 4.0,
         "z": 1.91
       }
     },

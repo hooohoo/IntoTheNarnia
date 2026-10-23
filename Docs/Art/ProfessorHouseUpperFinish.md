@@ -2,6 +2,8 @@
 
 2026-10-23. 확정 도면의 크기·문·층고와 서사 동선을 유지하며 `Professor_House_Connected`에 적용했다. [Unity 실제 화면](../Validation/ProfessorHouseUpperFinish/index.html) · [검증 결과](../Validation/ProfessorHouseUpperFinish.md).
 
+후속 [전시실·연결 복도 01](ProfessorHouseGalleryFinish.md)에서 서재 층고를 측정하고 책장을 높여 상부 비례를 보완했다. 아래 첫 구현 화면·검사 수치는 해당 시점의 기록이며, 현재 2층 레이어는 16개 메시·277,860삼각형·충돌 39개다. [최신 서재 화면·높이 측정](../Validation/ProfessorHouseGalleryFinish/index.html)을 함께 본다.
+
 ## 이번 구현
 
 | 구역 | 구현 |

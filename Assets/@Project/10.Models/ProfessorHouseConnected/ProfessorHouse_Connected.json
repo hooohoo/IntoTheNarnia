@@ -1,9 +1,11 @@
 {
-  "version": "connected-walkthrough-02",
+  "version": "connected-walkthrough-03",
   "replacedBlockoutParts": [
     "ProfessorDesk",
     "Beds_E1",
-    "Beds_K-BOYS"
+    "Beds_K-BOYS",
+    "ArtifactArmor",
+    "ArtifactCases"
   ],
   "units": "metres, Unity Y up; X east, Z rear",
   "sourceLayoutSha256": "c10cae9559129d7618d6f6971bfab6e8b615bec9ecafee22824a8c7b01bf7fd9",
@@ -590,8 +592,8 @@
         "y": 4.079999923706055,
         "z": 22.1200008392334
       },
-      "vertices": 1372,
-      "triangles": 2640
+      "vertices": 952,
+      "triangles": 1836
     },
     {
       "name": "V_GroundRooms_ground_D1_Opaque",
@@ -608,8 +610,8 @@
         "y": 4.079999923706055,
         "z": 22.1200008392334
       },
-      "vertices": 1380,
-      "triangles": 2652
+      "vertices": 960,
+      "triangles": 1848
     },
     {
       "name": "C_GroundRooms_ground_D2_Collision",

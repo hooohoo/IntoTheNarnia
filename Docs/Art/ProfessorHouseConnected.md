@@ -36,4 +36,6 @@ Unity 메뉴 **Narnia → Professor House → Connected Layout → Open Walkthro
 
 [중앙 홀 마감 01](ProfessorHouseHallFinish.md)을 연결 씬에 구현했다. 이 문서의 원래 검증 기록은 마감 이전 기준이며, 최신 화면과 결과는 [중앙 홀 검증](../Validation/ProfessorHouseHallFinish.md)을 따른다. 이어 구역별 벽·천장·가구, 옷장방 독립 씬 경계, 문과 유물 사고 상호작용을 연결하고, 마지막으로 Lucy 모델·리깅을 다듬는다. 현재 원본의 일반 방·지붕·가구는 구조 확인용 형태이며 새 컨셉의 마감이 모두 구현된 상태가 아니다.
 
-최신 구현은 [홀 교차 수정·2층 마감 01](ProfessorHouseUpperFinish.md)이다. 임시 침대·책상 세 파트를 Unity 파생 모델에서 교체하고 다섯 방을 마감했다. 연결 구조 원본과 확정 도면은 유지하며, 최신 [화면·검증](../Validation/ProfessorHouseUpperFinish.md)을 따로 보존한다.
+후속 구현은 [홀 교차 수정·2층 마감 01](ProfessorHouseUpperFinish.md)이다. 임시 침대·책상 세 파트를 Unity 파생 모델에서 교체하고 다섯 방을 마감했다. 연결 구조 원본과 확정 도면은 유지하며, 최신 [화면·검증](../Validation/ProfessorHouseUpperFinish.md)을 따로 보존한다.
+
+현재 최신 마감은 [전시실·연결 복도 01](ProfessorHouseGalleryFinish.md)이다. 사고 창·갑옷 위치와 확정 경로를 유지하며 전시실·복도 8곳을 마감했다. 서재 층고 측정 및 상부 비례 보완 결과도 [화면·검증](../Validation/ProfessorHouseGalleryFinish.md)에 기록한다.

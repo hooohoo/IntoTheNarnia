@@ -1,0 +1,7 @@
+{
+  "method": "world-space triangle BVH overlap",
+  "checkedPrimitives": 3215,
+  "structuralMeshes": 261,
+  "failures": [],
+  "scope": "Selected furnishings vs approved walls, windows, frames, stairs, galleries, rails and supports; support floors excluded."
+}

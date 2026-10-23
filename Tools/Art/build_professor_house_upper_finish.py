@@ -136,16 +136,17 @@ def rug(x,y,z,w,d,cloth):
         for yy in [-d/2+.18,d/2-.18]:
             o=box('Rug border stitch',(x-w/2+.36+i*.26,y+yy,z+.041),(.04,.04,.004),'UpperRose',0);o.rotation_euler.z=math.pi/4
 
-def bookshelf(x,y,z,w=2.1,rotation=0):
-    start=len(k.groups[k.group]);d=.48;h=2.85
+def bookshelf(x,y,z,w=2.1,rotation=0,tall=False):
+    start=len(k.groups[k.group]);d=.48;h=3.85 if tall else 2.85
+    shelves=[.12,.65,1.2,1.75,2.3,2.85,3.35,3.85] if tall else [.12,.65,1.2,1.75,2.3,2.85]
     box('Bookcase back',(x,y+.2,z+h/2),(w,.08,h),'HallWalnut',.015)
     for xx in [-w/2,w/2]:box('Bookcase side',(x+xx,y,z+h/2),(.12,d,h),'HallWalnutEdge',.025)
-    for zz in [.12,.65,1.2,1.75,2.3,2.85]:box('Bookcase shelf',(x,y,z+zz),(w+.12,d+.04,.09),'HallWalnut',.018)
+    for zz in shelves:box('Bookcase shelf',(x,y,z+zz),(w+.12,d+.04,.09),'HallWalnut',.018)
     box('Bookcase crown',(x,y,z+h+.07),(w+.24,d+.11,.12),'HallWalnutEdge',.03)
-    for i,zz in enumerate([.17,.7,1.25,1.8,2.35]):
+    for i,zz in enumerate([v+.05 for v in shelves[:-1]]):
         books(x-.08*(i%2),y-.045,z+zz,w-.25,.29,.39)
     rotate_members(start,(x,y,z),rotation)
-    collider('Bookcase',(x,y,z+1.5),(w+.26,.62,3.0) if not rotation else (.62,w+.26,3.0))
+    collider('Bookcase',(x,y,z+(h+.15)/2),(w+.26,.62,h+.15) if not rotation else (.62,w+.26,h+.15))
 
 def curtains(x,y,z,width=1.5,rotation=0,cloth='UpperRose'):
     start=len(k.groups[k.group])
@@ -178,6 +179,10 @@ def curtains(x,y,z,width=1.5,rotation=0,cloth='UpperRose'):
                 xx=(zz-1.9-offset)/slope
                 if -width/2+.06<=xx<=width/2-.06:hits.append((xx,zz))
             if len(hits)==2:beam('Diamond window lead',(x+hits[0][0],y-.025,z+hits[0][1]),(x+hits[1][0],y-.025,z+hits[1][1]),.009,'HallGold')
+    for xx in [-width/2+.06,width/2-.06]:
+        beam('Leaded pane perimeter',(x+xx,y-.025,z+1.08),(x+xx,y-.025,z+2.72),.009,'HallGold')
+    for zz in [1.08,2.72]:
+        beam('Leaded pane perimeter',(x-width/2+.06,y-.025,z+zz),(x+width/2-.06,y-.025,z+zz),.009,'HallGold')
     rotate_members(start,(x,y,z),rotation)
 
 # Continuous wall finish follows the exact opening segments from the approved source.
@@ -201,7 +206,7 @@ for rid in finished:
             center=((a+b)/2,face,(bottom+top)/2) if axis=='h' else (face,(a+b)/2,(bottom+top)/2)
             size=(b-a,.008,top-bottom) if axis=='h' else (.008,b-a,top-bottom)
             box('Continuous interior '+rid,center,size,material,0)
-        for zz in [base+.12,base+.93,base+1.1,8.55]:
+        for zz in ([base+.12,base+.93,base+1.1] if rid=='P-STUDY' else [base+.12,base+.93,base+1.1,8.55]):
             if not lo+.04<zz<hi-.04:continue
             center=((a+b)/2,face+sign*.035,zz) if axis=='h' else (face+sign*.035,(a+b)/2,zz)
             size=(b-a,.07,.075) if axis=='h' else (.07,b-a,.075)
@@ -219,8 +224,8 @@ for rid in finished:
 print('UPPER_SHELL_COMPLETE',flush=True)
 k.group='StudyFurniture'
 # Shelving follows the internal walls; the west windows at Y14/18 remain clear.
-for xx in [1.6,4.1,6.5]:bookshelf(xx,21.54,base,1.9)
-for yy in [11.5,20.3]:bookshelf(.48,yy,base,1.65,math.pi/2)
+for xx in [1.6,4.1,6.5]:bookshelf(xx,21.54,base,1.9,tall=True)
+for yy in [11.5,20.3]:bookshelf(.48,yy,base,1.65,math.pi/2,tall=True)
 # Desk with open knee-space, pedestal drawers and a reading lamp.
 x,y=3.8,17.1
 for xx in [-1.02,1.02]:cabinet('Desk pedestal',x+xx,y,base,.65,1.18,.86,drawers=3)
@@ -247,7 +252,7 @@ for a,z in [(0,.06),(1.8,.15),(3.4,-.1)]:
 for i in range(24):
     a=i*math.tau/24;b=(i+1)*math.tau/24
     beam('Globe brass meridian',(6.8+.42*math.cos(a),20.2,base+1.51+.42*math.sin(a)),(6.8+.42*math.cos(b),20.2,base+1.51+.42*math.sin(b)),.014,'HallGold')
-painting('Study landscape',4.05,21.78,base+3.68,1.65,.86,2)
+painting('Study landscape',.29,16,base+2.1,1.15,1.45,2,math.pi/2)
 k.group='StudyWindows'
 for yy in [14,18]:curtains(.03,yy,base,1.5,math.pi/2,'UpperBookRed')
 k.group='StudyRug';rug(3.8,17.15,base,4.6,4.3,'HallRugDark')
@@ -306,10 +311,53 @@ for rid,cloth in [('E1','UpperRose'),('K-BOYS','UpperBlue')]:
         sphere('Shutter catch',(46.75,33.75,base+1.85),(.025,)*3,'HallGold')
     k.group=rid+'_Rug';rug(cx,30.65,base,5.0,3.4,'HallRugDark' if rid=='E1' else 'UpperGreen')
 
+# Architectural dressing changes perceived scale, while the measured ceiling stays put.
+k.group='StudyUpperTrim'
+for yy in [13,19]:box('Study coffer crossbeam',(4,yy,8.61),(7.7,.14,.23),'HallWalnutEdge',.023)
+for zz,thick in [(8.414,.162)]:
+    for xx in [.22,7.78]:box('Study layered cornice',(xx,16,zz),(.18,11.6,thick),'HallWalnutEdge',.018)
+    for yy in [10.22,21.78]:box('Study layered cornice',(4,yy,zz),(7.6,.18,thick),'HallWalnutEdge',.018)
+for yy in [10.3,21.7]:
+    for xx in [.27,7.73]:box('Study upper pilaster',(xx,yy,6.885),(.15,.15,2.89),'HallWalnutEdge',.018)
+k.group='StudyChandelier'
+cx,cy=4,16.3
+lathe('Ceiling rose',(cx,cy,8.42),[(0,.14),(.07,.2),(.12,.17)],'HallGold')
+beam('Chandelier suspension',(cx,cy,7.55),(cx,cy,8.43),.025,'HallGold')
+lathe('Chandelier turned center',(cx,cy,7.43),[(0,.08),(.08,.12),(.22,.07),(.33,.05)],'HallGold')
+for i in range(24):
+    a=i*math.tau/24;b=(i+1)*math.tau/24
+    beam('Chandelier ring',(cx+.59*math.cos(a),cy+.59*math.sin(a),7.63),(cx+.59*math.cos(b),cy+.59*math.sin(b),7.63),.035,'HallWalnut')
+for i in range(6):
+    a=i*math.tau/6;xx=cx+.59*math.cos(a);yy=cy+.59*math.sin(a)
+    beam('Chandelier spoke',(cx,cy,7.59),(xx,yy,7.63),.024,'HallGold')
+    if i%2==0:beam('Chandelier chain',(cx,cy,8.2),(xx,yy,7.63),.013,'HallGold')
+    lathe('Chandelier candle cup',(xx,yy,7.63),[(0,.07),(.035,.095),(.07,.07)],'HallGold')
+    lathe('Chandelier candle',(xx,yy,7.7),[(0,.035),(.21,.035)],'HallIvory')
+    sphere('Chandelier flame',(xx,yy,7.98),(.035,.035,.085),'HallFlame')
+
+# Measure the actual generated surfaces, independently of the dimension labels.
+from mathutils.bvhtree import BVHTree
+bpy.context.view_layer.update()
+verts=[];faces=[]
+for obj in k.groups['RoomShell']+k.groups['StudyUpperTrim']:
+    offset=len(verts);verts.extend(obj.matrix_world @ v.co for v in obj.data.vertices)
+    faces.extend(tuple(offset+i for i in p.vertices) for p in obj.data.polygons)
+tree=BVHTree.FromPolygons(verts,faces)
+samples=[]
+for name,x,y in [('clear ceiling',2,15),('longitudinal beam',4,15),('crossbeam',2,16)]:
+    origin=Vector((x,y,base+1.2))
+    floor_hit=tree.ray_cast(origin,Vector((0,0,-1)),2)[0]
+    top_hit=tree.ray_cast(origin,Vector((0,0,1)),6)[0]
+    if floor_hit is None or top_hit is None:raise RuntimeError('Study measurement missed surface: '+name)
+    samples.append(dict(surface=name,xy=[x,y],floorZ=round(floor_hit.z,6),undersideZ=round(top_hit.z,6),clearHeight=round(top_hit.z-floor_hit.z,6)))
+if abs(samples[0]['clearHeight']-4.423)>.005 or abs(samples[2]['clearHeight']-4.158)>.005:
+    raise RuntimeError('Study approved height drift: '+str(samples))
+(output/'StudyHeight.json').write_text(json.dumps(dict(method='world-space BVH vertical rays against generated finish surfaces',units='metres',room='P-STUDY',approvedFloor=4.32,atticFloor=9,openingSill=5.32,openingHead=7.12,samples=samples,decision='Keep floor, ceiling and window openings; add taller shelving, cornice and chandelier only.'),indent=2)+'\n')
+
 print('UPPER_FURNITURE_COMPLETE',flush=True)
 # The assembled model is checked before merging; intentional floor/wall finish contacts excluded.
-checks=['StudyFurniture','PrivateLibrary','PrivateBedroom','E1_Furniture','K-BOYS_Furniture']
+checks=['StudyFurniture','PrivateLibrary','PrivateBedroom','E1_Furniture','K-BOYS_Furniture','StudyChandelier']
 k.validate_architecture(project,checks,output/'PlacementValidation.json')
-k.validate_group_pairs([('StudyFurniture','StudyWindows'),('PrivateBedroom','BedroomWindows'),('E1_Furniture','E1_Windows'),('K-BOYS_Furniture','K-BOYS_Windows')],output/'DecorationClearance.json')
-k.export(project,source,output,'UpperFinish','UpperFinish.json','upper-finish-01')
+k.validate_group_pairs([('StudyFurniture','StudyWindows'),('StudyFurniture','StudyUpperTrim'),('StudyFurniture','StudyChandelier'),('PrivateBedroom','BedroomWindows'),('E1_Furniture','E1_Windows'),('K-BOYS_Furniture','K-BOYS_Windows')],output/'DecorationClearance.json')
+k.export(project,source,output,'UpperFinish','UpperFinish.json','upper-finish-02')
 os._exit(0)

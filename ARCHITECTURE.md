@@ -85,3 +85,5 @@ Chalk 통합 당시 메시 820개·참조 2663개·라이트맵 37개 보존 검
 중앙 홀 마감은 `OBJ_ProfessorHouse_HallFinish`와 홀 전용 머티리얼을 기존 연결 씬에 추가한다. 가구의 단순 충돌체도 같은 NavMesh 베이크에 포함한다. 연결 씬 카메라가 선택하는 `ProfessorHouseHallRenderer`를 URP 목록에 추가하며 기본 렌더러 인덱스 0은 유지한다. 고정 환경과 그림 텍스처는 직렬화 참조가 소유한다. [중앙 홀 제작 기록](Docs/Art/ProfessorHouseHallFinish.md)을 따른다.
 
 2층 마감은 `OBJ_ProfessorHouse_UpperFinish`를 추가하며, 기존 구조 FBX에서 위치 확인용 침대·책상만 제외한다. `ProfessorHouseHallFinishBuilder.AddLayer`가 홀과 2층의 재질 매핑·축/경계 검증·단순 충돌체 생성을 공유하고, `ProfessorHouseUpperFinishBuilder`가 방별 조명과 내부 접근 검사를 담당한다. 공통 Blender 부품·교차 검사는 `Tools/Art/professor_house_finish_kit.py`에 둔다. [2층 제작 기록](Docs/Art/ProfessorHouseUpperFinish.md)을 따른다.
+
+전시실·복도 마감은 `OBJ_ProfessorHouse_GalleryFinish`와 `ProfessorHouseGalleryFinishBuilder`가 소유한다. 같은 AddLayer 임포트 계약과 NavMesh 베이크를 사용하고, 원본의 임시 갑옷·진열대만 GroundRooms 파생 FBX에서 교체한다. 별도 투구·어깨 메시는 향후 사고 연출의 제작 단위이며 런타임 상호작용은 아직 추가하지 않았다. [제작·검증 기록](Docs/Art/ProfessorHouseGalleryFinish.md)을 따른다.
