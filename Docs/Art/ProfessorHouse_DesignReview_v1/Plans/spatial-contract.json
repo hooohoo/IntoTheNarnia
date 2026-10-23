@@ -1,0 +1,387 @@
+{
+  "status": "review-only, scene not modified",
+  "units": "proposed metres; not film measurements",
+  "orientation": "front at south; chosen for design consistency, not canonical compass direction",
+  "outer_envelope": [
+    50,
+    34
+  ],
+  "levels": {
+    "ground": 0,
+    "split_landing": 1.44,
+    "right_intermediate_landing": 2.7,
+    "family": 3.6,
+    "attic": 7.2
+  },
+  "stairs": {
+    "main": "8 risers × 0.18 to split landing; left 12 risers to +3.60; right 7 risers to +2.70 then 5 risers to +3.60",
+    "secondary": "two 10-riser flights per 3.60m storey, 0.18 riser / 0.28 tread, 1.4m clear width; repeated same footprint"
+  },
+  "rooms": {
+    "ground": [
+      {
+        "id": "C1",
+        "name": "응접실",
+        "x": 0,
+        "y": 0,
+        "width": 10,
+        "depth": 10,
+        "basis": "F+S"
+      },
+      {
+        "id": "A",
+        "name": "현관 · 전실",
+        "x": 10,
+        "y": 0,
+        "width": 14,
+        "depth": 10,
+        "basis": "P"
+      },
+      {
+        "id": "C2",
+        "name": "식당",
+        "x": 24,
+        "y": 0,
+        "width": 10,
+        "depth": 10,
+        "basis": "P"
+      },
+      {
+        "id": "F1",
+        "name": "긴 전면 갤러리",
+        "x": 34,
+        "y": 0,
+        "width": 16,
+        "depth": 10,
+        "basis": "U+P"
+      },
+      {
+        "id": "D1",
+        "name": "교수의 서재",
+        "x": 0,
+        "y": 10,
+        "width": 10,
+        "depth": 12,
+        "basis": "F+P"
+      },
+      {
+        "id": "B",
+        "name": "주 계단 홀",
+        "x": 10,
+        "y": 10,
+        "width": 14,
+        "depth": 12,
+        "basis": "F+U+S"
+      },
+      {
+        "id": "F0",
+        "name": "동쪽 연결 복도",
+        "x": 24,
+        "y": 10,
+        "width": 6,
+        "depth": 16,
+        "basis": "U+P"
+      },
+      {
+        "id": "F2",
+        "name": "동측 회랑",
+        "x": 44,
+        "y": 10,
+        "width": 6,
+        "depth": 16,
+        "basis": "U+P"
+      },
+      {
+        "id": "D2",
+        "name": "서고",
+        "x": 0,
+        "y": 22,
+        "width": 10,
+        "depth": 12,
+        "basis": "P"
+      },
+      {
+        "id": "D3",
+        "name": "수집품 전실",
+        "x": 10,
+        "y": 22,
+        "width": 14,
+        "depth": 6,
+        "basis": "P"
+      },
+      {
+        "id": "D4",
+        "name": "음악 · 휴게실",
+        "x": 10,
+        "y": 28,
+        "width": 14,
+        "depth": 6,
+        "basis": "P"
+      },
+      {
+        "id": "S2",
+        "name": "보조 계단",
+        "x": 24,
+        "y": 26,
+        "width": 6,
+        "depth": 8,
+        "basis": "P"
+      },
+      {
+        "id": "F3",
+        "name": "주방",
+        "x": 30,
+        "y": 28,
+        "width": 10,
+        "depth": 6,
+        "basis": "P"
+      },
+      {
+        "id": "F4",
+        "name": "식료품실",
+        "x": 40,
+        "y": 28,
+        "width": 5,
+        "depth": 6,
+        "basis": "P"
+      },
+      {
+        "id": "F5",
+        "name": "준비실",
+        "x": 45,
+        "y": 28,
+        "width": 5,
+        "depth": 6,
+        "basis": "P"
+      },
+      {
+        "id": "F6",
+        "name": "후면 관리 복도",
+        "x": 30,
+        "y": 26,
+        "width": 20,
+        "depth": 2,
+        "basis": "P"
+      }
+    ],
+    "upper": [
+      {
+        "id": "E1",
+        "name": "여자아이 침실",
+        "x": 0,
+        "y": 0,
+        "width": 10,
+        "depth": 10,
+        "basis": "F+P"
+      },
+      {
+        "id": "E2",
+        "name": "남자아이 침실",
+        "x": 10,
+        "y": 0,
+        "width": 14,
+        "depth": 6,
+        "basis": "P"
+      },
+      {
+        "id": "E4",
+        "name": "손님 침실",
+        "x": 24,
+        "y": 0,
+        "width": 10,
+        "depth": 6,
+        "basis": "P"
+      },
+      {
+        "id": "E3",
+        "name": "가족 복도",
+        "x": 10,
+        "y": 6,
+        "width": 24,
+        "depth": 4,
+        "basis": "U+P"
+      },
+      {
+        "id": "F1",
+        "name": "상층 긴 갤러리",
+        "x": 34,
+        "y": 0,
+        "width": 16,
+        "depth": 10,
+        "basis": "U+P"
+      },
+      {
+        "id": "E5",
+        "name": "서쪽 손님 침실",
+        "x": 0,
+        "y": 10,
+        "width": 10,
+        "depth": 10,
+        "basis": "P"
+      },
+      {
+        "id": "E6",
+        "name": "욕실",
+        "x": 0,
+        "y": 20,
+        "width": 10,
+        "depth": 6,
+        "basis": "F+P"
+      },
+      {
+        "id": "E7",
+        "name": "린넨실",
+        "x": 0,
+        "y": 26,
+        "width": 10,
+        "depth": 8,
+        "basis": "P"
+      },
+      {
+        "id": "B-W",
+        "name": "서측 발코니",
+        "x": 10,
+        "y": 10,
+        "width": 2,
+        "depth": 12,
+        "basis": "U+P"
+      },
+      {
+        "id": "B-E",
+        "name": "동측 발코니",
+        "x": 22,
+        "y": 10,
+        "width": 2,
+        "depth": 12,
+        "basis": "U+P"
+      },
+      {
+        "id": "B-N",
+        "name": "상층 연결 갤러리",
+        "x": 10,
+        "y": 22,
+        "width": 14,
+        "depth": 6,
+        "basis": "U+P"
+      },
+      {
+        "id": "E8",
+        "name": "북쪽 복도",
+        "x": 10,
+        "y": 28,
+        "width": 14,
+        "depth": 6,
+        "basis": "U+P"
+      },
+      {
+        "id": "F0",
+        "name": "동쪽 연결 복도",
+        "x": 24,
+        "y": 10,
+        "width": 6,
+        "depth": 16,
+        "basis": "U+P"
+      },
+      {
+        "id": "F2",
+        "name": "동측 회랑",
+        "x": 44,
+        "y": 10,
+        "width": 6,
+        "depth": 16,
+        "basis": "U+P"
+      },
+      {
+        "id": "S2",
+        "name": "다락행 보조 계단",
+        "x": 24,
+        "y": 26,
+        "width": 6,
+        "depth": 8,
+        "basis": "P"
+      },
+      {
+        "id": "F7",
+        "name": "관리인 공간",
+        "x": 30,
+        "y": 26,
+        "width": 20,
+        "depth": 8,
+        "basis": "P"
+      }
+    ],
+    "attic": [
+      {
+        "id": "G1a",
+        "name": "목재 복도",
+        "x": 0,
+        "y": 16,
+        "width": 8,
+        "depth": 6,
+        "basis": "F+P"
+      },
+      {
+        "id": "G1b",
+        "name": "꺾이는 접근 복도",
+        "x": 8,
+        "y": 16,
+        "width": 22,
+        "depth": 6,
+        "basis": "U+P"
+      },
+      {
+        "id": "G2",
+        "name": "옷장 방",
+        "x": 0,
+        "y": 22,
+        "width": 8,
+        "depth": 12,
+        "basis": "F+S"
+      },
+      {
+        "id": "G3",
+        "name": "닫힌 창고",
+        "x": 8,
+        "y": 22,
+        "width": 8,
+        "depth": 12,
+        "basis": "P"
+      },
+      {
+        "id": "G4",
+        "name": "다락 창고",
+        "x": 16,
+        "y": 22,
+        "width": 8,
+        "depth": 12,
+        "basis": "P"
+      },
+      {
+        "id": "G1c",
+        "name": "계단 전실",
+        "x": 24,
+        "y": 22,
+        "width": 6,
+        "depth": 4,
+        "basis": "P"
+      },
+      {
+        "id": "S2",
+        "name": "보조 계단",
+        "x": 24,
+        "y": 26,
+        "width": 6,
+        "depth": 8,
+        "basis": "P"
+      }
+    ]
+  },
+  "courtyard": {
+    "x": 30,
+    "y": 10,
+    "width": 14,
+    "depth": 16,
+    "basis": "P; introduced to give original long corridors a coherent exterior boundary"
+  },
+  "important": "F describes local visible features, never proof of whole room adjacency. S is approved style, not film evidence. All room positions and connections are proposals."
+}

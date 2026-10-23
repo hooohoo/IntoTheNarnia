@@ -76,4 +76,6 @@ UI_Base 아래 UI_Scene/UI_Popup/UI_Sub 3계층을 사용한다. Scene UI는 캐
 
 Runtime, Editor, Samples, EditModeTests, PlayModeTests를 나눈다. 프로덕션 씬의 퀘스트 트리거는 Object에 있으며 샘플 어셈블리에 의존하지 않는다. link.xml은 리플렉션·직렬화 호환을 위해 Runtime을 보존한다. IL2CPP 타깃 검증 범위는 결과 보고서에 별도로 기록한다.
 
-메시 820개, 교수의 집 참조 2663개, 라이트맵 37개 및 NavMesh는 전환 보존 대상이다. 머티리얼은 URP 변환하되 GUID·텍스처·표면 속성을 유지한다. 프로젝트 검증, 실제 콘텐츠 빌드, 플레이어 빌드 및 PlayMode 테스트가 완료 근거다.
+Chalk 통합 당시 메시 820개·참조 2663개·라이트맵 37개 보존 검사는 이전 환경을 유지하기 위한 전환 기준이었다. 교수의 집 v2 재구성부터는 새 환경 프리팹·FBX의 참조, 라이트맵 UV·베이크 데이터, 계단 이동과 문별 NavMesh Area 연결을 검사한다. 씬 GUID와 `FieldManager`·`ProfessorHouseMapManager`·두 문 이름·`State` 애니메이션 파라미터는 유지한다. [교수의 집 제작 계약](Docs/Art/ProfessorHouseV2.md)과 [검증 결과](Docs/Validation/ProfessorHouseV2.md)가 현재 근거다.
+
+후속 저택 공간 제작의 기준은 2026-10-22 승인된 [확정 도면 v1](Docs/Art/ProfessorHouse_ApprovedLayout_v1/README.md)이다. 전체 방 배치·계단·정원·문 연결·서사 동선을 정의하며 현재 v2 씬 구현과 구분한다. 씬 분할·로딩 경계는 이 접속 관계를 유지하며 후속 구현에서 결정한다.

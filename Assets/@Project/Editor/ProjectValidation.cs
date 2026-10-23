@@ -55,7 +55,7 @@ public static class ProjectValidation
                     }
                 }
             }
-            if (scene.name == "Professor_House" && LightmapSettings.lightmaps.Length != 37) failures.Add("Expected 37 Professor_House lightmaps.");
+            if (scene.name == "Professor_House") ProfessorHouseValidation.Check(scene, failures);
         }
         }
         finally

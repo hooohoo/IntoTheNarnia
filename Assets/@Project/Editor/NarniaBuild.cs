@@ -98,8 +98,10 @@ public static class NarniaBuild
     }
     private static void Write(string name, string value)
     {
-        Directory.CreateDirectory("Docs/Validation/ChalkParity");
-        File.WriteAllText("Docs/Validation/ChalkParity/" + name, value);
+        string output = Environment.GetEnvironmentVariable("NARNIA_BUILD_REPORT_DIR");
+        if (string.IsNullOrEmpty(output)) output = "Docs/Validation/ChalkParity";
+        Directory.CreateDirectory(output);
+        File.WriteAllText(Path.Combine(output, name), value);
         Debug.Log(value);
     }
 }

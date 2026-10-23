@@ -1,0 +1,96 @@
+Assets/@Project/00.Scenes/Professor_House.unity
+Assets/@Project/00.Scenes/Professor_House/LightingData.asset
+Assets/@Project/00.Scenes/Professor_House/Lightmap-0_comp_dir.png
+Assets/@Project/00.Scenes/Professor_House/Lightmap-0_comp_light.exr
+Assets/@Project/00.Scenes/Professor_House/Lightmap-0_comp_shadowmask.png
+Assets/@Project/00.Scenes/Professor_House/Lightmap-1_comp_dir.png
+Assets/@Project/00.Scenes/Professor_House/Lightmap-1_comp_light.exr
+Assets/@Project/00.Scenes/Professor_House/Lightmap-1_comp_shadowmask.png
+Assets/@Project/00.Scenes/Professor_House/ReflectionProbe-0.exr
+Assets/@Project/00.Scenes/Professor_House/ReflectionProbe-1.exr
+Assets/@Project/00.Scenes/Professor_House/V2/Hall_Grade.asset
+Assets/@Project/00.Scenes/Professor_House/V2/Hall_Lighting.lighting
+Assets/@Project/00.Scenes/Professor_House/V2/Hall_NavMesh.asset
+Assets/@Project/00.Scenes/Professor_House/V2/StairCollision.asset
+Assets/@Project/01.Scripts/Object/Camera/CMCameraController.cs
+Assets/@Project/01.Scripts/Object/Interaction/DoorController.cs
+Assets/@Project/01.Scripts/Object/Interaction/NextMapController.cs
+Assets/@Project/01.Scripts/Object/Quest/Test_QuestBoxController.cs
+Assets/@Project/01.Scripts/Scene/FieldManager.cs
+Assets/@Project/01.Scripts/Scene/ProfessorHouseMapManager.cs
+Assets/@Project/02.Prefabs/Camera_Prefab/CM_Camera.prefab
+Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouse/OBJ_ProfessorHouse_Hall_v2.prefab
+Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouse/OBJ_TheSiblingsRoomDoor.prefab
+Assets/@Project/02.Prefabs/Environment_Prefab/ProfessorHouse/OBJ_TheWardrobeRoomDoor.prefab
+Assets/@Project/04.Materials/MAT_Default.mat
+Assets/@Project/04.Materials/Material/Wood_Floor_ver_Me.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_BookBlue.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_BookRed.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_Brass.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_DistantGreen.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_Glow.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_Ink.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_Ivory.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_Leaves.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_Limestone.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_Mortar.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_Olive.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_Plaster.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_RugBorder.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_RugInset.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_RugRed.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_Skin.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_Sky.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_StoneLight.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_StoneWarm.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_Walnut.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_WalnutEdge.mat
+Assets/@Project/04.Materials/ProfessorHouse/MAT_House_WalnutPanel.mat
+Assets/@Project/04.Materials/ProfessorHouse/TEX_House_BaseWhite.asset
+Assets/@Project/05.Animations/ProfessorHouse/HouseDoor.controller
+Assets/@Project/05.Animations/ProfessorHouse/HouseDoor@Closed.anim
+Assets/@Project/05.Animations/ProfessorHouse/HouseDoor@Open.anim
+Assets/@Project/10.Models/ProfessorHouse/FBX_ProfessorHouse_Door_v2.fbx
+Assets/@Project/10.Models/ProfessorHouse/FBX_ProfessorHouse_Hall_v2.fbx
+Assets/Asset/2D/Customizable Skybox/Stylized Sky/Materials/Day1.mat
+Assets/Asset/2D/Customizable Skybox/Stylized Sky/Materials/Day5.mat
+Assets/Asset/2D/Customizable Skybox/Stylized Sky/Shaders/Stylized Sky.shader
+Assets/Asset/2D/Wooden Floor Pack/Materials/Wooden Floor.mat
+Assets/Asset/2D/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Albedo.tga
+Assets/Asset/2D/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Displacement.tga
+Assets/Asset/2D/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Metalness.tga
+Assets/Asset/2D/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Normal.tga
+Assets/Asset/2D/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Roughness.tga
+Assets/Asset/2D/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Albedo.tga
+Assets/Asset/2D/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Metalness.tga
+Assets/Asset/2D/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Normal.tga
+Packages/com.unity.ai.navigation/Gizmos/NavMeshModifierVolume Icon.png
+Packages/com.unity.ai.navigation/Gizmos/NavMeshSurface Icon.png
+Packages/com.unity.ai.navigation/Runtime/NavMeshModifierVolume.cs
+Packages/com.unity.ai.navigation/Runtime/NavMeshSurface.cs
+Packages/com.unity.cinemachine/Editor/EditorResources/cm_logo_sm.png
+Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineBrain.cs
+Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineCameraOffset.cs
+Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineCollider.cs
+Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineFreeLook.cs
+Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachinePipeline.cs
+Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineVirtualCamera.cs
+Packages/com.unity.cinemachine/Runtime/Components/CinemachineComposer.cs
+Packages/com.unity.cinemachine/Runtime/Components/CinemachineOrbitalTransposer.cs
+Packages/com.unity.render-pipelines.core/Editor/Volume/Icons/Volume.png
+Packages/com.unity.render-pipelines.core/Editor/Volume/Icons/VolumeProfileAsset.png
+Packages/com.unity.render-pipelines.core/Runtime/Volume/Volume.cs
+Packages/com.unity.render-pipelines.core/Runtime/Volume/VolumeProfile.cs
+Packages/com.unity.render-pipelines.universal/Editor/AssetVersion.cs
+Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/UniversalMetadata.cs
+Packages/com.unity.render-pipelines.universal/Runtime/Overrides/Bloom.cs
+Packages/com.unity.render-pipelines.universal/Runtime/Overrides/ColorAdjustments.cs
+Packages/com.unity.render-pipelines.universal/Runtime/Overrides/Tonemapping.cs
+Packages/com.unity.render-pipelines.universal/Runtime/UniversalAdditionalCameraData.cs
+Packages/com.unity.render-pipelines.universal/Runtime/UniversalAdditionalLightData.cs
+Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph
+Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
+Packages/com.unity.shadergraph/Editor/Importers/ShaderGraphImporter.cs
+Packages/com.unity.shadergraph/Editor/Importers/ShaderGraphMetadata.cs
+Packages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs
+Packages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs

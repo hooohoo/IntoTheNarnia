@@ -1,0 +1,3 @@
+Environment renderers: 29
+Environment triangles (all submeshes): 124344
+Lightmaps: 2

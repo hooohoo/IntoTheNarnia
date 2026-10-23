@@ -1,0 +1,31 @@
+{
+  "pdfPages": 6,
+  "png": {
+    "upper": [
+      1840,
+      1320
+    ],
+    "hide_upper": [
+      1840,
+      1320
+    ],
+    "attic": [
+      1840,
+      1320
+    ],
+    "section": [
+      1600,
+      1240
+    ],
+    "ground": [
+      1840,
+      1320
+    ],
+    "story": [
+      1600,
+      1320
+    ]
+  },
+  "a3Landscape": true,
+  "upperAndAtticLayoutUnchangedFrom02": true
+}

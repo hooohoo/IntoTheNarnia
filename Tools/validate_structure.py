@@ -67,7 +67,26 @@ for asset in (assets / '@Project/00.Scenes/Professor_House/Meshes').glob('*.asse
     check(not set(refs) - ids, 'Invalid mesh subasset reference: ' + str(asset))
     mesh_count += len(ids)
     references += len(refs)
-check(mesh_count == 820 and references == 2663, 'Professor_House mesh contract changed')
+# The migration's 820 meshes / 2663 references remain historical evidence.
+# The v2 hall deliberately replaces that environment; validate its source and prefab dependencies.
+check(references == 0, 'Legacy house geometry is still referenced by the v2 scene')
+model_dir = assets / '@Project/10.Models/ProfessorHouse'
+prefab_dir = assets / '@Project/02.Prefabs/Environment_Prefab/ProfessorHouse'
+manifest_path = model_dir / 'ProfessorHouse_v2.json'
+check(manifest_path.exists(), 'Missing v2 model manifest')
+if manifest_path.exists():
+    manifest = json.loads(manifest_path.read_text())
+    check(manifest.get('revision') == 2 and manifest.get('units') == 'metres', 'Unexpected house asset revision or units')
+    check(0 < manifest.get('meshes', 0) <= 64, 'House exceeds spatial mesh budget')
+for name in ['OBJ_ProfessorHouse_Hall_v2', 'OBJ_TheSiblingsRoomDoor', 'OBJ_TheWardrobeRoomDoor']:
+    prefab = prefab_dir / (name + '.prefab')
+    check(prefab.exists(), 'Missing house prefab: ' + name)
+    if prefab.exists():
+        guid = re.search(r'guid: (\w+)', Path(str(prefab) + '.meta').read_text())[1]
+        check(guid in scene, 'House prefab is not connected to the scene: ' + name)
+for name in ['FBX_ProfessorHouse_Hall_v2', 'FBX_ProfessorHouse_Door_v2']:
+    model = model_dir / (name + '.fbx')
+    check(model.exists() and model.stat().st_size > 1000, 'Missing model binary: ' + name)
 check((root / 'ProjectSettings/ProjectVersion.txt').read_text().startswith('m_EditorVersion: ' + args.editor_version), 'Unexpected original Unity version')
 print(f'Scripts mapped: {len(migrations)}; mesh assets: {mesh_count}; mesh references: {references}; failures: {len(failures)}')
 for failure in failures:

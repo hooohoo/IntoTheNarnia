@@ -1,0 +1,125 @@
+{
+  "revision": 2,
+  "units": "metres",
+  "meshes": 29,
+  "vertices": 64602,
+  "triangles": 124344,
+  "palette": {
+    "Walnut": {
+      "hex": "35231B",
+      "smoothness": 0.28
+    },
+    "WalnutEdge": {
+      "hex": "463024",
+      "smoothness": 0.32
+    },
+    "WalnutPanel": {
+      "hex": "402C21",
+      "smoothness": 0.24
+    },
+    "Plaster": {
+      "hex": "D5C19D",
+      "smoothness": 0.08
+    },
+    "Limestone": {
+      "hex": "BAAB90",
+      "smoothness": 0.12
+    },
+    "StoneLight": {
+      "hex": "CCBDA3",
+      "smoothness": 0.14
+    },
+    "StoneWarm": {
+      "hex": "B7A187",
+      "smoothness": 0.13
+    },
+    "Mortar": {
+      "hex": "A99B84",
+      "smoothness": 0.08
+    },
+    "RugRed": {
+      "hex": "984E3C",
+      "smoothness": 0.08
+    },
+    "RugBorder": {
+      "hex": "C29456",
+      "smoothness": 0.1
+    },
+    "RugInset": {
+      "hex": "B06A4D",
+      "smoothness": 0.08
+    },
+    "Olive": {
+      "hex": "68705A",
+      "smoothness": 0.13
+    },
+    "Brass": {
+      "hex": "AF8951",
+      "smoothness": 0.42
+    },
+    "Ivory": {
+      "hex": "E2D8BD",
+      "smoothness": 0.18
+    },
+    "Ink": {
+      "hex": "303C3D",
+      "smoothness": 0.1
+    },
+    "Skin": {
+      "hex": "C69270",
+      "smoothness": 0.16
+    },
+    "BookBlue": {
+      "hex": "526D70",
+      "smoothness": 0.12
+    },
+    "BookRed": {
+      "hex": "793B34",
+      "smoothness": 0.12
+    },
+    "Leaves": {
+      "hex": "56684B",
+      "smoothness": 0.1
+    },
+    "Glow": {
+      "hex": "FFD389",
+      "smoothness": 0.0
+    },
+    "Sky": {
+      "hex": "B5CFCD",
+      "smoothness": 0.0
+    },
+    "DistantGreen": {
+      "hex": "80947A",
+      "smoothness": 0.0
+    }
+  },
+  "layout": {
+    "spawn": [
+      -0.9,
+      0.15,
+      -2.9
+    ],
+    "galleryHeight": 3.65,
+    "stairsStart": [
+      2.9,
+      0.1,
+      -2.5
+    ],
+    "stairsEnd": [
+      2.9,
+      3.68,
+      4.6
+    ],
+    "siblingsDoor": [
+      -3.3,
+      3.65,
+      6.9
+    ],
+    "wardrobeDoor": [
+      0,
+      3.65,
+      6.9
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "destination": "/Users/leejae/Downloads/IntoTheNarnia_ProfessorHouse/Studies/FloorPlans_03",
+  "files": [
+    {
+      "path": "Data/browser-checks.json",
+      "bytes": 877,
+      "sha256": "df7e8092bb28b0b78455a7b045823ff368cb0819ad5c0849fc84e19564f15883"
+    },
+    {
+      "path": "Data/export-checks.json",
+      "bytes": 381,
+      "sha256": "124c41f22bb5b76591025acd5497f15b052f82afcd1118de46868fa99a673593"
+    },
+    {
+      "path": "Data/layout.json",
+      "bytes": 59291,
+      "sha256": "f04e87ddaef4069ca7e501890f213794bb9242a5c94f96f9e1c2b5cf2f8e39fa"
+    },
+    {
+      "path": "Data/layout_01.json",
+      "bytes": 45240,
+      "sha256": "13c1e8833005dedd923961bd5445c703ea035f0719ce7c3a2defa90cd6fba3f6"
+    },
+    {
+      "path": "Data/maps.js",
+      "bytes": 600919,
+      "sha256": "932898ac77606a418b7cfad46b141f5eb41f309ad8298904304f7fa8ee08f533"
+    },
+    {
+      "path": "Data/validation.json",
+      "bytes": 763,
+      "sha256": "2fcaf0a947982cacbbeb9c96624c7d4c16f55829b75a0b35b9391e97df14368f"
+    },
+    {
+      "path": "Plans/attic.png",
+      "bytes": 186559,
+      "sha256": "271fd656cce852aa90c01fd59a80b30f6aab54720b044883b7b0d640d79b66cc"
+    },
+    {
+      "path": "Plans/attic.svg",
+      "bytes": 26538,
+      "sha256": "c0c5a9b76a66c8cf0a82faa2696d34bd2453028dca4293aa0230a860e20cc459"
+    },
+    {
+      "path": "Plans/ground.png",
+      "bytes": 195619,
+      "sha256": "8285168596e2b7ab4e9145189a153b32322af04d221406e1919fe188e0415256"
+    },
+    {
+      "path": "Plans/ground.svg",
+      "bytes": 52266,
+      "sha256": "7b6c9cd20cb40155a23be92e73665b815c5869c09a7e8dfa919b7f1ac04c2db9"
+    },
+    {
+      "path": "Plans/hide_upper.png",
+      "bytes": 205884,
+      "sha256": "968c87f1ac32097eaccbfb0fba844e794709588da542b281ba8c08a78a790949"
+    },
+    {
+      "path": "Plans/hide_upper.svg",
+      "bytes": 56687,
+      "sha256": "6afdd2f7decc1cdc69fd049ce9534d85fed92ceca546a566f4811637b65403c4"
+    },
+    {
+      "path": "Plans/section.png",
+      "bytes": 129139,
+      "sha256": "e42ff67f74f4716ffdef7585155b999f28998cdd56c996c43b6dacc5bc7e6923"
+    },
+    {
+      "path": "Plans/section.svg",
+      "bytes": 6493,
+      "sha256": "e455e88795be08e5a04cc9787bd491474ed82fe736fa8b6e21f5b36cabbcab40"
+    },
+    {
+      "path": "Plans/story.png",
+      "bytes": 153760,
+      "sha256": "fdbe84db55b5de35e1db24bc63214535acb8d5d32146f771a7489834004a7383"
+    },
+    {
+      "path": "Plans/story.svg",
+      "bytes": 9087,
+      "sha256": "329ed0eb35f849a7371aee5695d758bac32f4ba11574c08266b243f43eb5a404"
+    },
+    {
+      "path": "Plans/upper.png",
+      "bytes": 202920,
+      "sha256": "47a2989589110f941e15dae35b8ab2957a1067d5e5e997f743f425a5e4cf8d2e"
+    },
+    {
+      "path": "Plans/upper.svg",
+      "bytes": 56992,
+      "sha256": "5eb22f933353f0f85d166088559120a7e389ebe2f129b53c95e0e1ee7251a639"
+    },
+    {
+      "path": "Print.html",
+      "bytes": 996,
+      "sha256": "761a0bfbd809c7f6b145d069aa10a58448907bd5f0967b1c3bff7e24e5da6af3"
+    },
+    {
+      "path": "ProfessorHouse_FloorPlans_03.pdf",
+      "bytes": 10293902,
+      "sha256": "d081a9a0c75e6cb246962cebff12caa4eeb9e0a14b71cc8c32b02b56b0fe0434"
+    },
+    {
+      "path": "Source/build_data.py",
+      "bytes": 16815,
+      "sha256": "9422bf763d1b416ff6701637b95556a01d4610d3bf8c218300790bc550a6b3e3"
+    },
+    {
+      "path": "Source/build_figures.py",
+      "bytes": 16539,
+      "sha256": "59fe8df89aa4bef853220f6224f1547f88985041450faf5099582fdd5f4ccd5b"
+    },
+    {
+      "path": "Source/build_page.py",
+      "bytes": 13003,
+      "sha256": "4340273a03927e02427ea943efbd2b336c5f3e67b55132d98c2a9b2099646d3a"
+    },
+    {
+      "path": "Source/drawing_base.py",
+      "bytes": 8297,
+      "sha256": "844d55c6bb49c2437c2027cdb5d7d1b1a7c5ccb6068c27a6d89cdec6ccf2d58e"
+    },
+    {
+      "path": "Source/validate_layout.py",
+      "bytes": 8536,
+      "sha256": "ae70ba7bbdd54107e347c2cd0dedb129cef158c3c4b565f69a190c947d02ac12"
+    },
+    {
+      "path": "index.html",
+      "bytes": 13190,
+      "sha256": "97c8d5be5fadae0179a6f34c106491221ce7cbfbd8bde7341afca841742b3e3e"
+    },
+    {
+      "path": "style.css",
+      "bytes": 4310,
+      "sha256": "68010a03ebbcf75e54e681e509d936accb9d54c2f189e12b11572a35aef8d0a6"
+    }
+  ],
+  "existingFilesUpdated": [
+    {
+      "path": "index.html",
+      "before": "c65c4bfd3cea6cebc634260335d9b25bc0feb0ce8076eb1eec7711a1a54ee2c3",
+      "after": "108e3a0c29f62d051618ef9243fe75c46e7dba39bac00947831204e42cf493e3"
+    },
+    {
+      "path": "README.md",
+      "before": "85aa381113ebf1ae237f6741cd90aeb0cf000d180744aff943448fad7aed388b",
+      "after": "b44515ac7453ced88bda481ee4d2947c96695d7d7e65cca147a75ecbab1724f9"
+    },
+    {
+      "path": "Studies/FloorPlans_02/index.html",
+      "before": "9c0627b0cf8b3a9640539b5b06b7048f1a3b429a4321c7b77a25d2e74c35785e",
+      "after": "3e61208a7f43ae987051a152e7a1f7356396fd2850f306a7042a4458f6eb04ab"
+    },
+    {
+      "path": "Studies/FloorPlans_02/Source/build_page.py",
+      "before": "3452e9f984138573248271fe960ede0c3b07f7d437cea7d37c550aa42f5b383b",
+      "after": "d27dfd3a994c2319939d7b59ca3c265cf2eb82c46f948700be3b132d52fd24f9"
+    },
+    {
+      "path": "Studies/FloorPlans_02/Data/delivery-manifest.json",
+      "before": "89c4cc2b6983242124971e9eadaaa12eb2abe577938221b03bee5afe63bd281c",
+      "after": "754e0ea6a2ee702af418ef0c61e6e02a77ac4f8e03f11264a3df8e88df78707a"
+    }
+  ],
+  "preservedExistingFiles": 318,
+  "localLinksChecked": 87,
+  "scope": "Download west-garden and artifact-gallery story-route review 03; existing 3D models, references, archives and Unity project are unchanged."
+}
