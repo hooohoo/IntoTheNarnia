@@ -1,0 +1,9 @@
+PASS V_HallFinish_Ceiling import bounds; triangles=1188
+PASS V_HallFinish_EastFurnishing import bounds; triangles=16308
+PASS V_HallFinish_GardenVista import bounds; triangles=3132
+PASS V_HallFinish_NorthWall import bounds; triangles=27402
+PASS V_HallFinish_RugInlay import bounds; triangles=1584
+PASS V_HallFinish_WallFinish import bounds; triangles=372
+PASS V_HallFinish_WestFurnishing import bounds; triangles=19588
+Furniture and garden trunk box colliders: 9
+Painting atlas uses four UV quarters without modifying source pixels.

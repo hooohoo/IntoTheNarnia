@@ -1,8 +1,12 @@
 # 아트 레퍼런스
 
+## 1층 공용 공간 마감 01 · 2026-10-23
+
+응접실·현관·식당·공용 도서실의 주요 가구와 기본 마감을 추가했다. 정원문·전시실 서사 동선과 각 방의 문 연결을 유지했다. [제작과 다음 순서](ProfessorHousePublicFinish.md) · [최신 Unity 화면·가구 배치도](../Validation/ProfessorHousePublicFinish/index.html) · [검증](../Validation/ProfessorHousePublicFinish.md).
+
 ## 전시실·연결 복도 마감 01 · 2026-10-23
 
-유물 전시실과 주요 복도 8곳을 마감했다. 서재는 천장 4.423 m·보 아래 4.158 m를 확인하고 층고를 유지한 채 책장·상부 몰딩·천장등을 보완했다. [제작과 남은 범위](ProfessorHouseGalleryFinish.md) · [최신 Unity 화면·서재 비교](../Validation/ProfessorHouseGalleryFinish/index.html) · [검증](../Validation/ProfessorHouseGalleryFinish.md).
+유물 전시실과 주요 복도 8곳을 마감했다. 서재는 천장 4.423 m·보 아래 4.158 m를 확인하고 층고를 유지한 채 책장·상부 몰딩·천장등을 보완했다. [제작과 남은 범위](ProfessorHouseGalleryFinish.md) · [당시 Unity 화면·서재 비교](../Validation/ProfessorHouseGalleryFinish/index.html) · [검증](../Validation/ProfessorHouseGalleryFinish.md).
 
 ## 홀 교차 수정·2층 마감 01 · 2026-10-23
 

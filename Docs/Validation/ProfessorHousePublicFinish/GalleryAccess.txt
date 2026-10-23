@@ -1,0 +1,6 @@
+PASS Armor viewing point
+PASS North collections
+PASS East display
+PASS Window cabinet
+PASS accident axis reaches armor collider at (1.725, 2.040, 18.120)
+Capsule samples: 133; failures: 0

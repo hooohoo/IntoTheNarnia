@@ -1,0 +1,24 @@
+PASS V_GalleryFinish_ArmorBase import bounds; triangles=324
+PASS V_GalleryFinish_ArmorBody import bounds; triangles=2244
+PASS V_GalleryFinish_ArmorHelmet import bounds; triangles=528
+PASS V_GalleryFinish_ArmorShoulders import bounds; triangles=1344
+PASS V_GalleryFinish_CaseGlass import bounds; triangles=10
+PASS V_GalleryFinish_CorridorEndWindows import bounds; triangles=4008
+PASS V_GalleryFinish_CorridorPictures import bounds; triangles=31804
+PASS V_GalleryFinish_CorridorSeats import bounds; triangles=3560
+PASS V_GalleryFinish_GalleryCases import bounds; triangles=21460
+PASS V_GalleryFinish_GalleryPedestals import bounds; triangles=3064
+PASS V_GalleryFinish_GalleryPictures import bounds; triangles=8886
+PASS V_GalleryFinish_GalleryWindows import bounds; triangles=1008
+PASS V_GalleryFinish_ground_D1_Shell import bounds; triangles=30552
+PASS V_GalleryFinish_ground_F0_Shell import bounds; triangles=13392
+PASS V_GalleryFinish_ground_F1_Shell import bounds; triangles=11460
+PASS V_GalleryFinish_ground_F2_Shell import bounds; triangles=14556
+PASS V_GalleryFinish_Runners import bounds; triangles=3420
+PASS V_GalleryFinish_upper_E3_Shell import bounds; triangles=14760
+PASS V_GalleryFinish_upper_F0_Shell import bounds; triangles=13404
+PASS V_GalleryFinish_upper_F1_Shell import bounds; triangles=11460
+PASS V_GalleryFinish_upper_F2_Shell import bounds; triangles=14556
+PASS V_GalleryFinish_upper_K0_Shell import bounds; triangles=12432
+Furniture and garden trunk box colliders: 14
+Painting atlas uses four UV quarters without modifying source pixels.
